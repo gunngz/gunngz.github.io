@@ -67,9 +67,25 @@ category: Study Questions and Variables
 ==three== components of an  
 investigative question? {days=2,5,6}
 
-1. **Variables of interest:** “The variable(s) of interest are **[variable(s)]**. For a comparison, the ==response variable== is **[outcome]** and the ==explanatory variable or factor== is **[factor]**.”
-2. **Type of inference / parameter:**
-3. **Type of conclusion:**
+**1. Variables of interest:** “The variable(s) of interest are **[variable(s)]**. For a comparison, the ==response variable== is **[outcome]** and the ==explanatory variable or factor== is **[factor]**.”
+
+**2. Type of inference / parameter:** Choose the stem that matches the study goal.
+
+| Inference goal | Answer stem |
+| --- | --- |
+| Estimate | We want to estimate the ==[population proportion/mean]== of **[variable]** among **[population]**. |
+| Test a claim | We want to test the claim that the ==[population proportion/mean]== of **[variable]** equals **[claimed value]**. |
+| Compare groups | We want to compare the ==[population proportions/means]== of the ==response variable== between **[groups]**. |
+| Assess association | We want to assess the ==association between== **[variable 1]** and **[variable 2]** among **[population]**. |
+
+**3. Type of conclusion:** Select the conclusion supported by the sampling and assignment methods.
+
+| Conclusion | Answer stem |
+| --- | --- |
+| Generalization | “The sample was **[randomly / not randomly]** ==selected from== **[population]**. Therefore, the results **[can / cannot]** be ==generalized to== **[that population]**.” |
+| Cause and effect | “The study **[did / did not]** ==randomly assign units to treatments==. Because the result **[was / was not]** statistically significant, **[a cause-and-effect conclusion is / is not]** justified.” |
+| Both | “The sample was ==randomly selected from== **[population]**, and the study ==randomly assigned units to treatments==. The results can be generalized to **[population]**, and the statistically significant treatment effect supports a cause-and-effect conclusion.” |
+
 **Key idea:** The three parts state the variables, the statistical goal, and the conclusion the study design can support.
 
 ### What are the ==observational units== and variable types? {days=1}
