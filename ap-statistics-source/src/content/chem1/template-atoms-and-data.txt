@@ -1,0 +1,37 @@
+---
+unit: chem1
+kind: template
+category: Atoms and Quantitative Data
+---
+
+### How do you convert between mass, moles, and particles?
+- “The molar mass of **[substance]** is **[sum of atomic masses]** \(\mathrm{g\,mol^{-1}}\).”
+- “The amount is \(n = \frac{m}{M} = \frac{\text{[mass in g]}}{\text{[molar mass in g mol}^{-1}\text{]}} = \text{[moles] mol}\).”
+- “The sample contains \(N = nN_A = \text{[moles]}\times 6.022\times10^{23} = \text{[number]}\) **[atoms / molecules / ions / formula units]**.”
+- ✓ Include units and name the particles being counted.
+
+### How do you calculate an element's average atomic mass from isotope data?
+- “The fractional abundances are **[abundance 1 as a decimal]**, **[abundance 2 as a decimal]**, and **[... ]**; they sum to **[1.00 or 100%]**.”
+- “The average atomic mass is \(\sum (\text{isotope mass})(\text{fractional abundance}) = \text{[weighted sum]} \,\mathrm{u}\).”
+- “Therefore, the average atomic mass of **[element]** is **[value] u**.”
+- ✓ Convert percentages to decimal fractions before multiplying; do not average the isotope masses equally unless the abundances are equal.
+
+### How do you determine an empirical formula from percent composition?
+- “Assume a **100.0 g** sample, so the mass of each element is **[its percentage] g**.”
+- “Convert each element's mass to moles: \(n = \frac{m}{M}\). The mole amounts are **[list]**.”
+- “Divide every mole amount by the smallest amount, **[smallest] mol**, to get the ==lowest whole-number ratio== **[ratio]**.”
+- “After multiplying by **[smallest whole-number factor, if needed]**, the empirical formula is **[formula]**.”
+- ✓ Show the mole ratio; do not round a value such as 1.50 or 1.33 to 2 or 1 without converting it to a whole-number ratio.
+
+### How do you find a molecular formula from an empirical formula?
+- “The empirical-formula mass of **[empirical formula]** is **[mass]** \(\mathrm{g\,mol^{-1}}\).”
+- “The multiplier is \(n = \frac{\text{molar mass}}{\text{empirical-formula mass}} = \text{[whole number]}\).”
+- “Multiplying every empirical-formula subscript by **[n]** gives the molecular formula **[formula]**.”
+- ✓ The multiplier must be a positive whole number within the precision of the data.
+
+### How do you calculate the energy of light from its wavelength or frequency?
+- “First convert the wavelength to meters: **[given wavelength] [unit] = [wavelength in m] m**.”
+- “The frequency is \(\nu = \frac{c}{\lambda} = \text{[value]} \,\mathrm{s^{-1}}\).”
+- “The energy per photon is \(E = h\nu = \frac{hc}{\lambda} = \text{[value]} \,\mathrm{J\,photon^{-1}}\).”
+- “For one mole of photons, \(E_{\mathrm{mol}} = E N_A = \text{[value]} \,\mathrm{kJ\,mol^{-1}}\).”
+- ✓ State whether the answer is ==per photon or per mole==; convert joules to kilojoules only at the end if needed.

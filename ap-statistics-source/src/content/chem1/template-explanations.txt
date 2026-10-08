@@ -1,0 +1,31 @@
+---
+unit: chem1
+kind: template
+category: Chemistry Explanations
+---
+
+### What should an AP Chemistry written explanation include?
+- **Claim:** “**[Direct answer to the question]**.”
+- **Model or evidence:** “The **[data / diagram / electron configuration / particle model]** shows **[specific feature]**.”
+- **Chemical reasoning:** “Because **[relevant interaction or particle change]**, **[property or process]** **[increases/decreases/occurs]**.”
+- **Connection:** “This explains **[the requested observation, comparison, or prediction]**.”
+- ✓ Include only the chemistry needed for the prompt; a term without its causal link is not a complete explanation.
+
+### Which ideas are required for each kind of explanation?
+| If the question asks about… | Include these steps or terms | Add only when the prompt involves… |
+| --- | --- | --- |
+| A periodic trend or electron removal | State the direction; compare electron distance and shielding; connect effective nuclear charge to ==Coulombic attraction==; link the attraction to the property. | Subshell stability or electron-pair repulsion when the data show an ionization-energy exception. |
+| Molecular shape or polarity | Draw or read the Lewis structure; state the 3-D molecular geometry; identify polar bonds and the direction of their dipoles; explain whether the dipoles cancel. | Lone-pair geometry or hybridization when specifically asked or needed to establish shape. |
+| A physical-property comparison | Identify the relevant particle structure and intermolecular force; connect its relative strength to the property. | Hydrogen bonding, ion–dipole attraction, or molecular surface area when present in the structures. |
+| A reaction observation or prediction | Identify the reactants and products at the particle level; name the reaction type if asked or useful; connect the particle change to the evidence. | Electron transfer, acid–base particles, solubility, activation energy, or a catalyst when that mechanism explains the observation. |
+| A calculation or data graph | Show the relationship, substitute values with units, and interpret the result in the requested chemical context. | A model-based explanation when the prompt asks why the result has that value or pattern. |
+- ✓ **Coulombic attraction is not a universal keyword.** Use it when the cause is electrostatic attraction between charged particles, especially nucleus–electron comparisons.
+- ✓ **Molecular structure is required when shape or molecular polarity matters.** Describe the 3-D arrangement and dipole cancellation; do not insert it into an atomic-trend answer.
+
+### How do you write a claim–evidence–reasoning response from a graph or model?
+- “**[Claim answering the prompt]**.”
+- “The **[graph/model/table]** shows **[specific value, pattern, peak, or structural feature]**.”
+- “At the particle level, **[identify the relevant particles and their arrangement or interaction]**.”
+- “Because **[chemical principle]**, **[particle-level change]** causes **[property or observed result]**.”
+- “Therefore, the evidence supports **[claim]**.”
+- ✓ Quote or calculate the relevant evidence; then explain why it supports the claim instead of repeating the claim.

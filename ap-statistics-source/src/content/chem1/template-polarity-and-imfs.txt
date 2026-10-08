@@ -1,0 +1,30 @@
+---
+unit: chem1
+kind: template
+category: Polarity and Intermolecular Forces
+---
+
+### How do you determine whether a molecule is polar?
+- “The **[A–B]** bonds are **[polar/nonpolar]** because **[electronegativity difference or similarity]**.”
+- “The Lewis structure gives **[molecular geometry]**, so the **[bond dipoles]** point **[directions]**.”
+- “Because the ==molecular structure== is **[symmetric/asymmetric]**, the bond dipoles **[cancel/do not cancel]**.”
+- “Therefore, **[molecule]** has **[no/a] net dipole moment** and is **[nonpolar/polar]**.”
+- ✓ A polar bond does not guarantee a polar molecule; use the ==three-dimensional structure== and the vector sum of its dipoles.
+
+### How do you explain which substance has the higher boiling point?
+- “**[Substance A]** has **[name the relevant IMF]** between its particles; **[Substance B]** has **[comparison]**.”
+- “The ==intermolecular attractions== in **[A/B]** are stronger because **[specific structural feature: hydrogen bonding, polarity, polarizability, or surface area]**.”
+- “More energy is needed to separate those particles, so **[A/B]** has the higher boiling point.”
+- ✓ Compare intermolecular forces between particles. Do not say that boiling breaks the ==covalent bonds inside the molecules==.
+
+### How do you explain solubility in a given solvent?
+- “**[Solute]** is **[ionic/polar/nonpolar]**, and **[solvent]** is **[polar/nonpolar]**.”
+- “The solute and solvent can form **[specific attractions, such as ion–dipole or dipole–dipole interactions]**.”
+- “These attractions **[are/are not]** strong enough to favor mixing, so **[solute]** is **[more/less]** soluble in **[solvent]**.”
+- ✓ Refer to the structures and the actual attractions; use “like dissolves like” only as a summary after explaining them.
+
+### How do you interpret an intermolecular-force or chromatography observation?
+- “The observed **[boiling point / vapor pressure / flow / separation]** indicates **[relative strength or preference]** of the relevant attractions.”
+- “In chromatography, **[component]** spends more time in the **[mobile/stationary]** phase because it is more strongly attracted to **[phase]**.”
+- “Its retention factor is \(R_f = \frac{\text{distance traveled by component}}{\text{distance traveled by solvent front}} = \text{[value]}\).”
+- ✓ Use distances measured from the same baseline and in the same units; \(R_f\) has no units.

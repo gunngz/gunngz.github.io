@@ -89,6 +89,10 @@ function App() {
   }, [category, activeCategory]);
 
   useEffect(() => {
+    document.title = `${unitInfo[unit]?.heading || "Study Guide"} Study Guide`;
+  }, [unit]);
+
+  useEffect(() => {
     const root = contentRef.current;
     if (!root) return undefined;
     let active = true;
@@ -162,7 +166,7 @@ function App() {
       <header className="site-header">
         <div className="site-header-inner">
           <div className="title-row">
-            <h1>AP Statistics — Unit 1</h1>
+            <h1>{unitInfo[unit]?.heading || "Study Guide"}</h1>
           </div>
         </div>
       </header>

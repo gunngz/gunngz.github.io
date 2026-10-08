@@ -1,0 +1,31 @@
+---
+unit: chem1
+kind: template
+category: Periodic Trends
+---
+
+### How do you justify a periodic-trend comparison?
+- “**[Element A]** has a **[larger/smaller/higher/lower] [property]** than **[element B]**.”
+- “Across **[the same period / the same group]**, **[relevant electron shells and shielding pattern]**.”
+- “This makes the effective nuclear charge / distance experienced by the valence electrons **[larger/smaller]**, changing the ==Coulombic attraction== between the nucleus and the valence electrons.”
+- “Therefore, **[state the property-specific consequence: radius / energy required to remove an electron / attraction for bonding electrons]** is **[larger/smaller]** for **[element]**.”
+- ✓ Name the property, state the direction, then connect electron distance and shielding to Coulombic attraction and the property.
+
+### How do you compare atoms across a period?
+- “The atoms have valence electrons in the same principal energy level, while the number of protons increases from **[A]** to **[B]**.”
+- “Core-electron shielding changes relatively little, so the ==effective nuclear charge increases== and the valence electrons experience stronger Coulombic attraction.”
+- “Thus, the atomic radius **[decreases]**, while the first ionization energy and electronegativity generally **[increase]** from **[A]** to **[B]**.”
+- ✓ If the data show an exception, explain the relevant subshell or electron-pairing difference instead of claiming the trend has no exceptions.
+
+### How do you compare atoms down a group?
+- “The valence electron of **[element lower in the group]** occupies a higher principal energy level and is farther from the nucleus.”
+- “Additional inner electrons increase shielding, reducing the ==Coulombic attraction== felt by the valence electron.”
+- “Thus, atomic radius generally **[increases]**, while first ionization energy and electronegativity generally **[decrease]** down the group.”
+- ✓ Include both increased distance and increased shielding; ‘more protons’ alone does not explain the down-group trend.
+
+### How do you infer an ion charge and formula from a known compound formula?
+- “In **[compound formula]**, **[anion/cation]** has charge **[charge]**, and the formula is electrically neutral.”
+- “Charge balance gives **[unknown ion charge]** for **[element]**.”
+- “This is consistent with **[valence-electron count / typical main-group position]**.”
+- “Combining **[ion 1]** and **[ion 2]** in the lowest whole-number ratio gives **[predicted formula]**.”
+- ✓ Use the stated compound's subscripts to calculate charge; do not treat a typical charge as certain for an element with multiple possible oxidation states.

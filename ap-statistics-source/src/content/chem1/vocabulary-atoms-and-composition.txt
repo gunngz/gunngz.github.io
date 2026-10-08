@@ -1,0 +1,45 @@
+---
+unit: chem1
+kind: vocabulary
+category: Atoms and Composition
+---
+
+### Atomic number
+- The number of ==protons in the nucleus==; it identifies the element.
+- In a neutral atom, the number of electrons equals the atomic number.
+
+### Mass number
+- The total number of ==protons and neutrons== in one isotope.
+- Neutrons = mass number − atomic number.
+
+### Isotope
+- Atoms of the same element with the same number of protons but ==different numbers of neutrons==.
+- Isotopes can have different masses while retaining the same chemical identity.
+
+### Average atomic mass
+- The ==weighted average== of the masses of an element's naturally occurring isotopes.
+- Use each isotope's fractional abundance as its weight; do not take an unweighted average unless abundances are equal.
+
+### Mass spectrum
+- A graph of ion signal versus mass-to-charge ratio, \(m/z\).
+- For singly charged isotope ions, peak position indicates isotope mass and relative peak intensity indicates relative abundance.
+
+### Mole
+- \(6.022\times10^{23}\) specified particles.
+- State what the particles are: atoms, molecules, ions, or formula units.
+
+### Molar mass
+- The mass of one mole of a substance, in \(\mathrm{g\,mol^{-1}}\).
+- Calculate it by adding the atomic masses for every atom in the chemical formula.
+
+### Percent composition
+- The mass of one element divided by the total sample mass, multiplied by 100%.
+- A compound's percent composition is fixed; a mixture's composition can vary.
+
+### Empirical formula
+- The ==lowest whole-number ratio== of atoms or ions in a substance.
+- Ionic formulas are written as the simplest ratio that makes the total charge zero.
+
+### Molecular formula
+- The actual number of each type of atom in one molecule.
+- It is a whole-number multiple of the empirical formula when the substance is molecular.

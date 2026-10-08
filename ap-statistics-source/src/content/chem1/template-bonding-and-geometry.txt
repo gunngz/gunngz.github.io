@@ -1,0 +1,38 @@
+---
+unit: chem1
+kind: template
+category: Lewis Structures and Geometry
+---
+
+### How do you write an ionic formula or name a compound?
+- **Ionic formula:** “The ions are **[cation and charge]** and **[anion and charge]**. The lowest whole-number subscripts that make the total charge zero give **[formula]**.”
+- **Ionic name:** “The compound is **[cation name] [anion name]**. The Roman numeral **[number]** gives the charge of a **[variable-charge metal]** ion.”
+- **Molecular name:** “The prefixes show **[number] [first element]** atoms and **[number] [second element]** atoms, so the formula is **[formula]**.”
+- ✓ Use the name's Roman numeral to set a metal-ion charge; use prefixes for molecular compounds, not to balance ionic charges.
+
+### How do you draw and check a Lewis structure?
+- “The ==total number of valence electrons== is **[count, adjusted for the ion charge]**.”
+- “I place **[least electronegative atom other than H]** in the center and connect the atoms with single bonds.”
+- “I distribute the remaining electrons as lone pairs, complete the outer-atom octets, and place any remaining electrons on the central atom.”
+- “If needed, I form **[double/triple bond]** so the central atom **[meets the octet / follows the relevant exception]**.”
+- “The structure uses **[total]** electrons, matching the valence-electron count; the formal charges are **[charges]**.”
+- ✓ For an ion, include brackets and the overall charge. For an ionic compound, show ions and a neutral simplest-ratio formula, not one covalent molecule.
+
+### How do you choose among possible Lewis or resonance structures?
+- “The formal charge on **[atom]** is \(FC = V - N - \frac{B}{2} = \text{[value]}\).”
+- “This structure is **[more/less]** favorable because it **[minimizes formal charges / places negative charge on a more electronegative atom]**.”
+- “The resonance forms have the ==same atom arrangement==; only the electron placement changes.”
+- ✓ Compare valid structures using formal charge and the stated chemical context; do not move atoms when drawing resonance forms.
+
+### How do you determine molecular geometry from a Lewis structure?
+- “The central atom has **[number]** electron domains: **[bonding domains]** bonds and **[lone pairs]** lone pairs.”
+- “The electron-domain geometry is **[geometry]**. Because **[number]** domains are lone pairs, the molecular geometry is **[shape based on atom positions]**.”
+- “The lone pairs **[do/do not]** change the ideal bond angle because they **[repel bonding domains more strongly / are absent]**.”
+- “If hybridization is requested, **[number]** electron domains correspond to **[hybridization label used in class]**.”
+- ✓ Count a multiple bond as one electron domain; molecular geometry names the ==positions of atoms==, not lone pairs.
+
+### How do you explain the difference between ionic and covalent structures?
+- “**[Substance A]** is ionic: it consists of **[cation]** and **[anion]** in a lattice held together by electrostatic attraction.”
+- “**[Substance B]** is covalent: its atoms share electron pairs in **[molecules / a network structure]**.”
+- “The particle models differ because **[electron transfer and ion attraction / shared electron pairs]** produce different structures.”
+- ✓ Connect the bond type to the represented particles; do not describe an ionic formula unit as a discrete molecule.

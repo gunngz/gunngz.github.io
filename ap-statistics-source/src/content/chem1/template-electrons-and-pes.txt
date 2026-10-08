@@ -1,0 +1,25 @@
+---
+unit: chem1
+kind: template
+category: Electron Configurations and PES
+---
+
+### How do you write the electron configuration of an atom or ion?
+- “The atomic number of **[element]** is **[Z]**, so a neutral atom has **[Z] electrons**.”
+- “The **[charge]** ion has **[electron count] electrons** because it **[lost / gained] [number] electrons**.”
+- “Filling the orbitals in increasing energy order and applying the Pauli exclusion principle and Hund's rule gives **[electron configuration]**.”
+- “The ground-state configuration is **[configuration]**.”
+- ✓ For a transition-metal cation, remove the outermost-shell \(s\) electrons before the \((n-1)d\) electrons.
+
+### How do you identify an element or ion from a PES graph?
+- “The peaks at **[binding-energy regions]** represent electrons in **[shells or subshells]**.”
+- “The relative peak areas/heights show **[electron counts]** in those groups, for a total of **[total electrons] electrons**.”
+- “The total electron count and the peak pattern are consistent with **[element / ion]**, whose electron configuration is **[configuration]**.”
+- “The peak at **[higher/lower]** binding energy corresponds to electrons held ==[more/less] strongly== by the nucleus.”
+- ✓ Read the axis labels and direction first. Use peak position for relative binding energy and peak size for relative electron count.
+
+### How do you explain a change in a PES spectrum after ion formation?
+- “The atom **[gained/lost] [number] electron(s)** from the **[outer subshell]**, so the ion has **[new total] electrons**.”
+- “The **[subshell]** peak changes from **[old count]** to **[new count]** electrons; the inner-electron peaks **[remain / change]** because **[reason supported by the graph]**.”
+- “This pattern supports the ion **[identity and charge]**.”
+- ✓ Connect the changed peak to the electron configuration; do not identify the ion from one peak alone.

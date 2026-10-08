@@ -1,0 +1,45 @@
+---
+unit: chem1
+kind: vocabulary
+category: Bonding and Molecular Structure
+---
+
+### Ionic bonding
+- Electrostatic attraction between oppositely charged ions in an extended lattice.
+- An ionic solid is not made of separate molecules; its formula gives the simplest neutral ratio of ions.
+
+### Covalent bond
+- A bond formed when atoms share one or more pairs of electrons.
+- A covalent substance may consist of discrete molecules or an extended network.
+
+### Lewis structure
+- A representation of valence electrons as bonds and lone pairs.
+- It shows connectivity and electron placement, but a two-dimensional Lewis structure alone does not show the full three-dimensional molecular shape.
+
+### Chemical nomenclature
+- A system for naming substances from their composition and bonding type.
+- For an ionic compound, the formula must have ==zero total charge==; for a molecular compound, prefixes specify atom counts.
+
+### Formal charge
+- A bookkeeping charge assigned to an atom in a Lewis structure.
+- \(FC = V - N - \frac{B}{2}\), where \(V\) is the atom's valence-electron count, \(N\) is its nonbonding-electron count, and \(B\) is the number of bonding electrons.
+
+### Resonance structures
+- Lewis structures with the same atom arrangement but different placement of electrons.
+- The atoms do not move between resonance forms; only electron placement changes.
+
+### Electron-domain geometry
+- The arrangement of all electron domains around a central atom, including bonds and lone pairs.
+- Use the number of domains to determine the electron-domain geometry.
+
+### Molecular geometry
+- The three-dimensional arrangement of the bonded atoms; lone pairs affect the shape but are not named as atoms in the molecular geometry.
+- ✓ Use the molecular structure when the question asks about shape, bond angles, or molecular polarity.
+
+### VSEPR model
+- A model that predicts geometry by treating electron domains around a central atom as regions that repel one another.
+- Lone pairs occupy more space than bonding domains and can compress bond angles.
+
+### Hybridization
+- A bonding model that labels mixed atomic orbitals at a central atom.
+- If a class question asks for it, match the hybridization label to the number of electron domains; do not add hybridization to an explanation unless it is requested or useful.

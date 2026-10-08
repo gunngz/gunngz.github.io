@@ -1,0 +1,33 @@
+---
+unit: chem1
+kind: vocabulary
+category: Chemical Reactions
+---
+
+### Decomposition reaction
+- One reactant forms two or more products.
+- Example pattern: \(AB \rightarrow A + B\).
+
+### Precipitation reaction
+- Dissolved ions combine to form an ==insoluble ionic solid==.
+- A solid by itself does not prove a precipitation reaction; a metal can also form through redox.
+
+### Single-replacement reaction
+- One element reacts with a compound and replaces another element in that compound.
+- Many metal and halogen replacement reactions involve electron transfer and are redox reactions.
+
+### Oxidation and reduction
+- Oxidation is loss of electrons; reduction is gain of electrons.
+- ✓ Track which species loses electrons and which gains them; both changes occur in a redox reaction.
+
+### Acid–carbonate reaction
+- An acid supplies \(H^+\), which reacts with carbonate to produce \(CO_2\) and \(H_2O\).
+- Bubbles are evidence of gas formation; identify the gas and explain how it forms.
+
+### Catalyst
+- A substance that provides a reaction pathway with lower activation energy and is regenerated overall.
+- A catalyst changes the rate, not the net reaction or the identity of the products.
+
+### Expected evidence
+- A predicted observation is evidence the model says should occur; it is not a report of an observation that was never measured.
+- ✓ Label evidence as observed or expected when the prompt is asking for a prediction.

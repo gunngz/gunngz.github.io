@@ -1,0 +1,39 @@
+---
+unit: chem1
+kind: vocabulary
+category: Electron Configurations and PES
+---
+
+### Ground-state electron configuration
+- The arrangement of electrons with the ==lowest total energy== for an atom or ion.
+- A configuration must contain the correct total number of electrons.
+
+### Aufbau principle
+- Electrons occupy available orbitals in order of ==increasing energy==.
+
+### Pauli exclusion principle
+- An orbital holds at most two electrons, and two electrons in the same orbital have ==opposite spins==.
+
+### Hund's rule
+- In a set of equal-energy orbitals, electrons occupy separate orbitals before they pair.
+- Unpaired electrons in these orbitals have parallel spins.
+
+### Valence electrons
+- Electrons in the outermost occupied shell of a main-group atom.
+- Valence electrons are central to typical ion charges and chemical bonding.
+
+### Ion electron configuration
+- A cation has lost electrons; an anion has gained electrons.
+- When forming a transition-metal cation, remove electrons from the ==highest principal energy level first==, even if those electrons were added last.
+
+### Photoelectron spectroscopy (PES)
+- A method that measures the energy needed to remove electrons from atoms or ions.
+- A PES peak identifies electrons with similar binding energies; peak area or relative height represents the number of electrons in that group.
+
+### Binding energy
+- The energy required to remove an electron from an atom or ion.
+- Electrons with greater binding energy are ==held more strongly==; read the axis direction before comparing peak positions.
+
+### Ground state and excited state
+- A ground-state arrangement has the lowest possible energy for that electron count.
+- An excited-state arrangement has the same electron count but places at least one electron at a higher energy.

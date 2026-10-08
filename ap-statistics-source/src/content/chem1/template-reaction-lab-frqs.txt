@@ -1,0 +1,75 @@
+---
+unit: chem1
+kind: template
+category: Chemical Reaction FRQs
+---
+
+### What is the reusable frame for a reaction explanation or prediction?
+- **C — Claim:** “**[Direct answer or prediction]**.”
+- **T — Type:** “This is a **[reaction type]** because **[reactant-to-product pattern]**.”
+- **P — Particles:** “At the particle level, **[reactant particles]** form **[product particles]**; **[atoms / ions / electrons]** **[what changes]**.”
+- **R — Reasoning:** “Because **[relevant chemical principle]**, **[particle-level change]** produces **[property or result]**.”
+- **E — Evidence:** “The **[observed result / predicted result]** supports this because **[connection to the claim]**.”
+- **D — Distinction:** “This differs from **[plausible alternative]** because **[particle-level difference]**.”
+- ✓ Use only the steps that answer the prompt. Label evidence as **observed** or **expected**; never present a prediction as a measurement.
+
+### How do you distinguish hydrogen and oxygen with splint tests?
+- **Claim:** “The gas that **[relights a glowing splint / gives a pop with a burning splint]** is **[O₂ / H₂]**.”
+- **Particles and reasoning:** “O₂ supports combustion. H₂ is combustible; after a flame supplies activation energy, H₂ reacts rapidly with O₂ in the air. The exothermic reaction heats and expands the gas, producing a pressure wave heard as a pop.”
+- **Evidence:** “The **[relit glowing splint / pop]** is the expected test result for **[O₂ / H₂]**.”
+- **Must include:** **H₂ is combustible; O₂ supports combustion; the pop comes from rapid H₂ combustion with O₂ and a pressure wave.**
+- ✓ Do not say that hydrogen makes a pop on its own.
+
+### How do you explain a multi-step copper reaction sequence?
+- **Claim:** “The copper-containing material changes from **[starting compound]** to **[final product]** through **[sequence of changes]**.”
+- **Step 1 — Precipitation:** “Cu²⁺ and OH⁻ ions form insoluble Cu(OH)₂(s): \(\mathrm{Cu^{2+}(aq)+2OH^-(aq)\rightarrow Cu(OH)_2(s)}\).”
+- **Molecular equation when requested:** \(\mathrm{Cu(NO_3)_2(aq)+2NaOH(aq)\rightarrow Cu(OH)_2(s)+2NaNO_3(aq)}\).
+- **Step 2 — Decomposition:** “Heating decomposes Cu(OH)₂(s) into CuO(s) and H₂O(l): \(\mathrm{Cu(OH)_2(s)\xrightarrow{\Delta}CuO(s)+H_2O(l)}\).”
+- **Step 3 — Acid reaction:** “H⁺ reacts with CuO(s), placing Cu²⁺ into solution as the solid dissolves: \(\mathrm{CuO(s)+2H^+(aq)\rightarrow Cu^{2+}(aq)+H_2O(l)}\).”
+- **Molecular equation when requested:** \(\mathrm{CuO(s)+2HCl(aq)\rightarrow CuCl_2(aq)+H_2O(l)}\).
+- **Step 4 — Redox replacement:** “Al atoms lose electrons and Cu²⁺ ions gain electrons, producing Cu(s): \(\mathrm{2Al(s)+3Cu^{2+}(aq)\rightarrow2Al^{3+}(aq)+3Cu(s)}\).”
+- **Molecular equation when requested:** \(\mathrm{2Al(s)+3CuCl_2(aq)\rightarrow2AlCl_3(aq)+3Cu(s)}\).
+- **Evidence:** “The expected sequence is a blue Cu(OH)₂ precipitate, black CuO after heating, dissolution in acid, and reddish-brown copper metal after adding aluminum.”
+- ✓ State each change in order. Distinguish copper compounds from elemental Cu; if the prompt requests molecular equations, include the spectator ions and balance the full equations.
+
+### How do you tell a metal deposit from an ionic precipitate?
+- “Both observations produce a solid, so the solid alone does not identify the reaction type.”
+- **Metal deposit:** “In \(\mathrm{Cu(s)+2Ag^+(aq)\rightarrow Cu^{2+}(aq)+2Ag(s)}\), Cu atoms lose electrons and Ag⁺ ions gain electrons to form elemental Ag(s). This is a single-replacement redox reaction.”
+- **Molecular equation when requested:** \(\mathrm{Cu(s)+2AgNO_3(aq)\rightarrow Cu(NO_3)_2(aq)+2Ag(s)}\).
+- **Ionic precipitate:** “In \(\mathrm{Pb^{2+}(aq)+2I^-(aq)\rightarrow PbI_2(s)}\), dissolved ions combine to form an insoluble ionic solid. No oxidation states change.”
+- **Molecular equation when requested:** \(\mathrm{Pb(NO_3)_2(aq)+2KI(aq)\rightarrow PbI_2(s)+2KNO_3(aq)}\).
+- **Distinction:** “The **[metal deposit / precipitate]** forms by **[electron transfer / ion combination into an insoluble compound]**.”
+- **Must include:** **electron transfer and oxidation-state change for a metal deposit; insoluble-ion formation and no electron transfer for a precipitate.**
+
+### Why does carbon dioxide change water's pH and make limewater cloudy?
+- **Claim:** “Dissolved CO₂ lowers the pH of water; CO₂ can make limewater cloudy by forming CaCO₃(s).”
+- **Water particles:** “CO₂ reacts with water to form carbonic acid, which partially ionizes and increases hydronium concentration: 
+  \[\mathrm{CO_2(g)+H_2O(l)\rightleftharpoons H_2CO_3(aq)}\]
+  \[\mathrm{H_2CO_3(aq)+H_2O(l)\rightleftharpoons HCO_3^-(aq)+H_3O^+(aq)}\]”
+- **Limewater particles:** “Ca²⁺ and carbonate-containing particles form insoluble CaCO₃(s): \(\mathrm{Ca(OH)_2(aq)+CO_2(g)\rightarrow CaCO_3(s)+H_2O(l)}\).”
+- **Reasoning and evidence:** “More H₃O⁺ lowers pH; suspended CaCO₃ particles scatter light and make the solution cloudy. The expected evidence is **[indicator shift toward acidic / milky precipitate]**.”
+- ✓ Explain the pH change and the cloudiness separately; the acid formation explains pH, while the insoluble solid explains the cloudiness.
+
+### What changes if hydrochloric acid is replaced with sodium chloride?
+- **Claim:** “Replacing HCl with NaCl is expected to stop noticeable CO₂ bubbling from CaCO₃ under the same conditions.”
+- **Particles:** “HCl supplies H⁺, which reacts with carbonate. NaCl separates into Na⁺ and Cl⁻ in water but does not supply H⁺.”
+- **Net ionic reasoning:** “The original reaction is \(\mathrm{CaCO_3(s)+2H^+(aq)\rightarrow Ca^{2+}(aq)+H_2O(l)+CO_2(g)}\). Without H⁺, this gas-forming reaction does not proceed significantly.”
+- **Molecular equation for the acid version:** \(\mathrm{CaCO_3(s)+2HCl(aq)\rightarrow CaCl_2(aq)+H_2O(l)+CO_2(g)}\).
+- **Evidence and distinction:** “Bubbles are expected with HCl; little or no noticeable bubbling is predicted with NaCl. Although both compounds contain Cl⁻, only HCl provides the H⁺ needed for the acid–carbonate reaction.”
+- ✓ Make clear that the second outcome is a prediction under the stated conditions.
+
+### Why does chlorine produce iodine from iodide, and where does the iodine go?
+- **Claim:** “Cl₂ oxidizes I⁻ to I₂, and the I₂ preferentially dissolves in nonpolar cyclohexane.”
+- **Electron transfer:** “Each I⁻ loses electrons and is oxidized; Cl₂ gains electrons and is reduced: \(\mathrm{Cl_2(aq)+2I^-(aq)\rightarrow2Cl^-(aq)+I_2}\).”
+- **Molecular equation when requested:** \(\mathrm{2NaI(aq)+Cl_2(aq)\rightarrow2NaCl(aq)+I_2}\).
+- **Structure and solubility:** “I₂ is a nonpolar molecule, so it is more soluble in nonpolar cyclohexane than in water.”
+- **Evidence:** “A violet or purple cyclohexane layer is expected when I₂ is present.”
+- **Must include:** **oxidation of iodide, reduction of chlorine, the net ionic equation, and nonpolar I₂ favoring the nonpolar solvent.**
+- ✓ The color in cyclohexane is evidence of where I₂ dissolves; it is not the cause of the redox reaction.
+
+### What changes when a catalyst is removed from hydrogen peroxide decomposition?
+- **Claim:** “Without the catalyst, H₂O₂ decomposes more slowly, but the products remain H₂O and O₂.”
+- **Type and particles:** “The reaction is still decomposition: \(\mathrm{2H_2O_2(aq)\rightarrow2H_2O(l)+O_2(g)}\). The catalyst provides a lower-activation-energy pathway and is regenerated overall.”
+- **Prediction:** “Over the same time interval, less O₂ is expected without the catalyst, so the glowing splint may relight less readily.”
+- **Distinction:** “The catalyst changes the reaction rate, not the net equation or product identities.”
+- ✓ Compare equal time intervals. Do not claim that removing a catalyst creates different products.

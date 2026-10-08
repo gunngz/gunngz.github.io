@@ -1,0 +1,40 @@
+---
+unit: chem1
+kind: vocabulary
+category: Polarity and Intermolecular Forces
+---
+
+### Polar bond
+- A covalent bond with an unequal distribution of shared electrons because the bonded atoms have different electronegativities.
+- The bond dipole points toward the more electronegative atom.
+
+### Molecular polarity
+- The overall distribution of charge in a molecule, determined by its bond dipoles and three-dimensional structure.
+- A molecule can contain polar bonds and still be nonpolar if the dipoles cancel by symmetry.
+
+### Dipole moment
+- A measure of the separation of positive and negative charge.
+- Molecular dipoles combine as vectors; their directions matter, not just their magnitudes.
+
+### London dispersion force
+- An intermolecular attraction caused by temporary and induced dipoles.
+- It occurs between all atoms and molecules and generally strengthens as electron clouds become more polarizable.
+
+### Dipole–dipole attraction
+- An attraction between the partially positive and partially negative ends of neighboring polar molecules.
+
+### Hydrogen bonding
+- A particularly strong dipole–dipole attraction when hydrogen bonded to N, O, or F interacts with a lone pair on N, O, or F.
+- ✓ Identify the required atoms and the intermolecular attraction; the presence of hydrogen alone is not enough.
+
+### Ion–dipole attraction
+- An attraction between an ion and the partial charges of a polar molecule.
+- It is important when explaining how many ionic substances interact with polar solvents such as water.
+
+### Intermolecular forces (IMFs)
+- Attractions between separate particles; they are different from the bonds within a molecule or ionic lattice.
+- Stronger IMFs generally correspond to higher boiling point, higher viscosity, and lower vapor pressure for comparable substances.
+
+### Solubility and polarity
+- Dissolution is favored when solute–solvent attractions can compensate for attractions within the original solute and solvent.
+- Use the specific structures and attractions in the question; “like dissolves like” is a starting clue, not a complete explanation.

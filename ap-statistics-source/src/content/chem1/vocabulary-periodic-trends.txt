@@ -1,0 +1,37 @@
+---
+unit: chem1
+kind: vocabulary
+category: Periodic Trends
+---
+
+### Coulombic attraction
+- The electrostatic attraction between oppositely charged particles, such as the nucleus and an electron.
+- Attraction increases with greater charge and decreases as the distance between particles increases.
+
+### Effective nuclear charge
+- The net positive charge experienced by an electron after shielding by other electrons is considered.
+- Across a period, nuclear charge increases while core-electron shielding changes little, so the effective nuclear charge generally increases.
+
+### Shielding
+- Repulsion from inner electrons reduces the nucleus's attraction for an outer electron.
+- Down a group, added inner shells increase shielding and place valence electrons farther from the nucleus.
+
+### Atomic radius
+- A measure of atomic size.
+- Across a period it generally decreases; down a group it generally increases.
+
+### First ionization energy
+- The energy required to remove the first electron from a gaseous atom.
+- A stronger attraction between the nucleus and the valence electron generally means a higher ionization energy.
+
+### Electronegativity
+- A measure of how strongly an atom attracts shared electrons in a chemical bond.
+- It generally increases across a period and decreases down a group.
+
+### Periodic-trend explanation
+- A complete explanation names the property, compares the relevant electron distance and shielding, and connects these to ==Coulombic attraction==.
+- ✓ State the direction of the trend and explain the particle-level cause; a memorized arrow alone is not a justification.
+
+### Ion charge and valence electrons
+- Typical main-group ion charges are related to the number of valence electrons and the tendency to reach a stable electron configuration.
+- Use charge balance in an ionic formula to determine an unknown ion charge; do not infer a unique charge when the formula or element allows multiple possibilities.
