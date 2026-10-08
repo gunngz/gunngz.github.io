@@ -37,6 +37,7 @@ button { color: inherit; }
   border-bottom: 1px solid var(--line);
 }
 .site-header-inner {
+  position: relative;
   width: min(100% - 48px, 1050px);
   margin: 0 auto;
   padding: 9px 0 7px;
@@ -190,10 +191,10 @@ button { color: inherit; }
   position: fixed;
   z-index: 42;
   top: 160px;
-  left: 24px;
+  left: max(16px, calc(50vw - 746px));
   display: grid;
   gap: 4px;
-  width: min(205px, calc((100vw - 1050px) / 2 - 40px));
+  width: min(205px, calc(50vw - 541px));
   min-width: 0;
   padding: 4px 0;
 }
@@ -221,6 +222,11 @@ button { color: inherit; }
 .unit-link:hover { background: var(--surface-hover); color: var(--ink); }
 .unit-link[aria-current="page"] { background: var(--accent-soft); color: var(--ink); font-weight: 600; }
 .content-main { width: 100%; min-width: 0; max-width: 1050px; justify-self: center; }
+.sidebar-toggle {
+  position: absolute;
+  left: calc(541px - 50vw);
+  top: 9px;
+}
 .section-heading-row {
   display: flex;
   align-items: center;
@@ -357,7 +363,7 @@ mark.search-hit {
   .day-nav-scroll { order: 3; flex: 1 1 100%; }
   .nav-spacer { display: none; }
 }
-@media (max-width: 1399px) {
+@media (max-width: 1486px) {
   .sidebar {
     position: fixed;
     z-index: 42;
@@ -381,6 +387,9 @@ mark.search-hit {
     background: rgb(40 39 32 / 20%);
   }
   .content-main { margin: 0 auto; }
+}
+@media (max-width: 1173px) {
+  .sidebar-toggle { position: static; }
 }
 @media (max-width: 760px) {
   .study-card { grid-template-columns: minmax(175px, .28fr) minmax(0, .72fr); }
