@@ -320,7 +320,17 @@ button { color: inherit; }
 .answer-content li { margin: 0 0 7px; padding-left: 2px; }
 .answer-content li:last-child { margin-bottom: 0; }
 .answer-content li::marker { color: var(--accent); }
-.answer-content li:has(> .content-icon--check) { list-style: none; }
+.answer-content li:has(> .content-icon) {
+  position: relative;
+  list-style: none;
+  padding-left: calc(2px + .12em);
+}
+.answer-content li:has(> .content-icon) > .content-icon {
+  position: absolute;
+  top: .28em;
+  left: -1.45em;
+  margin: 0;
+}
 .answer-content strong { font-weight: 650; }
 .answer-content table {
   width: 100%;
