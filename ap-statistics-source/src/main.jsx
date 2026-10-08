@@ -40,16 +40,9 @@ function RichText({ value, inline = false, query = "", className = "" }) {
   );
 }
 
-function StudyCard({ card, blurred, onToggleBlur, query = "", showMeta = false }) {
-  const meta = [
-    unitInfo[card.unit]?.title || card.unit,
-    card.category,
-    card.days.length ? card.days.map((day) => "Day " + day).join(", ") : "",
-  ].filter(Boolean).join(" · ");
-
+function StudyCard({ card, blurred, onToggleBlur, query = "" }) {
   return (
     <article className={"study-card" + (blurred ? " is-blurred" : "")}>
-      {showMeta ? <p className="card-meta">{meta}</p> : null}
       <div className="question-side">
         <h3><RichText value={card.title} inline query={query} /></h3>
       </div>
@@ -277,7 +270,7 @@ function App() {
               </div>
               {searchResults.length ? (
                 <div className="card-list">
-                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurred={blurredIds.has(card.id)} onToggleBlur={toggleCard} query={query} showMeta />)}
+                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurred={blurredIds.has(card.id)} onToggleBlur={toggleCard} query={query} />)}
                 </div>
               ) : <p className="empty-state">No results.</p>}
             </section>

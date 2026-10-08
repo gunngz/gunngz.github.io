@@ -280,14 +280,6 @@ button { color: inherit; }
   background: var(--surface);
   box-shadow: var(--shadow);
 }
-.card-meta {
-  grid-column: 1 / -1;
-  margin: 0;
-  padding: 10px 17px 0;
-  color: var(--quiet);
-  font-size: .77rem;
-  line-height: 1.35;
-}
 .question-side {
   align-self: start;
   min-width: 0;
@@ -328,6 +320,7 @@ button { color: inherit; }
 .answer-content li { margin: 0 0 7px; padding-left: 2px; }
 .answer-content li:last-child { margin-bottom: 0; }
 .answer-content li::marker { color: var(--accent); }
+.answer-content li:has(> .content-icon--check) { list-style: none; }
 .answer-content strong { font-weight: 650; }
 .answer-content table {
   width: 100%;
@@ -435,7 +428,6 @@ mark.search-hit {
   .question-side { padding: 13px 15px 10px; }
   .question-side h3 { font-size: .98rem; }
   .answer-side { border-left: 0; border-top: 1px solid var(--line); padding: 15px 48px 14px 15px; }
-  .card-meta { padding-inline: 15px; }
   .sidebar { top: 178px; }
   .answer-content table { font-size: .86rem; }
 }
