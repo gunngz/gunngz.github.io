@@ -3,6 +3,10 @@ import { createRoot } from "react-dom/client";
 import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./content.js";
 import "./style.css";
 
+const availableUnits = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname)
+  ? ["chem1"]
+  : ["u1p1", "u1p2"];
+
 function EyeIcon({ crossed = false }) {
   return (
     <svg className="icon eye-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -64,7 +68,7 @@ function StudyCard({ card, blurred, onToggleBlur, query = "" }) {
 }
 
 function App() {
-  const [unit, setUnit] = useState("u1p1");
+  const [unit, setUnit] = useState(availableUnits[0]);
   const [kind, setKind] = useState("vocabulary");
   const [day, setDay] = useState("all");
   const [category, setCategory] = useState("");
@@ -80,7 +84,9 @@ function App() {
     : pages[0]?.category || "";
   const activePage = pages.find((page) => page.category === activeCategory);
   const visibleCards = (activePage?.cards || []).filter((card) => day === "all" || card.days.includes(day));
-  const searchResults = query.trim() ? cards.filter((card) => matchesSearch(card, query)) : [];
+  const searchResults = query.trim()
+    ? cards.filter((card) => availableUnits.includes(card.unit) && matchesSearch(card, query))
+    : [];
   const visibleIds = query.trim() ? searchResults.map((card) => card.id) : visibleCards.map((card) => card.id);
   const allVisibleBlurred = visibleIds.length > 0 && visibleIds.every((id) => blurredIds.has(id));
 
@@ -246,7 +252,7 @@ function App() {
         {sidebarOpen ? (
           <aside className="sidebar" aria-label="Study units">
             <p className="sidebar-label">Units</p>
-            {Object.entries(unitInfo).sort((a, b) => a[1].order - b[1].order).map(([id, info]) => (
+            {Object.entries(unitInfo).filter(([id]) => availableUnits.includes(id)).sort((a, b) => a[1].order - b[1].order).map(([id, info]) => (
               <button
                 key={id}
                 className="unit-link"

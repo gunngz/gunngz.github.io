@@ -1,4 +1,4 @@
-name: Publish personal site with AP Statistics guide
+name: Publish personal site with separate AP Statistics and AP Chemistry guides
 
 on:
   push:
@@ -26,16 +26,17 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: ap-statistics-source/package-lock.json
-      - name: Install dependencies and build the guide
+      - name: Install dependencies and build the study pages
         working-directory: ap-statistics-source
         run: npm ci && npm run build
         env:
           GITHUB_PAGES: "true"
-      - name: Assemble the existing homepage and study guide
+      - name: Assemble the existing homepage and separate subject pages
         run: |
-          mkdir -p _site/ap-statistics
+          mkdir -p _site/ap-statistics _site/ap-chemistry
           rsync -a --exclude='/.git/' --exclude='/.github/' --exclude='/ap-statistics-source/' --exclude='/node_modules/' --exclude='/dist/' --exclude='/_site/' ./ _site/
           cp -a ap-statistics-source/dist/. _site/ap-statistics/
+          cp -a ap-statistics-source/dist/. _site/ap-chemistry/
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
