@@ -95,7 +95,8 @@ function escapeRegExp(value) {
 
 export function renderMarkdown(source, inline = false, query = "") {
   const formulas = [];
-  const protectedMath = source.replace(/\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]/g, (formula) => {
+  const withContentIcons = renderContentMarkers(source);
+  const protectedMath = withContentIcons.replace(/\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]/g, (formula) => {
     const token = `MATHJAXTOKEN${formulas.length}END`;
     formulas.push({ token, formula });
     return token;
@@ -105,6 +106,18 @@ export function renderMarkdown(source, inline = false, query = "") {
   const safe = DOMPurify.sanitize(html, { ADD_TAGS: ["mark", "span"], ADD_ATTR: ["class"] });
   const withMath = restoreMath(safe, formulas);
   return query.trim() ? addSearchHighlights(withMath, query) : withMath;
+}
+
+function renderContentMarkers(source) {
+  const iconByMarker = {
+    "×": "avoid",
+    "✓": "check",
+    "!": "note",
+  };
+  return source.replace(/^(\s*[-*]\s*)([×✓!])/gm, (match, bullet, marker) => {
+    const icon = iconByMarker[marker];
+    return `${bullet}<span class="content-icon content-icon--${icon}" aria-hidden="true">${marker}</span> `;
+  });
 }
 
 function restoreMath(safeHtml, formulas) {

@@ -63,9 +63,7 @@ category: Study Questions and Variables
 - “Among **[population represented by the study]**, is there an ==association between== **[variable 1]** and **[variable 2]**?”
 - **Key idea:** ==Use only variables actually recorded==. Describe an association ==without claiming causation==.
 
-### What are the  
-==three== components of an  
-investigative question? {days=2,5,6}
+### What are the ==three== components of an investigative question? {days=2,5,6}
 
 **1. Variables of interest:** “The variable(s) of interest are **[variable(s)]**. For a comparison, the ==response variable== is **[outcome]** and the ==explanatory variable or factor== is **[factor]**.”
 

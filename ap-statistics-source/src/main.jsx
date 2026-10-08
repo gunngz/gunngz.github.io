@@ -169,23 +169,28 @@ function App() {
       <header className="site-header">
         <div className="site-header-inner">
           <div className="title-row">
-            <button
-              className="icon-button sidebar-toggle"
-              type="button"
-              aria-label={sidebarOpen ? "Close sidebar" : "Open sidebar"}
-              aria-expanded={sidebarOpen}
-              title={sidebarOpen ? "Close sidebar" : "Open sidebar"}
-              onClick={() => {
-                setSidebarOpen((open) => !open);
-                setSidebarDismissed(false);
-              }}
-            >
-              <MenuIcon open={sidebarOpen} />
-            </button>
             <h1>AP Statistics — Unit 1</h1>
           </div>
+        </div>
+      </header>
+
+      <div className="sticky-navigation">
+        <div className="sticky-navigation-inner">
           <nav className="primary-nav" aria-label="Study controls">
             <div className="mode-nav" role="group" aria-label="Content type">
+              <button
+                className="icon-button sidebar-toggle"
+                type="button"
+                aria-label={sidebarOpen ? "Close sidebar" : "Open sidebar"}
+                aria-expanded={sidebarOpen}
+                title={sidebarOpen ? "Close sidebar" : "Open sidebar"}
+                onClick={() => {
+                  setSidebarOpen((open) => !open);
+                  setSidebarDismissed(false);
+                }}
+              >
+                <MenuIcon open={sidebarOpen} />
+              </button>
               <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
               <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
             </div>
@@ -229,7 +234,7 @@ function App() {
             </nav>
           ) : null}
         </div>
-      </header>
+      </div>
 
       {sidebarOpen && !sidebarDismissed ? (
         <button
