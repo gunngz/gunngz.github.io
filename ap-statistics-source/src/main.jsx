@@ -73,7 +73,7 @@ function App() {
   const [day, setDay] = useState("all");
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(availableUnits.length > 1);
   const [blurredIds, setBlurredIds] = useState(() => new Set());
   const [sidebarDismissed, setSidebarDismissed] = useState(false);
   const contentRef = useRef(null);
