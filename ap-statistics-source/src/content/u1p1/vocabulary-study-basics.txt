@@ -1,0 +1,75 @@
+---
+unit: u1p1
+kind: vocabulary
+category: Study Basics
+---
+
+### Individual / observational unit
+- ==The person, object, or event described by one row of data==.
+- ✓ Name the units that were actually observed or measured; a variable is a characteristic recorded for each unit.
+
+### Variable
+- ==A characteristic recorded for each individual or observational unit==.
+- A variable takes different values across units.
+
+### Categorical variable
+- Records a label that places each unit into a group.
+- Examples: phone type, color, or whether a person owns a smartphone.
+
+### Quantitative variable
+- Records ==a numerical count or measurement== for each unit.
+- ✓ Classify a variable by what its values represent, not by whether the recorded values look numeric.
+
+### Discrete variable
+- A quantitative variable that takes separate, countable values, often whole-number counts.
+
+### Continuous variable
+- A quantitative variable that can take any value within an interval, such as weight, time, or length.
+
+### Population
+- ==The entire group of individuals or objects the study intends to describe==.
+
+### Sample
+- The ==individuals or objects from which data are actually collected==.
+
+### Parameter
+- A numerical summary of a characteristic of a population.
+
+### Statistic
+- A numerical summary calculated from a sample.
+- ✓ A statistic describes a sample; a parameter describes a population.
+
+### Census
+- An attempt to collect data from ==every member of a population==.
+
+### Statistical question
+- A question that ==anticipates variability in data== and asks about a population or a relationship among variables.
+- A question with one fixed answer about one individual is not statistical.
+
+### Explanatory variable
+- A variable used to explain or predict changes in a response variable.
+
+### Response variable
+- The outcome measured for each observational unit.
+
+### Observational study
+- Researchers observe units and measure variables ==without assigning a treatment==.
+- ✓ An observed association alone ==does not establish that one variable causes another==.
+
+### Experiment
+- Researchers ==impose treatments== on experimental units and measure the responses.
+
+### Random sample
+- A sample ==selected using a chance process==.
+- ✓ Random selection can support generalization to the population represented by the sampling process.
+
+### Random assignment
+- A chance process used to ==assign experimental units to treatments==.
+- ✓ Random assignment can support cause-and-effect conclusions; it does not by itself support generalization.
+
+### Confounding variable
+- A variable ==associated with both group membership or the explanatory variable and the response==, making their separate effects difficult to distinguish.
+- ! Explain how the variable relates to both the explanatory variable and the response.
+
+### Distribution
+- The values of a variable and how often or how densely those values occur.

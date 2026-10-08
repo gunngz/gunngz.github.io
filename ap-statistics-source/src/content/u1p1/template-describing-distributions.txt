@@ -1,0 +1,27 @@
+---
+unit: u1p1
+kind: template
+category: Describing Distributions
+---
+
+### How do you describe one quantitative distribution using CSSU?
+- ==**Center:**== “The median **[or mean]** of **[variable]** is about **[value and units]**.”
+- ==**Shape:**== “The distribution is **[roughly symmetric / skewed left / skewed right]**, with **[one peak / two peaks / no clear peak]** and **[any gaps]**.”
+- ==**Spread:**== “The values vary from **[minimum]** to **[maximum]**; the **[IQR / standard deviation]** is **[value and units]**.”
+- ==**Unusual values:**== “There **[are / are no]** apparent outliers; **[identify value(s)]**.”
+- ✓ For skewed data or apparent outliers, use the median and IQR as the primary summaries.
+
+### How do you compare two quantitative distributions using CSSU?
+- ==**Center:**== “The median **[variable]** for **[group A]** is **[higher/lower]** than for **[group B]** (**[median A]** versus **[median B] [units]**).”
+- ==**Shape:**== “The distribution for **[group A]** is **[shape]**, while **[group B]** is **[shape]**.”
+- ==**Spread:**== “The **[IQR/range]** for **[group A]** is **[larger/smaller]** than for **[group B]** (**[value A]** versus **[value B] [units]**).”
+- ==**Unusual values:**== “**[Group]** has **[number and direction]** possible outlier(s); **[group]** has **[number or none]**.”
+- **Conclusion:** “The data suggest that **[group]** tends to have **[higher/lower] [outcome]**, because **[evidence 1]** and **[evidence 2]**.”
+- ✓ For skewed distributions, compare medians and IQRs; you may report means and standard deviations parenthetically.
+- **Example:** Both peanut-butter rating distributions are skewed right. Crunchy ratings have a higher median (51 versus 45) and a larger IQR (20 versus 17); neither distribution has an apparent outlier. The data suggest that crunchy ratings tend to be higher.
+- ! Support the conclusion with ==two pieces of evidence== about the same variable and units; do not just repeat every detail.
+
+### How can you tell whether a distribution is skewed?
+- “The distribution is skewed **[left/right]** because its ==longer tail extends toward== **[smaller/larger]** values.”
+- “The mean is **[less than/greater than]** the median, which is consistent with ==the tail pulling the mean toward== **[smaller/larger]** values.”
+- ✓ Use the tail's direction to identify skew; do not name the direction from where most observations cluster.

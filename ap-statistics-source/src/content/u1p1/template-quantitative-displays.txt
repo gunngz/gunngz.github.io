@@ -1,0 +1,32 @@
+---
+unit: u1p1
+kind: template
+category: Quantitative Displays
+---
+
+### Which display should you use for quantitative data?
+| Display | Use it when | Important construction detail |
+| --- | --- | --- |
+| Dotplot | The data set is small and ==individual values should remain visible==. | Stack repeated values and label the numerical axis with units. |
+| Stemplot | The data set is small or moderate and ==original values should be retained==. | Order leaves and provide a key with units. |
+| Histogram | The data set is large enough to summarize with intervals. | Use ==adjacent bars==, consistent bins, labeled axes, units, and a title. |
+| Boxplot | Comparing centers, spreads, and possible outliers. | Show the ==five-number summary== and any flagged outliers on a labeled scale. |
+| Time plot | Values are recorded over time and order matters. | Put time in chronological order on the horizontal axis. |
+
+### What should you say about a histogram, dotplot, or stemplot?
+- “The distribution of **[variable, units]** is **[==shape==]**, with **[==number and location of peaks==]**.”
+- “There is **[a gap / no clear gap]** between **[values or intervals]**.”
+- “The center is about **[value and units]**, and the values vary from about **[minimum]** to **[maximum]**.”
+- “There **[is/is not]** an apparent unusual value at **[value]**.”
+- ✓ Describe the displayed distribution; do not list individual bars without explaining the ==overall pattern==.
+
+### What must be consistent when comparing two quantitative distributions?
+- “The **[side-by-side dotplots / histograms / parallel boxplots]** use the ==same [scale and domain / bin width and interval endpoints / numerical axis]== for both groups.”
+- “This allows the ==centers, spreads, shapes, and unusual values== to be compared fairly.”
+- ! Side-by-side histograms with different bins or scales can make the groups look more different or more similar than they are.
+
+### What should a correctly constructed histogram show?
+- Use a descriptive title and label both axes, including units and frequency or relative frequency.
+- Use equal-width, adjacent bins with a consistent starting point.
+- Choose a bin width that shows the ==overall pattern== without hiding important features.
+- ✓ A histogram has ==no gaps between adjacent bins==; a bar chart has ==gaps between categories==.

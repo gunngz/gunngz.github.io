@@ -1,0 +1,82 @@
+---
+unit: u1p2
+kind: vocabulary
+category: Sampling Methods
+---
+
+### Simple random sample (SRS) {days=2}
+
+- **Definition:** A sample of size \(n\) chosen so that every possible group of \(n\) individuals in the population has an equal chance to be selected.
+- ✓**Key idea:** Every possible sample of size \(n\) has an equal chance of selection, not merely each individual.
+
+### ==Sampling without replacement== {days=2}
+
+- An individual can be selected only once; use this method when selecting an SRS.
+- **Key idea:** Skip repeated random numbers and continue until \(n\) distinct units have been selected.
+
+### Sampling with replacement {days=2}
+
+- An individual can be selected more than once.
+- **Key idea:** Return each selected unit before the next draw; the same individual can be selected more than once.
+
+### Stratum / strata {days=2}
+
+- **Definition:** A group of individuals with characteristics thought to be ==associated with== the variables being measured.
+- **Key idea:** ==Members within a stratum are similar== on a relevant characteristic; different strata have meaningful differences.
+
+### Stratified random sample {days=2}
+
+- **Definition:** Partition the population into ==nonoverlapping strata==, choose a separate SRS from each stratum, then combine the selected individuals.
+- ✓**Key idea:** Select a random sample from ==every stratum==. This ensures key groups are represented and may improve precision.
+
+### Cluster {days=2}
+
+- **Definition:** A group of individuals located near each other.
+- **Key idea:** Clusters are often selected for convenience; each cluster should resemble a small version of the population.
+
+### Cluster random sample {days=2}
+
+- **Definition:** Choose an SRS of clusters and include every member of the selected clusters.
+- **Key idea:** Randomly select clusters and survey everyone in them. Individuals within a cluster should be varied, while clusters should resemble one another.
+
+### Systematic random sample {days=2}
+
+- **Definition:** From an ordered population, randomly choose one of the first \(k\) individuals and then select every \(k\)th individual.
+- For population size \(N\) and target sample size \(n\), use interval \(k = \frac{N}{n}\); choose a random start from \(1\) to \(k\).
+- !Check for an ==ordering pattern that matches the fixed interval==. If one exists, the sample may not represent the population.
+
+### Multistage sampling {days=2}
+
+- **Definition:** A plan that combines two or more sampling methods across successive stages.
+- **Key idea:** First select larger groups, then select smaller groups or individuals within the chosen groups; state the method used at each stage.
+- **Example:** A survey may first select neighborhoods, then select clusters of nearby households within those neighborhoods.
+
+### ==Convenience sample== {days=2}
+
+- **Definition:** A sample consisting of population members who are easy to reach.
+- !**Clue:** Accessible people may differ from the population on the study variable; the direction of bias depends on that difference.
+
+### ==Voluntary response== sample / self-selected sample {days=2}
+
+- **Definition:** People choose to be in the sample by responding to a general invitation.
+- !**Clue:** People with strong opinions may be more likely to respond, pulling results toward their views.
+
+### Bias {days=2}
+
+- **Definition:** A design is biased if a flaw in data collection makes the sample statistic ==likely to systematically== underestimate or overestimate the population parameter.
+- !**Clue:** Bias is a systematic tendency toward error in one direction (==too high or too low==), not ordinary random variation.
+
+### Undercoverage {days=2}
+
+- **Definition:** Some members of the population are less likely to be chosen or cannot be chosen for a sample.
+- !**Clue:** Undercoverage creates bias when ==omitted people differ from the rest of the population== on a relevant variable.
+
+### Nonresponse {days=2}
+
+- **Definition:** An individual selected for the sample cannot be contacted or refuses to participate.
+- !**Clue:** If nonrespondents differ from respondents on the study variable, the estimate may be biased high or low.
+
+### ==Response bias== {days=2}
+
+- **Definition:** Responses to a survey question consistently differ from the truth in the same way.
+- !**Clue:** Causes include question wording or order, interviewer characteristics, and lack of anonymity. Social desirability can lead people to overreport approved behavior or underreport disapproved behavior.

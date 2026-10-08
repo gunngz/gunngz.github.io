@@ -1,0 +1,28 @@
+---
+unit: u1p1
+kind: template
+category: Categorical Data
+---
+
+### How do you calculate a category's relative frequency?
+- “The relative frequency for **[category]** is \(\frac{\text{count in category}}{\text{total count}}=[\text{proportion}]\), or **[percent]%**.”
+- “In this sample, **[percent]%** of **[sample group]** are in the **[category]** category.”
+- Key idea: Relative frequency is the ==proportion of observations in a category==.
+- ✓ For a one-way table, use the ==total number of observations== as the denominator.
+
+### How do you compare categorical distributions across groups?
+- “Among **[group A]**, **[percent A]%** of the observations are **[category/outcome]**; among **[group B]**, **[percent B]%** are **[category/outcome]**.”
+- “The sample proportion is **[higher/lower/about the same]** for **[group]**.”
+- “This describes an association between **[group variable]** and **[outcome variable]** in the sample.”
+- ✓ Compare ==within-group proportions==, using ==each group's total as its denominator==.
+
+### Should you use a pie chart or a bar chart?
+- “Use a **[pie chart / bar chart]** because **[the categories are ==parts of one whole== / the goal is to compare ==counts or proportions== across categories]**.”
+- For a pie chart: “The categories represent parts of the same whole, so their percentages sum to **100%**.”
+- For a bar chart: “The bars are separated because **[category]** is categorical.”
+- ! A pie chart is not appropriate when categories overlap or the percentages do not describe one whole.
+
+### What should a categorical display include?
+- “The **[bar chart / pie chart / segmented bar chart]** compares **[count or proportion]** across **[categories or groups]**.”
+- Add a title, clearly labeled categories, and an axis or legend identifying counts or percentages.
+- ✓ For group comparisons, show ==conditional percentages== and use the ==same scale for each group==.

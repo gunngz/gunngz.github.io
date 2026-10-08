@@ -1,0 +1,37 @@
+---
+unit: u1p2
+kind: template
+category: Inference and Ethics
+---
+
+### What conclusions about ==generalization== and cause and effect are justified? {days=4,6}
+
+1. **Cause and effect:** “The study **[did/did not]** ==randomly assign units to treatments==. Because the result **[was/was not]** statistically significant, **[a cause-and-effect conclusion is/is not]** justified.”
+2. **Generalization:** “The sample **[was/was not]** ==randomly selected from== **[population]**. Therefore, the results **[can/cannot]** be ==generalized to== **[that population]**.”
+3. **Key idea:** ==Random assignment supports cause-and-effect conclusions==.
+4. **Key idea:** ==Random selection supports generalization== to the population sampled.
+
+### What does a dot represent in a ==randomization distribution==? {days=4}
+
+- “This dot represents the value of **[statistic]** from ==one simulated random assignment== of **[units]** to **[treatments]**, ==assuming the treatments have no effect==.”
+- “In that assignment, the **[difference in means/proportions, in the stated order]** was **[value]** in favor of **[group]**.”
+- **Key idea:** If the statistic is \(A-B\), a ==positive value means== \(A\) is larger; a ==negative value means== \(B\) is larger.
+
+### Is the observed difference ==statistically significant==? {days=4}
+
+- “In the randomization simulation, \(k\) of \(M\) assignments produced a result ==at least as extreme as== **[observed value]**. The simulated proportion is \(\frac{k}{M}\).”
+- “Because a result this extreme is **[==rare/not rare==]** ==under the no-effect assumption==, the observed difference **[is/is not]** statistically significant.”
+- “This is **[convincing/not convincing]** ==evidence against the no-effect explanation==.”
+- **Key idea:** For an any-difference claim, count results at least as far from zero in either direction.
+- **Key idea:** For a directional claim, count only the tail in the stated direction.
+- **Key idea:** If none of \(M\) simulated results is as extreme, report that none appeared; ==do not say the probability is zero==.
+- **Key idea:** Statistical significance does not mean ==practical importance==.
+
+### What ==ethical concerns== arise in this scenario? {days=4}
+
+- “This study raises a concern about **[==informed consent== / ==confidentiality== / ==fair treatment of participants==]** because **[specific action in the study]**.”
+- “Participants **[were not told the true purpose or risks / could not freely agree / were treated unfairly]**.”
+- **Key idea:** Human research should receive prior ==IRB review==.
+- **Key idea:** Participants should give ==informed consent==, and researchers should ==protect their information==.
+- **Key idea:** ==Useful results alone do not make an unethical procedure acceptable==.
+- !Consent must match what participants are asked to do. ==Withholding an available effective treatment== or ==concealing the true study purpose== can remain unethical even when the study produces useful results.

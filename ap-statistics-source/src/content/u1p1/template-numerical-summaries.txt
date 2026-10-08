@@ -1,0 +1,34 @@
+---
+unit: u1p1
+kind: template
+category: Numerical Summaries
+---
+
+### How do you calculate and interpret the sample mean and standard deviation?
+- “The sample mean is **[value] [units]**. In this sample, the **[variable]** values ==average== about **[value] [units]**.”
+- “The sample standard deviation is **[value] [units]**. A typical observation is about **[value] [units]** ==from the sample mean==.”
+- \(\bar{x}=\frac{\sum_{i=1}^{n}x_i}{n}\)
+- \(s=\sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}}\)
+- ! Standard deviation measures ==typical distance from the mean==; do not describe it as the distance between the minimum and maximum.
+- **Example:** For the soil pH sample, \(\bar{x}=8.006\) pH units and \(s\approx0.287\) pH units. A typical sample pH is about 0.287 units from the sample mean.
+
+### How do you report a five-number summary and describe a boxplot?
+- “The ==five-number summary== of **[variable]** is **(minimum, Q1, median, Q3, maximum) = ([values]) [units]**.”
+- “The median is **[value] [units]**; the ==middle 50% of values== extend from **[Q1]** to **[Q3] [units]**.”
+- “The boxplot shows **[shape/asymmetry]** and **[any flagged outliers]**.”
+- Draw a labeled numerical axis, mark the five summary values, draw the box from Q1 to Q3, and extend whiskers to the most extreme non-outlier values.
+- ✓ Label the variable and units; plot flagged outliers separately.
+- **Example:** The soil pH five-number summary is \((7.72,\ 7.82,\ 7.91,\ 8.01,\ 8.53)\) pH units; the distribution is skewed right.
+
+### How do you determine whether a value is a possible outlier?
+- \(\mathrm{IQR}=Q_3-Q_1\)
+- \(\mathrm{Lower\ fence}=Q_1-1.5(\mathrm{IQR})\)
+- \(\mathrm{Upper\ fence}=Q_3+1.5(\mathrm{IQR})\)
+- “Because **[value] [is/is not]** below **[lower fence]** or above **[upper fence]**, it **[is/is not]** ==flagged as a possible outlier==.”
+- ✓ A value is flagged when it falls ==below the lower fence or above the upper fence==.
+- ✓ State the fence comparison and the conclusion; being flagged does not by itself mean the observation is an error.
+
+### Which summaries should you use for a skewed distribution or one with outliers?
+- “Because the distribution is **[skewed / has possible outliers]**, use the ==resistant median== ==**[value]** and IQR **[value] [units]**== to describe its center and spread.”
+- “The mean and standard deviation are **[values]**, but they are affected by the tail or extreme values.”
+- ✓ Match the median with IQR and the mean with standard deviation.

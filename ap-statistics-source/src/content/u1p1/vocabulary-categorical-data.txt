@@ -1,0 +1,35 @@
+---
+unit: u1p1
+kind: vocabulary
+category: Categorical Data
+---
+
+### Frequency
+- ==The number of observations in a category==.
+
+### Relative frequency
+- ==The proportion of observations in a category==: **category frequency / total frequency**.
+- Relative frequencies across all categories ==sum to 1, or 100%==.
+
+### Bar chart
+- A graph for categorical data with ==separate bars== whose heights show counts or proportions.
+- ✓ Gaps separate the categories; bar width has no numerical meaning.
+
+### Pie chart
+- A circle divided into slices whose areas or angles represent categories' parts of one whole.
+- ✓ Use a pie chart only when the categories form ==parts of the same whole==.
+
+### Segmented bar chart
+- A bar divided into segments showing the ==conditional proportions== for one group.
+- Equal-length bars make group proportions easier to compare.
+
+### Two-way table
+- A table that counts observations for combinations of two categorical variables.
+
+### Conditional distribution
+- The distribution of one categorical variable within a specified category of another variable.
+- ✓ Use row or column percentages with the relevant group as the denominator when comparing groups.
+
+### Association between categorical variables
+- The ==conditional distributions differ== across categories of the other variable.
+- A difference in sample proportions describes an association; study design determines what conclusions are justified.

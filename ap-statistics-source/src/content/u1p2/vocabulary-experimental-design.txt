@@ -1,0 +1,83 @@
+---
+unit: u1p2
+kind: vocabulary
+category: Experimental Design
+---
+
+### Comparative experiment {days=3}
+
+- **Definition:** An experiment that compares responses from units receiving two or more treatments. A ==control group== may provide a baseline.
+- **Key idea:** Keep groups alike except for treatment. If only one group receives treatment, time changes, expectations, or other shared factors may be mistaken for a treatment effect.
+
+### Treatment {days=3}
+
+- **Definition:** A specific condition imposed on experimental units. With multiple factors, one treatment is a particular combination of factor levels.
+- **Key idea:** List the combinations of factor levels that experimental units receive.
+
+### ==Control group== {days=3}
+
+- **Definition:** A comparison group that provides a baseline for judging the effects of other treatments. It may receive no treatment, standard care, an active treatment, or a placebo.
+- **Key idea:** Treat groups alike in all other ways so their responses can be compared.
+
+### Placebo {days=3}
+
+- **Definition:** An inactive treatment designed to resemble the active treatment.
+- **Key idea:** A placebo can provide a baseline and help control changes caused by participants’ expectations.
+
+### Placebo effect {days=3}
+
+- **Definition:** Improvement or another response caused by a subject’s expectation of treatment rather than by the active treatment itself.
+- !**Clue:** Participants may respond because they expect a treatment to work. A similar-looking placebo and blinding can help control this effect.
+
+### Blinding / single-blind / double-blind {days=3}
+
+- **Definition:** Blinding means keeping knowledge of treatment assignment from people whose expectations could affect responses or measurements.
+- **Double-blind:** Neither participants nor people interacting with or measuring them know the treatment assignments.
+- **Single-blind:** One of those groups is unaware of the treatment assignments.
+- !**Clue:** Masking participants’ assignments can balance expectations. Masking evaluators can reduce subjective measurement or interaction effects; side effects may reveal assignments.
+
+### ==Random assignment== {days=3}
+
+- **Definition:** Using chance to assign experimental units to treatment groups.
+- ✓**Key idea:** ==Random assignment== tends to balance other variables across groups and reduce confounding. It does not guarantee identical groups or support generalization by itself.
+
+### Completely randomized design (CRD) {days=3}
+
+- **Definition:** An experiment in which all experimental units are assigned to the treatment groups completely at random, without first sorting them into blocks.
+- **Key idea:** Assign all experimental units to groups at once. If units are first grouped by a characteristic and then randomized within groups, use a randomized block design.
+
+### Replication {days=3}
+
+- **Definition:** Assigning multiple experimental units to each treatment.
+- **Key idea:** Use multiple experimental units per treatment to assess the treatment effect; repeating measurements on one unit is not replication.
+
+### Direct control {days=3}
+
+- **Definition:** Holding an extraneous variable constant across experimental units whenever possible.
+- **Key idea:** Keep conditions such as time, location, procedure, temperature, or duration the same to reduce variability and confounding.
+
+### Blocking variable / block {days=3}
+
+- **Definition:** A blocking variable is a characteristic used to group experimental units that are similar and is believed to be ==associated with== the response.
+- Each such group is a block.
+- **Key idea:** Units within a block are similar and blocks differ. Compare treatments ==within each block==; this differs from sampling strata, where units are sampled from each group.
+
+### Randomized block design {days=3}
+
+- **Definition:** Group similar experimental units into blocks, then randomly assign units within every block to each treatment.
+- **Key idea:** Block on a known characteristic related to the response, then randomize treatments ==within each block==.
+
+### Matched pairs design {days=3}
+
+- **Definition:** A randomized block design with blocks of two units, or one unit that receives both treatments in a random order.
+- **Key idea:** Use both treatments on the same unit or pair similar units. Randomize treatment order to reduce time, practice, or carryover effects.
+
+### Factorial experiment {days=3}
+
+- **Definition:** An experiment that studies two or more factors by using combinations of their levels as treatments.
+- With two factors and two levels each, a full factorial design has \(2 \times 2 = 4\) treatment combinations.
+
+### Order effect / carryover effect {days=3}
+
+- **Definition:** A response to a treatment sequence can be affected by which treatment came first or by an earlier treatment continuing to affect the later response.
+- !**Clue:** When a unit receives multiple treatments, randomize the order to keep treatment from being ==confounded with== time, practice, or carryover.

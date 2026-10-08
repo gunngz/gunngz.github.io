@@ -1,0 +1,81 @@
+---
+unit: u1p2
+kind: template
+category: Study Questions and Variables
+---
+
+### What does an ==investigative question== guide? {days=1}
+
+- “An investigative question guides ==the data to collect==, ==the methods used to analyze the data==, and ==the conclusions the study can support==.”
+- **Key idea:** A statistical investigation uses data to answer a question about variation.
+
+### What are the ==variables==, their types, and the ==experimental units==? {days=1}
+
+- “The experimental units are **[individuals or objects assigned to treatments]**.”
+- “The ==explanatory variable or factor== is **[factor]**, with levels **[list of levels or treatments]**.”
+- “The ==response variable== is **[measured outcome]**.”
+- “**[Variable]** is **[categorical / quantitative]**; if quantitative, it is **[discrete / continuous]** because it **[counts / measures ___]**.”
+- **Key idea:** Experimental units receive treatments; the ==response variable== records the outcome. State the variable type from what it records.
+
+### What is the ==study type==? {days=1,6}
+
+| Study clue | Study type |
+| --- | --- |
+| Researchers ask people a ==common set of questions==. | Survey |
+| Researchers measure variables and ==do not impose a treatment==. | Observational study |
+| Researchers ==impose a treatment== on experimental units. | Experiment |
+- **Key idea:** A ==survey is an observational study==.
+- **Key idea:** ==Random assignment is a separate design feature== that supports cause-and-effect conclusions.
+
+### Why is this an ==observational study==? {days=1}
+
+- “This is an observational study because researchers measured **[variables]** but ==did not impose a treatment or assign units to treatments==; the ==variables occurred naturally==.”
+- **Key idea:** An observed association alone ==does not establish causation==.
+
+### What is a possible ==confounding variable==? {days=1}
+
+- “**[Confounder]** is a possible ==confounding variable== because it is ==associated with== **[explanatory variable]**: **[describe the relationship]**.”
+- “It is also ==associated with== **[==response variable==]**: **[describe the relationship]**.”
+- “If both relationships hold, we could observe an ==association between== **[explanatory variable]** and **[==response variable==]** even if **[explanatory variable]** has no effect on **[==response variable==]**.”
+- “Therefore, this study ==does not establish causation== between **[explanatory variable]** and **[==response variable==]**.”
+- **Key idea:** A confounder must be ==associated with both the explanatory and response variables==; describe each relationship.
+
+### What are the ==sample== and ==population==? {days=1,6}
+
+- “The sample is **[the individuals or objects from which data were collected]**.”
+- “The population is **[==the entire group the study intends to describe==]**.”
+- **Key idea:** Distinguish the ==individuals or objects actually sampled== from ==the group the study intends to describe==.
+
+### To which ==population== can these results be generalized? {days=1}
+
+- “Because the sample was ==randomly selected from== **[population]**, the results can be ==generalized to== **[that population]**.”
+- “Because the participants were not ==randomly selected from== a population, the results ==apply most directly to people similar to== **[the participants]**.”
+- **Key idea:** ==Random selection supports generalization==.
+- **Key idea:** ==Random assignment supports cause-and-effect conclusions==.
+
+### What is the ==investigative question== for this study? {days=1}
+
+- “For **[population]**, does **[treatment/==explanatory variable==]** **[change/increase/decrease]** **[==response parameter==]** compared with **[==comparison level==]**?”
+- **Key idea:** Include the population, variable(s), and ==target parameter or comparison==; make sure data can answer the question.
+
+### What question can ==these data== answer? {days=1}
+
+- “Among **[population represented by the study]**, is there an ==association between== **[variable 1]** and **[variable 2]**?”
+- **Key idea:** ==Use only variables actually recorded==. Describe an association ==without claiming causation==.
+
+### What are the  
+==three== components of an  
+investigative question? {days=2,5,6}
+
+1. **Variables of interest:** “The variable(s) of interest are **[variable(s)]**. For a comparison, the ==response variable== is **[outcome]** and the ==explanatory variable or factor== is **[factor]**.”
+2. **Type of inference / parameter:**
+3. **Type of conclusion:**
+**Key idea:** The three parts state the variables, the statistical goal, and the conclusion the study design can support.
+
+### What are the ==observational units== and variable types? {days=1}
+
+- “The observational units are **[==individuals or objects described by the data==]**.”
+- “The variables are **[list]**.”
+- “**[Variable]** is categorical because it records **[==a label or category==]**.”
+- “**[Variable]** is quantitative and **[==discrete/continuous==]** because it **[==counts/measures== ___]**.”
+- **Key idea:** ==Observational units are the individuals or objects described==; ==variables are the characteristics recorded== for them.

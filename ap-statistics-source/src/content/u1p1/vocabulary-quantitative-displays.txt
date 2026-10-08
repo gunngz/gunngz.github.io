@@ -1,0 +1,64 @@
+---
+unit: u1p1
+kind: vocabulary
+category: Quantitative Displays
+---
+
+### Dotplot
+- A display that places one dot at each observed quantitative value, stacking dots for repeated values.
+- Useful for a small or moderate data set when individual observations matter.
+
+### Stemplot
+- A display that separates each value into a stem and a leaf while ==retaining the original observations==.
+- ✓ Include a key with units and order leaves within each stem.
+
+### Split stemplot
+- A stemplot that repeats stems to spread out crowded leaves and reveal the distribution's shape.
+
+### Back-to-back stemplot
+- A display for comparing two quantitative distributions with a shared set of stems and ==leaves extending in opposite directions==.
+- ✓ Use one key for each side and order leaves away from the stems.
+
+### Histogram
+- A display that ==groups quantitative values into intervals== and uses ==adjacent bars== to show frequencies or relative frequencies.
+- ✓ Bars touch because the intervals represent a numerical scale.
+
+### Bin / class interval
+- A numerical interval used to group values in a histogram.
+- Bin width and starting point affect the visible pattern.
+
+### Boxplot
+- A display ==based on the five-number summary==, with separate symbols for flagged outliers when applicable.
+- A box extends from Q1 to Q3, with a line at the median; whiskers extend to the most extreme non-outlier values.
+
+### Parallel boxplots
+- Boxplots drawn on the same numerical scale to compare quantitative distributions.
+- ✓ Use a common scale so relative centers and spreads are meaningful.
+
+### Time plot
+- A graph of a quantitative variable in time order.
+- Preserving time order can reveal trends, cycles, or other changes over time.
+
+### Shape
+- The overall pattern of a quantitative distribution, including symmetry or skewness, peaks, and gaps.
+
+### Symmetric distribution
+- A distribution whose left and right sides are approximately mirror images around its center.
+
+### Skewed right
+- A distribution with a ==longer tail toward larger values==.
+- ✓ The mean is often greater than the median because large values pull the mean right.
+
+### Skewed left
+- A distribution with a ==longer tail toward smaller values==.
+- ✓ The mean is often less than the median because small values pull the mean left.
+
+### Unimodal / bimodal
+- Unimodal: one clear peak. Bimodal: two clear peaks.
+
+### Gap
+- An interval with no observations, or a noticeable break, within the range of a distribution.
+
+### Outlier
+- A value that lies unusually far from the rest of a distribution.
+- Use the ==1.5 × IQR fences== as a consistent rule for flagging possible outliers.

@@ -1,0 +1,31 @@
+---
+unit: u1p1
+kind: template
+category: Normal Models
+---
+
+### How do you find a probability for a Normal random variable?
+- “Let \(X\) be the **[variable]**. We want \(P(X\ [<,>,\text{ or between}]\ [value(s)])\).”
+- “Using `==normalcdf(lower, upper, mean, standard deviation)==`, the probability is ==**[area]**==.”
+- “About **[100 × area]%** of **[population or outcomes]** are **[below/above/between] [value(s)]**.”
+- ✓ Use \(-\infty\) or \(+\infty\) as a calculator bound when the question asks for one tail.
+
+### How do you find a value from a percentile in a Normal model?
+- “The **[percentile]th** percentile corresponds to cumulative area ==**[area]**==.”
+- “Using `==inverseNorm(area, mean, standard deviation)==`, the value is **[value and units]**.”
+- Check that the requested area is ==to the left of the value==; convert an upper-tail percentage to a left-tail area when needed.
+
+### How do you assess whether a Normal model is reasonable using an NPP?
+- “The points in the Normal probability plot are ==**[roughly linear / clearly curved or far from linear]**==.”
+- “Therefore, a Normal model ==**[is reasonable / is not reasonable]**== for **[variable]**.”
+- ✓ Support the conclusion with the pattern's linearity; do not rely only on the plot's title.
+
+### What should a sketch of a Normal distribution include?
+- Draw a ==symmetric bell-shaped curve== centered at **[mean]**.
+- Label **[mean]** and the values ==[mean − 3 SD], [mean − 2 SD], [mean − SD], [mean + SD], [mean + 2 SD], and [mean + 3 SD]==.
+- Shade the region corresponding to ==**[probability or percentile]**== and label it with \(P([event])=[area]\).
+- ✓ The total area under a Normal curve is 1; shaded area represents probability.
+
+### How do you compare two Normal curves with different standard deviations?
+- “Both curves have ==the same mean== **[mean]**. The curve with standard deviation **[smaller/larger]** is **[==taller and narrower== / shorter and wider]**.”
+- ✓ When the means match, the smaller standard deviation gives a taller, narrower curve.

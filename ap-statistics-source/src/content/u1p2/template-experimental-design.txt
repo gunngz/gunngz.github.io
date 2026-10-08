@@ -1,0 +1,77 @@
+---
+unit: u1p2
+kind: template
+category: Experimental Design
+---
+
+### What are the ==experimental units==, factors, levels, and treatments? {days=3,6}
+
+- “The experimental units are **[individuals/objects assigned treatments]**.”
+- “The factors are **[factor 1]** with levels **[levels]** and **[factor 2]** with levels **[levels]**.”
+- “The number of ==treatment combinations== is \(L_1\times L_2\times\cdots=T\), where \(L_i\) is the number of levels of factor \(i\).”
+- “Two treatments are **[==one combination of factor levels==]** and **[another combination]**.”
+- **Key idea:** A treatment is ==one combination of factor levels==. Multiply the level counts ==only when every combination is used==.
+
+### Why include a ==control group== or placebo? {days=3,6}
+
+- “The **[control group]** ==provides a baseline== for **[response]**.”
+- “Comparing **[==active treatment==]** with **[==control condition==]** helps assess whether the treatment affects **[response]** beyond **[==natural change / expectations== / another shared condition]**.”
+- **Key idea:** A control group can receive no treatment, a placebo, or an ==active treatment==. A placebo has ==no active ingredient== but resembles the ==active treatment== and helps control for the ==placebo effect==.
+
+### Who is ==blinded==, and is the study double-blind? {days=3,6}
+
+- “The **[participants / people interacting with participants / outcome evaluators]** ==are unaware of each participant’s treatment assignment==.”
+- “This reduces the chance that ==expectations affect== **[response or measurement]**.”
+- “Because both participants and those interacting with them or measuring the response are unaware, the study is ==double-blind==.”
+- **Key idea:** State who is unaware and how knowing the treatment could change the response or its measurement. ==Side effects may reveal assignments== and weaken blinding.
+
+### How do you design a ==double-blind, two-factor experiment==? {days=6}
+
+- “The factors are **[factor 1]** and **[factor 2]**, each with **[levels]**. The treatments are the combinations **[list combinations]**.”
+- “Randomly assign the experimental units to the ==treatment combinations==.”
+- “Keep the treatment conditions the same except for the assigned factor levels. When a treatment does not include **[==active treatment==]**, use a ==matching placebo== that ==looks the same but has no active ingredient==.”
+- “Keep participants and those interacting with them or measuring **[response]** unaware of the assignments. Measure **[response]** and compare the treatment groups.”
+- **Key idea:** With two factors and two levels of each, a ==full factorial design== has \(2\times2=4\) ==treatment combinations==.
+- **Key idea:** A ==double-blind== design keeps participants and those interacting with or measuring them unaware of the assignments.
+
+### How do you assign units in a completely randomized design? {days=3,6}
+
+- “Label the \(N\) experimental units with ==distinct integers== from \(1\) to \(N\).”
+- “Use a ==random-number generator== to select \(n_1\) ==distinct labels== for **[Treatment 1]**, \(n_2\) of the ==remaining labels== for **[Treatment 2]**, and continue until ==all units are assigned==.”
+- “Apply the assigned treatment and measure **[response]** for each unit.”
+- **Key idea:** Random assignment uses chance and ==tends to balance extraneous variables== across treatment groups, but it ==does not guarantee identical groups==.
+- **Key idea:** ==Random assignment supports cause-and-effect conclusions==; it ==does not support generalization to a population==.
+- **Key idea:** If treatment assignment follows **[pre-existing group]**, that characteristic may be ==confounded with treatment==.
+- **Cause-and-effect conclusion:** “The study **[did/did not]** ==randomly assign units to treatments==. Because the result **[was/was not]** statistically significant, **[a cause-and-effect conclusion is/is not]** justified.”
+
+### What is ==held constant==, and why? {days=3}
+
+- “The researchers held **[condition]** constant by keeping **[specific detail]** the same for every experimental unit.”
+- “This ==reduces variation in== ==**[response]**==.”
+- “It also prevents ==**[variable]**== from ==differing systematically between treatment groups==.”
+- “This makes it easier to ==assess the effect== of **[treatment]**.”
+- **Key idea:** Name the condition and the study detail that shows it.
+- **Key idea:** Direct control reduces variation and can reduce confounding.
+
+### How does ==blocking== help in a randomized block design? {days=3}
+
+- “==Partition== the experimental units into blocks based on **[blocking variable]**, which is associated with **[response]**.”
+- “==Within every block==, ==randomly assign units to each== **[treatment]**.”
+- “==Compare the treatments within each block==, then combine the results.”
+- **Key idea:** Units within a block are similar with respect to the blocking variable.
+- **Key idea:** Blocking accounts for its effect and can make treatment differences easier to detect.
+- **Key idea:** ==Every treatment must occur within every block==.
+
+### How do you design a ==matched-pairs experiment==? {days=3,6}
+
+- **==Same unit receives both treatments==:** “Each **[unit]** receives both **[Treatment A]** and **[Treatment B]**. ==Randomly assign the order==. Measure **[response]** after each treatment and compare the ==within-unit differences==.”
+- **Similar units are paired:** “Pair units that are ==similar in== **[characteristic related to response]**. Within each pair, randomly assign one unit to **[Treatment A]** and the other to **[Treatment B]**, then compare their responses.”
+- **Key idea:** ==Pairing accounts for differences between units==.
+- **Key idea:** Randomize treatment order. If the first treatment could affect the second measurement, ==allow its effects to wear off==.
+
+### Why can an ==observational study== not establish ==causation==? {days=3}
+
+- “This is an observational study because researchers measured **[existing behavior/variables]** but ==did not impose or assign== **[treatment/explanatory-variable levels]**.”
+- “The groups may differ in **[==plausible confounder==]**, which could also affect **[response]**.”
+- “Therefore, the observed association ==does not establish that== **[explanatory variable]** caused **[response]**.”
+- **Key idea:** Name a plausible variable associated with both group membership and the response.

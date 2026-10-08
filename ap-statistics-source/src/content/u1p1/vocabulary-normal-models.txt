@@ -1,0 +1,25 @@
+---
+unit: u1p1
+kind: vocabulary
+category: Normal Models
+---
+
+### Normal distribution
+- A ==symmetric, bell-shaped distribution== described by a mean and standard deviation.
+
+### Standard Normal distribution
+- The Normal distribution with mean 0 and standard deviation 1.
+
+### Normal probability plot (NPP)
+- A plot that compares ordered data with values expected from a Normal distribution.
+- ✓ A roughly straight pattern supports an approximately Normal model; clear curvature or strong departures from a line do not.
+
+### normalcdf
+- A calculator function that finds the ==area (probability)== between specified lower and upper bounds under a Normal curve.
+- ✓ For a continuous Normal variable, probability is area; do not use `normalpdf` to find probability.
+
+### inverseNorm
+- A calculator function that converts a ==cumulative area or percentile== into the corresponding z-score or data value.
+
+### Empirical rule
+- For an approximately Normal distribution, about ==68%, 95%, and 99.7%== of values lie within 1, 2, and 3 standard deviations of the mean, respectively.

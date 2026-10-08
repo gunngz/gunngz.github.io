@@ -1,0 +1,86 @@
+---
+unit: u1p2
+kind: template
+category: Sampling and Surveys
+---
+
+### How do you select a ==simple random sample==? {days=2}
+
+- “Label each population member with a distinct integer from \(1\) to \(N\).”
+- “Use a ==random-number generator== to select \(n\) ==distinct integers== from \(\{1,\ldots,N\}\).”
+- “Select the observational units with those labels.”
+- **Key idea:** For ==sampling without replacement==, ==skip repeated numbers== and continue until \(n\) distinct individuals are selected.
+
+### How do you design a ==stratified random sample==? {days=2}
+
+- “==Partition== the population into ==nonoverlapping strata== using **[a characteristic ==associated with the measured outcome==]**.”
+- “Choose strata so individuals ==within each stratum are similar== with respect to **[outcome]**, while the strata differ.”
+- “Within every stratum, label individuals from \(1\) to \(N_h\). Use a ==random-number generator== to select \(n_h\) ==distinct labels==. Repeat in every stratum, then combine the selected individuals.”
+- **Key idea:** Sampling from every stratum guarantees that ==every stratum is represented==.
+- **Key idea:** It may ==improve precision== when the outcome is similar within strata but differs across strata.
+- **Example:** If pencil quality is similar within each work shift but differs across shifts, use shifts as strata and randomly select pencils from every shift.
+
+### How do you design a ==cluster random sample==? {days=2}
+
+- “==Partition== the population into natural clusters of nearby individuals that can be reached or surveyed together.”
+- “Choose clusters so each is ==internally diverse like a small version of the population==, while the ==clusters resemble one another==.”
+- “Label the clusters from \(1\) to \(C\). Use a ==random-number generator== to select \(m\) distinct cluster labels.”
+- “Include ==every individual== in each selected cluster.”
+- **Key idea:** Cluster sampling can make data collection easier when groups are easier to reach than scattered individuals.
+- **Example:** Treat boxes of 10 packaged pencils as clusters, randomly select boxes, and inspect every pencil in each selected box.
+
+### How do you design a ==systematic random sample==? {days=2}
+
+- “Arrange the population in an order and calculate the interval \(k=\frac{N}{n}\).”
+- “Use a random process to select a starting position \(r\) from \(1\) to \(k\).”
+- “Select the unit at position \(r\), then ==every \(k\)th unit== until \(n\) units have been selected.”
+- **Key idea:** Check whether a ==repeating pattern in the population order== matches \(k\); if so, ==the sample may be biased==.
+- **Example:** To select 300 of 15,000 pencils, choose a random start from 1 to 50 and inspect every 50th pencil.
+
+### How do you describe a ==multistage sample==? {days=2}
+
+- “First, use **[sampling method]** to select **[larger groups]**.”
+- “Within the selected groups, use **[sampling method]** to select **[smaller groups/individuals]**.”
+- “Include **[==all members / only the sampled members==]** from the final groups.”
+- **Key idea:** Name ==each stage in order==, including ==the group or unit sampled== and the selection method.
+- **Key idea:** State whether all members or a subsample from the final groups are included. A one-stage cluster sample includes every member of each selected cluster.
+
+### How do ==stratified== and ==cluster sampling== differ? {days=2}
+
+| Method | What is randomly selected? | Group pattern and purpose |
+| --- | --- | --- |
+| Stratified | Individuals from ==every stratum==, then combine them. | Members ==within each stratum are similar==; strata differ. ==Every stratum is represented==, which may ==improve precision==. |
+| Cluster | ==Some clusters==; include every member in each selected cluster. | Each cluster is internally diverse like the population, and ==clusters resemble one another==. This can make data collection easier. |
+
+### How do you explain ==convenience sample bias==? {days=2}
+
+- “This is a convenience sample because researchers selected **[people/items easiest to reach]**.”
+- “State the direction: The sample **[proportion/mean]** of **[outcome]** is likely ==**[too high/too low]**==, so it ==**[overestimates/underestimates]**== the population **[parameter]**.”
+- **Key idea:** Explain how ==ease of access== made this group ==different from the target population== on the measured outcome.
+
+### How do you explain ==voluntary-response bias==? {days=2}
+
+- “This is a voluntary-response sample because people ==chose to respond to a general invitation==.”
+- “People with **[strong ==positive/negative== opinions or experiences]** may be more likely to respond than others.”
+- “State the direction: The sample **[proportion/mean]** of **[outcome]** is likely ==**[too high/too low]**==, so it ==**[overestimates/underestimates]**== the population **[parameter]**.”
+- **Key idea:** Self-selection creates bias when response is related to the measured outcome. The direction depends on who chooses to respond.
+
+### How do you explain ==undercoverage==? {days=2}
+
+- “This is undercoverage because **[group]** is missing from, or less likely to be reached by, the sampling frame.”
+- “State the direction: The sample **[proportion/mean]** of **[outcome]** is likely ==**[too high/too low]**==, so it ==**[overestimates/underestimates]**== the population **[parameter]**.”
+- **Key idea:** Undercoverage is bias when the omitted group differs on a relevant variable.
+- **Key idea:** Following up with selected nonrespondents cannot reach people missing from the sampling frame.
+- ✓**Key idea:** Example: A dentist’s patient sample undercovers adults who do not visit a dentist. If they floss less often, the sample proportion who floss regularly is ==too high==.
+
+### How do you explain ==nonresponse bias==? {days=2}
+
+- “This is nonresponse because selected individuals ==could not be contacted or refused to participate==.”
+- “State the direction: The sample **[proportion/mean]** of **[outcome]** is likely ==**[too high/too low]**==, so it ==**[overestimates/underestimates]**== the population **[parameter]**.”
+- **Key idea:** If the prompt does not compare ==respondents and nonrespondents on the outcome==, the direction of bias cannot be determined.
+
+### How do you explain survey ==response bias==? {days=2}
+
+- “This is response bias because **[==question wording== / interviewer characteristics / ==lack of anonymity== / question order]** may cause respondents to report **[answer]** differently from the truth.”
+- “State the direction: The sample **[proportion/mean]** of **[outcome]** is likely ==**[too high/too low]**==, so it ==**[overestimates/underestimates]**== the population **[parameter]**.”
+- **Key idea:** Explain how the survey feature influences answers, then connect that mechanism to a direction of error. Leading wording can push answers either way.

@@ -1,0 +1,31 @@
+---
+unit: u1p1
+kind: template
+category: Z-Scores and Transformations
+---
+
+### How do you calculate and interpret a z-score?
+- \(z=\frac{x-\bar{x}}{s}\) for a sample, or \(z=\frac{x-\mu}{\sigma}\) for a population model.
+- “The z-score for **[value and units]** is **[z]**. This value is **[|z|]** ==standard deviations **[above/below]**== the **[mean]**.”
+- ✓ Preserve the sign: ==positive means above the mean==; ==negative means below it==.
+- **Example:** With mean 0.21 oz and standard deviation 0.02 oz, 0.263 oz has \(z=2.65\), or 2.65 standard deviations above the mean; 0.172 oz has \(z=-1.90\), or 1.90 standard deviations below the mean.
+
+### How do you find a value from its z-score?
+- \(x=\bar{x}+zs\) or \(x=\mu+z\sigma\)
+- “A z-score of **[z]** corresponds to **[value and units]**.”
+- ✓ Multiply by the SD and add the ==original mean==; use the ==original standard deviation== and report the result in the original variable's units.
+- **Example:** A Jolly Rancher with \(z=4.27\) weighs \(0.21+4.27(0.02)=0.2954\) oz.
+
+### How does a linear transformation change a distribution?
+- “Each new value is **[formula, such as \(x_{\mathrm{new}}=1.15x_{\mathrm{old}}\)]**.”
+- “The ==new mean== is **[a + b × old mean] [units]**.”
+- “The ==new standard deviation== is **[|b| × old standard deviation] [units]**.”
+- “Because **[b > 0 / b < 0]**, the ==shape is **[unchanged / reflected]**==; the standardized scores are **[unchanged / sign-reversed]**.”
+- ✓ Adding a constant changes the center but not the spread; multiplying by \(b\) scales spread by \(|b|\).
+
+### How do you describe a 15% increase applied to every value?
+- “Increasing each value by 15% multiplies every value by **1.15**.”
+- “The ==new mean== is **1.15 × [old mean] = [==new mean==] [units]**.”
+- “The ==new standard deviation== is **1.15 × [old standard deviation] = [==new standard deviation==] [units]**.”
+- “The distribution's shape is unchanged, and its ==z-scores are unchanged==.”
+- **Example:** If the original mean is 47 and standard deviation is 42, a 15% increase gives mean 1.15 × 47 = 54.05 and standard deviation 1.15 × 42 = 48.3.

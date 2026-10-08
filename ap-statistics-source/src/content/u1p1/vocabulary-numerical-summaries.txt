@@ -1,0 +1,53 @@
+---
+unit: u1p1
+kind: vocabulary
+category: Numerical Summaries
+---
+
+### Mean
+- The arithmetic average: the ==sum of all observations divided by the number of observations==.
+- The mean uses every value and is ==sensitive to skewness and outliers==.
+
+### Median
+- The ==middle value after observations are ordered==; if there are an even number of values, average the two middle values.
+- ✓ The median is ==resistant to skewness and extreme values==.
+
+### First quartile (Q1)
+- The median of the lower half of the ordered data; about 25% of observations are at or below Q1.
+
+### Third quartile (Q3)
+- The median of the upper half of the ordered data; about 75% of observations are at or below Q3.
+
+### Five-number summary
+- The ==minimum, Q1, median, Q3, and maximum== of a quantitative data set.
+
+### Interquartile range (IQR)
+- The spread of the middle half of the data: **==IQR = Q3 − Q1==**.
+- ✓ The IQR is ==resistant to skewness and extreme values==.
+
+### Standard deviation (s or σ)
+- A measure of the typical distance of observations from their mean, in the original units.
+- ✓ Standard deviation describes spread around the mean and is sensitive to outliers.
+
+### Range
+- The maximum minus the minimum.
+- The range depends only on the two extreme observations.
+
+### Resistant summary
+- A summary that is not greatly affected by extreme observations.
+- Median and IQR are resistant; mean and standard deviation are not.
+
+### 1.5 × IQR fences
+- Lower fence: **==Q1 − 1.5 × IQR==**. Upper fence: **==Q3 + 1.5 × IQR==**.
+- Values beyond a fence are flagged as possible outliers; the rule does not prove that a value is erroneous.
+
+### z-score
+- The ==number of standard deviations an observation lies above or below the mean==.
+- A positive z-score is above the mean; a negative z-score is below the mean.
+
+### Percentile
+- The percent of observations at or below a specified value.
+
+### Linear transformation
+- A transformation of the form **x_new = a + b × x_old**.
+- For b > 0, it shifts and rescales values without changing the distribution's shape or standardized scores.

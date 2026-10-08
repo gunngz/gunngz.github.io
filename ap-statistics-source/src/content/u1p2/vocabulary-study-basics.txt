@@ -1,0 +1,130 @@
+---
+unit: u1p2
+kind: vocabulary
+category: Study Basics
+---
+
+### Population {days=1}
+
+- **Definition:** ==The entire group of items or individuals== we want information about.
+- ✓**Key idea:** First identify ==the group the study intends to describe==, then decide ==whether the sample represents it==.
+
+### Parameter {days=1}
+
+- **Definition:** ==A number that describes a characteristic of a population==.
+- ×**Avoid:** A parameter describes a population; do not confuse it with a sample statistic.
+
+### Census {days=1}
+
+- **Definition:** An attempt to contact every item or individual in the entire population.
+- **Key idea:** The goal is to contact ==every member of the population==. A census attempt is still a census attempt even when some people cannot be reached.
+
+### Sample {days=1}
+
+- **Definition:** ==A subset of the population== from which data are collected.
+- ✓**Key idea:** Name the ==individuals or objects actually observed or measured==.
+
+### Statistic {days=1}
+
+- **Definition:** ==A number that describes a characteristic of a sample==.
+- **Key idea:** A statistic describes a sample; a parameter describes a population.
+
+### Observational unit {days=1}
+
+- **Definition:** An item or individual described in a data set or statistical study.
+- **Key idea:** Name the individual or object being described. An observational unit is not a variable or a value.
+
+### Variable {days=1}
+
+- **Definition:** A characteristic that can take different values for different observational units.
+- **Key idea:** For example, a student’s GPA is a variable; a specific GPA is one value of that variable.
+
+### Categorical variable {days=1}
+
+- **Definition:** Takes values that are labels placing each observational unit into a category.
+- **Key idea:** Values are categories or labels, such as wood type, phone type, or whether someone is sick.
+
+### Qualitative / numerical variable {days=1}
+
+- Categorical variables may also be called **qualitative**, and quantitative variables may also be called **numerical**.
+- **Key idea:** Classify by what the data mean, not by how values are entered or whether the labels look numeric.
+
+### Quantitative variable {days=1}
+
+- **Definition:** Takes numerical values that are counts or measurements.
+- **Key idea:** Values represent counts or measurements. Judge what the variable records, not whether the table contains numbers.
+
+### Discrete quantitative variable {days=1}
+
+- **Definition:** Can take possible values with gaps between them on the number line, often as a result of counting.
+- **Key idea:** Examples include a blemish count or the number of site visits.
+
+### Continuous quantitative variable {days=1}
+
+- **Definition:** Can take any value in an interval on the number line, often as a result of measuring.
+- **Key idea:** Examples include paint thickness or time spent on a site.
+
+### Explanatory (independent) variable / factor {days=1}
+
+- **Definition:** May help explain or predict changes in a ==response variable==.
+- **Key idea:** Ask what researchers change or compare, or which variable may explain the outcome.
+
+### Response (dependent) variable {days=1}
+
+- **Definition:** Measures an outcome of a statistical study.
+- **Key idea:** Ask what outcome, health status, or score the study measures.
+
+### Level {days=1}
+
+- **Definition:** A possible value of a factor.
+- **Key idea:** A level is a possible value or treatment option for a factor. Shower durations of 0, 30, 60, and 90 seconds are four levels.
+
+### Experimental unit / subject {days=1}
+
+- The individual or object to which a treatment is assigned in an experiment.
+- ×**Avoid:** Name the units assigned to treatments; do not list the treatment, factor, or measured outcome.
+
+### Experiment {days=1}
+
+- **Definition:** Researchers deliberately impose a treatment on individuals to observe their responses.
+- **Key idea:** In a randomized experiment, researchers assign units to treatments using chance. Random sampling and random assignment serve different purposes.
+
+### Observational study {days=1}
+
+- **Definition:** Researchers observe individuals and measure variables of interest but do not impose treatments.
+- **Key idea:** Researchers observe, record, or ask questions without assigning a treatment. An observed association alone ==does not establish causation==.
+
+### Survey {days=1}
+
+- **Definition:** An observational study in which data are collected from people by asking a ==common set of questions==.
+- **Key idea:** A survey collects data from people by asking a ==common set of questions==; every survey is observational.
+
+### Retrospective study {days=1}
+
+- **Definition:** Data about observational units are gathered from the past.
+- **Key idea:** The data come from past events or records, rather than new follow-up into the future.
+
+### Prospective study {days=1}
+
+- **Definition:** Data are gathered at a selected point in time and into the future.
+- **Key idea:** Data collection starts at a chosen time and follows outcomes into the future.
+
+### Extraneous variable {days=1}
+
+- **Definition:** A variable other than the ==explanatory variable== that may affect the ==response variable==.
+- **Key idea:** An extraneous variable may affect the response. It is not a confounder unless it is also related to the ==explanatory variable==.
+
+### Confounding {days=1}
+
+- **Definition:** An extraneous variable ==associated with== both the explanatory and response variables, making it difficult to determine whether changes in the ==explanatory variable== cause changes in the ==response variable==.
+- !**Clue:** A confounder is related to both the explanatory and response variables. Explain both relationships, not only that it may affect the outcome.
+
+### Investigative question {days=1}
+
+- A statistical question should concern a population and a variable or relationship that can vary across observational units.
+- **Key idea:** Include the population, variables or relationship, and target parameter or comparison. A fixed fact about one person is not a statistical question.
+
+### Random sampling {days=1}
+
+- **Definition:** Using a chance process to determine which members of a population are chosen for the sample.
+- **Key idea:** Random sampling supports generalization to the population represented by the sampling frame; it ==does not establish causation==.

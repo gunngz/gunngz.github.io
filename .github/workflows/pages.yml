@@ -1,0 +1,54 @@
+name: Publish personal site with AP Statistics guide
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ap-statistics-source/package-lock.json
+      - name: Install dependencies and build the guide
+        working-directory: ap-statistics-source
+        run: npm ci && npm run build
+        env:
+          GITHUB_PAGES: "true"
+      - name: Assemble the existing homepage and study guide
+        run: |
+          mkdir -p _site/ap-statistics
+          rsync -a --exclude='/.git/' --exclude='/.github/' --exclude='/ap-statistics-source/' --exclude='/node_modules/' --exclude='/dist/' --exclude='/_site/' ./ _site/
+          cp -a ap-statistics-source/dist/. _site/ap-statistics/
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

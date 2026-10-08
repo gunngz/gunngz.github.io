@@ -1,0 +1,37 @@
+---
+unit: u1p1
+kind: template
+category: Study Basics
+---
+
+### How do you identify the population, sample, observational units, and variables?
+- **Population:** The population is **[==entire group the study intends to describe==]**.
+- **Sample:** The sample is **[==individuals or objects from which data were collected==]**.
+- **Observational units:** The observational units are **[==people, objects, or events actually measured==]**.
+- **Variables:** The variables recorded for each unit are **[list variables]**.
+- **Variable types:** **[variable]** is categorical because its values are labels; **[variable]** is quantitative because its values are counts or measurements.
+- ✓ Check that the population is the target group, not just the sampled units.
+
+### Is this a statistical question? Explain.
+- “This is a statistical question because it ==asks about== **[population or relationship]** and ==anticipates variability== in **[variable(s)]** across observational units.”
+- OR: “This is not a statistical question because it asks for one fixed value and does not anticipate variability in data.”
+
+### Is the study observational or an experiment?
+- “This is an **[observational study / experiment]** because researchers **[==measured naturally occurring variables without assigning a treatment== / ==imposed or assigned treatments to experimental units==]**.”
+- ✓ Asking a ==common set of questions== describes a survey; a survey is observational.
+
+### What conclusions can the study support?
+- “Because the sample **[was/was not]** randomly selected from **[population]**, the results **[==can/cannot==]** be generalized to **[population]**.”
+- “Because the study **[did/did not]** ==randomly assign units to treatments==, a ==cause-and-effect conclusion== **[is/is not]** justified.”
+- ! Random selection supports generalization; random assignment supports cause and effect.
+
+### What is the explanatory variable and what is the response variable?
+- “The explanatory variable is **[==variable used to explain or predict an outcome==]**.”
+- “The response variable is **[==outcome measured for each unit==]**.”
+- “The observational units are **[individuals or objects measured]**.”
+
+### How do you explain a possible confounding variable?
+- “**[Variable]** is a possible confounding variable because it may be associated with **[explanatory variable or group membership]** and may also affect **[response]**.”
+- “This could create an association between **[explanatory variable]** and **[response]** even if **[explanatory variable]** ==has no effect on== **[response]**.”
+- “Therefore, this study ==does not establish that== **[explanatory variable]** causes **[response]**.”
+- ✓ State both required links: association with the explanatory variable or group and an effect on the response.
