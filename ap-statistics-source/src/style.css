@@ -449,3 +449,119 @@ mark.search-hit {
 @media (prefers-reduced-motion: reduce) {
   .answer-content { transition: none; }
 }
+
+
+/* Chemistry vocabulary: definition-only recall controls and compact concept diagrams. */
+.chem-answer-side { padding: 16px 18px; }
+.chem-card-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(118px, 178px);
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.chem-items { display: grid; gap: 9px; min-width: 0; }
+.chem-item {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px;
+  min-width: 0;
+}
+.chem-item--has-blur { grid-template-columns: 22px minmax(0, 1fr) 32px; gap: 7px; }
+.chem-item-icon { display: grid; place-items: center; width: 22px; height: 24px; color: var(--accent); }
+.chem-item-symbol {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.chem-item--relation .chem-item-icon { color: #8b7446; }
+.chem-item--idea .chem-item-icon { color: #657f8c; }
+.chem-item--caution .chem-item-icon { color: #9b752e; }
+.chem-item-copy {
+  min-width: 0;
+  line-height: 1.55;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.chem-item-copy p { display: inline; margin: 0; }
+.chem-item-copy .math { white-space: normal; }
+.chem-definition-blurred {
+  filter: blur(4px);
+  user-select: none;
+  transition: filter .15s ease;
+}
+.chem-definition-blur {
+  width: 32px;
+  height: 32px;
+  margin-top: -4px;
+}
+.chem-definition-blur .icon { width: 18px; height: 18px; }
+.chem-figure {
+  width: 100%;
+  max-width: 178px;
+  min-width: 0;
+  justify-self: end;
+  align-self: center;
+  margin: 0;
+  padding: 5px;
+  border-radius: 11px;
+  background: var(--surface-hover);
+}
+.chem-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chem-svg__label {
+  fill: var(--quiet);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: 8px;
+  font-weight: 550;
+}
+.chem-svg__tiny {
+  fill: #fffaf1;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: 6px;
+  font-weight: 700;
+}
+.chem-svg__electron { fill: var(--accent); font: 700 16px Inter, system-ui, sans-serif; }
+.orbital-electron { opacity: 1; }
+.chem-svg--aufbau .orbital-electron { opacity: 0; animation-duration: 8s; animation-iteration-count: infinite; animation-timing-function: linear; }
+.chem-svg--aufbau .orbital-electron--1 { animation-name: orbital-step-1; }
+.chem-svg--aufbau .orbital-electron--2 { animation-name: orbital-step-2; }
+.chem-svg--aufbau .orbital-electron--3 { animation-name: orbital-step-3; }
+.chem-svg--aufbau .orbital-electron--4 { animation-name: orbital-step-4; }
+.chem-svg--aufbau .orbital-electron--5 { animation-name: orbital-step-5; }
+.chem-svg--aufbau .orbital-electron--6 { animation-name: orbital-step-6; }
+@keyframes orbital-step-1 { 0%, 72% { opacity: 1; } 79%, 100% { opacity: 0; } }
+@keyframes orbital-step-2 { 0%, 16%, 79%, 100% { opacity: 0; } 21%, 72% { opacity: 1; } }
+@keyframes orbital-step-3 { 0%, 28%, 79%, 100% { opacity: 0; } 33%, 72% { opacity: 1; } }
+@keyframes orbital-step-4 { 0%, 40%, 79%, 100% { opacity: 0; } 45%, 72% { opacity: 1; } }
+@keyframes orbital-step-5 { 0%, 52%, 79%, 100% { opacity: 0; } 57%, 72% { opacity: 1; } }
+@keyframes orbital-step-6 { 0%, 64%, 79%, 100% { opacity: 0; } 69%, 72% { opacity: 1; } }
+
+@media (max-width: 600px) {
+  .chem-answer-side { padding: 13px 14px; }
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr) minmax(105px, 31%); gap: 9px; }
+  .chem-items { gap: 8px; }
+  .chem-item { grid-template-columns: 20px minmax(0, 1fr); gap: 6px; }
+  .chem-item--has-blur { grid-template-columns: 20px minmax(0, 1fr) 30px; gap: 5px; }
+  .chem-item-icon { width: 20px; }
+  .chem-item-symbol { width: 17px; height: 17px; }
+  .chem-definition-blur { width: 30px; height: 30px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chem-definition-blurred { transition: none; }
+  .chem-svg--aufbau .orbital-electron { animation: none; opacity: 1; }
+}
+
+
+@media (max-width: 980px) {
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr) minmax(104px, 132px); gap: 10px; }
+  .chem-figure { max-width: 132px; }
+}
+@media (max-width: 600px) {
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr); }
+  .chem-figure { width: min(100%, 180px); max-width: 180px; justify-self: end; }
+}

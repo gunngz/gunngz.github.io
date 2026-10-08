@@ -5,33 +5,36 @@ category: Periodic Trends
 ---
 
 ### Coulombic attraction
-- The electrostatic attraction between oppositely charged particles, such as the nucleus and an electron.
-- Attraction increases with greater charge and decreases as the distance between particles increases.
-
+- Definition: Electrostatic attraction between ==opposite charges==, such as the nucleus and an electron.
+- Relation: \(F_C\propto\frac{|q_1q_2|}{r^2}\); charge magnitude \(\uparrow\) or distance \(r\downarrow\) \(\Rightarrow\) attraction \(\uparrow\).
+- Visual: coulomb
 ### Effective nuclear charge
-- The net positive charge experienced by an electron after shielding by other electrons is considered.
-- Across a period, nuclear charge increases while core-electron shielding changes little, so the effective nuclear charge generally increases.
-
+- Definition: ==Net positive charge== experienced by an electron after shielding.
+- Relation: \(Z_{\mathrm{eff}}\approx Z-S\); across a period, \(Z\) rises while core shielding changes little.
+- Visual: coulomb
 ### Shielding
-- Repulsion from inner electrons reduces the nucleus's attraction for an outer electron.
-- Down a group, added inner shells increase shielding and place valence electrons farther from the nucleus.
-
+- Definition: Core electrons repel outer electrons and ==reduce their attraction to the nucleus==.
+- Relation: Down a group: more inner shells \(\Rightarrow\) shielding \(\uparrow\), distance \(\uparrow\).
+- Visual: coulomb
 ### Atomic radius
-- A measure of atomic size.
-- Across a period it generally decreases; down a group it generally increases.
-
+- Definition: A measure of ==atomic size==.
+- Relation: Across a period: radius generally \(\downarrow\). Down a group: radius generally \(\uparrow\).
+- Visual: periodic-trend
 ### First ionization energy
-- The energy required to remove the first electron from a gaseous atom.
-- A stronger attraction between the nucleus and the valence electron generally means a higher ionization energy.
-
+- Definition: Energy required to ==remove the first electron== from a gaseous atom.
+- Relation: \(X(g)\to X^+(g)+e^-\); stronger attraction generally \(\Rightarrow\) higher ionization energy.
+- Visual: periodic-trend
 ### Electronegativity
-- A measure of how strongly an atom attracts shared electrons in a chemical bond.
-- It generally increases across a period and decreases down a group.
-
+- Definition: An atom's ==attraction for shared electrons== in a bond.
+- Relation: Generally \(\uparrow\) across a period and \(\downarrow\) down a group.
+- Visual: periodic-trend
 ### Periodic-trend explanation
-- A complete explanation names the property, compares the relevant electron distance and shielding, and connects these to ==Coulombic attraction==.
-- ✓ State the direction of the trend and explain the particle-level cause; a memorized arrow alone is not a justification.
+- Definition: Explain a trend by connecting electron distance and shielding to ==Coulombic attraction==.
+- Key idea: State the direction, then give the particle-level cause; an arrow alone is not an explanation.
+- Visual: coulomb
 
 ### Ion charge and valence electrons
-- Typical main-group ion charges are related to the number of valence electrons and the tendency to reach a stable electron configuration.
-- Use charge balance in an ionic formula to determine an unknown ion charge; do not infer a unique charge when the formula or element allows multiple possibilities.
+- Definition: Main-group atoms ==gain or lose electrons== toward a stable outer-shell configuration.
+- Relation: Ion charge \(=Z-\#e^-\); ionic formula total charge \(=0\).
+- Key idea: Use the formula or given ion to determine charge; some elements have more than one possible ion charge.
+- Visual: ion

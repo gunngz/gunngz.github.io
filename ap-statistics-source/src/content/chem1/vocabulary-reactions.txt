@@ -5,29 +5,32 @@ category: Chemical Reactions
 ---
 
 ### Decomposition reaction
-- One reactant forms two or more products.
-- Example pattern: \(AB \rightarrow A + B\).
-
+- Definition: ==One reactant forms two or more products==.
+- Relation: \(AB\rightarrow A+B\).
+- Visual: reaction
 ### Precipitation reaction
-- Dissolved ions combine to form an ==insoluble ionic solid==.
-- A solid by itself does not prove a precipitation reaction; a metal can also form through redox.
+- Definition: Dissolved ions form an ==insoluble ionic solid==.
+- Key idea: A solid alone does not prove precipitation; a metal can also form in a redox reaction.
+- Visual: precipitation
 
 ### Single-replacement reaction
-- One element reacts with a compound and replaces another element in that compound.
-- Many metal and halogen replacement reactions involve electron transfer and are redox reactions.
-
+- Definition: One element ==replaces another element== in a compound.
+- Relation: \(A+BC\rightarrow AC+B\); often involves electron transfer.
+- Visual: reaction
 ### Oxidation and reduction
-- Oxidation is loss of electrons; reduction is gain of electrons.
-- ✓ Track which species loses electrons and which gains them; both changes occur in a redox reaction.
-
+- Definition: ==Oxidation = electron loss; reduction = electron gain==.
+- Key idea: Identify the species that loses electrons and the species that gains electrons; both occur in a redox reaction.
+- Visual: redox
 ### Acid–carbonate reaction
-- An acid supplies \(H^+\), which reacts with carbonate to produce \(CO_2\) and \(H_2O\).
-- Bubbles are evidence of gas formation; identify the gas and explain how it forms.
-
+- Definition: An acid reacts with carbonate to ==produce carbon dioxide and water==.
+- Relation: \(2H^++CO_3^{2-}\rightarrow CO_2+H_2O\).
+- Key idea: Bubbles indicate a gas; identify \(CO_2\) and explain its formation.
+- Visual: reaction
 ### Catalyst
-- A substance that provides a reaction pathway with lower activation energy and is regenerated overall.
-- A catalyst changes the rate, not the net reaction or the identity of the products.
-
+- Definition: Provides a pathway with ==lower activation energy== and is regenerated overall.
+- Relation: Reaction rate changes; net reaction and product identities do not.
+- Visual: energy-barrier
 ### Expected evidence
-- A predicted observation is evidence the model says should occur; it is not a report of an observation that was never measured.
-- ✓ Label evidence as observed or expected when the prompt is asking for a prediction.
+- Definition: An observation ==predicted by a model==, not a result that was actually measured.
+- Key idea: Label evidence as observed or expected when making a prediction.
+- Visual: observation

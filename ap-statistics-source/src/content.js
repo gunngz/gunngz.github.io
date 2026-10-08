@@ -44,6 +44,50 @@ function slug(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+function parseChemVocabulary(source, cardId) {
+  const items = [];
+  let visual = "";
+  let animation = "";
+  let definitionIndex = 0;
+
+  for (const line of source.split(/\r?\n/)) {
+    const point = line.match(/^\s*[-*]\s+(.*)$/);
+    if (!point) continue;
+    let value = point[1].trim();
+    const directive = value.match(/^(Visual|Animation):\s*(.*)$/i);
+    if (directive) {
+      if (directive[1].toLowerCase() === "visual") visual = directive[2].trim().toLowerCase();
+      else animation = directive[2].trim().toLowerCase();
+      continue;
+    }
+
+    let kind = "idea";
+    const label = value.match(/^(Definition|Relation|Key idea|Example|Caution):\s*/i);
+    if (label) {
+      const normalized = label[1].toLowerCase();
+      kind = normalized === "key idea" ? "idea" : normalized;
+      value = value.slice(label[0].length);
+    } else if (items.length === 0) {
+      kind = "definition";
+    }
+
+    let status = "";
+    if (/^✓\s*/.test(value)) {
+      status = "check";
+      value = value.replace(/^✓\s*/, "");
+    } else if (/^!\s*/.test(value)) {
+      status = "caution";
+      value = value.replace(/^!\s*/, "");
+    }
+    const index = items.length;
+    const item = { id: cardId + ":chem-item:" + index, kind, status, value };
+    if (kind === "definition") item.blurId = cardId + ":definition:" + definitionIndex++;
+    items.push(item);
+  }
+
+  return { items, visual, animation };
+}
+
 function parseTextFile(path, source) {
   const { metadata, body } = readFrontmatter(source);
   const fileSlug = path.split("/").pop().replace(/\.txt$/, "");
@@ -58,7 +102,7 @@ function parseTextFile(path, source) {
     const unit = metadata.unit || "u1p1";
     const kind = metadata.kind || "vocabulary";
     const category = metadata.category || "Study Basics";
-    return {
+    const card = {
       id: [unit, kind, slug(category), fileSlug, index, slug(title)].join(":"),
       unit,
       kind,
@@ -68,6 +112,12 @@ function parseTextFile(path, source) {
       answer,
       searchText: (title + " " + answer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
+    if (unit === "chem1" && kind === "vocabulary") {
+      card.chem = parseChemVocabulary(answer, card.id);
+      card.searchText = (title + " " + card.chem.items.map((item) => item.value).join(" "))
+        .replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase();
+    }
+    return card;
   });
 }
 

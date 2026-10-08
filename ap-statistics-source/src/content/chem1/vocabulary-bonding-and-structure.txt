@@ -5,41 +5,43 @@ category: Bonding and Molecular Structure
 ---
 
 ### Ionic bonding
-- Electrostatic attraction between oppositely charged ions in an extended lattice.
-- An ionic solid is not made of separate molecules; its formula gives the simplest neutral ratio of ions.
-
+- Definition: Electrostatic attraction between ==oppositely charged ions== in an extended lattice.
+- Key idea: Ionic solids are not separate molecules; the formula is the simplest neutral ion ratio.
+- Visual: ionic-lattice
 ### Covalent bond
-- A bond formed when atoms share one or more pairs of electrons.
-- A covalent substance may consist of discrete molecules or an extended network.
-
+- Definition: A bond formed when atoms ==share one or more electron pairs==.
+- Key idea: Covalent substances can be discrete molecules or extended networks.
+- Visual: covalent-bond
 ### Lewis structure
-- A representation of valence electrons as bonds and lone pairs.
-- It shows connectivity and electron placement, but a two-dimensional Lewis structure alone does not show the full three-dimensional molecular shape.
-
+- Definition: A drawing of valence electrons as ==bonds and lone pairs==.
+- Key idea: It shows connectivity and electrons; by itself it does not show 3D molecular shape.
+- Visual: lewis
 ### Chemical nomenclature
-- A system for naming substances from their composition and bonding type.
-- For an ionic compound, the formula must have ==zero total charge==; for a molecular compound, prefixes specify atom counts.
-
+- Definition: Naming substances from their ==composition and bonding type==.
+- Relation: Ionic formula: total charge \(=0\). Molecular compound: prefixes give atom counts.
+- Visual: ratio
 ### Formal charge
-- A bookkeeping charge assigned to an atom in a Lewis structure.
-- \(FC = V - N - \frac{B}{2}\), where \(V\) is the atom's valence-electron count, \(N\) is its nonbonding-electron count, and \(B\) is the number of bonding electrons.
-
+- Definition: A ==bookkeeping charge== assigned to an atom in a Lewis structure.
+- Relation: \(FC=V-N-\frac{B}{2}\), where \(V\)=valence electrons, \(N\)=nonbonding electrons, \(B\)=bonding electrons.
+- Visual: lewis
 ### Resonance structures
-- Lewis structures with the same atom arrangement but different placement of electrons.
-- The atoms do not move between resonance forms; only electron placement changes.
-
+- Definition: Lewis structures with the ==same atom arrangement== but different electron placement.
+- Key idea: Atoms do not move between resonance forms; only electrons move.
+- Visual: resonance
 ### Electron-domain geometry
-- The arrangement of all electron domains around a central atom, including bonds and lone pairs.
-- Use the number of domains to determine the electron-domain geometry.
-
+- Definition: Arrangement of ==all electron domains== around a central atom, including bonds and lone pairs.
+- Relation: Count electron domains to determine the geometry.
+- Visual: geometry
 ### Molecular geometry
-- The three-dimensional arrangement of the bonded atoms; lone pairs affect the shape but are not named as atoms in the molecular geometry.
-- ✓ Use the molecular structure when the question asks about shape, bond angles, or molecular polarity.
+- Definition: The ==3D arrangement of bonded atoms==; lone pairs affect shape but are not named as atoms.
+- Key idea: Use molecular geometry for questions about ==shape, bond angles, or molecular polarity==.
+- Visual: geometry
 
 ### VSEPR model
-- A model that predicts geometry by treating electron domains around a central atom as regions that repel one another.
-- Lone pairs occupy more space than bonding domains and can compress bond angles.
-
+- Definition: Predicts shape by treating electron domains as ==regions that repel one another==.
+- Key idea: Lone pairs occupy more space than bonding domains and can compress bond angles.
+- Visual: geometry
 ### Hybridization
-- A bonding model that labels mixed atomic orbitals at a central atom.
-- If a class question asks for it, match the hybridization label to the number of electron domains; do not add hybridization to an explanation unless it is requested or useful.
+- Definition: A model describing ==mixed atomic orbitals== at a central atom.
+- Relation: If requested, match the label to the electron-domain count; do not add it unless useful.
+- Visual: orbitals

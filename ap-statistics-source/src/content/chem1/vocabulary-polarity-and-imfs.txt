@@ -5,36 +5,37 @@ category: Polarity and Intermolecular Forces
 ---
 
 ### Polar bond
-- A covalent bond with an unequal distribution of shared electrons because the bonded atoms have different electronegativities.
-- The bond dipole points toward the more electronegative atom.
-
+- Definition: A covalent bond with ==unequal sharing== because the atoms have different electronegativities.
+- Relation: Dipole points toward the more electronegative atom: \(\delta^+\to\delta^-\).
+- Visual: dipole
 ### Molecular polarity
-- The overall distribution of charge in a molecule, determined by its bond dipoles and three-dimensional structure.
-- A molecule can contain polar bonds and still be nonpolar if the dipoles cancel by symmetry.
-
+- Definition: The ==net charge distribution== from a molecule's bond dipoles and 3D structure.
+- Key idea: Polar bonds can cancel in a symmetric molecule.
+- Visual: molecular-dipole
 ### Dipole moment
-- A measure of the separation of positive and negative charge.
-- Molecular dipoles combine as vectors; their directions matter, not just their magnitudes.
-
+- Definition: A measure of the ==separation of positive and negative charge==.
+- Relation: \(\vec\mu_{\mathrm{net}}=\sum_i\vec\mu_i\); direction matters.
+- Visual: dipole
 ### London dispersion force
-- An intermolecular attraction caused by temporary and induced dipoles.
-- It occurs between all atoms and molecules and generally strengthens as electron clouds become more polarizable.
-
+- Definition: Attraction from ==temporary and induced dipoles==.
+- Key idea: Present between all atoms and molecules; generally stronger for more polarizable electron clouds.
+- Visual: dispersion
 ### Dipole–dipole attraction
-- An attraction between the partially positive and partially negative ends of neighboring polar molecules.
-
+- Definition: Attraction between ==partial positive and partial negative== ends of neighboring polar molecules.
+- Visual: dipole-pair
 ### Hydrogen bonding
-- A particularly strong dipole–dipole attraction when hydrogen bonded to N, O, or F interacts with a lone pair on N, O, or F.
-- ✓ Identify the required atoms and the intermolecular attraction; the presence of hydrogen alone is not enough.
-
+- Definition: Strong dipole–dipole attraction when ==H bonded to N, O, or F== interacts with a lone pair on N, O, or F.
+- Key idea: Hydrogen alone is not enough; check the bonded atom and the lone-pair atom.
+- Visual: hydrogen-bond
 ### Ion–dipole attraction
-- An attraction between an ion and the partial charges of a polar molecule.
-- It is important when explaining how many ionic substances interact with polar solvents such as water.
-
+- Definition: Attraction between ==an ion and the partial charges== of a polar molecule.
+- Key idea: Important when ionic substances interact with polar solvents such as water.
+- Visual: ion-dipole
 ### Intermolecular forces (IMFs)
-- Attractions between separate particles; they are different from the bonds within a molecule or ionic lattice.
-- Stronger IMFs generally correspond to higher boiling point, higher viscosity, and lower vapor pressure for comparable substances.
-
+- Definition: Attractions between ==separate particles==, distinct from bonds within a molecule or ionic lattice.
+- Relation: For comparable substances, stronger IMFs generally mean boiling point \(\uparrow\), viscosity \(\uparrow\), vapor pressure \(\downarrow\).
+- Visual: dispersion
 ### Solubility and polarity
-- Dissolution is favored when solute–solvent attractions can compensate for attractions within the original solute and solvent.
-- Use the specific structures and attractions in the question; “like dissolves like” is a starting clue, not a complete explanation.
+- Definition: Dissolution is favored when new ==solute–solvent attractions== compensate for attractions in the original substances.
+- Key idea: Compare the specific particles and attractions; “like dissolves like” is only a starting clue.
+- Visual: solvation

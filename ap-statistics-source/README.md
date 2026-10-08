@@ -22,6 +22,8 @@ Write answer templates as complete, directly usable answer stems. Keep explanato
 
 The pages are English-only, use warm light colors, and keep each category as its own horizontal-navigation page. The centered content width keeps the original side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Search covers all units in the current subject; matching answer text uses a blue highlight distinct from the study highlights. Individual and section-wide eye icons blur answers without removing them.
 
+Chemistry vocabulary supports separate definition and supporting-relation rows, reusable diagrams, and optional animations in the same plain-text files. For a Chemistry vocabulary card, write - Definition: ... for each independently blur-able definition, then add - Relation: ... or - Key idea: ... for material that stays visible. Add - Visual: atom (or another existing diagram name) to reuse an SVG illustration; - Animation: aufbau enables the stepwise orbital-filling animation. The eye beside each definition and the section eye blur definitions only. Supported diagrams are declared in src/ChemIllustration.jsx; adding a new text-only entry or reusing a diagram does not require editing React.
+
 ## Run locally
 
     npm install

@@ -5,41 +5,47 @@ category: Atoms and Composition
 ---
 
 ### Atomic number
-- The number of ==protons in the nucleus==; it identifies the element.
-- In a neutral atom, the number of electrons equals the atomic number.
+- Definition: The number of ==protons in the nucleus==; it identifies the element.
+- Relation: \(Z=\#p^+\); neutral atom: \(\#e^-=Z\).
+- Visual: atom
 
 ### Mass number
-- The total number of ==protons and neutrons== in one isotope.
-- Neutrons = mass number − atomic number.
-
+- Definition: The total number of ==protons and neutrons== in one isotope.
+- Relation: \(A=\#p^++\#n^0\); \(\#n^0=A-Z\).
+- Visual: atom
 ### Isotope
-- Atoms of the same element with the same number of protons but ==different numbers of neutrons==.
-- Isotopes can have different masses while retaining the same chemical identity.
+- Definition: Atoms with the same \(Z\) but ==different numbers of neutrons==.
+- Relation: Same element \(\Rightarrow\) same proton count; isotope mass can differ.
+- Visual: isotopes
 
 ### Average atomic mass
-- The ==weighted average== of the masses of an element's naturally occurring isotopes.
-- Use each isotope's fractional abundance as its weight; do not take an unweighted average unless abundances are equal.
+- Definition: The ==weighted average== of an element's isotope masses.
+- Relation: \(\bar m=\sum_i f_i m_i\); \(\sum_i f_i=1\) (fractional abundances).
+- Visual: weighted-mass
 
 ### Mass spectrum
-- A graph of ion signal versus mass-to-charge ratio, \(m/z\).
-- For singly charged isotope ions, peak position indicates isotope mass and relative peak intensity indicates relative abundance.
-
+- Definition: Ion signal plotted against ==mass-to-charge ratio==, \(m/z\).
+- Relation: Peak position \(\to\) isotope mass; relative peak height \(\to\) relative abundance.
+- Visual: spectrum
 ### Mole
-- \(6.022\times10^{23}\) specified particles.
-- State what the particles are: atoms, molecules, ions, or formula units.
-
+- Definition: An amount containing ==Avogadro's number== of specified particles.
+- Relation: \(1\ \mathrm{mol}=6.022\times10^{23}\) particles; name them: atoms, molecules, ions, or formula units.
+- Visual: particles
 ### Molar mass
-- The mass of one mole of a substance, in \(\mathrm{g\,mol^{-1}}\).
-- Calculate it by adding the atomic masses for every atom in the chemical formula.
-
+- Definition: The ==mass of one mole== of a substance.
+- Relation: Unit: \(\mathrm{g\,mol^{-1}}\); sum atomic masses using every formula subscript.
+- Visual: particles
 ### Percent composition
-- The mass of one element divided by the total sample mass, multiplied by 100%.
-- A compound's percent composition is fixed; a mixture's composition can vary.
-
+- Definition: The ==mass percentage== of an element in a sample.
+- Relation: \(\%X=\frac{m_X}{m_{\mathrm{sample}}}\times100\%\).
+- Key idea: A compound has fixed composition; a mixture can vary.
+- Visual: composition
 ### Empirical formula
-- The ==lowest whole-number ratio== of atoms or ions in a substance.
-- Ionic formulas are written as the simplest ratio that makes the total charge zero.
+- Definition: The ==lowest whole-number ratio== of atoms or ions.
+- Relation: For an ionic formula, total charge \(=0\).
+- Visual: ratio
 
 ### Molecular formula
-- The actual number of each type of atom in one molecule.
-- It is a whole-number multiple of the empirical formula when the substance is molecular.
+- Definition: The ==actual number of each atom== in one molecule.
+- Relation: Molecular formula \(=n\times\) empirical formula, where \(n\) is a whole number.
+- Visual: ratio

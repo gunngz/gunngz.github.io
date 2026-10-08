@@ -5,35 +5,39 @@ category: Electron Configurations and PES
 ---
 
 ### Ground-state electron configuration
-- The arrangement of electrons with the ==lowest total energy== for an atom or ion.
-- A configuration must contain the correct total number of electrons.
+- Definition: The electron arrangement with the ==lowest total energy== for that atom or ion.
+- Relation: Check that the configuration contains the correct total \(\#e^-\).
+- Visual: orbitals
 
 ### Aufbau principle
-- Electrons occupy available orbitals in order of ==increasing energy==.
+- Definition: Electrons occupy available orbitals in order of ==increasing energy==.
+- Relation: \(1s<2s<2p<3s<3p<4s<3d\).
+- Visual: orbitals
+- Animation: aufbau
 
 ### Pauli exclusion principle
-- An orbital holds at most two electrons, and two electrons in the same orbital have ==opposite spins==.
+- Definition: One orbital holds at most two electrons with ==opposite spins==.
+- Visual: paired-orbital
 
 ### Hund's rule
-- In a set of equal-energy orbitals, electrons occupy separate orbitals before they pair.
-- Unpaired electrons in these orbitals have parallel spins.
-
+- Definition: In equal-energy orbitals, place ==one electron in each orbital before pairing==; unpaired spins are parallel.
+- Visual: hund-orbitals
 ### Valence electrons
-- Electrons in the outermost occupied shell of a main-group atom.
-- Valence electrons are central to typical ion charges and chemical bonding.
-
+- Definition: Electrons in the ==outermost occupied shell== of a main-group atom.
+- Key idea: Valence electrons help predict common ion charges and bonding.
+- Visual: atom
 ### Ion electron configuration
-- A cation has lost electrons; an anion has gained electrons.
-- When forming a transition-metal cation, remove electrons from the ==highest principal energy level first==, even if those electrons were added last.
-
+- Definition: ==Cations lose electrons; anions gain electrons==.
+- Relation: For transition-metal cations, remove electrons from the ==highest principal energy level first== (for example, \(4s\) before \(3d\)).
+- Visual: ion
 ### Photoelectron spectroscopy (PES)
-- A method that measures the energy needed to remove electrons from atoms or ions.
-- A PES peak identifies electrons with similar binding energies; peak area or relative height represents the number of electrons in that group.
-
+- Definition: Measures the ==energy needed to remove electrons== from atoms or ions.
+- Relation: Peak position \(\to\) binding energy; peak area \(\to\) electron count.
+- Visual: spectrum
 ### Binding energy
-- The energy required to remove an electron from an atom or ion.
-- Electrons with greater binding energy are ==held more strongly==; read the axis direction before comparing peak positions.
-
+- Definition: ==Energy required to remove an electron== from an atom or ion.
+- Relation: Greater binding energy \(\Rightarrow\) electron held more strongly. Check the axis direction.
+- Visual: spectrum
 ### Ground state and excited state
-- A ground-state arrangement has the lowest possible energy for that electron count.
-- An excited-state arrangement has the same electron count but places at least one electron at a higher energy.
+- Definition: Ground state has the ==lowest possible energy==; excited state has the same \(\#e^-\) with at least one electron at higher energy.
+- Visual: energy-levels
