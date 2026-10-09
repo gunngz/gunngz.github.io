@@ -1,7 +1,7 @@
 ---
 unit: chem1
 kind: template
-category: Chemical Reaction FRQs
+category: Chemical Reaction Free-Response Questions
 ---
 
 ### What is the reusable frame for a reaction explanation or prediction?

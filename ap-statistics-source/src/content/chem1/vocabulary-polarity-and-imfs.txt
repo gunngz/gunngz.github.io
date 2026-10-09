@@ -1,41 +1,28 @@
 ---
 unit: chem1
 kind: vocabulary
-category: Polarity and Intermolecular Forces
+category: Polarity
 ---
 
 ### Polar bond
 - Definition: A covalent bond with ==unequal sharing== because the atoms have different electronegativities.
-- Relation: Dipole points toward the more electronegative atom: \(\delta^+\to\delta^-\).
+- Relation: The bond dipole points toward the more electronegative atom, from partial positive to partial negative.
+- Example: In H–Cl, the shared electrons spend more time near chlorine.
 - Visual: dipole
+
 ### Molecular polarity
-- Definition: The ==net charge distribution== from a molecule's bond dipoles and 3D structure.
+- Definition: The ==overall distribution of charge== from bond dipoles and three-dimensional molecular shape.
+- Example: Carbon dioxide has polar bonds, but their dipoles cancel; water's bent shape leaves a net dipole.
 - Key idea: Polar bonds can cancel in a symmetric molecule.
-- Visual: molecular-dipole
+- Visual: tetrahedral-3d
+
 ### Dipole moment
 - Definition: A measure of the ==separation of positive and negative charge==.
-- Relation: \(\vec\mu_{\mathrm{net}}=\sum_i\vec\mu_i\); direction matters.
+- Relation: The molecular dipole is the vector sum of all bond dipoles; direction matters.
 - Visual: dipole
-### London dispersion force
-- Definition: Attraction from ==temporary and induced dipoles==.
-- Key idea: Present between all atoms and molecules; generally stronger for more polarizable electron clouds.
-- Visual: dispersion
-### Dipole–dipole attraction
-- Definition: Attraction between ==partial positive and partial negative== ends of neighboring polar molecules.
-- Visual: dipole-pair
-### Hydrogen bonding
-- Definition: Strong dipole–dipole attraction when ==H bonded to N, O, or F== interacts with a lone pair on N, O, or F.
-- Key idea: Hydrogen alone is not enough; check the bonded atom and the lone-pair atom.
-- Visual: hydrogen-bond
-### Ion–dipole attraction
-- Definition: Attraction between ==an ion and the partial charges== of a polar molecule.
-- Key idea: Important when ionic substances interact with polar solvents such as water.
-- Visual: ion-dipole
-### Intermolecular forces (IMFs)
-- Definition: Attractions between ==separate particles==, distinct from bonds within a molecule or ionic lattice.
-- Relation: For comparable substances, stronger IMFs generally mean boiling point \(\uparrow\), viscosity \(\uparrow\), vapor pressure \(\downarrow\).
-- Visual: dispersion
+
 ### Solubility and polarity
 - Definition: Dissolution is favored when new ==solute–solvent attractions== compensate for attractions in the original substances.
-- Key idea: Compare the specific particles and attractions; “like dissolves like” is only a starting clue.
+- Example: Water molecules surround dissolved sodium and chloride ions using their partial charges.
+- Key idea: Compare the actual particles and attractions; “like dissolves like” is only a starting clue.
 - Visual: solvation

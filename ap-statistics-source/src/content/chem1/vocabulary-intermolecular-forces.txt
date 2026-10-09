@@ -1,0 +1,28 @@
+---
+unit: chem1
+kind: vocabulary
+category: Intermolecular Forces
+---
+
+### London dispersion force
+- Definition: Attraction from ==temporary and induced dipoles==.
+- Example: Iodine molecules have more polarizable electron clouds and stronger dispersion attractions than fluorine molecules.
+- Key idea: Present between all atoms and molecules; stronger attractions generally raise boiling point and viscosity and lower vapor pressure.
+- Visual: dispersion
+
+### Dipole–dipole attraction
+- Definition: Attraction between the ==partial positive and partial negative== ends of neighboring polar molecules.
+- Example: The partially positive hydrogen of one hydrogen chloride molecule attracts the partially negative chlorine of another.
+- Visual: dipole-pair
+
+### Hydrogen bonding
+- Definition: A strong dipole–dipole attraction when ==hydrogen bonded to nitrogen, oxygen, or fluorine== is attracted to a lone pair on nitrogen, oxygen, or fluorine.
+- Example: In liquid water, a hydrogen bonded to oxygen is attracted to a lone pair on a neighboring oxygen.
+- Key idea: Hydrogen alone is not enough; check both the atom bonded to hydrogen and the atom with the lone pair.
+- Visual: hydrogen-bond
+
+### Ion–dipole attraction
+- Definition: Attraction between ==an ion and the partial charges== of a polar molecule.
+- Example: Water's partially negative oxygen points toward \(\mathrm{Na^+}\); its partially positive hydrogens point toward \(\mathrm{Cl^-}\).
+- Key idea: This attraction helps water dissolve sodium chloride.
+- Visual: ion-dipole

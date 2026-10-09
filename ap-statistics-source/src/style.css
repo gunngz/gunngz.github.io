@@ -451,16 +451,63 @@ mark.search-hit {
 }
 
 
-/* Chemistry vocabulary: definition-only recall controls and compact concept diagrams. */
-.chem-answer-side { padding: 16px 18px; }
+/* Chemistry cards foreground the model; definitions appear beside a focused or hovered term. */
+.study-card.chemistry-vocab-card {
+  grid-template-columns: minmax(0, 1fr);
+  overflow: visible;
+}
+.chemistry-vocab-card:hover,
+.chemistry-vocab-card:focus-within { z-index: 8; }
+.chem-question-side {
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  padding: 14px 18px 4px;
+}
+.chem-term-anchor { position: relative; width: fit-content; max-width: 100%; }
+.chem-term-trigger { width: fit-content; max-width: 100%; cursor: help; }
+.chem-term-trigger:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+.chem-definition-tooltip {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: calc(100% + 8px);
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) 32px;
+  align-items: start;
+  gap: 8px;
+  width: min(390px, calc(100vw - 80px));
+  padding: 12px 10px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface);
+  box-shadow: 0 12px 30px rgb(40 39 32 / 18%);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: opacity .12s ease, transform .12s ease, visibility .12s;
+  pointer-events: none;
+}
+.chem-question-side:hover .chem-definition-tooltip,
+.chem-question-side:focus-within .chem-definition-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.chem-answer-side {
+  border-top: 1px solid var(--line);
+  border-left: 0;
+  padding: 0 18px 18px;
+}
 .chem-card-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(118px, 178px);
-  align-items: center;
-  gap: 14px;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
   min-width: 0;
 }
-.chem-items { display: grid; gap: 9px; min-width: 0; }
+.chem-items { display: grid; order: 2; gap: 10px; min-width: 0; }
 .chem-item {
   display: grid;
   grid-template-columns: 22px minmax(0, 1fr);
@@ -503,14 +550,16 @@ mark.search-hit {
 .chem-definition-blur .icon { width: 18px; height: 18px; }
 .chem-figure {
   width: 100%;
-  max-width: 178px;
+  max-width: none;
   min-width: 0;
-  justify-self: end;
+  justify-self: stretch;
+  order: 1;
   align-self: center;
   margin: 0;
-  padding: 5px;
-  border-radius: 11px;
-  background: var(--surface-hover);
+  padding: 8px 0 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 .chem-svg { display: block; width: 100%; height: auto; overflow: visible; }
 .chem-svg__label {
@@ -519,13 +568,40 @@ mark.search-hit {
   font-size: 8px;
   font-weight: 550;
 }
+.chem-svg__diagram-note {
+  fill: var(--ink);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 650;
+}
 .chem-svg__tiny {
   fill: #fffaf1;
   font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   font-size: 6px;
   font-weight: 700;
 }
+.chem-svg__atom-label { fill: var(--ink); font: 700 12px Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+.chem-svg__charge-label { fill: var(--accent); font: 700 12px Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
 .chem-svg__electron { fill: var(--accent); font: 700 16px Inter, system-ui, sans-serif; }
+.chem-figure--interactive { display: flex; flex-direction: column; gap: 8px; padding: 10px; }
+.chem-3d-canvas { width: 100%; height: 250px; min-height: 180px; overflow: hidden; border-radius: 9px; cursor: grab; touch-action: pan-y; }
+.chem-3d-canvas:active { cursor: grabbing; }
+.chem-3d-canvas canvas { display: block; width: 100%; height: 100%; }
+.chem-3d-caption { display: grid; gap: 4px; color: var(--quiet); font-size: .8rem; line-height: 1.45; }
+.chem-3d-caption strong { color: var(--ink); font-size: .95rem; }
+.chem-3d-legend { font-size: .76rem; }
+.chem-model-select { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; margin-top: 3px; }
+.chem-model-select select, .chem-reset-view {
+  min-height: 32px;
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.chem-reset-view { justify-self: start; color: var(--quiet); }
 .orbital-electron { opacity: 1; }
 .chem-svg--aufbau .orbital-electron { opacity: 0; animation-duration: 8s; animation-iteration-count: infinite; animation-timing-function: linear; }
 .chem-svg--aufbau .orbital-electron--1 { animation-name: orbital-step-1; }
@@ -542,14 +618,27 @@ mark.search-hit {
 @keyframes orbital-step-6 { 0%, 64%, 79%, 100% { opacity: 0; } 69%, 72% { opacity: 1; } }
 
 @media (max-width: 600px) {
+  .chem-question-side { padding: 13px 15px 4px; }
+  .chem-answer-side { padding: 0 15px 14px; }
+  .chem-definition-tooltip {
+    top: calc(100% + 7px);
+    left: 0;
+    right: auto;
+    width: min(390px, calc(100vw - 50px));
+  }
+}
+
+@media (max-width: 600px) {
   .chem-answer-side { padding: 13px 14px; }
-  .chem-card-layout { grid-template-columns: minmax(0, 1fr) minmax(105px, 31%); gap: 9px; }
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .chem-items { gap: 8px; }
   .chem-item { grid-template-columns: 20px minmax(0, 1fr); gap: 6px; }
   .chem-item--has-blur { grid-template-columns: 20px minmax(0, 1fr) 30px; gap: 5px; }
   .chem-item-icon { width: 20px; }
   .chem-item-symbol { width: 17px; height: 17px; }
   .chem-definition-blur { width: 30px; height: 30px; }
+  .chem-definition-tooltip { left: 10px; right: 10px; top: calc(100% - 8px); width: auto; }
+  .chem-3d-canvas { height: 220px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .chem-definition-blurred { transition: none; }
@@ -558,10 +647,9 @@ mark.search-hit {
 
 
 @media (max-width: 980px) {
-  .chem-card-layout { grid-template-columns: minmax(0, 1fr) minmax(104px, 132px); gap: 10px; }
-  .chem-figure { max-width: 132px; }
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
 }
 @media (max-width: 600px) {
-  .chem-card-layout { grid-template-columns: minmax(0, 1fr); }
-  .chem-figure { width: min(100%, 180px); max-width: 180px; justify-self: end; }
+  .chem-card-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .chem-figure { width: 100%; justify-self: stretch; }
 }

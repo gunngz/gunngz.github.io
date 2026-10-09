@@ -6,42 +6,47 @@ category: Bonding and Molecular Structure
 
 ### Ionic bonding
 - Definition: Electrostatic attraction between ==oppositely charged ions== in an extended lattice.
-- Key idea: Ionic solids are not separate molecules; the formula is the simplest neutral ion ratio.
+- Example: Solid sodium chloride contains alternating \(\mathrm{Na^+}\) and \(\mathrm{Cl^-}\) ions; it is not made of separate molecules.
+- Relation: The formula \(\mathrm{NaCl}\) shows the simplest neutral ion ratio.
 - Visual: ionic-lattice
+
 ### Covalent bond
-- Definition: A bond formed when atoms ==share one or more electron pairs==.
-- Key idea: Covalent substances can be discrete molecules or extended networks.
+- Definition: A bond formed when atoms ==share one or more pairs of electrons==.
+- Example: In \(\mathrm{H_2}\), two hydrogen atoms share one pair of electrons.
+- Key idea: Covalent substances can be separate molecules, such as water, or extended networks, such as diamond.
 - Visual: covalent-bond
-### Lewis structure
-- Definition: A drawing of valence electrons as ==bonds and lone pairs==.
-- Key idea: It shows connectivity and electrons; by itself it does not show 3D molecular shape.
-- Visual: lewis
-### Chemical nomenclature
-- Definition: Naming substances from their ==composition and bonding type==.
-- Relation: Ionic formula: total charge \(=0\). Molecular compound: prefixes give atom counts.
-- Visual: ratio
+
 ### Formal charge
 - Definition: A ==bookkeeping charge== assigned to an atom in a Lewis structure.
-- Relation: \(FC=V-N-\frac{B}{2}\), where \(V\)=valence electrons, \(N\)=nonbonding electrons, \(B\)=bonding electrons.
-- Visual: lewis
+- Relation: \(\mathrm{formal\ charge}=\mathrm{valence\ electrons}-\mathrm{nonbonding\ electrons}-\frac{1}{2}(\mathrm{bonding\ electrons})\).
+- Example: In water, oxygen has two nonbonding pairs and two bonds; use the electron count to check its formal charge.
+- Visual: lewis-water
+
 ### Resonance structures
 - Definition: Lewis structures with the ==same atom arrangement== but different electron placement.
+- Example: The two resonance structures of ozone keep the three oxygen atoms in the same positions while the double bond changes sides.
 - Key idea: Atoms do not move between resonance forms; only electrons move.
 - Visual: resonance
+
 ### Electron-domain geometry
-- Definition: Arrangement of ==all electron domains== around a central atom, including bonds and lone pairs.
-- Relation: Count electron domains to determine the geometry.
-- Visual: geometry
-### Molecular geometry
-- Definition: The ==3D arrangement of bonded atoms==; lone pairs affect shape but are not named as atoms.
-- Key idea: Use molecular geometry for questions about ==shape, bond angles, or molecular polarity==.
+- Definition: The arrangement of ==all electron domains== around a central atom, including bonds and lone pairs.
+- Relation: Count each bond or lone pair as one electron domain to determine the geometry.
+- Example: Carbon in methane has four bonding domains arranged tetrahedrally.
 - Visual: geometry
 
-### VSEPR model
-- Definition: Predicts shape by treating electron domains as ==regions that repel one another==.
+### Molecular geometry
+- Definition: The ==three-dimensional arrangement of bonded atoms==; lone pairs affect shape but are not named as atoms.
+- Example: Methane \((\mathrm{CH_4})\) is tetrahedral with bond angles near \(109.5^\circ\); water \((\mathrm{H_2O})\) is bent.
+- Key idea: Use molecular geometry for questions about shape, bond angles, or molecular polarity.
+- Visual: tetrahedral-3d
+
+### Electron-domain repulsion model
+- Definition: Predicts molecular shape by treating electron domains as ==regions that repel one another==.
+- Example: Three bonding domains and one lone pair form a trigonal-pyramidal molecule, such as ammonia \((\mathrm{NH_3})\).
 - Key idea: Lone pairs occupy more space than bonding domains and can compress bond angles.
-- Visual: geometry
+- Visual: tetrahedral-3d
+
 ### Hybridization
 - Definition: A model describing ==mixed atomic orbitals== at a central atom.
-- Relation: If requested, match the label to the electron-domain count; do not add it unless useful.
+- Relation: If requested, match the label used in class to the number of electron domains.
 - Visual: orbitals

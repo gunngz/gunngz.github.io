@@ -4,11 +4,10 @@ kind: template
 category: Lewis Structures and Geometry
 ---
 
-### How do you write an ionic formula or name a compound?
-- **Ionic formula:** “The ions are **[cation and charge]** and **[anion and charge]**. The lowest whole-number subscripts that make the total charge zero give **[formula]**.”
-- **Ionic name:** “The compound is **[cation name] [anion name]**. The Roman numeral **[number]** gives the charge of a **[variable-charge metal]** ion.”
-- **Molecular name:** “The prefixes show **[number] [first element]** atoms and **[number] [second element]** atoms, so the formula is **[formula]**.”
-- ✓ Use the name's Roman numeral to set a metal-ion charge; use prefixes for molecular compounds, not to balance ionic charges.
+### How do you determine a neutral ionic formula?
+- “The ions are **[cation and charge]** and **[anion and charge]**. The lowest whole-number ratio that makes the total charge zero gives **[formula]**.”
+- Example: “One **[Na+]** balances one **[Cl−]**, so the neutral formula is **[NaCl]**.”
+- ✓ Check that the positive and negative charges cancel; ionic formulas show ratios, not separate molecules.
 
 ### How do you draw and check a Lewis structure?
 - “The ==total number of valence electrons== is **[count, adjusted for the ion charge]**.”
@@ -19,7 +18,7 @@ category: Lewis Structures and Geometry
 - ✓ For an ion, include brackets and the overall charge. For an ionic compound, show ions and a neutral simplest-ratio formula, not one covalent molecule.
 
 ### How do you choose among possible Lewis or resonance structures?
-- “The formal charge on **[atom]** is \(FC = V - N - \frac{B}{2} = \text{[value]}\).”
+- “The formal charge on **[atom]** is valence electrons minus nonbonding electrons minus half the bonding electrons, which equals **[value]**.”
 - “This structure is **[more/less]** favorable because it **[minimizes formal charges / places negative charge on a more electronegative atom]**.”
 - “The resonance forms have the ==same atom arrangement==; only the electron placement changes.”
 - ✓ Compare valid structures using formal charge and the stated chemical context; do not move atoms when drawing resonance forms.

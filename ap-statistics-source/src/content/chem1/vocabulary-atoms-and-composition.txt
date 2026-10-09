@@ -6,46 +6,56 @@ category: Atoms and Composition
 
 ### Atomic number
 - Definition: The number of ==protons in the nucleus==; it identifies the element.
-- Relation: \(Z=\#p^+\); neutral atom: \(\#e^-=Z\).
+- Relation: #protons = atomic number
+- Relation: In a neutral atom, #e− = #protons.
 - Visual: atom
 
 ### Mass number
 - Definition: The total number of ==protons and neutrons== in one isotope.
-- Relation: \(A=\#p^++\#n^0\); \(\#n^0=A-Z\).
-- Visual: atom
+- Relation: \(\#\mathrm{neutrons}=\mathrm{mass\ number}-\mathrm{atomic\ number}\).
+- Visual: mass-number
+
 ### Isotope
-- Definition: Atoms with the same \(Z\) but ==different numbers of neutrons==.
-- Relation: Same element \(\Rightarrow\) same proton count; isotope mass can differ.
+- Definition: Atoms of one element with the same number of protons but ==different numbers of neutrons==.
+- Example: Hydrogen-1, hydrogen-2, and hydrogen-3 each have one proton; they have zero, one, and two neutrons.
 - Visual: isotopes
 
 ### Average atomic mass
 - Definition: The ==weighted average== of an element's isotope masses.
-- Relation: \(\bar m=\sum_i f_i m_i\); \(\sum_i f_i=1\) (fractional abundances).
+- Relation: Add each \(\mathrm{isotope\ mass}\times\mathrm{fractional\ abundance}\); all fractional abundances add to 1.
+- Example: If an isotope has 75% abundance, use 0.75 as its fractional abundance.
 - Visual: weighted-mass
 
 ### Mass spectrum
-- Definition: Ion signal plotted against ==mass-to-charge ratio==, \(m/z\).
-- Relation: Peak position \(\to\) isotope mass; relative peak height \(\to\) relative abundance.
-- Visual: spectrum
+- Definition: A graph of ions by ==mass-to-charge ratio== and relative abundance.
+- Relation: Peak position identifies an isotope's mass; relative peak height represents relative abundance.
+- Visual: mass-spectrum
+
 ### Mole
-- Definition: An amount containing ==Avogadro's number== of specified particles.
-- Relation: \(1\ \mathrm{mol}=6.022\times10^{23}\) particles; name them: atoms, molecules, ions, or formula units.
+- Definition: An amount containing ==6.022\times10^{23} specified particles==.
+- Example: Name the particles being counted: atoms, molecules, ions, or formula units.
 - Visual: particles
+
 ### Molar mass
 - Definition: The ==mass of one mole== of a substance.
-- Relation: Unit: \(\mathrm{g\,mol^{-1}}\); sum atomic masses using every formula subscript.
+- Relation: Add the atomic masses using every subscript in the chemical formula; the unit is grams per mole.
+- Example: One mole of \(\mathrm{H_2O}\) contains two moles of hydrogen atoms and one mole of oxygen atoms.
 - Visual: particles
+
 ### Percent composition
 - Definition: The ==mass percentage== of an element in a sample.
-- Relation: \(\%X=\frac{m_X}{m_{\mathrm{sample}}}\times100\%\).
-- Key idea: A compound has fixed composition; a mixture can vary.
+- Relation: \(\%\,\mathrm{element}=\frac{\mathrm{mass\ of\ element}}{\mathrm{mass\ of\ sample}}\times100\%\).
+- Example: Water always has the same mass percentages of hydrogen and oxygen; salt water can vary.
 - Visual: composition
+
 ### Empirical formula
-- Definition: The ==lowest whole-number ratio== of atoms or ions.
-- Relation: For an ionic formula, total charge \(=0\).
+- Definition: The ==lowest whole-number ratio== of atoms or ions in a substance.
+- Relation: An ionic formula has total charge \(=0\).
+- Example: The empirical formula for \(\mathrm{H_2O_2}\) is \(\mathrm{HO}\).
 - Visual: ratio
 
 ### Molecular formula
 - Definition: The ==actual number of each atom== in one molecule.
-- Relation: Molecular formula \(=n\times\) empirical formula, where \(n\) is a whole number.
+- Relation: Its subscripts are a whole-number multiple of the empirical-formula subscripts.
+- Example: \(\mathrm{H_2O_2}\) has molecular formula \(\mathrm{H_2O_2}\) and empirical formula \(\mathrm{HO}\).
 - Visual: ratio

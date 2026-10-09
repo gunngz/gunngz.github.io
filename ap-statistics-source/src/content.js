@@ -23,8 +23,9 @@ const categoryOrder = {
     template: ["Study Questions and Variables", "Sampling and Surveys", "Experimental Design", "Inference and Ethics"],
   },
   chem1: {
-    vocabulary: ["Atoms and Composition", "Electron Configurations and PES", "Periodic Trends", "Bonding and Molecular Structure", "Polarity and Intermolecular Forces", "Chemical Reactions"],
-    template: ["Chemistry Explanations", "Atoms and Quantitative Data", "Electron Configurations and PES", "Periodic Trends", "Lewis Structures and Geometry", "Polarity and Intermolecular Forces", "Chemical Reaction FRQs"],
+    vocabulary: ["Atoms and Composition", "Electron Configurations and Photoelectron Spectroscopy", "Periodic Trends", "Bonding and Molecular Structure", "Polarity", "Intermolecular Forces", "Chemical Reactions"],
+    drawing: ["Representations and Drawings"],
+    template: ["Chemistry Explanations", "Atoms and Quantitative Data", "Electron Configurations and Photoelectron Spectroscopy", "Periodic Trends", "Lewis Structures and Geometry", "Polarity and Intermolecular Forces", "Chemical Reaction Free-Response Questions"],
   },
 };
 
@@ -62,10 +63,10 @@ function parseChemVocabulary(source, cardId) {
     }
 
     let kind = "idea";
-    const label = value.match(/^(Definition|Relation|Key idea|Example|Caution):\s*/i);
+    const label = value.match(/^(Definition|Relation|Key idea|Example|Caution|Step|Check):\s*/i);
     if (label) {
       const normalized = label[1].toLowerCase();
-      kind = normalized === "key idea" ? "idea" : normalized;
+      kind = normalized === "key idea" ? "idea" : normalized === "check" ? "check" : normalized;
       value = value.slice(label[0].length);
     } else if (items.length === 0) {
       kind = "definition";
@@ -112,7 +113,7 @@ function parseTextFile(path, source) {
       answer,
       searchText: (title + " " + answer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
-    if (unit === "chem1" && kind === "vocabulary") {
+    if (unit === "chem1" && (kind === "vocabulary" || kind === "drawing")) {
       card.chem = parseChemVocabulary(answer, card.id);
       card.searchText = (title + " " + card.chem.items.map((item) => item.value).join(" "))
         .replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase();

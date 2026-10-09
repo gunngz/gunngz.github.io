@@ -65,15 +65,49 @@ function ChemItemIcon({ kind, status }) {
 }
 
 function ChemVocabularyCard({ card, blurredIds, onToggleBlur, query = "" }) {
+  const definition = card.chem.items.find((item) => item.kind === "definition");
+  const diagramAnnotations = card.chem.visual === "atom"
+    ? card.chem.items.filter((item) => item.kind === "relation").map((item) => item.value)
+    : [];
+  const tooltipId = "chem-definition-" + card.id.replaceAll(":", "-");
+  const isVocabulary = card.kind === "vocabulary";
   return (
     <article className="study-card chemistry-vocab-card">
-      <div className="question-side">
-        <h3><RichText value={card.title} inline query={query} /></h3>
+      <div className={"question-side chem-question-side" + (isVocabulary && definition ? " has-definition-tooltip" : "")}>
+        <div className="chem-term-anchor">
+          <h3
+            className={isVocabulary && definition ? "chem-term-trigger" : undefined}
+            tabIndex={isVocabulary && definition ? 0 : undefined}
+            aria-describedby={isVocabulary && definition ? tooltipId : undefined}
+          >
+            <RichText value={card.title} inline query={query} />
+          </h3>
+          {isVocabulary && definition ? (
+            <div className="chem-definition-tooltip" id={tooltipId} role="tooltip">
+              <span className="chem-item-icon"><ChemItemIcon kind="definition" /></span>
+              <RichText
+                value={definition.value}
+                query={query}
+                className={"chem-item-copy" + (blurredIds.has(definition.blurId) ? " chem-definition-blurred" : "")}
+              />
+              <button
+                className="icon-button chem-definition-blur"
+                type="button"
+                aria-pressed={blurredIds.has(definition.blurId)}
+                aria-label={blurredIds.has(definition.blurId) ? "Reveal definition" : "Blur definition"}
+                title={blurredIds.has(definition.blurId) ? "Reveal definition" : "Blur definition"}
+                onClick={() => onToggleBlur(definition.blurId)}
+              >
+                <EyeIcon crossed={blurredIds.has(definition.blurId)} />
+              </button>
+            </div>
+          ) : null}
+        </div>
       </div>
       <div className="answer-side chem-answer-side">
         <div className="chem-card-layout">
           <div className="chem-items">
-            {card.chem.items.map((item) => {
+            {card.chem.items.filter((item) => item.kind !== "definition" && !(card.chem.visual === "atom" && item.kind === "relation")).map((item) => {
               const isDefinition = item.kind === "definition";
               const blurred = isDefinition && blurredIds.has(item.blurId);
               return (
@@ -96,7 +130,7 @@ function ChemVocabularyCard({ card, blurredIds, onToggleBlur, query = "" }) {
               );
             })}
           </div>
-          {card.chem.visual ? <ChemIllustration type={card.chem.visual} animated={card.chem.animation === "aufbau"} /> : null}
+          {card.chem.visual ? <ChemIllustration type={card.chem.visual} animated={card.chem.animation === "aufbau"} annotations={diagramAnnotations} /> : null}
         </div>
       </div>
     </article>
@@ -104,14 +138,14 @@ function ChemVocabularyCard({ card, blurredIds, onToggleBlur, query = "" }) {
 }
 
 function blurIdsForCard(card) {
-  if (card.unit === "chem1" && card.kind === "vocabulary" && card.chem) {
+  if (card.unit === "chem1" && (card.kind === "vocabulary" || card.kind === "drawing") && card.chem) {
     return card.chem.items.filter((item) => item.kind === "definition").map((item) => item.blurId);
   }
   return [card.id];
 }
 
 function StudyCard({ card, blurredIds, onToggleBlur, query = "" }) {
-  if (card.unit === "chem1" && card.kind === "vocabulary" && card.chem) {
+  if (card.unit === "chem1" && (card.kind === "vocabulary" || card.kind === "drawing") && card.chem) {
     return <ChemVocabularyCard card={card} blurredIds={blurredIds} onToggleBlur={onToggleBlur} query={query} />;
   }
   const blurred = blurredIds.has(card.id);
@@ -160,7 +194,8 @@ function App() {
   const currentCards = query.trim() ? searchResults : visibleCards;
   const visibleBlurIds = currentCards.flatMap(blurIdsForCard);
   const allVisibleBlurred = visibleBlurIds.length > 0 && visibleBlurIds.every((id) => blurredIds.has(id));
-  const bulkBlurTarget = unit === "chem1" && kind === "vocabulary" && !query.trim() ? "definitions" : "answers";
+  const definitionsOnly = currentCards.length > 0 && currentCards.every((card) => card.unit === "chem1" && card.kind === "vocabulary" && card.chem);
+  const bulkBlurTarget = definitionsOnly ? "definitions" : "answers";
   const bulkBlurLabel = (allVisibleBlurred ? "Reveal all " : "Blur all ") + bulkBlurTarget;
 
   useEffect(() => {
@@ -224,6 +259,7 @@ function App() {
 
   function selectUnit(nextUnit) {
     setUnit(nextUnit);
+    if (nextUnit !== "chem1" && kind === "drawing") setKind("vocabulary");
     setDay("all");
     setCategory("");
     setQuery("");
@@ -269,6 +305,7 @@ function App() {
               </button>
               <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
               <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
+              {unit === "chem1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "drawing"} onClick={() => selectKind("drawing")}>Drawings</button> : null}
             </div>
             {unit === "u1p2" ? (
               <div className="day-nav-scroll" aria-label="Study day">
@@ -294,7 +331,7 @@ function App() {
               {query ? <button className="search-clear" type="button" aria-label="Clear search" title="Clear search" onClick={() => setQuery("")}>×</button> : null}
             </label>
           </nav>
-          {!isSearching ? (
+          {!isSearching && pages.length > 1 ? (
             <nav className="category-nav" aria-label="Study categories">
               {pages.map((page) => (
                 <button
@@ -345,7 +382,7 @@ function App() {
               <div className="section-heading-row">
                 <h2 className="section-heading">Search results</h2>
                 <span className="result-count" role="status" aria-live="polite">{searchResults.length}</span>
-                {searchResults.length ? (
+                {visibleBlurIds.length ? (
                   <button className="icon-button bulk-blur-button" type="button" aria-label={bulkBlurLabel} title={bulkBlurLabel} onClick={toggleAllAnswers}>
                     <EyeIcon crossed={allVisibleBlurred} />
                   </button>
@@ -361,7 +398,7 @@ function App() {
             <section aria-label={activeCategory}>
               <div className="section-heading-row">
                 <h2 className="section-heading">{activeCategory}</h2>
-                {visibleCards.length ? (
+                {visibleBlurIds.length ? (
                   <button className="icon-button bulk-blur-button" type="button" aria-label={bulkBlurLabel} title={bulkBlurLabel} onClick={toggleAllAnswers}>
                     <EyeIcon crossed={allVisibleBlurred} />
                   </button>
