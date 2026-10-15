@@ -10,7 +10,6 @@ const rawContent = import.meta.glob("./content/**/*.txt", {
 export const unitInfo = {
   u1p1: { title: "Unit 1 Part 1", heading: "AP Statistics — Unit 1", order: 1 },
   u1p2: { title: "Unit 1 Part 2", heading: "AP Statistics — Unit 1", order: 2 },
-  chem1: { title: "AP Chemistry · Unit 1", heading: "AP Chemistry — Unit 1", order: 3 },
 };
 
 const categoryOrder = {
@@ -21,11 +20,6 @@ const categoryOrder = {
   u1p2: {
     vocabulary: ["Study Basics", "Sampling Methods", "Experimental Design", "Inference and Ethics"],
     template: ["Study Questions and Variables", "Sampling and Surveys", "Experimental Design", "Inference and Ethics"],
-  },
-  chem1: {
-    vocabulary: ["Atoms and Composition", "Electron Configurations and Photoelectron Spectroscopy", "Periodic Trends", "Bonding and Molecular Structure", "Polarity", "Intermolecular Forces", "Chemical Reactions"],
-    drawing: ["Representations and Drawings"],
-    template: ["Chemistry Explanations", "Atoms and Quantitative Data", "Electron Configurations and Photoelectron Spectroscopy", "Periodic Trends", "Lewis Structures and Geometry", "Polarity and Intermolecular Forces", "Chemical Reaction Free-Response Questions"],
   },
 };
 
@@ -43,50 +37,6 @@ function readFrontmatter(source) {
 
 function slug(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
-
-function parseChemVocabulary(source, cardId) {
-  const items = [];
-  let visual = "";
-  let animation = "";
-  let definitionIndex = 0;
-
-  for (const line of source.split(/\r?\n/)) {
-    const point = line.match(/^\s*[-*]\s+(.*)$/);
-    if (!point) continue;
-    let value = point[1].trim();
-    const directive = value.match(/^(Visual|Animation):\s*(.*)$/i);
-    if (directive) {
-      if (directive[1].toLowerCase() === "visual") visual = directive[2].trim().toLowerCase();
-      else animation = directive[2].trim().toLowerCase();
-      continue;
-    }
-
-    let kind = "idea";
-    const label = value.match(/^(Definition|Relation|Key idea|Example|Caution|Step|Check):\s*/i);
-    if (label) {
-      const normalized = label[1].toLowerCase();
-      kind = normalized === "key idea" ? "idea" : normalized === "check" ? "check" : normalized;
-      value = value.slice(label[0].length);
-    } else if (items.length === 0) {
-      kind = "definition";
-    }
-
-    let status = "";
-    if (/^✓\s*/.test(value)) {
-      status = "check";
-      value = value.replace(/^✓\s*/, "");
-    } else if (/^!\s*/.test(value)) {
-      status = "caution";
-      value = value.replace(/^!\s*/, "");
-    }
-    const index = items.length;
-    const item = { id: cardId + ":chem-item:" + index, kind, status, value };
-    if (kind === "definition") item.blurId = cardId + ":definition:" + definitionIndex++;
-    items.push(item);
-  }
-
-  return { items, visual, animation };
 }
 
 function parseTextFile(path, source) {
@@ -113,11 +63,6 @@ function parseTextFile(path, source) {
       answer,
       searchText: (title + " " + answer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
-    if (unit === "chem1" && (kind === "vocabulary" || kind === "drawing")) {
-      card.chem = parseChemVocabulary(answer, card.id);
-      card.searchText = (title + " " + card.chem.items.map((item) => item.value).join(" "))
-        .replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase();
-    }
     return card;
   });
 }
