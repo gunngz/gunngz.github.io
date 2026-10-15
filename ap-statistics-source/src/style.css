@@ -136,6 +136,7 @@ button { color: inherit; }
 .nav-button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink); }
 .mode-button { color: var(--ink); }
 .mode-button[aria-pressed="true"] { background: var(--surface); }
+.nav-section-label { padding: 6px 12px; color: var(--ink); font-size: .91rem; font-weight: 500; white-space: nowrap; }
 .category-nav {
   display: flex;
   align-items: center;
@@ -280,6 +281,10 @@ button { color: inherit; }
   background: var(--surface);
   box-shadow: var(--shadow);
 }
+.study-card--chemistry { display: block; }
+.study-card--chemistry .question-side { padding: 15px 18px 2px; }
+.study-card--chemistry .answer-side { border-left: 0; padding: 5px 51px 15px 18px; }
+.study-card--chemistry .card-blur-button { top: 10px; }
 .question-side {
   align-self: start;
   min-width: 0;
@@ -438,6 +443,7 @@ mark.search-hit {
   .question-side { padding: 13px 15px 10px; }
   .question-side h3 { font-size: .98rem; }
   .answer-side { border-left: 0; border-top: 1px solid var(--line); padding: 15px 48px 14px 15px; }
+  .study-card--chemistry .answer-side { border-top: 0; padding: 5px 48px 14px 15px; }
   .sidebar { top: 178px; }
   .answer-content table { font-size: .86rem; }
 }

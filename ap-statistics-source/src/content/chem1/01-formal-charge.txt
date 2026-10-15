@@ -1,0 +1,8 @@
+---
+unit: chem1
+kind: template
+category: Templates
+---
+
+### Formal charge
+Formal charge, fill octet, negative put ont negative (high EN)

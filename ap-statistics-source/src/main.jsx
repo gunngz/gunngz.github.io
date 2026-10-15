@@ -3,10 +3,8 @@ import { createRoot } from "react-dom/client";
 import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./content.js";
 import "./style.css";
 
-const availableUnits = ["u1p1", "u1p2"];
-if (/^\/ap-chemistry(?:\/|$)/.test(window.location.pathname)) {
-  window.location.replace("/ap-statistics/");
-}
+const isChemistry = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname);
+const availableUnits = isChemistry ? ["chem1", "chem2"] : ["u1p1", "u1p2"];
 
 function EyeIcon({ crossed = false }) {
   return (
@@ -49,10 +47,10 @@ function blurIdsForCard(card) {
   return [card.id];
 }
 
-function StudyCard({ card, blurredIds, onToggleBlur, query = "" }) {
+function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false }) {
   const blurred = blurredIds.has(card.id);
   return (
-    <article className={"study-card" + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3><RichText value={card.title} inline query={query} /></h3>
       </div>
@@ -75,11 +73,11 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "" }) {
 
 function App() {
   const [unit, setUnit] = useState(availableUnits[0]);
-  const [kind, setKind] = useState("vocabulary");
+  const [kind, setKind] = useState(isChemistry ? "template" : "vocabulary");
   const [day, setDay] = useState("all");
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
-  const [sidebarOpen, setSidebarOpen] = useState(availableUnits.length > 1);
+  const [sidebarOpen, setSidebarOpen] = useState(!isChemistry && availableUnits.length > 1);
   const [blurredIds, setBlurredIds] = useState(() => new Set());
   const [sidebarDismissed, setSidebarDismissed] = useState(false);
   const contentRef = useRef(null);
@@ -163,7 +161,7 @@ function App() {
     setCategory("");
     setQuery("");
     setSidebarDismissed(false);
-    if (window.matchMedia("(max-width: 760px)").matches) setSidebarOpen(false);
+    if (window.matchMedia("(max-width: 1486px)").matches) setSidebarOpen(false);
   }
 
   function selectKind(nextKind) {
@@ -202,8 +200,14 @@ function App() {
               >
                 <MenuIcon open={sidebarOpen} />
               </button>
-              <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
-              <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
+              {isChemistry ? (
+                <span className="nav-section-label">Answer templates</span>
+              ) : (
+                <>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
+                </>
+              )}
             </div>
             {unit === "u1p2" ? (
               <div className="day-nav-scroll" aria-label="Study day">
@@ -280,7 +284,7 @@ function App() {
               <div className="section-heading-row">
                 <h2 className="section-heading">Search results</h2>
                 <span className="result-count" role="status" aria-live="polite">{searchResults.length}</span>
-                {visibleBlurIds.length ? (
+                {visibleBlurIds.length && !isChemistry ? (
                   <button className="icon-button bulk-blur-button" type="button" aria-label={bulkBlurLabel} title={bulkBlurLabel} onClick={toggleAllAnswers}>
                     <EyeIcon crossed={allVisibleBlurred} />
                   </button>
@@ -288,22 +292,24 @@ function App() {
               </div>
               {searchResults.length ? (
                 <div className="card-list">
-                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} query={query} />)}
+                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} query={query} isChemistry={isChemistry} />)}
                 </div>
               ) : <p className="empty-state">No results.</p>}
             </section>
           ) : (
             <section aria-label={activeCategory}>
-              <div className="section-heading-row">
-                <h2 className="section-heading">{activeCategory}</h2>
-                {visibleBlurIds.length ? (
-                  <button className="icon-button bulk-blur-button" type="button" aria-label={bulkBlurLabel} title={bulkBlurLabel} onClick={toggleAllAnswers}>
-                    <EyeIcon crossed={allVisibleBlurred} />
-                  </button>
-                ) : null}
-              </div>
+              {!isChemistry ? (
+                <div className="section-heading-row">
+                  <h2 className="section-heading">{activeCategory}</h2>
+                  {visibleBlurIds.length ? (
+                    <button className="icon-button bulk-blur-button" type="button" aria-label={bulkBlurLabel} title={bulkBlurLabel} onClick={toggleAllAnswers}>
+                      <EyeIcon crossed={allVisibleBlurred} />
+                    </button>
+                  ) : null}
+                </div>
+              ) : null}
               <div className="card-list">
-                {visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} />)}
+                {visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />)}
               </div>
             </section>
           )}

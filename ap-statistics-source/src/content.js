@@ -10,6 +10,8 @@ const rawContent = import.meta.glob("./content/**/*.txt", {
 export const unitInfo = {
   u1p1: { title: "Unit 1 Part 1", heading: "AP Statistics — Unit 1", order: 1 },
   u1p2: { title: "Unit 1 Part 2", heading: "AP Statistics — Unit 1", order: 2 },
+  chem1: { title: "Unit 1", heading: "AP Chemistry — Unit 1", order: 1 },
+  chem2: { title: "Unit 2", heading: "AP Chemistry — Unit 2", order: 2 },
 };
 
 const categoryOrder = {
@@ -20,6 +22,12 @@ const categoryOrder = {
   u1p2: {
     vocabulary: ["Study Basics", "Sampling Methods", "Experimental Design", "Inference and Ethics"],
     template: ["Study Questions and Variables", "Sampling and Surveys", "Experimental Design", "Inference and Ethics"],
+  },
+  chem1: {
+    template: ["Templates"],
+  },
+  chem2: {
+    template: ["Templates"],
   },
 };
 

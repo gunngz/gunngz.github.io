@@ -1,0 +1,9 @@
+---
+unit: chem1
+kind: template
+category: Templates
+---
+
+### Involving electrons., attraction, PES
+Protons, Nucleus charge -> Distance, Shielding -> Coulombic
+Full charge, Partial charge -> Coulombic

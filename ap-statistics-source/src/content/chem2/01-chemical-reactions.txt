@@ -1,0 +1,12 @@
+---
+unit: chem2
+kind: template
+category: Templates
+---
+
+### involving chemical rxn
+claim, type of particle (acid?) or rxn (redox?)
+Particle: What are they(NaOH?) reacts with ???
+Reasoning: Producing what?
+Evidence: This is supported by ... observed
+Distinction: Unlike xxx, this doesn't xxx
