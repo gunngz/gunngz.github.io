@@ -27,4 +27,4 @@ Statistics and Chemistry have separate routes and content. Chemistry opens direc
     npm install
     npm run dev
 
-Create a production build with `npm run build`. The personal site publishes Statistics at `/ap-statistics/` and Chemistry at `/ap-chemistry/`. To add material, add a `.txt` file here, sync the source into `ap-statistics-source/`, and push; the Pages workflow rebuilds both guides without React-component edits for text-only additions.
+Create a production build with `npm run build`. The personal site publishes Statistics at `/ap-statistics/` and Chemistry at `/ap-chemistry/`. To add material, add a `.txt` file here, sync the source into `study-material-source/`, and push; the Pages workflow rebuilds both guides without React-component edits for text-only additions.
