@@ -5,4 +5,8 @@ category: Templates
 ---
 
 ### Formal charge
-Formal charge, fill octet, negative put ont negative (high EN)
+| Step | What to include |
+| --- | --- |
+| Formal charge | Calculate the formal charges. |
+| Octet | Complete the octets. |
+| Negative formal charge | Place it on the more electronegative atom. |

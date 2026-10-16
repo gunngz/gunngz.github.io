@@ -4,6 +4,9 @@ kind: template
 category: Templates
 ---
 
-### Involving electrons., attraction, PES
-Protons, Nucleus charge -> Distance, Shielding -> Coulombic
-Full charge, Partial charge -> Coulombic
+### Electrons, attraction, and photoelectron spectroscopy
+| Focus | Connection |
+| --- | --- |
+| Protons and nuclear charge | Coulombic attraction |
+| Distance and shielding | Coulombic attraction |
+| Full charge and partial charge | Coulombic attraction |

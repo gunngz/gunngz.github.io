@@ -4,5 +4,9 @@ kind: template
 category: Templates
 ---
 
-### Involving evaporation
-What (structure, reasoning) causes major IMF -> IMF.
+### Evaporation and intermolecular forces
+| Focus | What to include |
+| --- | --- |
+| Structure | Identify the structural feature. |
+| Reasoning | Explain how it determines the major intermolecular force. |
+| Evaporation | Connect the major intermolecular force to evaporation. |
