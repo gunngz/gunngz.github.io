@@ -7,7 +7,8 @@ category: Templates
 ### Chemical reactions
 | Step | What to include |
 | --- | --- |
-| Claim | State the claim and identify the particle type (e.g., acid) or reaction type (e.g., redox). |
+| Claim | State the claim. |
+| Type | Identify the reaction type (e.g., acid–base or redox). |
 | Particle | What are the particles? (e.g., \(\mathrm{NaOH}\))<br>For example: \(\mathrm{NaOH}\) reacts with \(\mathrm{HCl}\). |
 | Reasoning | State what the reaction produces. |
 | Evidence | Support the claim with the observed evidence. |
