@@ -1,0 +1,52 @@
+---
+unit: chem2
+kind: lab-review
+category: Quiz Response
+---
+
+### Lab-quiz response patterns
+| Prompt type | Reasoning sequence |
+| --- | --- |
+| Chemical reaction | ==acid structure== → ==ionizable \(\mathrm{H^+}\)== → ==\(\mathrm{OH^-}\)== → ==water== → ==mole ratio== |
+| Calculation | ==given measurements== → ==formula== → ==balanced-equation mole ratio== → ==result with units== |
+| Experimental error | ==error== → ==affected measurement== → ==calculated moles== → ==final direction== |
+| Identify the acid | ==claim== → ==experimental and accepted molar mass== → ==structure and ionizable protons== → ==observed properties== |
+| Evaluate reliability | ==precision and standard deviation== → ==accuracy and percent error== → ==possible error== → ==specific improvement== |
+
+**Chemical-reaction template**
+
+> The acid donates ______ ionizable \(\mathrm{H^+}\) ions per molecule. These react with \(\mathrm{OH^-}\) from \(\mathrm{NaOH}\) to form water. The balanced equation gives a ______ mole ratio, so ______.
+
+**Calculation template**
+
+> We calculated ______ using ______. Then we converted the moles of ______ to the moles of ______ using the ______ mole ratio. Finally, we calculated ______ by dividing ______ by ______.
+
+**Error template**
+
+> Because of ______, the measured ______ would be too high or too low. This would cause the calculated moles of ______ to be overestimated or underestimated. Therefore, the calculated molar mass would be too high or too low.
+
+**Identification template**
+
+> The unknown acid is most likely ______ because its experimental molar mass of ______ is close to the accepted value of ______. Its structure contains ______ ionizable \(\mathrm{H^+}\) ions, making it ______. Its physical properties also match our observations.
+
+**Reliability template**
+
+> Our results showed ______ precision, indicated by a standard deviation of ______. The experimental mean differed from the accepted value by ______%, indicating ______ accuracy under our proposed identification. Possible errors include ______. We could improve the experiment by ______.
+
+### Final check
+| Check | Essential idea |
+| --- | --- |
+| Acid | Donates \(\mathrm{H^+}\) |
+| Base | Accepts \(\mathrm{H^+}\) |
+| Neutralization | \(\mathrm{H^+ + OH^- \rightarrow H_2O}\) |
+| Diprotic acid | Two ionizable \(\mathrm{H^+}\) per acid formula unit |
+| \(\mathrm{KHP}:\mathrm{NaOH}\) mole ratio | 1:1 |
+| Unknown acid:\(\mathrm{NaOH}\) mole ratio | 1:2 |
+| Standardize \(\mathrm{NaOH}\) | Determine its actual molarity |
+| Endpoint vs. equivalence point | Indicator change vs. stoichiometric reaction point |
+| Faint-pink endpoint | Avoid excess \(\mathrm{NaOH}\) |
+| Oxalic acid dihydrate evidence | Molar mass, structure, and physical properties |
+| Overshoot endpoint | Calculated molar mass too low |
+| Lose acid during transfer | Calculated molar mass too high |
+
+**Must mention:** ==structure → ionizable protons → mole ratio== · ==acid + base → salt + water== · ==volume → moles → molar mass== · ==error → measurement → result== · ==evidence → claim → reasoning==

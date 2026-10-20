@@ -157,6 +157,7 @@ function App() {
 
   function selectUnit(nextUnit) {
     setUnit(nextUnit);
+    if (isChemistry) setKind("template");
     setDay("all");
     setCategory("");
     setQuery("");
@@ -201,7 +202,12 @@ function App() {
                 <MenuIcon open={sidebarOpen} />
               </button>
               {isChemistry ? (
-                <span className="nav-section-label">Answer templates</span>
+                unit === "chem2" ? (
+                  <>
+                    <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
+                    <button className="nav-button mode-button" type="button" aria-pressed={kind === "lab-review"} onClick={() => selectKind("lab-review")}>Lab Quiz Review</button>
+                  </>
+                ) : <span className="nav-section-label">Answer templates</span>
               ) : (
                 <>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>

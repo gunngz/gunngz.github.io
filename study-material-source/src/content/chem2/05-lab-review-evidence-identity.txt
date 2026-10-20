@@ -1,0 +1,93 @@
+---
+unit: chem2
+kind: lab-review
+category: Evidence & Identity
+---
+
+### Evidence, precision, and accuracy
+Use measured data to support the identification; do not invent individual trial values.
+
+| Measurement | Use |
+| --- | --- |
+| Acid mass | Numerator in the molar-mass calculation |
+| Initial and final buret readings | Determine delivered \(\mathrm{NaOH}\) volume |
+| Standardized \(\mathrm{NaOH}\) molarity | Convert volume to moles |
+| Calculated molar mass | Compare with possible acids |
+
+\[
+V_{\mathrm{used}}=V_{\mathrm{final}}-V_{\mathrm{initial}}
+\]
+
+Class results:
+
+| Quantity | Mean | Standard deviation |
+| --- | ---: | ---: |
+| Acid mass | \(0.08482\ \mathrm{g}\) | \(0.02035\ \mathrm{g}\) |
+| \(\mathrm{NaOH}\) volume | \(16.6776\ \mathrm{mL}\) | \(4.4479\ \mathrm{mL}\) |
+| Molar mass | \(124.064\ \mathrm{g/mol}\) | \(7.045\ \mathrm{g/mol}\) |
+
+Precision describes how close repeated measurements are to one another; standard deviation describes their spread. Accuracy describes closeness to an accepted value; percent error measures that difference.
+
+\[
+\%\mathrm{error}
+=
+\frac{|124.064-126.06|}{126.06}\times100\%
+\approx1.58\%
+\]
+
+This accuracy comparison assumes the unknown is oxalic acid dihydrate. Repeated trials improve the reliability of the mean, but averaging does not eliminate systematic error.
+
+**Answer template**
+
+> Precision describes how closely repeated measurements agree. Our molar-mass results had a standard deviation of approximately \(7.04\ \mathrm{g/mol}\), indicating variation between trials. Accuracy describes closeness to an accepted value. Our mean was approximately \(124.06\ \mathrm{g/mol}\), compared with \(126.06\ \mathrm{g/mol}\) for oxalic acid dihydrate, giving a percent error of approximately \(1.58\%\).
+
+**Must mention:** ==raw measured masses and volumes== · ==standard deviation for precision== · ==percent error for accuracy== · ==averaging does not remove systematic error==
+
+### Identify the unknown acid
+Molar mass alone is not enough to identify a compound. Compare the experimental value with candidate molar masses, then consider whether the structure has two ionizable protons and whether its physical properties match the observations.
+
+| Candidate listed in the class materials | Molar mass |
+| --- | ---: |
+| Propanesulfonic acid | \(124.16\ \mathrm{g/mol}\) |
+| Guaiacol | \(124.14\ \mathrm{g/mol}\) |
+| Amino(imino)methanesulfonic acid | \(124.12\ \mathrm{g/mol}\) |
+| Propylphosphonic acid | \(124.08\ \mathrm{g/mol}\) |
+| Pyrazinoic acid | \(124.10\ \mathrm{g/mol}\) |
+| Oxalic acid dihydrate | \(126.06\ \mathrm{g/mol}\) |
+
+Oxalic acid has two carboxylic acid groups:
+
+\[
+\mathrm{HOOC{-}COOH}
+\]
+
+Each \(\mathrm{-COOH}\) group can donate one ionizable proton. Oxalic acid dihydrate is \(\mathrm{H_2C_2O_4\cdot2H_2O}\); the waters of crystallization do not add two more acidic protons.
+
+\[
+\mathrm{H_2C_2O_4\cdot2H_2O + 2NaOH
+\rightarrow Na_2C_2O_4 + 4H_2O}
+\]
+
+**Answer template**
+
+> The unknown acid is most likely oxalic acid dihydrate because its accepted molar mass of approximately \(126.06\ \mathrm{g/mol}\) is close to our experimental value of \(124.06\ \mathrm{g/mol}\). Its structure contains two carboxylic acid groups, each capable of donating one \(\mathrm{H^+}\), making it diprotic. It is also a white crystalline solid, consistent with our observations.
+
+**Must mention:** ==experimental molar mass== · ==accepted molar mass== · ==two \(\mathrm{-COOH}\) groups== · ==two ionizable \(\mathrm{H^+}\)== · ==diprotic== · ==white crystalline solid==
+
+### Further confirmation of acid identity
+| Method | What to compare or measure | Limitation |
+| --- | --- | --- |
+| Melting behavior | Compare the observed melting or decomposition behavior with reliable reference data. | Requires an appropriate reference and suitable equipment. |
+| pH and titration curve | Use a calibrated pH meter to record pH versus volume of \(\mathrm{NaOH}\) and estimate the acid’s \(pK_a\) values. | Results need comparison with reference data. |
+| Conductivity | Measure conductivity of the dissolved acid to investigate ionization. | Conductivity alone cannot uniquely identify an acid. |
+| Chemical reactions | Compare the unknown’s reaction behavior with expected behavior for the proposed identity. | A matching reaction is supporting evidence, not necessarily unique proof. |
+
+**Answer templates**
+
+> We could measure the melting behavior of the unknown solid and compare it with reference data for oxalic acid dihydrate. A match would provide additional evidence for our identification.
+
+> We could use a calibrated pH meter to record a titration curve and estimate the acid’s \(pK_a\) values. Comparing them with reference data would provide additional evidence about the acid’s identity.
+
+> We could measure the conductivity of the dissolved acid to investigate its ionization behavior. Conductivity alone would not uniquely identify the acid because many acids produce ions in water.
+
+**Must mention:** ==specific method== · ==measured or observed result== · ==comparison with reference data== · ==limitation of the evidence==

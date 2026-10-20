@@ -1,0 +1,75 @@
+---
+unit: chem2
+kind: lab-review
+category: Errors & Improvements
+---
+
+### Experimental error and its direction
+For a diprotic acid, with volume in liters:
+
+\[
+MM_{\mathrm{acid}}
+=
+\frac{2m_{\mathrm{acid}}}{M_{\mathrm{NaOH}}V_{\mathrm{NaOH}}}
+\]
+
+| Recorded quantity changes | Effect on calculated molar mass |
+| --- | --- |
+| Acid mass increases / decreases | Increases / decreases |
+| \(\mathrm{NaOH}\) molarity increases / decreases | Decreases / increases |
+| \(\mathrm{NaOH}\) volume increases / decreases | Decreases / increases |
+
+Judge an error by how it changes the recorded measurement compared with its true value.
+
+**Answer template**
+
+> This error would cause the measured ______ to be too high or too low. As a result, the calculated moles of ______ would be overestimated or underestimated, causing the calculated molar mass to be overestimated or underestimated.
+
+**Specific cases**
+
+| Error | Reasoning |
+| --- | --- |
+| Waiting for a deep-pink color | Excess \(\mathrm{NaOH}\) makes the recorded volume too high, so calculated molar mass is too low. |
+| Nonreactive impurity in the acid | The mass includes material that does not react, so calculated molar mass is too high. |
+| Acid reacts with \(\mathrm{NaOH}\)-reactive impurity | Reanalyze the mole ratio and reaction; the direction cannot be assumed from mass alone. |
+| \(\mathrm{NaOH}\) reacts with \(\mathrm{CO_2}\) after standardization | Its effective concentration changes; using the old molarity causes an inaccurate result, and the direction depends on the timing and calculation. |
+| Buret leaks | The recorded volume may differ from the volume delivered to the acid; do not assign high or low unless the liquid path and readings are specified. |
+
+**Must mention:** ==error== → ==affected measurement== → ==calculated moles== → ==molar-mass direction==
+
+### Human errors and incomplete transfer
+| Human error | Effect on calculated molar mass |
+| --- | --- |
+| Overshooting the endpoint | Too low |
+| Not transferring all weighed acid | Too high |
+| An initial buret-tip air bubble disappears during titration | Too low |
+| Incorrect meniscus reading | Depends on the direction of the reading error |
+| Funnel left in the buret | Depends on whether extra solution drains into the buret |
+| Incorrectly recorded acid mass | Depends on whether the recorded mass is too high or too low |
+
+If only part of the weighed acid reaches the flask, fewer acid moles are titrated, but the calculation still uses the original weighed mass.
+
+**Answer template**
+
+> If some of the weighed acid is lost during transfer, fewer moles of acid enter the flask than expected. Less \(\mathrm{NaOH}\) is required for neutralization, but the original mass is still used in the calculation. Therefore, the calculated molar mass is overestimated.
+
+**Must mention:** ==fewer acid moles enter the flask== · ==original weighed mass is still used== · ==molar mass is overestimated==
+
+### Improve the experiment
+| Improvement | Error it helps prevent |
+| --- | --- |
+| Rinse the buret with \(\mathrm{NaOH}\) | Dilution of the titrant |
+| Read the meniscus at eye level | Parallax error |
+| Swirl the flask | Incomplete mixing |
+| Add \(\mathrm{NaOH}\) dropwise near the endpoint | Overshooting |
+| Use a white background | Difficulty seeing the color change |
+| Transfer all of the acid | Sample loss |
+| Dissolve the acid completely | Incomplete reaction |
+| Remove bubbles from the buret tip | Incorrect delivered volume |
+| Repeat trials | Reduce random uncertainty and improve the mean’s reliability |
+
+**Answer template**
+
+> We could improve the experiment by ______. This would prevent ______ and improve the accuracy or precision of the result.
+
+**Must mention:** ==specific procedure== · ==specific error prevented== · ==effect on accuracy or precision==

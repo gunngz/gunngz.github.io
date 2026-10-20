@@ -1,0 +1,47 @@
+---
+unit: chem2
+kind: lab-review
+category: NaOH Standardization
+---
+
+### Standardizing \(\mathrm{NaOH}\) with \(\mathrm{KHP}\)
+The exact molarity of the \(\mathrm{NaOH}\) solution is not known at first. \(\mathrm{KHP}\) is used as a primary standard because it has a known molar mass, is stable, and can be accurately weighed. Its molar mass is \(204.22\ \mathrm{g/mol}\). \(\mathrm{KHP}\) is monoprotic, so it reacts with \(\mathrm{NaOH}\) in a 1:1 mole ratio.
+
+| Step | Action |
+| --- | --- |
+| 1 | Rinse the buret with deionized water, then rinse it with \(\mathrm{NaOH}\) to prevent dilution. |
+| 2 | Fill the buret with \(\mathrm{NaOH}\). |
+| 3 | Accurately weigh \(\mathrm{KHP}\) and dissolve it in water. |
+| 4 | Add phenolphthalein and titrate while swirling. |
+| 5 | Stop at a faint-pink endpoint and record the buret readings. |
+| 6 | Repeat trials. |
+
+**Answer template**
+
+> We accurately measured the mass of \(\mathrm{KHP}\) and dissolved it in distilled water. After adding phenolphthalein, we titrated the solution with \(\mathrm{NaOH}\) until a faint-pink endpoint appeared. Because \(\mathrm{KHP}\) is monoprotic and reacts in a 1:1 mole ratio with \(\mathrm{NaOH}\), its mass and the volume of \(\mathrm{NaOH}\) delivered allow us to calculate the \(\mathrm{NaOH}\) molarity.
+
+**Must mention:** ==known molar mass== · ==stable primary standard== · ==monoprotic== · ==1:1 mole ratio== · ==calculate \(\mathrm{NaOH}\) molarity==
+
+### \(\mathrm{NaOH}\) standardization calculation
+Example values only; these are not the class’s reported \(\mathrm{NaOH}\) concentration:
+
+\[
+m_{\mathrm{KHP}}=0.347\ \mathrm{g}
+\qquad
+V_{\mathrm{NaOH}}=20.80\ \mathrm{mL}
+\]
+
+\[
+M_{\mathrm{NaOH}}
+=
+\frac{0.347\ \mathrm{g\ KHP}}{204.22\ \mathrm{g/mol\ KHP}}
+\times
+\frac{1\ \mathrm{mol\ NaOH}}{1\ \mathrm{mol\ KHP}}
+\times
+\frac{1\ \mathrm{L}}{0.02080\ \mathrm{L\ NaOH}}
+=0.0817\ \mathrm{M}
+\]
+
+Use the measured \(\mathrm{KHP}\) mass, its molar mass, the 1:1 mole ratio, and the delivered \(\mathrm{NaOH}\) volume in liters.
+
+**Must mention:** ==convert \(\mathrm{KHP}\) mass to moles== · ==apply the 1:1 ratio== · ==convert volume to liters== · ==molarity equals moles per liter==

@@ -1,0 +1,72 @@
+---
+unit: chem2
+kind: lab-review
+category: Unknown Acid
+---
+
+### Titrating the unknown acid
+Measure the mass of the unknown acid, dissolve it in water, add phenolphthalein, and titrate with standardized \(\mathrm{NaOH}\) to a faint-pink endpoint. Record the initial and final buret readings, calculate the delivered volume, and repeat trials.
+
+In the class procedure, samples around \(0.08\)–\(0.10\ \mathrm{g}\) worked better than larger trial masses because a larger acid sample requires more \(\mathrm{NaOH}\).
+
+**Answer template**
+
+> We measured the mass of the unknown acid and dissolved it in water. After adding phenolphthalein, we titrated the solution with standardized \(\mathrm{NaOH}\) until a faint-pink endpoint appeared. We recorded the initial and final buret readings to determine the volume of \(\mathrm{NaOH}\) used and repeated the experiment to obtain reliable data.
+
+**Must mention:** ==measured acid mass== · ==standardized \(\mathrm{NaOH}\)== · ==phenolphthalein== · ==faint-pink endpoint== · ==initial and final buret readings== · ==repeated trials==
+
+### Water dilution and particle changes
+Adding distilled water lowers the acid concentration but does not change the number of moles of acid in the flask. If no acid is lost and the water adds no reacting substance, the same number of moles of \(\mathrm{NaOH}\) is needed for complete neutralization.
+
+| Stage | Main particles or change |
+| --- | --- |
+| Before adding base | Unknown acid in water; no \(\mathrm{Na^+}\) has been added by the titrant. |
+| Before equivalence | \(\mathrm{OH^-}\) reacts with acid protons; acid and partially neutralized particles may coexist. |
+| At equivalence | Two moles of \(\mathrm{NaOH}\) have reacted per mole of diprotic acid; primarily \(\mathrm{Na^+}\), \(\mathrm{X^{2-}}\), and water remain. |
+| After equivalence | Excess \(\mathrm{OH^-}\) is present and the solution is basic. |
+
+\[
+\mathrm{H_2X + OH^- \rightarrow HX^- + H_2O}
+\qquad
+\mathrm{HX^- + OH^- \rightarrow X^{2-} + H_2O}
+\]
+
+**Answer template**
+
+> Initially, the solution contains the diprotic acid. As \(\mathrm{NaOH}\) is added, \(\mathrm{OH^-}\) reacts with ionizable \(\mathrm{H^+}\) to form water. Before equivalence, neutralization is incomplete. At equivalence, two moles of \(\mathrm{NaOH}\) have reacted per mole of acid, leaving primarily sodium ions and conjugate-base ions in solution.
+
+**Must mention:** ==two ionizable \(\mathrm{H^+}\)== · ==\(\mathrm{OH^-}\) reacts with \(\mathrm{H^+}\)== · ==water forms== · ==stoichiometric ratio== · ==particles at equivalence==
+
+### Calculate the acid molar mass
+Use the balanced equation \(\mathrm{H_2X + 2NaOH \rightarrow Na_2X + 2H_2O}\).
+
+\[
+n_{\mathrm{NaOH}}=M_{\mathrm{NaOH}}V_{\mathrm{NaOH}}
+\qquad
+n_{\mathrm{acid}}=\frac{n_{\mathrm{NaOH}}}{2}
+\qquad
+MM_{\mathrm{acid}}=\frac{m_{\mathrm{acid}}}{n_{\mathrm{acid}}}
+\]
+
+Example values:
+
+\[
+m_{\mathrm{acid}}=0.0850\ \mathrm{g}
+\qquad
+V_{\mathrm{NaOH}}=16.70\ \mathrm{mL}
+\qquad
+M_{\mathrm{NaOH}}=0.0820\ \mathrm{M}
+\]
+
+\[
+MM_{\mathrm{acid}}
+=
+\frac{0.0850\ \mathrm{g}}{0.01670\ \mathrm{L}\times0.0820\ \mathrm{mol/L}\div2}
+\approx124\ \mathrm{g/mol}
+\]
+
+**Answer template**
+
+> We calculated the moles of \(\mathrm{NaOH}\) by multiplying its molarity by the volume used in liters. Because the unknown acid is diprotic, we divided the moles of \(\mathrm{NaOH}\) by two to determine the moles of acid. Finally, we divided the measured acid mass by its calculated moles to determine the molar mass.
+
+**Must mention:** ==volume in liters== · ==\(n=MV\)== · ==divide \(\mathrm{NaOH}\) moles by two== · ==acid mass divided by acid moles==

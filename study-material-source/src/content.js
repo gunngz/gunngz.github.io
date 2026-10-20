@@ -28,6 +28,14 @@ const categoryOrder = {
   },
   chem2: {
     template: ["Templates"],
+    "lab-review": [
+      "Titration Basics",
+      "NaOH Standardization",
+      "Unknown Acid",
+      "Evidence & Identity",
+      "Errors & Improvements",
+      "Quiz Response",
+    ],
   },
 };
 
