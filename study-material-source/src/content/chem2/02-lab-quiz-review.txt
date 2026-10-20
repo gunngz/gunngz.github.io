@@ -14,9 +14,8 @@ The lab uses two stages:
 
 **Answer template**
 
-> The purpose of this experiment was to determine the molar mass and identity of an unknown diprotic acid using acid–base titration. We first standardized \(\mathrm{NaOH}\) with \(\mathrm{KHP}\), then used the \(\mathrm{NaOH}\) molarity and volume to calculate the moles and molar mass of the unknown acid.
+> The purpose of this experiment was to determine the ==molar mass and identity== of an ==unknown diprotic acid== using ==acid–base titration==. We first completed ==standardization with \(\mathrm{KHP}\)==, then used the \(\mathrm{NaOH}\) molarity and volume to calculate the moles and molar mass of the unknown acid.
 
-**Must mention:** ==unknown acid== · ==diprotic== · ==standardization with KHP== · ==titration== · ==molar mass== · ==identification==
 
 ### Acid–base neutralization
 Under Brønsted–Lowry theory, an acid donates \(\mathrm{H^+}\), and a base accepts \(\mathrm{H^+}\). In this titration, \(\mathrm{NaOH}\) supplies \(\mathrm{OH^-}\), which reacts with acid protons to form water.
@@ -35,9 +34,8 @@ The remaining ions form a salt.
 
 **Answer template**
 
-> Neutralization occurs when an acid donates \(\mathrm{H^+}\) ions that react with \(\mathrm{OH^-}\) ions from a base to form water. The remaining ions form a salt.
+> Neutralization occurs when an ==acid donates \(\mathrm{H^+}\)== ions that react with ==\(\mathrm{OH^-}\) ions from a base== to ==form water==. The ==remaining ions form a salt==.
 
-**Must mention:** ==acid donates \(\mathrm{H^+}\)== · ==base provides \(\mathrm{OH^-}\)== · ==water forms== · ==remaining ions form a salt==
 
 ### Diprotic acid and mole ratio
 A diprotic acid has two ionizable protons per formula unit. For a generic acid \(\mathrm{H_2X}\), neutralization occurs in two steps:
@@ -64,9 +62,8 @@ Therefore, the mole ratio is \(\mathrm{1\ mol\ acid : 2\ mol\ NaOH}\). Count ion
 
 **Answer template**
 
-> The unknown acid is diprotic, so each acid molecule can donate two ionizable \(\mathrm{H^+}\) ions. Each \(\mathrm{H^+}\) reacts with one \(\mathrm{OH^-}\) from \(\mathrm{NaOH}\) to form water. Therefore, one mole of acid requires two moles of \(\mathrm{NaOH}\) for complete neutralization.
+> The unknown acid is ==diprotic==, so each acid molecule can donate ==two ionizable \(\mathrm{H^+}\) ions==. Each \(\mathrm{H^+}\) ==reacts with one \(\mathrm{OH^-}\)== from \(\mathrm{NaOH}\) to ==form water==. Therefore, the mole ratio is ==one mole of acid to two moles of \(\mathrm{NaOH}\)== for complete neutralization.
 
-**Must mention:** ==two ionizable \(\mathrm{H^+}\)== · ==one \(\mathrm{OH^-}\) per \(\mathrm{H^+}\)== · ==water formation== · ==1:2 acid-to-\(\mathrm{NaOH}\) mole ratio==
 
 ### Titration, endpoint, and equivalence point
 Titration uses a solution of known concentration to determine the amount of another substance.
@@ -88,6 +85,4 @@ Phenolphthalein is colorless in acidic solution and pink in basic solution; its 
 
 **Answer template**
 
-> The equivalence point occurs when the acid and base have reacted in the exact stoichiometric ratio. The endpoint occurs when the indicator changes color. They may not occur at exactly the same time because the indicator changes color over a pH range.
-
-**Must mention:** ==stoichiometric ratio== · ==indicator color change== · ==pH transition range== · ==endpoint is not necessarily pH 7==
+> The equivalence point occurs when the acid and base have reacted in the ==exact stoichiometric ratio==. The endpoint occurs when the ==indicator changes color==. They may not occur at exactly the same time because the indicator changes color over a ==pH range==. The ==endpoint is not necessarily at pH 7==.

@@ -7,31 +7,31 @@ category: Quiz Response
 ### Lab-quiz response patterns
 | Prompt type | Reasoning sequence |
 | --- | --- |
-| Chemical reaction | ==acid structure== → ==ionizable \(\mathrm{H^+}\)== → ==\(\mathrm{OH^-}\)== → ==water== → ==mole ratio== |
-| Calculation | ==given measurements== → ==formula== → ==balanced-equation mole ratio== → ==result with units== |
-| Experimental error | ==error== → ==affected measurement== → ==calculated moles== → ==final direction== |
-| Identify the acid | ==claim== → ==experimental and accepted molar mass== → ==structure and ionizable protons== → ==observed properties== |
-| Evaluate reliability | ==precision and standard deviation== → ==accuracy and percent error== → ==possible error== → ==specific improvement== |
+| Chemical reaction | acid structure → ionizable \(\mathrm{H^+}\) → \(\mathrm{OH^-}\) → water → mole ratio |
+| Calculation | given measurements → formula → balanced-equation mole ratio → result with units |
+| Experimental error | error → affected measurement → calculated moles → final direction |
+| Identify the acid | claim → experimental and accepted molar mass → structure and ionizable protons → observed properties |
+| Evaluate reliability | precision and standard deviation → accuracy and percent error → possible error → specific improvement |
 
 **Chemical-reaction template**
 
-> The acid donates ______ ionizable \(\mathrm{H^+}\) ions per molecule. These react with \(\mathrm{OH^-}\) from \(\mathrm{NaOH}\) to form water. The balanced equation gives a ______ mole ratio, so ______.
+> Based on the ==acid structure==, each molecule donates ______ ionizable \(\mathrm{H^+}\) ions. These react with ==\(\mathrm{OH^-}\)== from \(\mathrm{NaOH}\) to form ==water==. The balanced equation gives a ==mole ratio of ______==, so ______.
 
 **Calculation template**
 
-> We calculated ______ using ______. Then we converted the moles of ______ to the moles of ______ using the ______ mole ratio. Finally, we calculated ______ by dividing ______ by ______.
+> We calculated ______ using the ==given measurements== and ==formula==. Then we converted the moles of ______ to the moles of ______ using the balanced equation’s ==mole ratio==. Finally, we calculated ______ by dividing ______ by ______ and reported the ==result with units==.
 
 **Error template**
 
-> Because of ______, the measured ______ would be too high or too low. This would cause the calculated moles of ______ to be overestimated or underestimated. Therefore, the calculated molar mass would be too high or too low.
+> Because of the ==error==, the measured ==quantity== would be ==too high or too low==. This would cause the ==calculated moles== of ______ to be overestimated or underestimated. Therefore, the calculated molar mass would be too high or too low, showing the ==final direction== of the result.
 
 **Identification template**
 
-> The unknown acid is most likely ______ because its experimental molar mass of ______ is close to the accepted value of ______. Its structure contains ______ ionizable \(\mathrm{H^+}\) ions, making it ______. Its physical properties also match our observations.
+> Our ==claim== is that the unknown acid is ______ because its ==experimental molar mass== of ______ is close to the ==accepted molar mass== of ______. Its ==structure and ionizable protons== explain why it is ______. Its ==observed physical properties== also match our identification.
 
 **Reliability template**
 
-> Our results showed ______ precision, indicated by a standard deviation of ______. The experimental mean differed from the accepted value by ______%, indicating ______ accuracy under our proposed identification. Possible errors include ______. We could improve the experiment by ______.
+> Our results showed ______ ==precision==, indicated by a ==standard deviation== of ______. The experimental mean differed from the accepted value by ______%, the ==percent error==, indicating ______ ==accuracy== under our proposed identification. Possible errors include ______. We could make a ==specific improvement== by ______.
 
 ### Final check
 | Check | Essential idea |
@@ -48,5 +48,3 @@ category: Quiz Response
 | Oxalic acid dihydrate evidence | Molar mass, structure, and physical properties |
 | Overshoot endpoint | Calculated molar mass too low |
 | Lose acid during transfer | Calculated molar mass too high |
-
-**Must mention:** ==structure → ionizable protons → mole ratio== · ==acid + base → salt + water== · ==volume → moles → molar mass== · ==error → measurement → result== · ==evidence → claim → reasoning==

@@ -23,7 +23,7 @@ Judge an error by how it changes the recorded measurement compared with its true
 
 **Answer template**
 
-> This error would cause the measured ______ to be too high or too low. As a result, the calculated moles of ______ would be overestimated or underestimated, causing the calculated molar mass to be overestimated or underestimated.
+> Because of the ==error==, the measured ==quantity== would be ==too high or too low==. As a result, the ==calculated moles== of ______ would be overestimated or underestimated, causing the calculated molar mass to be ==overestimated or underestimated==.
 
 **Specific cases**
 
@@ -35,7 +35,6 @@ Judge an error by how it changes the recorded measurement compared with its true
 | \(\mathrm{NaOH}\) reacts with \(\mathrm{CO_2}\) after standardization | Its effective concentration changes; using the old molarity causes an inaccurate result, and the direction depends on the timing and calculation. |
 | Buret leaks | The recorded volume may differ from the volume delivered to the acid; do not assign high or low unless the liquid path and readings are specified. |
 
-**Must mention:** ==error== → ==affected measurement== → ==calculated moles== → ==molar-mass direction==
 
 ### Human errors and incomplete transfer
 | Human error | Effect on calculated molar mass |
@@ -51,9 +50,8 @@ If only part of the weighed acid reaches the flask, fewer acid moles are titrate
 
 **Answer template**
 
-> If some of the weighed acid is lost during transfer, fewer moles of acid enter the flask than expected. Less \(\mathrm{NaOH}\) is required for neutralization, but the original mass is still used in the calculation. Therefore, the calculated molar mass is overestimated.
+> If some of the weighed acid is lost during transfer, ==fewer acid moles enter the flask== than expected. Less \(\mathrm{NaOH}\) is required for neutralization, but the ==original weighed mass is still used== in the calculation. Therefore, the ==calculated molar mass is overestimated==.
 
-**Must mention:** ==fewer acid moles enter the flask== · ==original weighed mass is still used== · ==molar mass is overestimated==
 
 ### Improve the experiment
 | Improvement | Error it helps prevent |
@@ -70,6 +68,4 @@ If only part of the weighed acid reaches the flask, fewer acid moles are titrate
 
 **Answer template**
 
-> We could improve the experiment by ______. This would prevent ______ and improve the accuracy or precision of the result.
-
-**Must mention:** ==specific procedure== · ==specific error prevented== · ==effect on accuracy or precision==
+> We could ==improve the experiment by [specific procedure]==. This would ==prevent [specific error]== and improve the ==accuracy or precision== of the result.

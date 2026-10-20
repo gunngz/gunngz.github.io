@@ -18,9 +18,8 @@ The exact molarity of the \(\mathrm{NaOH}\) solution is not known at first. \(\m
 
 **Answer template**
 
-> We accurately measured the mass of \(\mathrm{KHP}\) and dissolved it in distilled water. After adding phenolphthalein, we titrated the solution with \(\mathrm{NaOH}\) until a faint-pink endpoint appeared. Because \(\mathrm{KHP}\) is monoprotic and reacts in a 1:1 mole ratio with \(\mathrm{NaOH}\), its mass and the volume of \(\mathrm{NaOH}\) delivered allow us to calculate the \(\mathrm{NaOH}\) molarity.
+> We used \(\mathrm{KHP}\) as a ==stable primary standard== with a ==known molar mass==. We accurately measured its mass and dissolved it in distilled water. After adding phenolphthalein, we titrated the solution with \(\mathrm{NaOH}\) until a faint-pink endpoint appeared. Because \(\mathrm{KHP}\) is ==monoprotic== and reacts in a ==1:1 mole ratio== with \(\mathrm{NaOH}\), its mass and the volume delivered allow us to calculate the ==\(\mathrm{NaOH}\) molarity==.
 
-**Must mention:** ==known molar mass== · ==stable primary standard== · ==monoprotic== · ==1:1 mole ratio== · ==calculate \(\mathrm{NaOH}\) molarity==
 
 ### \(\mathrm{NaOH}\) standardization calculation
 Example values only; these are not the class’s reported \(\mathrm{NaOH}\) concentration:
@@ -44,4 +43,6 @@ M_{\mathrm{NaOH}}
 
 Use the measured \(\mathrm{KHP}\) mass, its molar mass, the 1:1 mole ratio, and the delivered \(\mathrm{NaOH}\) volume in liters.
 
-**Must mention:** ==convert \(\mathrm{KHP}\) mass to moles== · ==apply the 1:1 ratio== · ==convert volume to liters== · ==molarity equals moles per liter==
+**Answer template**
+
+> First, ==convert the measured \(\mathrm{KHP}\) mass to moles==. Then apply the ==1:1 mole ratio==, convert the delivered \(\mathrm{NaOH}\) volume to ==liters==, and calculate molarity as ==moles per liter==.
