@@ -34,7 +34,6 @@ const categoryOrder = {
       "Unknown Acid",
       "Evidence & Identity",
       "Errors & Improvements",
-      "Quiz Response",
     ],
   },
 };
