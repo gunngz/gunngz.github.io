@@ -1,0 +1,25 @@
+---
+unit: u2p1
+kind: vocabulary
+category: Simulation
+---
+
+### Probability {days=2,3}
+- A number from 0 to 1 describing the long-run proportion of times an outcome occurs in a chance process.
+- A probability of 0.25 means the event occurs about 1 out of every 4 trials in the long run; it does not guarantee exactly 25 out of 100 in a small sample.
+
+### Simulation {days=2}
+- A way to imitate a chance process using a model that assigns outcomes according to the probabilities in the real situation.
+- One trial of the model represents one repetition of the real process.
+
+### Empirical probability {days=2}
+- An estimate based on the observed proportion of outcomes from repeated trials.
+- For a fair coin, the proportion of heads varies in the short run and tends toward 0.5 as the number of tosses grows.
+
+### Theoretical probability {days=2}
+- A probability determined from a chance model, before using results from repeated trials.
+- For a fair coin, \(P(\text{heads})=0.5\).
+
+### Law of Large Numbers {days=2}
+- As the number of independent repetitions increases, the proportion of times an outcome occurs tends to get closer to its probability.
+- It describes long-run behavior; it does not make a future trial compensate for earlier results.

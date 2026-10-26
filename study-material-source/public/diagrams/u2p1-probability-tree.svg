@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" role="img" aria-labelledby="title desc">
+  <title id="title">Two-stage probability tree</title>
+  <desc id="desc">First split into A and not A, then each branch splits into B and not B, with conditional probabilities along the second branches.</desc>
+  <rect width="900" height="370" rx="22" fill="#f7f1e5"/>
+  <g stroke="#928b7d" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M90 185 L300 82 M90 185 L300 288"/>
+    <path d="M330 82 L590 38 M330 82 L590 126 M330 288 L590 244 M330 288 L590 332"/>
+  </g>
+  <g fill="#526f62" stroke="#f7f1e5" stroke-width="3"><circle cx="90" cy="185" r="13"/><circle cx="315" cy="82" r="13"/><circle cx="315" cy="288" r="13"/><circle cx="607" cy="38" r="10"/><circle cx="607" cy="126" r="10"/><circle cx="607" cy="244" r="10"/><circle cx="607" cy="332" r="10"/></g>
+  <g fill="#302e29" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+    <text x="348" y="67">A</text><text x="348" y="317">Aᶜ</text>
+    <text x="636" y="43">B</text><text x="636" y="132">Bᶜ</text><text x="636" y="250">B</text><text x="636" y="337">Bᶜ</text>
+  </g>
+  <g fill="#777166" font-family="Arial, sans-serif" font-size="15">
+    <text x="171" y="119">P(A)</text><text x="164" y="264">P(Aᶜ)</text>
+    <text x="450" y="43">P(B | A)</text><text x="440" y="119">P(Bᶜ | A)</text>
+    <text x="429" y="250">P(B | Aᶜ)</text><text x="418" y="323">P(Bᶜ | Aᶜ)</text>
+  </g>
+  <text x="686" y="18" fill="#526f62" font-family="Arial, sans-serif" font-size="14" font-weight="700">Path products</text>
+  <g fill="#526f62" font-family="Arial, sans-serif" font-size="14" font-weight="700">
+    <text x="686" y="43">P(A) · P(B | A)</text><text x="686" y="132">P(A) · P(Bᶜ | A)</text>
+    <text x="686" y="250">P(Aᶜ) · P(B | Aᶜ)</text><text x="686" y="337">P(Aᶜ) · P(Bᶜ | Aᶜ)</text>
+  </g>
+</svg>

@@ -285,6 +285,15 @@ button { color: inherit; }
 .study-card--chemistry .question-side { padding: 15px 18px 2px; }
 .study-card--chemistry .answer-side { border-left: 0; padding: 5px 51px 15px 18px; }
 .study-card--chemistry .card-blur-button { top: 10px; }
+.study-card--diagram { display: block; }
+.study-card--diagram .question-side {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.study-card--diagram .answer-side {
+  border-left: 0;
+  padding: 16px 51px 18px 18px;
+}
 .question-side {
   align-self: start;
   min-width: 0;
@@ -337,6 +346,14 @@ button { color: inherit; }
   margin: 0;
 }
 .answer-content strong { font-weight: 650; }
+.answer-content img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 14px auto 2px;
+  border-radius: 12px;
+}
 .answer-content table {
   width: 100%;
   max-width: 100%;

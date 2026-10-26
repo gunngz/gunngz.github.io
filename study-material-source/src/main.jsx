@@ -4,7 +4,11 @@ import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./cont
 import "./style.css";
 
 const isChemistry = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname);
-const availableUnits = isChemistry ? ["chem1", "chem2"] : ["u1p1", "u1p2"];
+const availableUnits = isChemistry ? ["chem1", "chem2"] : ["u1p1", "u1p2", "u2p1"];
+const u2p1PrimaryCategoryByDay = {
+  1: "Two Categorical Variables",
+  2: "Simulation",
+};
 
 function EyeIcon({ crossed = false }) {
   return (
@@ -49,8 +53,9 @@ function blurIdsForCard(card) {
 
 function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false }) {
   const blurred = blurredIds.has(card.id);
+  const hasDiagram = card.answer.includes("](./diagrams/");
   return (
-    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3><RichText value={card.title} inline query={query} /></h3>
       </div>
@@ -172,7 +177,8 @@ function App() {
   }
 
   const isSearching = Boolean(query.trim());
-  const dayButtons = ["all", "1", "2", "3", "4", "5", "6"];
+  const dayCount = unit === "u2p1" ? 5 : 6;
+  const dayButtons = ["all", ...Array.from({ length: dayCount }, (_, index) => String(index + 1))];
 
   return (
     <div className="app-shell">
@@ -212,15 +218,19 @@ function App() {
                 <>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
+                  {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
                 </>
               )}
             </div>
-            {unit === "u1p2" ? (
+            {unit === "u1p2" || unit === "u2p1" ? (
               <div className="day-nav-scroll" aria-label="Study day">
                 <div className="day-nav">
                   {dayButtons.map((value) => {
                     const label = value === "all" ? "All days" : "Day " + value;
-                    return <button key={value} className="nav-button day-button" type="button" aria-pressed={day === value} onClick={() => setDay(value)}>{label}</button>;
+                    return <button key={value} className="nav-button day-button" type="button" aria-pressed={day === value} onClick={() => {
+                      setDay(value);
+                      if (unit === "u2p1" && value !== "all") setCategory(kind === "calculations" ? "Calculations" : (u2p1PrimaryCategoryByDay[value] || ""));
+                    }}>{label}</button>;
                   })}
                 </div>
               </div>
@@ -315,7 +325,7 @@ function App() {
                 </div>
               ) : null}
               <div className="card-list">
-                {visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />)}
+                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />) : unit === "u2p1" && kind === "template" && day !== "all" ? <p className="empty-state">No shared written template from the slides is listed for this day.</p> : null}
               </div>
             </section>
           )}

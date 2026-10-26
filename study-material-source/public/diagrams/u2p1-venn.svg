@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="title desc">
+  <title id="title">Venn diagram for two events</title>
+  <desc id="desc">Two overlapping circles labelled A and B. Regions are labelled A only, intersection, and B only.</desc>
+  <rect width="640" height="300" rx="22" fill="#f7f1e5"/>
+  <circle cx="252" cy="153" r="96" fill="#a9c9d6" fill-opacity=".82" stroke="#66899a" stroke-width="3"/>
+  <circle cx="388" cy="153" r="96" fill="#efc875" fill-opacity=".82" stroke="#b49045" stroke-width="3"/>
+  <text x="188" y="65" fill="#302e29" font-family="Arial, sans-serif" font-size="22" font-weight="700">A</text>
+  <text x="451" y="65" fill="#302e29" font-family="Arial, sans-serif" font-size="22" font-weight="700">B</text>
+  <g fill="#302e29" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">
+    <text x="208" y="157">A only</text>
+    <text x="320" y="157">A ∩ B</text>
+    <text x="432" y="157">B only</text>
+  </g>
+  <text x="320" y="278" text-anchor="middle" fill="#526f62" font-family="Arial, sans-serif" font-size="18" font-weight="700">Count the overlap once in A ∪ B</text>
+</svg>

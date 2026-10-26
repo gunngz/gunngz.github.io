@@ -1,0 +1,72 @@
+---
+unit: u2p1
+kind: calculations
+category: Calculations
+---
+
+### Relative frequencies {days=1}
+For a two-way table:
+
+\[\text{joint relative frequency}=\frac{\text{cell count}}{n}\]
+
+\[\text{marginal relative frequency}=\frac{\text{row or column total}}{n}\]
+
+\[\text{conditional relative frequency}=\frac{\text{cell count}}{\text{total for the given group}}\]
+
+### Segmented bar chart and mosaic plot {days=1}
+- Use conditional relative frequencies for the segment heights.
+- Segmented bar chart: equal-width bars; each bar totals 100%.
+- Mosaic plot: bar width is proportional to group size.
+
+![Segmented bar chart and mosaic plot: segment heights show conditional proportions; mosaic widths show group sizes.](./diagrams/u2p1-categorical-displays.svg)
+
+### Simulation estimates {days=2}
+Map random outcomes to the real outcomes, repeat the trial, then calculate:
+
+\[\widehat{P}(A)=\frac{\text{number of simulated successes}}{\text{number of trials}}\]
+
+For a claim test, a simulated tail proportion is:
+
+\[\widehat{P}(\text{result at least as extreme})=\frac{\text{trials at least as extreme}}{\text{total trials}}\]
+
+### Probability rules {days=3,4}
+\[0\leq P(A)\leq 1\]
+
+\[\sum P(\text{outcome})=1\]
+
+For equally likely outcomes:
+
+\[P(A)=\frac{\text{number of outcomes in }A}{\text{number of outcomes in }S}\]
+
+\[P(A^c)=1-P(A)\]
+
+\[P(A\cup B)=P(A)+P(B)-P(A\cap B)\]
+
+For mutually exclusive events:
+
+\[P(A\cup B)=P(A)+P(B)\]
+
+![Venn diagram showing A only, the overlap A intersection B, and B only for the addition rule.](./diagrams/u2p1-venn.svg)
+
+### Conditional probability {days=4,5}
+\[P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{\text{count in both }A\text{ and }B}{\text{count in }B}\]
+
+For diagnostic tests, let \(D\) mean “has the condition”:
+
+\[\text{false positive rate}=P(+\mid D^c)\]
+
+\[\text{false negative rate}=P(-\mid D)\]
+
+Do not confuse \(P(D^c\mid +)\) with \(P(+\mid D^c)\); they condition on different events.
+
+### Independence {days=5}
+\[P(A\cap B)=P(A)P(B)\]
+
+### Tree diagrams and total probability {days=4,5}
+- Path: multiply. Event: add matching paths.
+
+\[P(B)=P(A)P(B\mid A)+P(A^c)P(B\mid A^c)\]
+
+\[P(A\mid B)=\frac{P(A)P(B\mid A)}{P(B)}\]
+
+![Two-stage probability tree with branch probabilities and path products.](./diagrams/u2p1-probability-tree.svg)

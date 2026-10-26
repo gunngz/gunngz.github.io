@@ -16,7 +16,7 @@ Create a `.txt` file inside `src/content/`. Use this frontmatter block, then add
     - A separate point on each line.
     - ✓ **Key idea:** An explanation or distinction.
 
-Use `unit: u1p1` or `unit: u1p2` for Statistics, or `unit: chem1` for Chemistry. Set `kind: vocabulary` or `kind: template`, and add a category name. New categories are added to the horizontal navigation automatically. Unit 1 Part 2 Statistics cards may include `{days=1,3}` at the end of the heading; other pages do not use a day filter.
+Use `unit: u1p1`, `unit: u1p2`, or `unit: u2p1` for Statistics, or `unit: chem1` / `unit: chem2` for Chemistry. Set `kind: vocabulary` or `kind: template`; Unit 2 Part 1 also supports `kind: calculations` as a separate content mode. Add a category name. New categories are added to the horizontal navigation automatically. Unit 1 Part 2 cards may include `{days=1,3}` at the end of the heading; Unit 2 Part 1 cards may include `{days=1,3}` for its five-day filter.
 
 Use `==important wording==` to highlight an idea, `**[placeholders]**` for fill-in fields, and `\( ... \)` / `\[ ... \]` for LaTeX math. MathJax renders formulas. Use a Markdown table for compact comparisons.
 

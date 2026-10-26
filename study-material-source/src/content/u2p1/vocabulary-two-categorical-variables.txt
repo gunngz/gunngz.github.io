@@ -1,0 +1,41 @@
+---
+unit: u2p1
+kind: vocabulary
+category: Two Categorical Variables
+---
+
+### Explanatory and response variables {days=1}
+- The ==explanatory variable== is used to explain or predict differences in the response variable.
+- The ==response variable== is the outcome measured for each observational unit.
+- In the Yellowstone example, environmental club membership is explanatory; snowmobile use is the response.
+
+### Two-way table {days=1}
+- A table that organizes counts for ==every combination of two categorical variables==.
+- An interior cell gives the count for one pair of categories; row and column totals are marginal counts.
+
+### Marginal relative frequency {days=1}
+- A row or column total divided by the ==overall sample size==.
+- It describes the distribution of ==one variable== in the full sample.
+- The marginal relative frequencies for a variable sum to 1 (or 100%).
+
+### Joint relative frequency {days=1}
+- An interior cell count divided by the ==overall sample size==.
+- It describes observations in ==both categories at the same time==.
+
+### Conditional relative frequency {days=1}
+- A cell count divided by the total for the ==given group==.
+- It describes the distribution of one variable among observations meeting a condition on the other variable.
+- Use conditional relative frequencies to compare groups and assess association.
+
+### Segmented bar chart {days=1}
+- A display of conditional distributions using ==equal-width bars==, one for each explanatory-variable category.
+- Each bar represents 100%; its segments show the conditional proportions of response categories.
+
+### Mosaic plot {days=1}
+- A display of two categorical variables in which bar widths are proportional to explanatory-group sizes.
+- Segment heights show conditional proportions; each rectangle's area represents a joint proportion.
+- Unlike a segmented bar chart, a mosaic plot has ==different-width bars with no gaps==.
+
+### Association between categorical variables {days=1}
+- There is an association when the ==conditional distributions differ== across groups.
+- An association can help predict the response from the explanatory variable, but it does not by itself establish causation.

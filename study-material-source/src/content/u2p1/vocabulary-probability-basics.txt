@@ -1,0 +1,40 @@
+---
+unit: u2p1
+kind: vocabulary
+category: Probability Basics
+---
+
+### Probability model {days=3}
+- A description of chance behavior that lists the possible outcomes and gives the probability of each outcome or event.
+- Each probability is between 0 and 1, and the probabilities of all outcomes in the sample space sum to 1.
+
+### Sample space {days=3}
+- The set of ==all possible outcomes== of a random phenomenon, written \(S\).
+- For one roll of a six-sided die, \(S=\{1,2,3,4,5,6\}\).
+
+### Event {days=3}
+- Any collection of outcomes from a random phenomenon; an event is a ==subset of the sample space==.
+- If \(A\) is the event of rolling a 6, then \(A=\{6\}\).
+
+### Venn diagram {days=3}
+- A diagram that represents the sample space and events as regions; overlapping regions show outcomes shared by events.
+- Use the overlap for outcomes in both events and the combined regions for outcomes in either event.
+
+### Frequency table {days=3}
+- A table that organizes counts for categories or combinations of categories.
+- To find a probability from counts, divide the count in the requested region by the total number of observational units.
+
+### Complement {days=3}
+- The event that \(A\) does not occur, written \(A^c\), \(A'\), or \(\overline{A}\).
+- \(P(A^c)=1-P(A)\).
+
+### Mutually exclusive events {days=3}
+- Events that ==cannot occur at the same time==; \(P(A\cap B)=0\).
+- For mutually exclusive events, \(P(A\cup B)=P(A)+P(B)\).
+
+### Joint probability {days=3}
+- The probability that two events occur ==simultaneously==, written \(P(A\cap B)\).
+
+### General addition rule {days=3}
+- For any two events, \(P(A\cup B)=P(A)+P(B)-P(A\cap B)\).
+- Subtract the overlap once so outcomes in both events are not counted twice.

@@ -1,0 +1,17 @@
+---
+unit: u2p1
+kind: vocabulary
+category: Conditional Probability
+---
+
+### Conditional probability {days=4,5}
+- The probability of an event after another event is known to have occurred.
+- The condition reduces the sample space to the outcomes in that condition; \(P(A\mid B)=\frac{P(A\cap B)}{P(B)}\), when \(P(B)>0\).
+
+### Independent events {days=4,5}
+- Events are independent when knowing that one occurred does not change the probability of the other.
+- Check either \(P(A\mid B)=P(A)\) or \(P(A\cap B)=P(A)P(B)\).
+
+### Tree diagram {days=4,5}
+- A diagram of sequential events; each branch shows a conditional probability and each path shows one sequence of outcomes.
+- Multiply probabilities along a path; add the probabilities of disjoint paths that meet the event of interest.

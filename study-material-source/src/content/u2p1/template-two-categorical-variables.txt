@@ -1,0 +1,14 @@
+---
+unit: u2p1
+kind: template
+category: Two Categorical Variables
+---
+
+### Association response {days=1}
+“There is a clear association between **[response variable]** and **[explanatory variable]** for **[sample or population]**. Knowing **[explanatory variable]** helps us predict **[response variable]**. **[Group 1]** were most likely to **[response]** (about **[percent]%**), followed by **[Group 2]** (about **[percent]%**), and then **[Group 3]** (about **[percent]%**).”
+
+For no association: “The conditional distributions are about the same across groups. Knowing **[explanatory variable]** does not help us predict **[response variable]**.”
+
+- Compare ==conditional distributions== across groups.
+- A sample association does not establish causation; a population association requires formal inference.
+- PPT source: U2P1 Day 1, slides 22–27 and 34.

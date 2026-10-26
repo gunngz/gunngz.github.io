@@ -1,0 +1,20 @@
+---
+unit: u2p1
+kind: template
+category: Simulation
+---
+
+### Simulation response: four steps {days=2}
+1. State the ==question of interest==.
+2. Plan and describe how chance will imitate one repetition; state what is recorded after each repetition.
+3. Perform many repetitions.
+4. Conclude based on the results.
+
+Conclusion: “In **[number of simulations]** repetitions of **[number of trials]** each, **[number]** resulted in **[event]**. So about **[percent]%** of the time, **[event]** would occur if **[chance model]** were true. **[Observed result]** seems **[likely/unlikely]** to happen by chance.”
+
+- PPT source: U2P1 Day 2, slides 3–4.
+
+### Interpret a probability {days=2}
+“In a very large number of **[trials]**, about **[probability × 100]%** of outcomes would be **[event]**. A sample of **[sample size]** trials will not necessarily contain exactly **[expected count]** occurrences because probability describes long-run behavior.”
+
+- PPT source: U2P1 Day 2, slides 11–13.

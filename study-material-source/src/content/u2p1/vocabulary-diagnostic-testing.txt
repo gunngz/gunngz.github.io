@@ -1,0 +1,14 @@
+---
+unit: u2p1
+kind: vocabulary
+category: Diagnostic Testing
+---
+
+### False positive {days=4,5}
+- A test indicates that a condition is present when the condition is actually absent.
+- For condition \(D\) and a positive result \(+\), this is \(P(+\mid D^c)\).
+
+### False negative {days=4,5}
+- A test indicates that a condition is absent when the condition is actually present.
+- For condition \(D\), this is \(P(-\mid D)\).
+- \(P(D^c\mid +)\) is a different conditional probability: it asks whether the condition is absent given a positive result.
