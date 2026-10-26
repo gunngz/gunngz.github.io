@@ -14,11 +14,20 @@ For a two-way table:
 \[\text{conditional relative frequency}=\frac{\text{cell count}}{\text{total for the given group}}\]
 
 ### Segmented bar chart and mosaic plot {days=1}
-- Use conditional relative frequencies for the segment heights.
-- Segmented bar chart: equal-width bars; each bar totals 100%.
-- Mosaic plot: bar width is proportional to group size.
+To construct a segmented bar chart:
+
+1. Identify the ==explanatory== and ==response== variables.
+2. Draw and label the axes: explanatory-variable categories on the horizontal axis; proportions or percentages on the vertical axis.
+3. Scale the vertical axis from 0% to 100% (or 0 to 1).
+4. Draw equal-width 100% bars with gaps between them, one for each explanatory-variable group.
+5. Use the response-variable conditional relative frequencies to divide each bar into segments.
+6. Add a key to identify the response categories.
+
+For a mosaic plot, make each bar's width proportional to the size of its explanatory-variable group and remove the gaps between bars.
 
 ![Segmented bar chart and mosaic plot: segment heights show conditional proportions; mosaic widths show group sizes.](./diagrams/u2p1-categorical-displays.svg)
+
+- PPT source: U2P1 Day 1.
 
 ### Simulation estimates {days=2}
 Map random outcomes to the real outcomes, repeat the trial, then calculate:
@@ -51,6 +60,8 @@ For mutually exclusive events:
 ### Conditional probability {days=4,5}
 \[P(A\mid B)=\frac{P(A\cap B)}{P(B)}=\frac{\text{count in both }A\text{ and }B}{\text{count in }B}\]
 
+PPT source: U2P1 Day 4.
+
 For diagnostic tests, let \(D\) mean “has the condition”:
 
 \[\text{false positive rate}=P(+\mid D^c)\]
@@ -59,7 +70,9 @@ For diagnostic tests, let \(D\) mean “has the condition”:
 
 Do not confuse \(P(D^c\mid +)\) with \(P(+\mid D^c)\); they condition on different events.
 
-### Independence {days=5}
+### Independence {days=4,5}
+\[P(A\mid B)=P(A)\]
+
 \[P(A\cap B)=P(A)P(B)\]
 
 ### Tree diagrams and total probability {days=4,5}
@@ -68,5 +81,7 @@ Do not confuse \(P(D^c\mid +)\) with \(P(+\mid D^c)\); they condition on differe
 \[P(B)=P(A)P(B\mid A)+P(A^c)P(B\mid A^c)\]
 
 \[P(A\mid B)=\frac{P(A)P(B\mid A)}{P(B)}\]
+
+- PPT source: U2P1 Day 4.
 
 ![Two-stage probability tree with branch probabilities and path products.](./diagrams/u2p1-probability-tree.svg)

@@ -4,17 +4,28 @@ kind: template
 category: Simulation
 ---
 
-### Simulation response: four steps {days=2}
+### Question of interest {days=2}
+“Can **[observed result]** happen by chance?”
+
+PPT example: “Can seniors win 8 out of 10 Night Rallies by chance?”
+
+- PPT source: U2P1 Day 2, slides 3–4.
+
+### Simulation response {days=2}
 1. State the ==question of interest==.
-2. Plan and describe how chance will imitate one repetition; state what is recorded after each repetition.
-3. Perform many repetitions.
+2. Plan and describe how to use chance to imitate ==one repetition==. State what will be recorded after each repetition.
+3. Perform ==many repetitions==.
 4. Conclude based on the results.
 
-Conclusion: “In **[number of simulations]** repetitions of **[number of trials]** each, **[number]** resulted in **[event]**. So about **[percent]%** of the time, **[event]** would occur if **[chance model]** were true. **[Observed result]** seems **[likely/unlikely]** to happen by chance.”
+Conclusion: “In **[number of repetitions]** repetitions of **[number of trials]** each, **[number]** resulted in **[event]**. So about **[percent]%** of the time, **[event]** would occur if **[chance model]** were true. **[Observed result]** seems **[likely/unlikely]** to happen by chance.”
 
 - PPT source: U2P1 Day 2, slides 3–4.
 
 ### Interpret a probability {days=2}
-“In a very large number of **[trials]**, about **[probability × 100]%** of outcomes would be **[event]**. A sample of **[sample size]** trials will not necessarily contain exactly **[expected count]** occurrences because probability describes long-run behavior.”
+“If you take a ==very large random sample== of **[population]**, approximately **[probability × 100]%** of them will **[event]**.”
+
+“Probably not. With only **[sample size]** randomly selected **[population members]**, the number who **[event]** is likely to differ from **[expected count]**.”
+
+- Probability describes the proportion of times an outcome occurs in a ==very long series of trials==; it does not promise an exact count in a small sample.
 
 - PPT source: U2P1 Day 2, slides 11–13.
