@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
   <title id="title">Association between categorical variables</title>
   <desc id="desc">Equal-width bars compare conditional distributions. Outcome 1 is 30 percent in Group A and 60 percent in Group B, so the distributions differ and the variables are associated. This alone does not establish causation.</desc>
-  <rect width="1000" height="370" rx="24" fill="#f7f1e5"/>
-  <text x="42" y="48" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Association between categorical variables</text>
-  <text x="42" y="78" fill="#777166" font-family="Arial, sans-serif" font-size="16">Illustrative conditional distributions · compare the same response across groups</text>
-  <g stroke="#d3c8b7" stroke-width="1.5"><line x1="113" y1="111" x2="518" y2="111"/><line x1="113" y1="207" x2="518" y2="207" stroke-dasharray="5 6"/><line x1="113" y1="303" x2="518" y2="303"/></g>
-  <g fill="#777166" font-family="Arial, sans-serif" font-size="14" text-anchor="end"><text x="100" y="116">100%</text><text x="100" y="212">50%</text><text x="100" y="308">0%</text></g>
+  <rect width="1000" height="370" rx="24" fill="#f8f1e5"/>
+  <text x="42" y="48" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="25" font-weight="700">Association between categorical variables</text>
+  <text x="42" y="78" fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16">Illustrative conditional distributions · compare the same response across groups</text>
+  <g stroke="#e5dac9" stroke-width="1.5"><line x1="113" y1="111" x2="518" y2="111"/><line x1="113" y1="207" x2="518" y2="207" stroke-dasharray="5 6"/><line x1="113" y1="303" x2="518" y2="303"/></g>
+  <g fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" text-anchor="end"><text x="100" y="116">100%</text><text x="100" y="212">50%</text><text x="100" y="308">0%</text></g>
   <rect x="170" y="111" width="112" height="134" fill="#a9c9d6"/><rect x="170" y="245" width="112" height="58" fill="#78a98e"/>
   <rect x="353" y="111" width="112" height="77" fill="#a9c9d6"/><rect x="353" y="188" width="112" height="115" fill="#78a98e"/>
-  <g fill="#302e29" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="700"><text x="226" y="185">Outcome 2</text><text x="226" y="280">Outcome 1</text><text x="409" y="158">Outcome 2</text><text x="409" y="252">Outcome 1</text><text x="226" y="331">Group A</text><text x="409" y="331">Group B</text></g>
+  <g fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" font-weight="700"><text x="226" y="185">Outcome 2</text><text x="226" y="280">Outcome 1</text><text x="409" y="158">Outcome 2</text><text x="409" y="252">Outcome 1</text><text x="226" y="331">Group A</text><text x="409" y="331">Group B</text></g>
   <path d="M540 203h60m-15-15 15 15-15 15" fill="none" stroke="#526f5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="625" y="111" width="326" height="192" rx="16" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
-  <text x="651" y="151" fill="#526f5c" font-family="Arial, sans-serif" font-size="15" font-weight="700">OUTCOME 1</text>
-  <text x="651" y="192" fill="#302e29" font-family="Arial, sans-serif" font-size="21" font-weight="700">30% in A · 60% in B</text>
-  <text x="651" y="231" fill="#302e29" font-family="Arial, sans-serif" font-size="18">Different distributions</text>
-  <text x="651" y="258" fill="#302e29" font-family="Arial, sans-serif" font-size="18" font-weight="700">→ association</text>
+  <text x="651" y="151" fill="#526f5c" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="15" font-weight="700">OUTCOME 1</text>
+  <text x="651" y="192" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="21" font-weight="700">30% in A · 60% in B</text>
+  <text x="651" y="231" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18">Different distributions</text>
+  <text x="651" y="258" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="18" font-weight="700">→ association</text>
   <line x1="651" y1="273" x2="925" y2="273" stroke="#e5dac9" stroke-width="1.5"/>
-  <text x="651" y="292" fill="#716d62" font-family="Arial, sans-serif" font-size="14">Association alone does not prove causation.</text>
+  <text x="651" y="292" fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14">Association alone does not prove causation.</text>
 </svg>

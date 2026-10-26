@@ -1,35 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
   <title id="title">Segmented bar chart</title>
   <desc id="desc">Two equal-width bars each total 100 percent. Group A has 30 percent Outcome 1 and 70 percent Outcome 2. Group B has 60 percent Outcome 1 and 40 percent Outcome 2. The illustrative group sample sizes are 10 and 30, but the bar widths stay equal.</desc>
-  <rect width="1000" height="370" rx="24" fill="#f7f1e5"/>
-  <text x="42" y="48" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Segmented bar chart</text>
-  <text x="42" y="78" fill="#777166" font-family="Arial, sans-serif" font-size="16">Illustrative conditional distributions · each bar totals 100%</text>
-  <g stroke="#d3c8b7" stroke-width="1.5">
+  <rect width="1000" height="370" rx="24" fill="#f8f1e5"/>
+  <text x="42" y="48" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="25" font-weight="700">Segmented bar chart</text>
+  <text x="42" y="78" fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16">Illustrative conditional distributions · each bar totals 100%</text>
+  <g stroke="#e5dac9" stroke-width="1.5">
     <line x1="142" y1="112" x2="610" y2="112"/>
     <line x1="142" y1="207" x2="610" y2="207" stroke-dasharray="5 6"/>
     <line x1="142" y1="302" x2="610" y2="302"/>
   </g>
-  <g fill="#777166" font-family="Arial, sans-serif" font-size="15" text-anchor="end">
+  <g fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="15" text-anchor="end">
     <text x="126" y="117">100%</text><text x="126" y="212">50%</text><text x="126" y="307">0%</text>
   </g>
   <rect x="210" y="112" width="120" height="133" fill="#a9c9d6"/>
   <rect x="210" y="245" width="120" height="57" fill="#78a98e"/>
   <rect x="410" y="112" width="120" height="76" fill="#a9c9d6"/>
   <rect x="410" y="188" width="120" height="114" fill="#78a98e"/>
-  <g fill="#302e29" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="700">
+  <g fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" text-anchor="middle" font-weight="700">
     <text x="270" y="188">Outcome 2</text><text x="270" y="279">Outcome 1</text>
     <text x="470" y="158">Outcome 2</text><text x="470" y="251">Outcome 1</text>
     <text x="270" y="330">Group A · n = 10</text><text x="470" y="330">Group B · n = 30</text>
   </g>
   <rect x="658" y="111" width="295" height="191" rx="16" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
-  <text x="684" y="148" fill="#526f5c" font-family="Arial, sans-serif" font-size="16" font-weight="700">READ THE BARS</text>
-  <text x="684" y="187" fill="#302e29" font-family="Arial, sans-serif" font-size="17">Outcome 1</text>
-  <text x="926" y="187" fill="#302e29" font-family="Arial, sans-serif" font-size="17" text-anchor="end" font-weight="700">30% → 60%</text>
-  <text x="684" y="225" fill="#302e29" font-family="Arial, sans-serif" font-size="17">Outcome 2</text>
-  <text x="926" y="225" fill="#302e29" font-family="Arial, sans-serif" font-size="17" text-anchor="end" font-weight="700">70% → 40%</text>
+  <text x="684" y="148" fill="#526f5c" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16" font-weight="700">READ THE BARS</text>
+  <text x="684" y="187" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="17">Outcome 1</text>
+  <text x="926" y="187" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="17" text-anchor="end" font-weight="700">30% → 60%</text>
+  <text x="684" y="225" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="17">Outcome 2</text>
+  <text x="926" y="225" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="17" text-anchor="end" font-weight="700">70% → 40%</text>
   <line x1="684" y1="244" x2="926" y2="244" stroke="#e5dac9" stroke-width="1.5"/>
-  <text x="684" y="275" fill="#716d62" font-family="Arial, sans-serif" font-size="15">Bar widths are equal.</text>
-  <g font-family="Arial, sans-serif" font-size="14" fill="#555147">
+  <text x="684" y="275" fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="15">Bar widths are equal.</text>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="14" fill="#716d62">
     <rect x="684" y="318" width="15" height="15" rx="3" fill="#78a98e"/><text x="706" y="331">Outcome 1</text>
     <rect x="817" y="318" width="15" height="15" rx="3" fill="#a9c9d6"/><text x="839" y="331">Outcome 2</text>
   </g>

@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
   <title id="title">Explanatory and response variables</title>
   <desc id="desc">A diagram shows environmental club membership as the explanatory variable and snowmobile use as the response variable in the Yellowstone example.</desc>
-  <rect width="1000" height="270" rx="24" fill="#f7f1e5"/>
-  <text x="42" y="47" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Two categorical variables</text>
-  <text x="42" y="77" fill="#777166" font-family="Arial, sans-serif" font-size="16">Yellowstone example · the question asks whether use differs by membership</text>
+  <rect width="1000" height="270" rx="24" fill="#f8f1e5"/>
+  <text x="42" y="47" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="25" font-weight="700">Two categorical variables</text>
+  <text x="42" y="77" fill="#716d62" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="16">Yellowstone example · the question asks whether use differs by membership</text>
   <rect x="54" y="111" width="342" height="105" rx="16" fill="#e4e9dd"/>
-  <text x="78" y="146" fill="#526f5c" font-family="Arial, sans-serif" font-size="15" font-weight="700">EXPLANATORY VARIABLE</text>
-  <text x="78" y="176" fill="#302e29" font-family="Arial, sans-serif" font-size="21" font-weight="700">Environmental club</text>
-  <text x="78" y="201" fill="#302e29" font-family="Arial, sans-serif" font-size="21" font-weight="700">membership</text>
+  <text x="78" y="146" fill="#526f5c" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="15" font-weight="700">EXPLANATORY VARIABLE</text>
+  <text x="78" y="176" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="21" font-weight="700">Environmental club</text>
+  <text x="78" y="201" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="21" font-weight="700">membership</text>
   <path d="M424 164h138m-16-15 16 15-16 15" fill="none" stroke="#526f5c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="604" y="111" width="342" height="105" rx="16" fill="#d9eaf5"/>
-  <text x="628" y="146" fill="#43677d" font-family="Arial, sans-serif" font-size="15" font-weight="700">RESPONSE VARIABLE</text>
-  <text x="628" y="184" fill="#302e29" font-family="Arial, sans-serif" font-size="23" font-weight="700">Snowmobile use</text>
+  <text x="628" y="146" fill="#43677d" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="15" font-weight="700">RESPONSE VARIABLE</text>
+  <text x="628" y="184" fill="#282720" font-family="Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif" font-size="23" font-weight="700">Snowmobile use</text>
 </svg>

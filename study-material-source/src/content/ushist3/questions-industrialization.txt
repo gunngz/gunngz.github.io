@@ -4,62 +4,62 @@ kind: questions
 category: Check for Understanding
 ---
 
-### How did the shift from a rural society to an industrial power between 1865 and 1900 affect daily life and infrastructure?
-- More Americans moved from rural communities to cities, while electricity, telephones, and railroads changed how people lived, communicated, and traveled.
+### How did industrial growth change daily life from 1865 to 1900?
+- More people moved from farms to cities. Electricity, telephones, and railroads changed how people lived, talked, and traveled.
 
-### What role did patents play in driving technological innovation during the late 19th century?
-- Patents protected inventors' ideas for a limited time, making it more worthwhile to invest in developing inventions and bringing them to market.
+### How did patents help people create new inventions?
+- Patents gave inventors control of their ideas for a limited time. This encouraged people to invent and invest.
 
-### How did Alexander Graham Bell's commercial telephone change American communication after its invention in 1876?
-- The telephone let people speak over long distances, helping businesses communicate more efficiently and expanding access to rapid communication.
+### How did Bell's telephone change communication?
+- It let people talk over long distances and helped businesses communicate faster.
 
-### Why was Edwin Drake's 1859 oil discovery in Titusville, Pennsylvania, historically significant?
-- Drake's drilling helped launch the petroleum industry. Oil supplied kerosene for lamps and lubricants for machinery, and petroleum later supplied gasoline for automobiles.
+### Why was Edwin Drake's oil discovery in 1859 important?
+- It helped start the oil industry. Oil provided kerosene for lamps and fuel for machines.
 
-### How did the Bessemer process change American infrastructure and city skylines?
-- By making steel faster and cheaper to produce, it enabled wider use of steel in railroad rails, bridges, and tall buildings such as skyscrapers.
+### How did the Bessemer process change cities and transportation?
+- It made steel faster and cheaper to produce. Steel was used for railroads, bridges, and tall buildings.
 
-### What were the main principles of Frederick W. Taylor's scientific management?
-- Taylor used time-and-motion studies to identify and remove unnecessary movements, standardize tasks, and increase worker speed and factory output.
+### What was Taylor's scientific management?
+- Taylor studied how workers did their jobs. He removed wasted steps and made work more efficient.
 
-### How did Henry Ford adapt Taylorism to change automobile manufacturing?
-- Ford used a moving assembly line that brought work to stationary workers. It increased production and lowered car prices, while making many jobs repetitive.
+### How did Ford use Taylor's ideas in car factories?
+- Ford used a moving assembly line. It made cars faster and cheaper, but the work was repetitive.
 
-### What advantages did the corporate business model offer over a traditional single-owner business?
-- A corporation could raise large amounts of capital by selling stock. Its separate legal status also limited investors' personal financial liability.
+### What was one advantage of a corporation?
+- A corporation could raise money by selling stock. Investors had limited personal responsibility for its debts.
 
-### How did John D. Rockefeller and Standard Oil limit market competition?
-- Rockefeller acquired competing refineries, used railroad shipping rebates, and cut prices to pressure rivals. Standard Oil controlled about 90% of U.S. oil refining by 1882.
+### How did Rockefeller and Standard Oil limit competition?
+- Rockefeller bought rival oil companies, got lower shipping rates, and cut prices. Standard Oil came to control most oil refining.
 
-### What is the key difference between horizontal and vertical integration?
-- Horizontal integration combines competitors at the ==same production stage==. Vertical integration controls ==different stages of production and distribution==.
+### How are horizontal and vertical integration different?
+- Horizontal integration joins businesses at the ==same stage==. Vertical integration controls ==different stages of making and selling a product==.
 
-### How did Andrew Carnegie use vertical integration to dominate the steel industry?
-- Carnegie acquired iron ore mines, coalfields, and transportation networks, giving his company control over many stages from raw materials to steel delivery and helping reduce costs.
+### How did Carnegie use vertical integration?
+- He controlled iron mines, coal mines, and transportation. This let his company manage more steps in steelmaking and lower costs.
 
-### How did the federal government support industrial growth while following a laissez-faire doctrine?
-- The government granted land for railroad construction, sold public land for resource development, and used protective tariffs to shield U.S. businesses from foreign competition.
+### How did the government help industry despite laissez-faire?
+- It gave land to railroads and used tariffs to protect U.S. businesses from foreign competition.
 
-### How did political corruption affect government oversight during rapid industrialization?
-- Business leaders bribed politicians to obtain land and favorable laws. This weakened oversight and encouraged officials to serve private business interests.
+### How did corruption affect government oversight?
+- Business leaders bribed politicians for land and helpful laws. This weakened government oversight.
 
-### Why was the Sherman Antitrust Act initially ineffective at curbing monopolies?
-- Its wording was vague, making it difficult to enforce against powerful corporations; courts also interpreted its reach narrowly.
+### Why did the Sherman Antitrust Act fail to stop monopolies at first?
+- The law was unclear, and courts read it narrowly. This made it hard to use against powerful companies.
 
-### What was the legal significance of the Supreme Court's decision in United States v. E.C. Knight Co. (1895)?
-- The Court treated manufacturing as separate from interstate commerce, limiting the federal government's ability to use the Sherman Act against manufacturing monopolies.
+### What did the E.C. Knight case decide?
+- The Court said manufacturing was separate from interstate trade. This limited how the federal government could use the Sherman Act against manufacturers.
 
-### Why did Mark Twain call the late 19th century the Gilded Age?
-- The name suggested that a shiny surface of economic growth hid poverty, political corruption, and inequality.
+### Why did Mark Twain call this period the Gilded Age?
+- The name means a shiny outside hid poverty, corruption, and inequality.
 
-### How extreme was income inequality in the late 19th century?
-- It was very large: the guide's example compares Andrew Carnegie's $25 million in 1890 with an average worker's annual pay of $440.
+### How unequal were incomes?
+- Very unequal. The guide compares Carnegie's $25 million in 1890 with an average worker's yearly pay of $440.
 
-### What main argument did Andrew Carnegie make in his 1889 essay, The Gospel of Wealth?
-- Carnegie argued that wealthy people had a moral responsibility to use their fortunes to benefit the public rather than simply pass on or keep their wealth.
+### What did Carnegie argue in The Gospel of Wealth?
+- He said wealthy people should use their money to help the public.
 
-### What arguments supported calling business leaders of this era robber barons?
-- Critics pointed to worker exploitation, unsafe workplaces, very low wages, political bribery, and aggressive practices that drove competitors out of business.
+### Why did some people call business leaders robber barons?
+- Critics said they mistreated workers, bribed politicians, and forced competitors out of business.
 
-### What arguments supported calling business leaders of this era captains of industry?
-- Supporters credited them with taking financial risks, introducing innovations, creating jobs, expanding production, and helping build a leading industrial economy.
+### Why did some people call business leaders captains of industry?
+- Supporters said they created jobs, developed new ideas, and helped the economy grow.
