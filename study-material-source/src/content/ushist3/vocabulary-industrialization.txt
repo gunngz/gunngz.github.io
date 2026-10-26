@@ -1,0 +1,47 @@
+---
+unit: ushist3
+kind: vocabulary
+category: Industrialization
+---
+
+### Capital
+- Money and resources invested in a business to build factories, purchase machinery, and expand production.
+
+### Patents
+- Government protections that give an inventor the exclusive right to use or sell an invention for a limited time.
+
+### Bessemer process
+- A steelmaking method that blows air through molten iron to remove impurities, making steel faster and less expensive to produce.
+
+### Scientific management (Taylorism)
+- A system that studies and standardizes workers' movements to reduce wasted effort and increase factory output.
+
+### Corporation
+- A business legally separate from its owners that can raise money by selling stock; investors generally risk only the money they put in.
+
+### Monopoly
+- A company that controls most or nearly all of a market, leaving little competition.
+
+### Horizontal integration
+- Business expansion by buying or merging with competitors at the ==same stage of production==.
+
+### Vertical integration
+- Business expansion by controlling ==multiple stages of production and distribution==, from raw materials to delivery.
+
+### Laissez-faire
+- The belief that markets should operate with ==little government interference==.
+
+### Sherman Antitrust Act (1890)
+- A federal law intended to prohibit trusts, monopolies, and agreements that restrain trade.
+
+### The Gilded Age
+- Mark Twain's name for the late 19th century, when visible prosperity covered serious problems such as ==inequality and corruption==.
+
+### Gospel of Wealth
+- Andrew Carnegie's belief that wealthy people had a responsibility to use their fortunes for the public good.
+
+### Robber barons
+- A critical label for business leaders who gained wealth through practices such as worker exploitation, unsafe conditions, political bribery, and unfair competition.
+
+### Captains of industry
+- A positive label for business leaders credited with innovation, job creation, investment, and industrial growth.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+  <title id="title">Mosaic plot</title>
+  <desc id="desc">A mosaic plot with two adjacent bars. Group A contains 10 of 40 observations so its bar is 25 percent of the total width; Group B contains 30 of 40 so its bar is 75 percent. Segment heights show each group's conditional proportions: Group A is 30 and 70 percent, Group B is 60 and 40 percent.</desc>
+  <rect width="1000" height="370" rx="24" fill="#f7f1e5"/>
+  <text x="42" y="48" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Mosaic plot</text>
+  <text x="42" y="78" fill="#777166" font-family="Arial, sans-serif" font-size="16">Illustrative counts · bar widths show group size · bars touch</text>
+  <g stroke="#d3c8b7" stroke-width="1.5">
+    <line x1="126" y1="112" x2="650" y2="112"/>
+    <line x1="126" y1="207" x2="650" y2="207" stroke-dasharray="5 6"/>
+    <line x1="126" y1="302" x2="650" y2="302"/>
+  </g>
+  <g fill="#777166" font-family="Arial, sans-serif" font-size="15" text-anchor="end">
+    <text x="110" y="117">100%</text><text x="110" y="212">50%</text><text x="110" y="307">0%</text>
+  </g>
+  <rect x="126" y="112" width="131" height="133" fill="#a9c9d6"/>
+  <rect x="126" y="245" width="131" height="57" fill="#78a98e"/>
+  <rect x="257" y="112" width="393" height="76" fill="#a9c9d6"/>
+  <rect x="257" y="188" width="393" height="114" fill="#78a98e"/>
+  <g fill="#302e29" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="700">
+    <text x="191" y="187">Outcome 2</text><text x="191" y="279">Outcome 1</text>
+    <text x="453" y="157">Outcome 2</text><text x="453" y="251">Outcome 1</text>
+    <text x="191" y="330">Group A · n = 10</text><text x="453" y="330">Group B · n = 30</text>
+  </g>
+  <rect x="692" y="111" width="261" height="191" rx="16" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
+  <text x="716" y="148" fill="#526f5c" font-family="Arial, sans-serif" font-size="16" font-weight="700">WHAT THE AREA SHOWS</text>
+  <text x="716" y="188" fill="#302e29" font-family="Arial, sans-serif" font-size="17">Width</text>
+  <text x="927" y="188" fill="#302e29" font-family="Arial, sans-serif" font-size="17" text-anchor="end" font-weight="700">group size</text>
+  <text x="716" y="226" fill="#302e29" font-family="Arial, sans-serif" font-size="17">Height</text>
+  <text x="927" y="226" fill="#302e29" font-family="Arial, sans-serif" font-size="17" text-anchor="end" font-weight="700">conditional proportion</text>
+  <line x1="716" y1="244" x2="927" y2="244" stroke="#e5dac9" stroke-width="1.5"/>
+  <text x="716" y="275" fill="#716d62" font-family="Arial, sans-serif" font-size="15">Rectangle area = joint proportion</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#555147">
+    <rect x="716" y="318" width="15" height="15" rx="3" fill="#78a98e"/><text x="738" y="331">Outcome 1</text>
+    <rect x="849" y="318" width="15" height="15" rx="3" fill="#a9c9d6"/><text x="871" y="331">Outcome 2</text>
+  </g>
+</svg>

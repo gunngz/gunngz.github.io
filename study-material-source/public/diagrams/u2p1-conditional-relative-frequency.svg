@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Finding a conditional relative frequency</title>
+  <desc id="desc">A two-way table highlights the Group A Outcome 1 count of 3 and the Group A row total of 10. The conditional relative frequency is 3 divided by 10, or 30 percent.</desc>
+  <rect width="1000" height="360" rx="24" fill="#f7f1e5"/>
+  <text x="42" y="48" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Conditional relative frequency</text>
+  <text x="42" y="78" fill="#777166" font-family="Arial, sans-serif" font-size="16">Illustrative counts · condition on Group A</text>
+  <g font-family="Arial, sans-serif" fill="#302e29" font-size="17">
+    <text x="58" y="129" font-weight="700">Group</text>
+    <text x="247" y="129" text-anchor="middle" font-weight="700">Outcome 1</text>
+    <text x="365" y="129" text-anchor="middle" font-weight="700">Outcome 2</text>
+    <text x="478" y="129" text-anchor="middle" font-weight="700">Group total</text>
+  </g>
+  <rect x="42" y="145" width="490" height="60" rx="10" fill="#e4e9dd"/>
+  <rect x="190" y="154" width="112" height="42" rx="8" fill="#f1dfaa"/>
+  <rect x="425" y="154" width="106" height="42" rx="8" fill="#d9eaf5"/>
+  <g font-family="Arial, sans-serif" fill="#302e29" font-size="20">
+    <text x="58" y="183" font-weight="700">Group A</text>
+    <text x="247" y="183" text-anchor="middle" font-weight="700">3</text>
+    <text x="365" y="183" text-anchor="middle">7</text>
+    <text x="478" y="183" text-anchor="middle" font-weight="700">10</text>
+    <text x="58" y="246">Group B</text>
+    <text x="247" y="246" text-anchor="middle">18</text>
+    <text x="365" y="246" text-anchor="middle">12</text>
+    <text x="478" y="246" text-anchor="middle">30</text>
+    <text x="58" y="305" font-weight="700">Total</text>
+    <text x="247" y="305" text-anchor="middle">21</text>
+    <text x="365" y="305" text-anchor="middle">19</text>
+    <text x="478" y="305" text-anchor="middle">40</text>
+  </g>
+  <g stroke="#dfd3bf" stroke-width="1.5">
+    <line x1="42" y1="137" x2="532" y2="137"/>
+    <line x1="42" y1="214" x2="532" y2="214"/>
+    <line x1="42" y1="270" x2="532" y2="270"/>
+  </g>
+  <path d="M552 175h42m-10-10 10 10-10 10" fill="none" stroke="#526f5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="615" y="111" width="342" height="174" rx="18" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
+  <text x="645" y="151" fill="#716d62" font-family="Arial, sans-serif" font-size="16" font-weight="700">Group A · Outcome 1</text>
+  <text x="786" y="214" text-anchor="middle" fill="#302e29" font-family="Arial, sans-serif" font-size="35" font-weight="700">3 ÷ 10 = 30%</text>
+  <text x="786" y="250" text-anchor="middle" fill="#716d62" font-family="Arial, sans-serif" font-size="16">cell count ÷ given-group total</text>
+</svg>

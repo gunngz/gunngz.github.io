@@ -12,6 +12,7 @@
   --highlight-ink: #403417;
   --search-hit: #d9eaf5;
   --search-hit-ink: #274a63;
+  --history-answer: #315f91;
   --shadow: 0 1px 3px rgb(54 43 24 / 7%);
 }
 
@@ -282,6 +283,7 @@ button { color: inherit; }
   box-shadow: var(--shadow);
 }
 .study-card--chemistry { display: block; }
+.study-card--history .answer-content { color: var(--history-answer); }
 .study-card--chemistry .question-side { padding: 15px 18px 2px; }
 .study-card--chemistry .answer-side { border-left: 0; padding: 5px 51px 15px 18px; }
 .study-card--chemistry .card-blur-button { top: 10px; }

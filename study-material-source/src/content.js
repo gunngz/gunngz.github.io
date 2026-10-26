@@ -13,6 +13,7 @@ export const unitInfo = {
   u2p1: { title: "Unit 2 Part 1", heading: "AP Statistics — Unit 2", order: 3 },
   chem1: { title: "Unit 1", heading: "AP Chemistry — Unit 1", order: 1 },
   chem2: { title: "Unit 2", heading: "AP Chemistry — Unit 2", order: 2 },
+  ushist3: { title: "Unit 3 · Industrialization", heading: "U.S. History — Unit 3", order: 1 },
 };
 
 const categoryOrder = {
@@ -41,6 +42,10 @@ const categoryOrder = {
       "Evidence & Identity",
       "Errors & Improvements",
     ],
+  },
+  ushist3: {
+    vocabulary: ["Industrialization"],
+    questions: ["Check for Understanding"],
   },
 };
 

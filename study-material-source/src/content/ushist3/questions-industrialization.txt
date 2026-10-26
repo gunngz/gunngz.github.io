@@ -1,0 +1,65 @@
+---
+unit: ushist3
+kind: questions
+category: Check for Understanding
+---
+
+### How did the shift from a rural society to an industrial power between 1865 and 1900 affect daily life and infrastructure?
+- More Americans moved from rural communities to cities, while electricity, telephones, and railroads changed how people lived, communicated, and traveled.
+
+### What role did patents play in driving technological innovation during the late 19th century?
+- Patents protected inventors' ideas for a limited time, making it more worthwhile to invest in developing inventions and bringing them to market.
+
+### How did Alexander Graham Bell's commercial telephone change American communication after its invention in 1876?
+- The telephone let people speak over long distances, helping businesses communicate more efficiently and expanding access to rapid communication.
+
+### Why was Edwin Drake's 1859 oil discovery in Titusville, Pennsylvania, historically significant?
+- Drake's drilling helped launch the petroleum industry. Oil supplied kerosene for lamps and lubricants for machinery, and petroleum later supplied gasoline for automobiles.
+
+### How did the Bessemer process change American infrastructure and city skylines?
+- By making steel faster and cheaper to produce, it enabled wider use of steel in railroad rails, bridges, and tall buildings such as skyscrapers.
+
+### What were the main principles of Frederick W. Taylor's scientific management?
+- Taylor used time-and-motion studies to identify and remove unnecessary movements, standardize tasks, and increase worker speed and factory output.
+
+### How did Henry Ford adapt Taylorism to change automobile manufacturing?
+- Ford used a moving assembly line that brought work to stationary workers. It increased production and lowered car prices, while making many jobs repetitive.
+
+### What advantages did the corporate business model offer over a traditional single-owner business?
+- A corporation could raise large amounts of capital by selling stock. Its separate legal status also limited investors' personal financial liability.
+
+### How did John D. Rockefeller and Standard Oil limit market competition?
+- Rockefeller acquired competing refineries, used railroad shipping rebates, and cut prices to pressure rivals. Standard Oil controlled about 90% of U.S. oil refining by 1882.
+
+### What is the key difference between horizontal and vertical integration?
+- Horizontal integration combines competitors at the ==same production stage==. Vertical integration controls ==different stages of production and distribution==.
+
+### How did Andrew Carnegie use vertical integration to dominate the steel industry?
+- Carnegie acquired iron ore mines, coalfields, and transportation networks, giving his company control over many stages from raw materials to steel delivery and helping reduce costs.
+
+### How did the federal government support industrial growth while following a laissez-faire doctrine?
+- The government granted land for railroad construction, sold public land for resource development, and used protective tariffs to shield U.S. businesses from foreign competition.
+
+### How did political corruption affect government oversight during rapid industrialization?
+- Business leaders bribed politicians to obtain land and favorable laws. This weakened oversight and encouraged officials to serve private business interests.
+
+### Why was the Sherman Antitrust Act initially ineffective at curbing monopolies?
+- Its wording was vague, making it difficult to enforce against powerful corporations; courts also interpreted its reach narrowly.
+
+### What was the legal significance of the Supreme Court's decision in United States v. E.C. Knight Co. (1895)?
+- The Court treated manufacturing as separate from interstate commerce, limiting the federal government's ability to use the Sherman Act against manufacturing monopolies.
+
+### Why did Mark Twain call the late 19th century the Gilded Age?
+- The name suggested that a shiny surface of economic growth hid poverty, political corruption, and inequality.
+
+### How extreme was income inequality in the late 19th century?
+- It was very large: the guide's example compares Andrew Carnegie's $25 million in 1890 with an average worker's annual pay of $440.
+
+### What main argument did Andrew Carnegie make in his 1889 essay, The Gospel of Wealth?
+- Carnegie argued that wealthy people had a moral responsibility to use their fortunes to benefit the public rather than simply pass on or keep their wealth.
+
+### What arguments supported calling business leaders of this era robber barons?
+- Critics pointed to worker exploitation, unsafe workplaces, very low wages, political bribery, and aggressive practices that drove competitors out of business.
+
+### What arguments supported calling business leaders of this era captains of industry?
+- Supporters credited them with taking financial risks, introducing innovations, creating jobs, expanding production, and helping build a leading industrial economy.

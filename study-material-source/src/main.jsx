@@ -4,7 +4,10 @@ import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./cont
 import "./style.css";
 
 const isChemistry = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname);
-const availableUnits = isChemistry ? ["chem1", "chem2"] : ["u1p1", "u1p2", "u2p1"];
+const isHistory = /^\/us-history(?:\/|$)/.test(window.location.pathname);
+const availableUnits = isChemistry
+  ? ["chem1", "chem2"]
+  : isHistory ? ["ushist3"] : ["u1p1", "u1p2", "u2p1"];
 const u2p1PrimaryCategoryByDay = {
   1: "Two Categorical Variables",
   2: "Simulation",
@@ -55,7 +58,7 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
   const blurred = blurredIds.has(card.id);
   const hasDiagram = card.answer.includes("](./diagrams/");
   return (
-    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3><RichText value={card.title} inline query={query} /></h3>
       </div>
@@ -194,19 +197,21 @@ function App() {
         <div className="sticky-navigation-inner">
           <nav className="primary-nav" aria-label="Study controls">
             <div className="mode-nav" role="group" aria-label="Content type">
-              <button
-                className="icon-button sidebar-toggle"
-                type="button"
-                aria-label={sidebarOpen ? "Close sidebar" : "Open sidebar"}
-                aria-expanded={sidebarOpen}
-                title={sidebarOpen ? "Close sidebar" : "Open sidebar"}
-                onClick={() => {
-                  setSidebarOpen((open) => !open);
-                  setSidebarDismissed(false);
-                }}
-              >
-                <MenuIcon open={sidebarOpen} />
-              </button>
+              {availableUnits.length > 1 ? (
+                <button
+                  className="icon-button sidebar-toggle"
+                  type="button"
+                  aria-label={sidebarOpen ? "Close sidebar" : "Open sidebar"}
+                  aria-expanded={sidebarOpen}
+                  title={sidebarOpen ? "Close sidebar" : "Open sidebar"}
+                  onClick={() => {
+                    setSidebarOpen((open) => !open);
+                    setSidebarDismissed(false);
+                  }}
+                >
+                  <MenuIcon open={sidebarOpen} />
+                </button>
+              ) : null}
               {isChemistry ? (
                 unit === "chem2" ? (
                   <>
@@ -214,6 +219,11 @@ function App() {
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "lab-review"} onClick={() => selectKind("lab-review")}>Lab Quiz Review</button>
                   </>
                 ) : <span className="nav-section-label">Answer templates</span>
+              ) : isHistory ? (
+                <>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "questions"} onClick={() => selectKind("questions")}>Check for understanding</button>
+                </>
               ) : (
                 <>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>

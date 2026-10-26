@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">Joint relative frequency</title>
+  <desc id="desc">An illustrative two-way table highlights the interior cell for Group A and Outcome 1, with count 3, and the overall sample size 40. The joint relative frequency is 3 divided by 40, or 7.5 percent.</desc>
+  <rect width="1000" height="340" rx="24" fill="#f7f1e5"/>
+  <text x="42" y="48" fill="#302e29" font-family="Arial, sans-serif" font-size="25" font-weight="700">Joint relative frequency</text>
+  <text x="42" y="78" fill="#777166" font-family="Arial, sans-serif" font-size="16">Illustrative counts · an interior cell over the overall sample size</text>
+  <rect x="42" y="104" width="490" height="178" rx="12" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
+  <rect x="42" y="104" width="490" height="46" rx="12" fill="#e4e9dd"/>
+  <rect x="190" y="151" width="117" height="42" rx="7" fill="#f1dfaa" stroke="#bd9d48" stroke-width="2"/>
+  <rect x="425" y="240" width="106" height="41" rx="7" fill="#d9eaf5" stroke="#739db3" stroke-width="2"/>
+  <g stroke="#dfd3bf" stroke-width="1.5"><line x1="42" y1="150" x2="532" y2="150"/><line x1="42" y1="194" x2="532" y2="194"/><line x1="42" y1="238" x2="532" y2="238"/><line x1="190" y1="104" x2="190" y2="282"/><line x1="308" y1="104" x2="308" y2="282"/></g>
+  <g fill="#302e29" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <text x="116" y="134" font-weight="700">Group</text><text x="249" y="134" font-weight="700">Outcome 1</text><text x="367" y="134" font-weight="700">Outcome 2</text><text x="478" y="134" font-weight="700">Total</text>
+    <text x="116" y="179" text-anchor="start" font-weight="700">Group A</text><text x="249" y="179" font-weight="700">3</text><text x="367" y="179">7</text><text x="478" y="179">10</text>
+    <text x="116" y="223" text-anchor="start">Group B</text><text x="249" y="223">18</text><text x="367" y="223">12</text><text x="478" y="223">30</text>
+    <text x="116" y="267" text-anchor="start" font-weight="700">Total</text><text x="249" y="267">21</text><text x="367" y="267">19</text><text x="478" y="267" font-weight="700">40</text>
+  </g>
+  <path d="M552 173h42m-10-10 10 10-10 10" fill="none" stroke="#526f5c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="615" y="114" width="343" height="164" rx="16" fill="#fffaf1" stroke="#e5dac9" stroke-width="2"/>
+  <text x="642" y="152" fill="#526f5c" font-family="Arial, sans-serif" font-size="15" font-weight="700">GROUP A AND OUTCOME 1</text>
+  <text x="786" y="207" text-anchor="middle" fill="#302e29" font-family="Arial, sans-serif" font-size="34" font-weight="700">3 ÷ 40 = 7.5%</text>
+  <text x="786" y="244" text-anchor="middle" fill="#716d62" font-family="Arial, sans-serif" font-size="16">interior cell ÷ overall sample size</text>
+</svg>
