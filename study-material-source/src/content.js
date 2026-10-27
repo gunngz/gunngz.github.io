@@ -27,7 +27,7 @@ const categoryOrder = {
   },
   u2p1: {
     vocabulary: ["Two Categorical Variables", "Simulation", "Probability Basics", "Conditional Probability", "Diagnostic Testing"],
-    template: ["Two Categorical Variables", "Simulation"],
+    template: ["Two Categorical Variables", "Simulation", "Probability Basics", "Conditional Probability", "Diagnostic Testing"],
     calculations: ["Calculations"],
   },
   chem1: {

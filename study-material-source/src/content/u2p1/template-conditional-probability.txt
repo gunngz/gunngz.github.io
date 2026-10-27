@@ -1,0 +1,21 @@
+---
+unit: u2p1
+kind: template
+category: Conditional Probability
+---
+
+### Interpret a conditional probability {days=4,5}
+“==Given that== **[condition B]**, there is a **[probability or percent]** chance that **[event A]**.”
+
+Equivalent wording: “==Among [members of group B]==, **[percent]%** **[have outcome A]**.”
+
+Key idea: In \(P(A\mid B)\), the ==condition is B==. Reversing A and B asks a different question.
+
+- Homework source: U2 HW #4, §2D #1–4 (adapted).
+
+### Justify using the multiplication rule {days=5}
+“We cannot multiply the separate probabilities because the events are ==not independent==. **[Earlier event]** changes the probability of **[later event]**.”
+
+Key idea: For dependent events, use a ==conditional probability== for the later event. The formulas are in Calculations.
+
+- Homework source: U2 HW #5, §2D #35 (adapted).

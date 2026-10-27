@@ -11,6 +11,10 @@ PPT example: “Can seniors win 8 out of 10 Night Rallies by chance?”
 
 - PPT source: U2P1 Day 2, slides 3–4.
 
+Homework variation: “How likely is **[observed result or a more extreme result]** ==if [claim] is true==?”
+
+- Homework source: U2 HW #2, §2B #9, 11–12 (adapted).
+
 ### Simulation response {days=2}
 1. State the ==question of interest==.
 2. Plan and describe how to use chance to imitate ==one repetition==. State what will be recorded after each repetition.
@@ -21,6 +25,47 @@ Conclusion: “In **[number of repetitions]** repetitions of **[number of trials
 
 - PPT source: U2P1 Day 2, slides 3–4.
 
+### Describe a fixed-length simulation {days=2}
+1. “Use a random number generator to produce integers from **[lower limit]** to **[upper limit]**. Let **[codes]** represent **[outcome]** and the remaining codes represent **[other outcome]**.”
+2. “Generate **[number]** random numbers, ==allowing repeats==, to represent **[number] independent attempts**. Record **[number of successes]**.”
+3. “Repeat this whole process **[number of repetitions]** times.”
+
+Key idea: The ==fraction of codes assigned to each outcome== must match its probability.
+
+- PPT source: U2P1 Day 2, slide 4.
+- Homework source: Simulation Worksheet #4; U2 HW #2, §2B #9 (adapted).
+
+### Simulate sampling without replacement {days=2}
+1. “Label the **[number of individuals]** individuals from **[first label]** to **[last label]**. State which labels belong to each group.”
+2. “Generate **[sample size] different labels**, ==ignoring repeated labels within this repetition==. Record **[result of interest]**.”
+3. “Start with the full set of labels again for the next repetition.”
+
+Key idea: These labels identify ==individuals==. When codes represent outcome types instead, repeated codes can represent different individuals.
+
+- Homework source: Simulation Worksheet #3; U2 HW #2, §2B #11–12, 16 (adapted).
+
+### Describe a stopping rule {days=2}
+“Let **[codes]** represent **[outcomes]**. Generate random numbers **[with or without repeats, as the situation requires]** until **[stopping event]** or **[maximum number of attempts]**, ==whichever comes first==. Record **[the result or the number of attempts]**. Repeat the whole process **[number of repetitions]** times.”
+
+Key idea: State ==when to stop== and ==what to record== after each complete repetition. Include a maximum only when the question gives one.
+
+- Homework source: Simulation Worksheet #2, 5 (adapted).
+
+### Interpret one dot in a simulation {days=2}
+“In ==one repetition== of **[number of attempts]**, **[count]** **[outcomes of interest]** occurred.”
+
+![Illustrative simulation dotplot: each dot represents one complete repetition of 20 attempts, and its position records the number of successes.](./diagrams/u2p1-simulation-dotplot.svg)
+
+- Homework source: U2 HW #2, §2B #9(b) (adapted; diagram uses illustrative results).
+
+### Assess a claim using simulation {days=2}
+- **Unusual result:** “==Assuming [claim] is true==, the estimated probability of **[observed result or a more extreme result]** is **[probability]**. This is ==unlikely to happen by chance alone==, so it gives ==convincing evidence== that **[alternative claim in context]**.”
+- **Common result:** “==Assuming [claim] is true==, **[observed result or a more extreme result]** is not unusual. This ==does not give convincing evidence== that **[claim]** is false.”
+
+Key idea: Include the observed result and the tail in the direction being investigated: ==at least== the observed count or ==at most== the observed count. A common result does not prove the claim is true.
+
+- Homework source: U2 HW #2, §2B #9(c–d), 11(c), 12(c), 16 (adapted).
+
 ### Interpret a probability {days=2}
 “If you take a ==very large random sample== of **[population]**, approximately **[probability × 100]%** of them will **[event]**.”
 
@@ -29,3 +74,13 @@ Conclusion: “In **[number of repetitions]** repetitions of **[number of trials
 - Probability describes the proportion of times an outcome occurs in a ==very long series of trials==; it does not promise an exact count in a small sample.
 
 - PPT source: U2P1 Day 2, slides 11–13.
+
+### Explain short-run and long-run behavior {days=2}
+“Results ==vary unpredictably in the short run==. Over a ==large number of [attempts]==, the proportion of **[event]** tends to get closer to **[probability]**.”
+
+- Homework source: U2 HW #2, §2B #5(a) (adapted).
+
+### Explain why success is not “due” {days=2}
+“If the **[attempts]** are ==independent==, earlier **[failures]** do not change the probability of success on the next attempt. It remains **[probability]**.”
+
+- Homework source: U2 HW #2, §2B #8 (adapted).

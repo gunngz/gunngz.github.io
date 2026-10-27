@@ -1,0 +1,17 @@
+---
+unit: u2p1
+kind: template
+category: Probability Basics
+---
+
+### Explain a valid probability model {days=3}
+“This is a valid probability model because ==each probability is between 0 and 1, inclusive==, and the probabilities of ==all possible outcomes add to 1==.”
+
+- Homework source: U2 HW #3, §2C #5(a) (adapted).
+
+### Explain mutually exclusive events {days=3,4,5}
+“**[Event A]** and **[event B]** are ==mutually exclusive== because they ==cannot occur at the same time==: **[explanation in context]**.”
+
+For events that overlap: “They are ==not mutually exclusive== because **[an outcome that belongs to both events]** is possible.”
+
+- Homework source: Probability Level-Up, Yellow Belt #5; Day 5 Practice #7–8, 16(c) (adapted).

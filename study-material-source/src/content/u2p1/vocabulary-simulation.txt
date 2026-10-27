@@ -10,11 +10,39 @@ category: Simulation
 
 ### Simulation {days=2}
 - A way to imitate a chance process using a model that assigns outcomes according to the probabilities in the real situation.
-- One trial of the model represents one repetition of the real process.
+- One ==repetition== is a complete simulated run with one recorded result. It can contain several individual draws or attempts.
+- Homework often calls one complete repetition a ==trial==; the PPT also uses “trials” for individual attempts within a repetition.
+
+- Sources: U2P1 Day 2, slide 4; U2 HW #2, §2B #9, 11–12.
+
+### With or without replacement {days=2,3,4,5}
+- ==With replacement==: return an item before the next draw. In a well-mixed random draw, the probabilities stay the same.
+- ==Without replacement==: keep the item out. The remaining counts change, so later probabilities can change.
+- In a simulation with ==one label per individual==, reject repeated labels within a sample without replacement. Reset the full set for the next repetition.
+- When codes stand for ==outcome types== rather than individuals, repeated codes can be valid. Several different people can have the same outcome.
+
+- Homework source: Simulation Worksheet #3–4; U2 HW #2, §2B #11–12, 16; Probability Level-Up, Yellow Belt #2, 4.
+
+### Stopping rule {days=2}
+- The condition that tells you ==when one complete simulation repetition ends==.
+- Examples include reaching the first success, reaching a target total, or reaching a maximum number of attempts.
+- State ==what is recorded== at the end: a count, a total, or whether an event occurred.
+
+- Homework source: Simulation Worksheet #2, 5.
+
+### Convincing evidence {days=2}
+- A result that is ==unlikely to occur by chance alone if the claim is true== provides evidence against that claim.
+- Use results ==as extreme as or more extreme than the observed result== in the direction being investigated.
+- A result that is common under the claim ==does not prove the claim true==.
+
+- Homework source: U2 HW #2, §2B #9, 11–12, 16.
 
 ### Empirical probability {days=2}
 - An estimate based on the observed proportion of outcomes from repeated trials.
 - For a fair coin, the proportion of heads varies in the short run and tends toward 0.5 as the number of tosses grows.
+- It is ==based on observed results==, unlike a theoretical probability based on a model.
+
+- Homework source: U2 HW #2, §2B #5(b).
 
 ### Theoretical probability {days=2}
 - A probability determined from a chance model, before using results from repeated trials.

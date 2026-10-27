@@ -30,13 +30,15 @@ For a mosaic plot, make each bar's width proportional to the size of its explana
 - PPT source: U2P1 Day 1.
 
 ### Simulation estimates {days=2}
-Map random outcomes to the real outcomes, repeat the trial, then calculate:
+For the observed proportion of a single outcome:
 
 \[\widehat{P}(A)=\frac{\text{number of simulated successes}}{\text{number of trials}}\]
 
-For a claim test, a simulated tail proportion is:
+For a claim test, count complete ==repetitions== that match the observed result or are more extreme:
 
-\[\widehat{P}(\text{result at least as extreme})=\frac{\text{trials at least as extreme}}{\text{total trials}}\]
+\[\widehat{P}(\text{result at least as extreme})=\frac{\text{repetitions at least as extreme}}{\text{total repetitions}}\]
+
+- Homework source: U2 HW #2, §2B #9(c), 11(c), 12(c).
 
 ### Probability rules {days=3,4}
 \[0\leq P(A)\leq 1\]
@@ -74,6 +76,38 @@ Do not confuse \(P(D^c\mid +)\) with \(P(+\mid D^c)\); they condition on differe
 \[P(A\mid B)=P(A)\]
 
 \[P(A\cap B)=P(A)P(B)\]
+
+### General multiplication rule {days=4,5}
+\[P(A\cap B)=P(A)P(B\mid A)=P(B)P(A\mid B)\]
+
+- Homework source: U2 HW #5, §2D #17–18; Day 5 Practice #14–15.
+
+### Two draws without replacement {days=3,4,5}
+For two successes from \(K\) success items among \(N\) items:
+
+\[P(\text{both successes})=\frac{K}{N}\cdot\frac{K-1}{N-1}\]
+
+- Homework source: Probability Level-Up, Blue Belt #1; Day 5 Practice #14.
+
+### At least one {days=3,5}
+\[P(\text{at least one})=1-P(\text{none})\]
+
+For \(n\) ==independent attempts== with the same success probability \(p\):
+
+\[P(\text{at least one success})=1-(1-p)^n\]
+
+- Homework source: Probability Level-Up, Orange Belt #1(f) and Green Belt #1.
+
+### Diagnostic test probabilities {days=5}
+Let \(D\) mean “has the condition.”
+
+\[P(-\mid D)=1-\text{sensitivity}\]
+
+\[P(+\mid D^c)=1-\text{specificity}\]
+
+\[P(D\mid +)=\frac{P(D)P(+\mid D)}{P(D)P(+\mid D)+P(D^c)P(+\mid D^c)}\]
+
+- Homework source: U2 HW #5, §2D #25–26.
 
 ### Tree diagrams and total probability {days=4,5}
 - Path: multiply. Event: add matching paths.

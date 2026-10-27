@@ -11,6 +11,9 @@ const availableUnits = isChemistry
 const u2p1PrimaryCategoryByDay = {
   1: "Two Categorical Variables",
   2: "Simulation",
+  3: "Probability Basics",
+  4: "Conditional Probability",
+  5: "Diagnostic Testing",
 };
 
 function EyeIcon({ crossed = false }) {
@@ -90,7 +93,12 @@ function App() {
   const [sidebarDismissed, setSidebarDismissed] = useState(false);
   const contentRef = useRef(null);
 
-  const pages = useMemo(() => getPages(unit, kind), [unit, kind]);
+  const pages = useMemo(() => {
+    const unitPages = getPages(unit, kind);
+    return unit === "u2p1" && day !== "all"
+      ? unitPages.filter((page) => page.cards.some((card) => card.days.includes(day)))
+      : unitPages;
+  }, [unit, kind, day]);
   const activeCategory = pages.some((page) => page.category === category)
     ? category
     : pages[0]?.category || "";
@@ -335,7 +343,7 @@ function App() {
                 </div>
               ) : null}
               <div className="card-list">
-                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />) : unit === "u2p1" && kind === "template" && day !== "all" ? <p className="empty-state">No shared written template from the slides is listed for this day.</p> : null}
+                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />) : unit === "u2p1" && day !== "all" ? <p className="empty-state">No content for this day.</p> : null}
               </div>
             </section>
           )}

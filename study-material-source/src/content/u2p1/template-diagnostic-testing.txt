@@ -1,0 +1,26 @@
+---
+unit: u2p1
+kind: template
+category: Diagnostic Testing
+---
+
+### Interpret a false-positive rate {days=2,5}
+“Among **[individuals who do not have the condition]**, about **[rate × 100]%** would ==test positive even though the condition is absent== over many tests.”
+
+Key idea: The denominator is the group ==without the condition==, not everyone who tests positive.
+
+- Homework source: U2 HW #2, §2B #4(a); U2 HW #5, §2D #26 (adapted).
+
+### Interpret a false-negative rate {days=2,5}
+“Among **[individuals who have the condition]**, about **[rate × 100]%** would ==test negative even though the condition is present== over many tests.”
+
+Key idea: The denominator is the group ==with the condition==, not everyone who tests negative.
+
+- Homework source: U2 HW #5, §2D #25–26 (adapted).
+
+### Explain which error is more serious {days=2,5}
+“A **[false positive or false negative]** would incorrectly say **[test conclusion]** when **[truth]**. This is more serious in this situation because **[specific consequence]**.”
+
+Key idea: Link the ==wrong test result== to its ==consequence in context==. The more serious error depends on the situation.
+
+- Homework source: U2 HW #2, §2B #4(b) (adapted).

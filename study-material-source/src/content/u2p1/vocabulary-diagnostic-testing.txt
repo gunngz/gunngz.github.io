@@ -4,11 +4,31 @@ kind: vocabulary
 category: Diagnostic Testing
 ---
 
-### False positive {days=4,5}
+### False positive {days=2,4,5}
 - A test indicates that a condition is present when the condition is actually absent.
-- For condition \(D\) and a positive result \(+\), this is \(P(+\mid D^c)\).
+- For condition \(D\) and a positive result \(+\), the ==false-positive rate== is \(P(+\mid D^c)\).
 
-### False negative {days=4,5}
+- Homework source: U2 HW #2, §2B #4; U2 HW #5, §2D #26.
+
+### False negative {days=2,4,5}
 - A test indicates that a condition is absent when the condition is actually present.
-- For condition \(D\), this is \(P(-\mid D)\).
+- For condition \(D\), the ==false-negative rate== is \(P(-\mid D)\).
 - \(P(D^c\mid +)\) is a different conditional probability: it asks whether the condition is absent given a positive result.
+
+- Homework source: U2 HW #5, §2D #25–26.
+
+### Sensitivity and specificity {days=5}
+Let \(D\) mean “has the condition.”
+
+- ==Sensitivity==: the chance of a positive test ==given the condition is present==.
+
+\[\text{sensitivity}=P(+\mid D)\]
+
+- ==Specificity==: the chance of a negative test ==given the condition is absent==.
+
+\[\text{specificity}=P(-\mid D^c)\]
+
+![Diagnostic test outcomes: true and false positives and negatives, with the actual condition defining the groups used for sensitivity and specificity.](./diagrams/u2p1-diagnostic-testing.svg)
+
+- A test's sensitivity is not \(P(D\mid +)\), the chance of having the condition after a positive result.
+- Homework source: U2 HW #5, §2D #25–26.

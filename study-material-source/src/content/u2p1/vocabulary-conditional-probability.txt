@@ -8,9 +8,22 @@ category: Conditional Probability
 - The probability of an event after another event is known to have occurred.
 - The condition reduces the sample space to the outcomes in that condition; \(P(A\mid B)=\frac{P(A\cap B)}{P(B)}\), when \(P(B)>0\).
 
+### Given, among, and of those {days=4,5}
+- ==Given B==, ==among those in B==, and ==of those in B== all restrict the group to B.
+- \(P(A\mid B)\) asks for the chance of A ==within group B==. The denominator is the total for B.
+- \(P(A\mid B)\) and \(P(B\mid A)\) use different groups and are generally different.
+
+- Homework source: U2 HW #4, §2D #1–9; Probability Level-Up, Red Belt #1(c).
+
 ### Independent events {days=4,5}
 - Events are independent when knowing that one occurred does not change the probability of the other.
 - Check either \(P(A\mid B)=P(A)\) or \(P(A\cap B)=P(A)P(B)\).
+
+### Dependent events {days=3,4,5}
+- Knowing that one event occurred ==changes the probability of the other==.
+- Drawing items without replacement often creates dependence because the remaining counts change.
+
+- Homework source: Probability Level-Up, Yellow Belt #4 and Blue Belt #1; Day 5 Practice #14.
 
 ### Tree diagram {days=4,5}
 - A diagram of sequential events; each branch shows a conditional probability and each path shows one sequence of outcomes.

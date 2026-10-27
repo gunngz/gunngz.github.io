@@ -13,3 +13,10 @@ For a population: “Is there an association between **[variable 1]** and **[var
 
 - Compare ==conditional distributions== across groups.
 - PPT source: U2P1 Day 1, slides 22–27 and 34.
+
+### Interpret a conditional percentage {days=1}
+“Among **[group]**, **[percent]%** **[response]**.”
+
+Key idea: Use the ==total for that group== as the denominator. Compare percentages within groups when the groups have different sizes.
+
+- Homework source: U2 HW #1, §2A #1(c), 3(c) (adapted).
