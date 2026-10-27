@@ -1,0 +1,32 @@
+---
+unit: chem2
+kind: template
+category: Templates
+---
+
+### General experiment explanation
+| Part | What to explain |
+| --- | --- |
+| 1. Initial change | What did you change first? State the operation. |
+| 2. Gas behavior | Explain how ==pressure==, ==volume==, ==temperature==, or the ==amount of gas== changes. |
+| 3. Scientific principle | Explain ==why== this happens using the appropriate gas law or pressure principle. |
+| 4. Final result | Connect these changes to the ==observed phenomenon==. |
+
+**English template**
+
+> When **[operation]**, **[variable]** increases/decreases. According to **[scientific principle]**, this causes **[gas behavior]**. As a result, **[final phenomenon]**.
+
+Key idea: Explain ==why each change leads to the next==, from the initial operation to the final observation.
+
+### Key words for the two gas experiments
+| Part | Pipet sinks | Water rises into the flask |
+| --- | --- | --- |
+| 1. Initial change | ==Squeeze the bottle==. | ==Heat, then cool== the flask. |
+| 2. Gas behavior | Pressure on the trapped air increases, so its volume decreases.<br>\(P\uparrow\)<br>\(V_{\mathrm{air}}\downarrow\) | Temperature decreases and water vapor ==condenses==. The amount of gas decreases, lowering the ==internal pressure==.<br>\(T\downarrow\)<br>\(n_{\mathrm{gas}}\downarrow\)<br>\(P_{\mathrm{inside}}\downarrow\) |
+| 3. Scientific principle | ==Boyle's law==: pressure and volume are inversely related at approximately constant temperature and amount of gas.<br>\(P_1V_1=P_2V_2\) | Before water enters, the gas volume is approximately fixed. The ideal gas relation explains why lower temperature and less gas lower the pressure.<br>\(P=nRT/V\)<br>==Atmospheric pressure exceeds internal pressure==.<br>\(P_{\mathrm{atm}}>P_{\mathrm{inside}}\) |
+| 4. Final result | The compressed air allows ==water to enter the pipet==. Its mass increases while its external volume stays approximately the same, so its ==average density increases==. When it becomes denser than water, it ==sinks==. | The greater atmospheric pressure on the water outside ==pushes water upward== into the flask. |
+
+**Essential WHY**
+
+- **Pipet:** Explain how increased pressure leads to ==greater average density== and sinking.
+- **Flask:** Explain how lower internal pressure creates a ==pressure difference== that lets atmospheric pressure push water upward.
