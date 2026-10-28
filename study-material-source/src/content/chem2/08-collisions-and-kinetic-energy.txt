@@ -1,0 +1,47 @@
+---
+unit: chem2
+kind: template
+category: Templates
+---
+
+### Collision template: explain why
+Remember only two general reasoning templates. Fill in the specific changes from the question.
+
+**Initial Change → Collisions → Final Result**
+
+> As **[variable]** increases/decreases, particles collide **[how]**, resulting in **[final result]**.
+
+**Choose the collision wording that fits the question:**
+
+- ==More frequent collisions==
+- ==More successful collisions==
+- ==More collisions with container walls==
+
+**Special case: a wider distribution (Q5)**
+
+\(T\uparrow\) → More frequent collisions
+→ More energy exchange → Greater speed variability
+
+> More frequent collisions allow particles to exchange more energy, resulting in ==greater variability in particle speeds==.
+
+Key idea: This explanation follows the teacher's emphasis on collisions. Strictly speaking, ==higher temperature is the underlying cause== of the wider distribution.
+
+### Kinetic energy formula template
+\[\boxed{KE=\frac{1}{2}mv^2}\]
+
+\[\boxed{T\uparrow\Rightarrow\overline{KE}\uparrow}\]
+
+**Remember:**
+
+\[\boxed{\text{Same }T\Rightarrow\text{Same average }KE}\]
+
+> At the same temperature, particles have the ==same average kinetic energy==. According to \(KE=\frac{1}{2}mv^2\), ==heavier particles move more slowly on average==.
+
+**Choose between the two templates:**
+
+| Question | Reasoning |
+| --- | --- |
+| Why / Explain, involving collisions | Initial change → Collisions → Result |
+| Relationship between temperature, mass, speed, and KE | Temperature → Average KE → Formula → Result |
+
+The question provides the specific scenario; you do not need to memorize a separate template for each one.
