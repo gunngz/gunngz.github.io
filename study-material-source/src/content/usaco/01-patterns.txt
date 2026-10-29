@@ -1,0 +1,13 @@
+---
+unit: usaco
+kind: patterns
+category: Patterns
+---
+
+### Problem-solving patterns
+| Pattern | When should you consider it? |
+| --- | --- |
+| Forced Move | A position or choice has ==no other legal option==. |
+| Greedy + Exchange Argument | There are many possible choices, and you need to prove that making a certain choice first ==will not make the result worse==. |
+| Maintain an Invariant | You need to ==preserve a condition at every step== to guarantee success in the end. |
+| Reverse Construction | Forward choices affect one another, so ==working backward== may be simpler. |

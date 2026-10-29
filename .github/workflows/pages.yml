@@ -31,13 +31,14 @@ jobs:
         run: npm ci && npm run build
         env:
           GITHUB_PAGES: "true"
-      - name: Assemble the homepage, Statistics, Chemistry, and U.S. History pages
+      - name: Assemble the homepage and study pages
         run: |
-          mkdir -p _site/ap-statistics _site/ap-chemistry _site/us-history
+          mkdir -p _site/ap-statistics _site/ap-chemistry _site/us-history _site/usaco
           rsync -a --exclude='/.git/' --exclude='/.github/' --exclude='/study-material-source/' --exclude='/node_modules/' --exclude='/dist/' --exclude='/_site/' ./ _site/
           cp -a study-material-source/dist/. _site/ap-statistics/
           cp -a study-material-source/dist/. _site/ap-chemistry/
           cp -a study-material-source/dist/. _site/us-history/
+          cp -a study-material-source/dist/. _site/usaco/
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site
