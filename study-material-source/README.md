@@ -22,6 +22,8 @@ Use `==important wording==` to highlight an idea, `**[placeholders]**` for fill-
 
 Chemistry Unit 2 separates the two experiments: **Titration** uses `kind: lab-review`, and **Gas Lab Analysis** uses `kind: gas-lab`. General answer templates remain under `kind: template`.
 
+The separate **Z Curves** view uses `kind: z-curves` for real-gas explanations.
+
 Statistics, Chemistry, U.S. History, and USACO have separate routes and content. Chemistry opens directly to its answer templates; USACO opens to its patterns; Statistics and U.S. History have separate content modes. The pages use warm light colors and keep each category as its own horizontal-navigation page. The centered content width preserves the side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Individual and section-wide eye icons blur answers without removing them.
 
 ## Run locally

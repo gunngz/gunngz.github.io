@@ -227,6 +227,7 @@ function App() {
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "lab-review"} onClick={() => selectKind("lab-review")}>Titration</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "gas-lab"} onClick={() => selectKind("gas-lab")}>Gas Lab Analysis</button>
+                    <button className="nav-button mode-button" type="button" aria-pressed={kind === "z-curves"} onClick={() => selectKind("z-curves")}>Z Curves</button>
                   </>
                 ) : <span className="nav-section-label">Answer templates</span>
               ) : isHistory ? (

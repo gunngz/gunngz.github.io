@@ -1,0 +1,34 @@
+---
+unit: chem2
+kind: z-curves
+category: Z Curves
+---
+
+### Why does \(Z\) approach 1 at low pressure?
+> At low pressure, gas particles are ==far apart==. The volume occupied by the particles themselves is ==negligible compared with the container volume==, and ==intermolecular attractions have little effect==. Therefore, the gas behaves approximately ideally, and \(Z\) approaches 1.
+
+**Reasoning:** Far apart → Negligible particle volume and attractions → Approximately ideal.
+
+Key idea: The particles ==do not change size==. What changes is the distance between them and the fraction of the container volume occupied by the particles themselves.
+
+### Why do attractions cause \(Z<1\)?
+> Intermolecular attractions ==reduce the pressure exerted by the gas== compared with the ideal prediction at the ==same temperature, volume, and number of moles==. Therefore,
+
+\[
+\begin{aligned}
+PV&<nRT\\
+\therefore\quad Z&<1
+\end{aligned}
+\]
+
+**For a more detailed particle explanation:**
+
+> Particles approaching the container walls are ==attracted toward other particles==, reducing the ==momentum transferred to the walls==.
+
+### Why can \(Z\) be greater than 1 at very high pressure?
+> At very high pressure, gas particles are ==close together==, so the volume occupied by the particles themselves is ==no longer negligible==. When ==finite-volume and short-range repulsive effects dominate==, the pressure exceeds the ideal prediction at the ==same temperature, volume, and number of moles==. Therefore, \(Z>1\).
+
+Key idea: The particles' own volume can no longer be ignored; the ==particles have not become larger==.
+
+### Why does higher temperature reduce the deviation caused by attractions?
+> At higher temperatures, gas particles have ==greater average kinetic energy==. Intermolecular attractions are therefore ==less significant relative to the particles' motion==, reducing the deviation from ideal behavior caused by attractions.

@@ -44,6 +44,7 @@ const categoryOrder = {
       "Errors & Improvements",
     ],
     "gas-lab": ["Analysis"],
+    "z-curves": ["Z Curves"],
   },
   ushist3: {
     vocabulary: ["Industrialization"],
