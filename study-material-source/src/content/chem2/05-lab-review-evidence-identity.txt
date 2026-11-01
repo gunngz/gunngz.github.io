@@ -73,17 +73,4 @@ Each \(\mathrm{-COOH}\) group can donate one ionizable proton. Oxalic acid dihyd
 
 
 ### Further confirmation of acid identity
-| Method | What to compare or measure | Limitation |
-| --- | --- | --- |
-| Melting behavior | Compare the observed melting or decomposition behavior with reliable reference data. | Requires an appropriate reference and suitable equipment. |
-| pH and titration curve | Use a calibrated pH meter to record pH versus volume of \(\mathrm{NaOH}\) and estimate the acid’s \(pK_a\) values. | Results need comparison with reference data. |
-| Conductivity | Measure conductivity of the dissolved acid to investigate ionization. | Conductivity alone cannot uniquely identify an acid. |
-| Chemical reactions | Compare the unknown’s reaction behavior with expected behavior for the proposed identity. | A matching reaction is supporting evidence, not necessarily unique proof. |
-
-**Answer templates**
-
-> We could measure the ==melting behavior== of the unknown solid and compare the ==observed result with reliable reference data== for oxalic acid dihydrate. A match would provide additional evidence for our identification; this method requires a ==suitable reference and equipment==.
-
-> We could use a ==calibrated pH meter== to record the ==titration curve== and estimate the acid’s ==\(pK_a\) values==. ==Comparing the results with reference data== would provide additional evidence about the acid’s identity.
-
-> We could measure the ==conductivity== of the dissolved acid to investigate its ==ionization behavior==. Conductivity alone ==cannot uniquely identify the acid== because many acids produce ions in water.
+{{acid-confirmation-template}}
