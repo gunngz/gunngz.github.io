@@ -28,6 +28,8 @@ The separate **Maxwell–Boltzmann** view uses `kind: maxwell-boltzmann`. Its `{
 The same card also switches the horizontal axis between speed and translational kinetic energy. `scripts/draw_mb_extensions.py` generates the energy curves and four speed comparisons beside the curve-shape table.
 The `{{mb-sentence-template}}` card has four header choices and shares the selected horizontal axis with the diagram. Its fixed wording is identical across all Speed and energy examples; only slot values change. Template content lives in `src/content-data/`, formatting in `template-format.js`, and interaction in `TemplateCard.jsx`. All example values are indexed by search.
 
+**Test Feedback** uses `kind: test-feedback` for the supplied Unit 2 exam scoring guide, translated into English. Its four category pages cover multiple-choice answers and FRQ 1–2, 3–4, and 5–6. Keep the point values, review-priority marks, and provisional FRQ 5(a) mark when updating this content.
+
 Statistics, Chemistry, U.S. History, and USACO have separate routes and content. Chemistry opens directly to its answer templates; USACO opens to its patterns; Statistics and U.S. History have separate content modes. The pages use warm light colors and keep each category as its own horizontal-navigation page. The centered content width preserves the side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Individual and section-wide eye icons blur answers without removing them.
 
 ## Run locally

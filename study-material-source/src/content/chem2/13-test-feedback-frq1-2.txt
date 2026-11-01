@@ -1,0 +1,53 @@
+---
+unit: chem2
+kind: test-feedback
+category: FRQ 1–2
+---
+
+### FRQ 1(a): net ionic equation · 1 point
+1. Give the correct net ionic equation, including ==physical states==.
+
+\[\mathrm{Ba^{2+}(aq)+SO_4^{2-}(aq)\rightarrow BaSO_4(s)}\]
+
+### FRQ 1(b): limiting reactant · 1 point
+1. Identify \(\mathrm{SO_4^{2-}}\) as the ==limiting reactant==. Explain using the \(1:1\) reaction ratio and **3 sulfate ions for 4 barium ions**.
+
+### FRQ 1(c): particle diagram · 2 points
+1. Show the correct dissolved particles, numbers, and charges: **1** \(\mathrm{Ba^{2+}}\), **8** \(\mathrm{Cl^-}\), and **6** \(\mathrm{Na^+}\), with ==no sulfate ions left in solution==.
+2. Show the solid containing **3** \(\mathrm{Ba^{2+}}\) units and **3** \(\mathrm{SO_4^{2-}}\) units, grouped as a ==precipitate== rather than dispersed aqueous ions.
+
+### FRQ 1(d): conductivity · 2 points
+==Review priority==
+
+1. State that the filtrate ==still conducts electricity== because dissolved ions remain.
+2. Explain that ==mobile ions carry charge through the solution==.
+
+### FRQ 1(e): wet precipitate · 2 points
+==Review priority==
+
+1. State that the calculated sulfate amount is ==too high== because retained water increases the measured precipitate mass.
+2. Trace the error: the overestimated mass gives too many moles of \(\mathrm{BaSO_4}\); the \(1:1\) mole ratio then gives ==too many moles of sulfate==.
+
+### FRQ 2(a): redox in acidic solution · 2 points
+1. Use the correct coefficients for \(\mathrm{MnO_4^-}\), \(\mathrm{Fe^{2+}}\), \(\mathrm{Mn^{2+}}\), and \(\mathrm{Fe^{3+}}\): **1 : 5 : 1 : 5**.
+2. Add **8** \(\mathrm{H^+}\) on the left and **4** \(\mathrm{H_2O}\) on the right so that ==atoms and charge are balanced==.
+
+\[\mathrm{MnO_4^-+8H^++5Fe^{2+}\rightarrow Mn^{2+}+5Fe^{3+}+4H_2O}\]
+
+### FRQ 2(b): oxidizing agent · 2 points
+==Review priority==
+
+1. Identify \(\mathrm{MnO_4^-}\) as the ==oxidizing agent==.
+2. Explain that manganese changes from \(+7\) to \(+2\), ==gaining 5 electrons== and undergoing reduction.
+
+### FRQ 2(c): redox in basic solution · 2 points
+1. Use the correct coefficients for \(\mathrm{MnO_4^-}\), \(\mathrm{SO_3^{2-}}\), \(\mathrm{MnO_2}\), and \(\mathrm{SO_4^{2-}}\): **2 : 3 : 2 : 3**.
+2. Add **1** \(\mathrm{H_2O}\) on the left and **2** \(\mathrm{OH^-}\) on the right. Balance atoms and charge, with ==no remaining hydrogen ions== in the final equation.
+
+\[\mathrm{2MnO_4^-+3SO_3^{2-}+H_2O\rightarrow 2MnO_2+3SO_4^{2-}+2OH^-}\]
+
+### FRQ 2(d): converting to basic conditions · 2 points
+==Review priority==
+
+1. Add the ==same number of hydroxide ions to both sides== to preserve atom and charge balance.
+2. Combine \(\mathrm{H^+}\) and \(\mathrm{OH^-}\) to form water, then ==cancel water present on both sides==.

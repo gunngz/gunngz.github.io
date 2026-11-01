@@ -234,6 +234,7 @@ function App() {
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "gas-lab"} onClick={() => selectKind("gas-lab")}>Gas Lab Analysis</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "z-curves"} onClick={() => selectKind("z-curves")}>Z Curves</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "maxwell-boltzmann"} onClick={() => selectKind("maxwell-boltzmann")}>Maxwell–Boltzmann</button>
+                    <button className="nav-button mode-button" type="button" aria-pressed={kind === "test-feedback"} onClick={() => selectKind("test-feedback")}>Test Feedback</button>
                   </>
                 ) : <span className="nav-section-label">Answer templates</span>
               ) : isHistory ? (

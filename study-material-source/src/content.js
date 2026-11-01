@@ -48,6 +48,7 @@ const categoryOrder = {
     "gas-lab": ["Analysis"],
     "z-curves": ["Z Curves"],
     "maxwell-boltzmann": ["Speed Distributions"],
+    "test-feedback": ["Multiple Choice", "FRQ 1–2", "FRQ 3–4", "FRQ 5–6"],
   },
   ushist3: {
     vocabulary: ["Industrialization"],

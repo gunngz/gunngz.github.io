@@ -1,0 +1,41 @@
+---
+unit: chem2
+kind: test-feedback
+category: Multiple Choice
+---
+
+### Unit 2 test: scoring and review marks
+| Section | Questions | Points |
+| --- | --- | --- |
+| Multiple choice | 12 | 12 |
+| Free response | 6 questions, 25 parts | 48 |
+| Total | | 60 |
+
+==Review priority== marks a question or part with lost points in the supplied review. The mark for **FRQ 5(a) is provisional** because the scanned symbol still needs confirmation.
+
+This guide lists scoring requirements; it does not reproduce personal responses.
+
+### Multiple-choice answers
+Each question is worth **1 point** for the correct choice. There are no separate points for work or explanation.
+
+| Question | Answer | Correct reasoning |
+| --- | --- | --- |
+| 1 | C | Ammonia is produced: \(\mathrm{NH_4^+ + OH^- \rightarrow NH_3 + H_2O}\). |
+| 2 · ==Review priority== | D | \(\mathrm{HF}\) remains mainly as ==molecules and ionizes only partially==; \(\mathrm{HCl}\) ionizes extensively. |
+| 3 | A | \(\mathrm{CaO + H_2O \rightarrow Ca(OH)_2}\). The oxidation numbers of \(\mathrm{Ca}\), \(\mathrm{O}\), and \(\mathrm{H}\) do not change. |
+| 4 | B | From the activity order \(X>Y>Z\), infer that \(X\) can reduce \(Z^{2+}\) to \(Z\). |
+| 5 | B | The same empirical formula gives the ==same mass percentages== of the elements. |
+| 6 | D | At the equivalence point for a monoprotic acid, \(n(\mathrm{OH^-\ added})=n_{\mathrm{initial}}(\mathrm{HA})\). |
+| 7 | D | Use ==Kelvin==: \(P_2=0.900\left(\frac{2.00}{1.00}\right)\left(\frac{400.15}{300.15}\right)=2.40\ \mathrm{atm}\). |
+| 8 | B | The partial pressure of \(\mathrm{He}\) remains \(2.00\ \mathrm{atm}\) because \(n(\mathrm{He})\), \(T\), and \(V\) are unchanged. |
+| 9 | C | In an elastic collision, the ==total kinetic energy of the two particles is conserved==, although energy can transfer between them. |
+| 10 | A | Doubling number density approximately halves the mean free path. With \(T\) unchanged, the average translational kinetic energy is unchanged. |
+| 11 | D | At fixed \(T\), the kinetic-energy distribution is unchanged. A catalyst ==lowers the activation energy==, so a larger fraction of collisions have enough energy. |
+| 12 · ==Review priority== | B | At the same temperature, average translational kinetic energies are equal. \(t(\mathrm{O_2})=36.0\sqrt{\frac{32.0}{16.0}}=50.9\ \mathrm{s}\). |
+
+### General FRQ scoring rules
+- Each numbered scoring point is worth **1 point**, added within its part. Each FRQ is worth **8 points**.
+- Chemically equivalent wording, reasonable rounding, and equivalent units are accepted. Do not memorize the wording word for word.
+- When the later method is correct, a consistent calculation using an earlier numerical error may receive ==error-carried-forward credit==.
+- An incorrect mole ratio, a missing required pressure correction, or the wrong error direction does not earn the corresponding conceptual point.
+- A point that asks only for a final numerical answer requires the ==correct result==, except where error-carried-forward credit applies.

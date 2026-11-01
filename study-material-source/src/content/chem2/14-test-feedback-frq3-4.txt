@@ -1,0 +1,63 @@
+---
+unit: chem2
+kind: test-feedback
+category: FRQ 3–4
+---
+
+### FRQ 3(a): standardizing \(\mathrm{NaOH}\) · 1 point
+==Review priority==
+
+1. Use the ==1 : 1 mole ratio== of KHP to \(\mathrm{NaOH}\) and include the concentration unit.
+
+\[c(\mathrm{NaOH})=\frac{0.6382/204.22}{0.02500}=0.1250\ \mathrm{mol\,L^{-1}}\]
+
+### FRQ 3(b): molar mass of the acid · 3 points
+1. Calculate the moles of \(\mathrm{NaOH}\).
+
+   \[n(\mathrm{NaOH})=0.1250\times0.04000=0.005000\ \mathrm{mol}\]
+
+2. Use the ==2 : 1 mole ratio== of \(\mathrm{NaOH}\) to \(\mathrm{H_2A}\).
+
+   \[n(\mathrm{H_2A})=0.002500\ \mathrm{mol}\]
+
+3. Calculate the molar mass and include its unit.
+
+   \[M=\frac{0.3303}{0.002500}=132.1\ \mathrm{g\,mol^{-1}}\]
+
+### FRQ 3(c): adding water before titration · 2 points
+==Review priority==
+
+1. State that the required \(\mathrm{NaOH}\) volume is ==unchanged== because added water does not change the moles of acid in the entire sample.
+2. Explain the chain: unchanged acid moles require unchanged \(\mathrm{NaOH}\) moles; at fixed \(\mathrm{NaOH}\) concentration, the ==required volume is unchanged==.
+
+### FRQ 3(d): air in the buret tip · 2 points
+==Review priority==
+
+1. Explain that part of the recorded volume fills the buret tip instead of entering the flask. The ==change in buret reading exceeds the volume delivered== to the flask.
+2. This overestimates the moles of \(\mathrm{NaOH}\) and acid. Dividing the correct acid mass by too many moles gives a ==molar mass that is too low==.
+
+### FRQ 4(a): empirical formula from combustion · 3 points
+1. Use \(\mathrm{CO_2}\) to find the carbon amount and \(\mathrm{H_2O}\) to find the hydrogen amount, counting ==2 hydrogen atoms per water molecule==.
+
+   \[n(\mathrm{C})\approx0.02999\ \mathrm{mol}\]
+   \[n(\mathrm{H})\approx0.05999\ \mathrm{mol}\]
+
+2. Subtract the carbon and hydrogen masses from the original sample mass to find its oxygen content.
+
+   \[m(\mathrm{O})\approx0.2401\ \mathrm{g}\]
+   \[n(\mathrm{O})\approx0.01501\ \mathrm{mol}\]
+
+3. Obtain the ==simplest whole-number mole ratio==, \(\mathrm{C:H:O}=2:4:1\), giving the empirical formula \(\mathrm{C_2H_4O}\).
+
+### FRQ 4(b): molecular formula · 1 point
+1. Divide the molar mass by the empirical-formula mass, then multiply every subscript by **2** to obtain \(\mathrm{C_4H_8O_2}\).
+
+\[\frac{88.1}{44.052}\approx2\]
+
+### FRQ 4(c): finding the sample's oxygen · 2 points
+1. State that oxygen in the products comes from ==both the original sample and the oxygen added for combustion==.
+2. Because the sample contains only carbon, hydrogen, and oxygen, use conservation of mass: subtract its carbon and hydrogen masses from its total mass to find the ==oxygen originally in the sample==.
+
+### FRQ 4(d): incomplete carbon dioxide collection · 2 points
+1. Explain that failing to collect some \(\mathrm{CO_2}\) makes the calculated ==carbon amount too low==.
+2. The mass-difference method assigns the missing carbon mass to oxygen, making the oxygen amount too high. Therefore, the calculated ==carbon-to-oxygen mole ratio is too low==.

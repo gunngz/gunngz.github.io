@@ -1,0 +1,63 @@
+---
+unit: chem2
+kind: test-feedback
+category: FRQ 5–6
+---
+
+### FRQ 5(a): reaction and limiting reactant · 2 points
+==Review priority · provisional mark==
+
+1. Write the correct net ionic equation with ==balanced coefficients and charge==.
+
+   \[\mathrm{Mg+2H^+\rightarrow Mg^{2+}+H_2}\]
+
+2. Show quantitatively that ==magnesium is limiting==. The required amount of \(\mathrm{HCl}\) is less than the available amount. An equivalent comparison of volumes or moles divided by coefficients is also accepted.
+
+   \[0.003291\ \mathrm{mol}<0.00500\ \mathrm{mol}\]
+
+### FRQ 5(b): gas collected over water · 2 points
+==Review priority==
+
+1. ==Subtract the water-vapor pressure== to obtain the hydrogen partial pressure.
+
+   \[P(\mathrm{H_2})=748.0-23.8=724.2\ \mathrm{mmHg}\]
+   \[P(\mathrm{H_2})=0.9529\ \mathrm{atm}\]
+
+2. Substitute the hydrogen partial pressure, \(0.0412\ \mathrm{L}\), and \(298.15\ \mathrm{K}\) into the ideal gas law.
+
+   \[n(\mathrm{H_2})=\frac{P(\mathrm{H_2})V}{RT}=1.60\times10^{-3}\ \mathrm{mol}\]
+
+### FRQ 5(c): ignoring water vapor · 2 points
+==Review priority==
+
+1. State that the calculated moles of \(\mathrm{H_2}\) are ==too high==.
+2. Explain that water vapor contributes to total pressure. Assigning all of that pressure to hydrogen overestimates its partial pressure; at fixed \(V\) and \(T\), \(n=PV/(RT)\) then gives ==too many moles==.
+
+### FRQ 5(d): magnesium needed for 40.0 mL · 2 points
+==Review priority==
+
+1. For \(40.0\ \mathrm{mL}\), use the corrected hydrogen partial pressure and the ==1 : 1 mole ratio== of \(\mathrm{Mg}\) to \(\mathrm{H_2}\) to obtain a required magnesium mass of \(0.0379\ \mathrm{g}\).
+2. State that this corrected mass is ==smaller than the mass calculated without the water-vapor correction==. Water vapor supplies part of the total pressure, so less hydrogen and therefore less magnesium are needed.
+
+### FRQ 6(a): temperature and pressure · 2 points
+==Review priority==
+
+1. Connect higher temperature to greater average translational kinetic energy and speed, then to ==more frequent collisions with the container walls==.
+2. Explain that each wall collision transfers ==more momentum on average==, or describe more forceful collisions, and connect this to ==higher pressure==.
+
+### FRQ 6(b): Maxwell–Boltzmann curves · 2 points
+1. State that the \(2000\ \mathrm{K}\) curve peaks farther to the right and is broader. Connect this to ==higher average kinetic energy and higher characteristic speeds==.
+2. Equal particle counts give ==equal total areas==. Connect the broader distribution to a ==lower peak==.
+
+### FRQ 6(c): real-gas deviations · 2 points
+1. At the same \(n\), \(T\), and \(V\), intermolecular attractions make the real pressure lower than the ideal prediction.
+
+   \[Z<1\]
+
+2. At very high pressure, finite particle volume, excluded volume, or short-range repulsions dominate, making the pressure higher than the ideal prediction.
+
+   \[Z>1\]
+
+### FRQ 6(d): low-pressure behavior · 2 points
+1. Reject the claim that the ==particles become smaller==. Their own volume does not change; it becomes negligible relative to the larger gas or container volume.
+2. Explain that greater particle separation weakens the effect of intermolecular attractions, so the gas behaves ==more nearly ideally==.
