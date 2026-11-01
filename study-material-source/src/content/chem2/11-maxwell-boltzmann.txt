@@ -1,0 +1,56 @@
+---
+unit: chem2
+kind: maxwell-boltzmann
+category: Speed Distributions
+---
+
+### Speed-distribution curves
+{{maxwell-boltzmann-diagram}}
+
+### Maxwell–Boltzmann: three-step template
+**Condition → Average kinetic energy and speed → Curve shape**
+
+Use this template when the horizontal axis is ==speed==. Peak-height comparisons assume ==the same number of particles or normalized distributions==.
+
+### Step 1 — Use temperature to compare average kinetic energy
+**Same gas, different temperatures:**
+
+> At a **[higher / lower] temperature**, the particles have **[greater / lower] average kinetic energy**.
+
+**Different gases, the same temperature:**
+
+> Both gases have the ==same average kinetic energy== because they are at the ==same temperature==.
+
+### Step 2 — Explain speed and speed variability
+**Heating the same gas — classroom wording:**
+
+> Their average speed increases. More frequent collisions allow particles to exchange more energy, resulting in ==greater variability in particle speeds==.
+
+**Different gases at the same temperature — use mass:**
+
+> The gas with the ==smaller molar mass== has a ==greater average speed==, since its lighter particles must move faster to have the same average kinetic energy.
+
+### Step 3 — Connect to the curve shape
+> Therefore, the speed distribution shifts toward **[higher / lower] speeds** and becomes **[broader / narrower]**, with a **[lower / higher] peak**.
+
+| Comparison | Direction | Width | Peak |
+| --- | --- | --- | --- |
+| Same gas, higher temperature | Higher speeds | Broader | Lower |
+| Same gas, lower temperature | Lower speeds | Narrower | Higher |
+| Same temperature, smaller molar mass | Higher speeds | Broader | Lower |
+| Same temperature, larger molar mass | Lower speeds | Narrower | Higher |
+
+### If asked about area
+**Same number of particles:**
+
+> The total area remains unchanged because the ==number of particles is unchanged==.
+
+**Normalized distributions:**
+
+> The total areas are equal because ==both distributions are normalized==.
+
+### Complete example — heating the same gas
+> At a higher temperature, the particles have ==greater average kinetic energy== and a ==greater average speed==.
+> More frequent collisions allow particles to exchange more energy, resulting in ==greater variability in particle speeds==.
+> Therefore, the speed distribution shifts toward ==higher speeds== and becomes ==broader==, with a ==lower peak==.
+> The total area remains unchanged because the ==number of particles is unchanged==.

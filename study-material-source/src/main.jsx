@@ -1,7 +1,10 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./content.js";
 import "./style.css";
+
+const ZCurveDiagram = lazy(() => import("./ZCurveDiagram.jsx"));
+const MaxwellBoltzmannDiagram = lazy(() => import("./MaxwellBoltzmannDiagram.jsx"));
 
 const isChemistry = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname);
 const isHistory = /^\/us-history(?:\/|$)/.test(window.location.pathname);
@@ -60,7 +63,9 @@ function blurIdsForCard(card) {
 
 function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false }) {
   const blurred = blurredIds.has(card.id);
-  const hasDiagram = card.answer.includes("](./diagrams/");
+  const hasZCurveDiagram = card.answer.trim() === "{{z-curve-diagram}}";
+  const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
+  const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
   return (
     <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
@@ -77,7 +82,11 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
         >
           <EyeIcon crossed={blurred} />
         </button>
-        <RichText value={card.answer} query={query} className="answer-content" />
+        {hasZCurveDiagram || hasSpeedDiagram ? (
+          <Suspense fallback={<p className="empty-state">Loading diagram…</p>}>
+            {hasZCurveDiagram ? <ZCurveDiagram /> : <MaxwellBoltzmannDiagram />}
+          </Suspense>
+        ) : <RichText value={card.answer} query={query} className="answer-content" />}
       </div>
     </article>
   );
@@ -204,7 +213,7 @@ function App() {
 
       <div className="sticky-navigation">
         <div className="sticky-navigation-inner">
-          <nav className="primary-nav" aria-label="Study controls">
+          <nav className={"primary-nav" + (isChemistry ? " primary-nav--chemistry" : "")} aria-label="Study controls">
             <div className="mode-nav" role="group" aria-label="Content type">
               {availableUnits.length > 1 ? (
                 <button
@@ -228,6 +237,7 @@ function App() {
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "lab-review"} onClick={() => selectKind("lab-review")}>Titration</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "gas-lab"} onClick={() => selectKind("gas-lab")}>Gas Lab Analysis</button>
                     <button className="nav-button mode-button" type="button" aria-pressed={kind === "z-curves"} onClick={() => selectKind("z-curves")}>Z Curves</button>
+                    <button className="nav-button mode-button" type="button" aria-pressed={kind === "maxwell-boltzmann"} onClick={() => selectKind("maxwell-boltzmann")}>Maxwell–Boltzmann</button>
                   </>
                 ) : <span className="nav-section-label">Answer templates</span>
               ) : isHistory ? (

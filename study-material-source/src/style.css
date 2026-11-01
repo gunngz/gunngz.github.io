@@ -110,6 +110,7 @@ button { color: inherit; }
   white-space: nowrap;
 }
 .mode-nav { min-width: 0; max-width: 100%; }
+.primary-nav--chemistry .mode-nav { flex-wrap: wrap; flex-shrink: 1; }
 .sidebar-toggle {
   position: absolute;
   left: calc(541px - 50vw);
@@ -294,6 +295,17 @@ button { color: inherit; }
   border-left: 0;
   padding: 16px 51px 18px 18px;
 }
+.z-curve-controls { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 8px; }
+.z-curves-svg svg { display: block; width: 100%; height: auto; }
+.z-curves-svg [id$="-focus"] { opacity: 0; transition: opacity .15s ease; }
+.z-curve-diagram[data-focus="low-pressure"] #z-low-pressure-focus,
+.z-curve-diagram[data-focus="attractions"] #z-attractions-focus,
+.z-curve-diagram[data-focus="high-pressure"] #z-high-pressure-focus { opacity: 1; }
+.z-curve-diagram[data-focus="low-pressure"] #z-low-pressure-label,
+.z-curve-diagram[data-focus="attractions"] #z-attractions-label,
+.z-curve-diagram[data-focus="high-pressure"] #z-high-pressure-label { filter: drop-shadow(0 0 3px rgb(88 117 101 / 28%)); }
+.mb-diagram[data-comparison="temperature"] [id^="mb-mass-"],
+.mb-diagram[data-comparison="mass"] [id^="mb-temperature-"] { display: none; }
 .question-side {
   align-self: start;
   min-width: 0;

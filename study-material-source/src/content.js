@@ -45,6 +45,7 @@ const categoryOrder = {
     ],
     "gas-lab": ["Analysis"],
     "z-curves": ["Z Curves"],
+    "maxwell-boltzmann": ["Speed Distributions"],
   },
   ushist3: {
     vocabulary: ["Industrialization"],
