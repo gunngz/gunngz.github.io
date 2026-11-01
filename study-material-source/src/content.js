@@ -1,6 +1,7 @@
 import DOMPurify from "dompurify";
 import { marked } from "marked";
-import { choices as zTemplateChoices, placeholders as zTemplatePlaceholders } from "./content-data/z-template-examples.js";
+import { templateConfigs } from "./content-data/template-configs.js";
+import { templateSearchText } from "./content-data/template-format.js";
 
 const rawContent = import.meta.glob("./content/**/*.txt", {
   query: "?raw",
@@ -84,9 +85,8 @@ function parseTextFile(path, source) {
     const title = dayMatch ? heading.slice(0, dayMatch.index).trim() : heading;
     const days = dayMatch ? dayMatch[1].split(",").map((day) => day.trim()) : [];
     const answer = newline < 0 ? "" : chunk.slice(newline + 1).trim();
-    const searchableAnswer = answer === "{{z-sentence-template}}"
-      ? [answer, ...zTemplatePlaceholders, ...zTemplateChoices.flatMap(item => [item.label, ...item.sentences, item.note || ""])].join(" ")
-      : answer;
+    const templateConfig = templateConfigs[answer];
+    const searchableAnswer = templateConfig ? templateSearchText(templateConfig) : answer;
     const unit = metadata.unit || "u1p1";
     const kind = metadata.kind || "vocabulary";
     const category = metadata.category || "Study Basics";

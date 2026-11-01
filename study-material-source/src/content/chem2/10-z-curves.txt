@@ -10,25 +10,5 @@ category: Z Curves
 ### Three-sentence template
 {{z-sentence-template}}
 
-### Why does \(\mathrm{H_2}\) look like a rising line?
-| Step | Filled explanation |
-| --- | --- |
-| 1. Particle situation | At the plotted temperature, \(\mathrm{H_2}\) particles have the ==same average kinetic energy as the other gases==, while their ==intermolecular attractions are very weak==. |
-| 2. Important factor | Therefore, attractions produce little downward deviation; ==particle-volume and short-range repulsive effects== become more important as pressure increases. |
-| 3. Pressure and Z | At the ==same temperature, volume, and number of moles==, the pressure is ==higher than the ideal prediction== over the plotted range, so \(Z>1\) and rises ==approximately linearly==. |
-
-Key idea: Here, “line” means an ==approximately straight, rising real-gas curve== over this range. The ideal-gas reference is the ==horizontal line \(Z=1\)==. The shape can change at other temperatures or pressures.
-
-### Why does \(\mathrm{CO_2}\) dip more than \(\mathrm{CH_4}\)?
-| Step | Filled explanation |
-| --- | --- |
-| 1. Particle situation | As the gases are compressed at the same plotted temperature, their particles become ==close enough for attractions to matter==. |
-| 2. Important factor | Attractive interactions are ==more significant for \(\mathrm{CO_2}\) than for \(\mathrm{CH_4}\)== in this comparison, producing a larger attraction-caused reduction in wall pressure. |
-| 3. Pressure and Z | In comparisons with the ideal prediction at the ==same temperature, volume, and number of moles==, the attraction-driven pressure deficit is greater for \(\mathrm{CO_2}\) in the dip region, so its ==\(Z<1\) dip is deeper==. |
-
-### Why do their high-pressure rises differ?
-| Step | Filled explanation |
-| --- | --- |
-| 1. Particle situation | At very high pressure, particles are ==crowded close together==. |
-| 2. Important factor | The gases differ in ==effective particle volume, repulsive interactions, and attractive interactions==. |
-| 3. Pressure and Z | These effects change the pressure relative to the ideal prediction at the same temperature, volume, and number of moles by different amounts. Therefore, their ==\(Z\) curves rise differently==; where volume and repulsive effects dominate, \(Z>1\). |
+### Gas-curve explanations
+{{z-gas-applications}}

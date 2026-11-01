@@ -1,7 +1,8 @@
 import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./content.js";
-import ZTemplateCard from "./ZTemplateCard.jsx";
+import TemplateCard from "./TemplateCard.jsx";
+import { templateConfigs } from "./content-data/template-configs.js";
 import { typesetMath } from "./mathJax.js";
 import "./style.css";
 
@@ -63,10 +64,11 @@ function blurIdsForCard(card) {
   return [card.id];
 }
 
-function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false }) {
+function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false, distributionAxis, onDistributionAxisChange }) {
   const blurred = blurredIds.has(card.id);
   const blurControl = <button className="icon-button card-blur-button" type="button" aria-pressed={blurred} aria-label={blurred ? "Reveal answer" : "Blur answer"} title={blurred ? "Reveal answer" : "Blur answer"} onClick={() => onToggleBlur(card.id)}><EyeIcon crossed={blurred} /></button>;
-  if (card.answer.trim() === "{{z-sentence-template}}") return <ZTemplateCard title={card.title} blurControl={blurControl} blurred={blurred} query={query} />;
+  const templateConfig = templateConfigs[card.answer.trim()];
+  if (templateConfig) return <TemplateCard title={card.title} config={templateConfig} blurControl={blurControl} blurred={blurred} query={query} axis={distributionAxis} onAxisChange={onDistributionAxisChange} />;
   const hasZCurveDiagram = card.answer.trim() === "{{z-curve-diagram}}";
   const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
   const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
@@ -88,7 +90,7 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
         </button>
         {hasZCurveDiagram || hasSpeedDiagram ? (
           <Suspense fallback={<p className="empty-state">Loading diagram…</p>}>
-            {hasZCurveDiagram ? <ZCurveDiagram /> : <MaxwellBoltzmannDiagram />}
+            {hasZCurveDiagram ? <ZCurveDiagram /> : <MaxwellBoltzmannDiagram axis={distributionAxis} onAxisChange={onDistributionAxisChange} />}
           </Suspense>
         ) : <RichText value={card.answer} query={query} className="answer-content" />}
       </div>
@@ -102,6 +104,7 @@ function App() {
   const [day, setDay] = useState("all");
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
+  const [distributionAxis, setDistributionAxis] = useState("speed");
   const [sidebarOpen, setSidebarOpen] = useState(!isChemistry && availableUnits.length > 1);
   const [blurredIds, setBlurredIds] = useState(() => new Set());
   const [sidebarDismissed, setSidebarDismissed] = useState(false);
@@ -332,7 +335,7 @@ function App() {
               </div>
               {searchResults.length ? (
                 <div className="card-list">
-                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} query={query} isChemistry={isChemistry} />)}
+                  {searchResults.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} query={query} isChemistry={isChemistry} distributionAxis={distributionAxis} onDistributionAxisChange={setDistributionAxis} />)}
                 </div>
               ) : <p className="empty-state">No results.</p>}
             </section>
@@ -349,7 +352,7 @@ function App() {
                 </div>
               ) : null}
               <div className="card-list">
-                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} />) : unit === "u2p1" && day !== "all" ? <p className="empty-state">No content for this day.</p> : null}
+                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} distributionAxis={distributionAxis} onDistributionAxisChange={setDistributionAxis} />) : unit === "u2p1" && day !== "all" ? <p className="empty-state">No content for this day.</p> : null}
               </div>
             </section>
           )}

@@ -7,32 +7,10 @@ category: Speed Distributions
 ### Speed and kinetic-energy distributions
 {{maxwell-boltzmann-diagram}}
 
-### Maxwell–Boltzmann: three-step template
-**Condition → Average kinetic energy and speed → Curve shape**
+### Maxwell–Boltzmann template
+{{mb-sentence-template}}
 
-Use this template when the horizontal axis is ==speed==. Peak-height comparisons assume ==the same number of particles or normalized distributions==.
-
-### Step 1 — Use temperature to compare average kinetic energy
-**Same gas, different temperatures:**
-
-> At a **[higher / lower] temperature**, the particles have **[greater / lower] average kinetic energy**.
-
-**Different gases, the same temperature:**
-
-> Both gases have the ==same average kinetic energy== because they are at the ==same temperature==.
-
-### Step 2 — Explain speed and speed variability
-**Heating the same gas — classroom wording:**
-
-> Their average speed increases. More frequent collisions allow particles to exchange more energy, resulting in ==greater variability in particle speeds==.
-
-**Different gases at the same temperature — use mass:**
-
-> The gas with the ==smaller molar mass== has a ==greater average speed==, since its lighter particles must move faster to have the same average kinetic energy.
-
-### Step 3 — Connect to the curve shape
-> Therefore, the speed distribution shifts toward **[higher / lower] speeds** and becomes **[broader / narrower]**, with a **[lower / higher] peak**.
-
+### Speed-curve comparisons
 | Comparison | Direction | Width | Peak |
 | --- | --- | --- | --- |
 | Same gas, higher temperature | Higher speeds | Broader | Lower |
@@ -42,7 +20,7 @@ Use this template when the horizontal axis is ==speed==. Peak-height comparisons
 
 ![Four speed-distribution comparisons. Each panel compares a reference curve with the result of heating, cooling, decreasing molar mass, or increasing molar mass.](./diagrams/chem2-mb-shape-comparisons.svg)
 
-### When the horizontal axis is \(E_k\)
+### Energy-curve comparisons
 Here, \(E_k\) is ==translational kinetic energy==.
 
 | Comparison | Energy-distribution shape |
@@ -50,14 +28,6 @@ Here, \(E_k\) is ==translational kinetic energy==.
 | Higher temperature | Shifts toward ==higher energies==; ==broader==, with a ==lower peak==. |
 | Lower temperature | Shifts toward ==lower energies==; ==narrower==, with a ==higher peak==. |
 | Same temperature, different molar masses | The normalized curves ==overlap==: same distribution, width, and peak. |
-
-**Temperature template:**
-
-> At a **[higher / lower] temperature**, particles have **[greater / lower] average translational kinetic energy**. Therefore, the energy distribution shifts toward **[higher / lower] energies** and becomes **[broader / narrower]**, with a **[lower / higher] peak**.
-
-**Different gases at the same temperature:**
-
-> At the same temperature, both gases have the ==same normalized translational kinetic-energy distribution==, so their \(E_k\) curves ==overlap==. Changing molar mass does not shift the energy distribution.
 
 Key idea: ==Different speed distributions can have the same kinetic-energy distribution==. Read the horizontal axis before comparing curves.
 
@@ -69,9 +39,3 @@ Key idea: ==Different speed distributions can have the same kinetic-energy distr
 **Normalized distributions:**
 
 > The total areas are equal because ==both distributions are normalized==.
-
-### Complete example — heating the same gas
-> At a higher temperature, the particles have ==greater average kinetic energy== and a ==greater average speed==.
-> More frequent collisions allow particles to exchange more energy, resulting in ==greater variability in particle speeds==.
-> Therefore, the speed distribution shifts toward ==higher speeds== and becomes ==broader==, with a ==lower peak==.
-> The total area remains unchanged because the ==number of particles is unchanged==.
