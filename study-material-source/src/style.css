@@ -306,7 +306,8 @@ button { color: inherit; }
 .template-example-buttons { display: flex; flex-wrap: wrap; gap: 3px; margin-left: auto; }
 .template-example-buttons .nav-button { font-size: .82rem; padding: 5px 8px; min-height: 34px; }
 .study-card--template-picker .question-side { padding-bottom: 10px; }
-.z-curves-svg svg { display: block; width: 100%; height: auto; }
+.z-curves-svg { width: min(100%, 860px); margin-inline: auto; }
+.z-curves-svg svg { display: block; width: 100%; height: auto; max-height: 560px; }
 .z-curves-svg [id$="-focus"] { opacity: 0; transition: opacity .15s ease; }
 .z-curve-diagram[data-focus="low-pressure"] #z-low-pressure-focus,
 .z-curve-diagram[data-focus="attractions"] #z-attractions-focus,
@@ -351,10 +352,17 @@ button { color: inherit; }
 }
 .answer-content > :first-child { margin-top: 0; }
 .answer-content > :last-child { margin-bottom: 0; }
-.question-content { margin-top: 9px; font-size: .95rem; }
+.question-layout { margin-top: 9px; }
+.question-layout--figure { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); align-items: start; gap: 24px; }
+.question-content { font-size: .95rem; }
+.question-figure { min-width: 0; margin: 0; }
+.question-figure-content p { margin: 0 0 8px; }
+.question-figure-content img { display: block; width: auto; height: auto; max-width: 100%; max-height: 320px; margin: 0 auto; }
+.question-figure-content em { display: block; color: var(--quiet); font-size: .76rem; font-style: normal; line-height: 1.45; }
+.choices-side { padding: 14px 51px 4px 18px; border-top: 1px solid var(--line); }
+.study-card--chemistry.study-card--question-answer:has(.choices-side) .answer-side { border-top: 0; padding-top: 8px; }
 .study-card--chemistry.study-card--question-answer .question-side { padding-bottom: 14px; }
 .study-card--chemistry.study-card--question-answer .answer-side { border-top: 1px solid var(--line); padding-top: 14px; }
-.question-content img { max-width: 420px; }
 .answer-content p { margin: 0 0 8px; }
 .answer-content ul, .answer-content ol { margin: 0; padding-left: 1.1rem; }
 .answer-content li { margin: 0 0 7px; padding-left: 2px; }
@@ -374,12 +382,17 @@ button { color: inherit; }
 .answer-content strong { font-weight: 650; }
 .answer-content img {
   display: block;
-  width: 100%;
+  width: auto;
   max-width: 100%;
+  max-height: 560px;
   height: auto;
+  object-fit: contain;
   margin: 14px auto 2px;
   border-radius: 12px;
 }
+.answer-content img[src$=".svg"] { width: 100%; max-width: 900px; }
+.answer-content img[src$="u2p1-venn.svg"] { max-width: 640px; }
+.question-content img { width: auto; max-width: 100%; max-height: 320px; }
 .answer-content > p:has(> img) {
   width: 100%;
   min-width: 0;
@@ -473,6 +486,8 @@ mark.search-hit {
 }
 @media (max-width: 760px) {
   .study-card { grid-template-columns: minmax(175px, .28fr) minmax(0, .72fr); }
+  .question-layout--figure { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .question-figure { width: min(100%, 340px); margin-inline: auto; }
 }
 @media (max-width: 600px) {
   html { scroll-padding-top: 190px; }

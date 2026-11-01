@@ -25,6 +25,7 @@ Each multiple-choice question is worth **1 point** for the correct choice, with 
 ### MCQ 1: Gas formation · 1 point
 Aqueous \(\mathrm{NH_4Br}\) is warmed with excess aqueous \(\mathrm{NaOH}\). Which gas is expected to form?
 
+<!-- choices -->
 **A.** \(\mathrm{N_2}\)
 **B.** \(\mathrm{H_2}\)
 **C.** \(\mathrm{NH_3}\)
@@ -38,6 +39,7 @@ Ammonia is produced: \(\mathrm{NH_4^+ + OH^- \rightarrow NH_3 + H_2O}\).
 ### MCQ 2: Acid particles · 1 point {priority}
 Considering only solute-derived species (ignore water molecules), which description best represents separate \(0.10\ \mathrm{M}\) solutions of \(\mathrm{HF}\) and \(\mathrm{HCl}\) at the same temperature?
 
+<!-- choices -->
 **A.** Both solutions contain almost entirely neutral acid molecules.
 **B.** \(\mathrm{HF}\) contains almost entirely ions, whereas \(\mathrm{HCl}\) contains mostly neutral molecules.
 **C.** Both solutions contain almost entirely separated ions.
@@ -51,6 +53,7 @@ Considering only solute-derived species (ignore water molecules), which descript
 ### MCQ 3: Synthesis and redox · 1 point
 Which equation represents a synthesis reaction that is **not** a redox reaction?
 
+<!-- choices -->
 **A.** \(\mathrm{CaO(s)+H_2O(l)\rightarrow Ca(OH)_2(s)}\)
 **B.** \(\mathrm{2Mg(s)+O_2(g)\rightarrow 2MgO(s)}\)
 **C.** \(\mathrm{2Na(s)+Cl_2(g)\rightarrow 2NaCl(s)}\)
@@ -64,6 +67,7 @@ Which equation represents a synthesis reaction that is **not** a redox reaction?
 ### MCQ 4: Activity series · 1 point
 Under comparable conditions, \(\mathrm{X(s)}\) reacts with \(\mathrm{Y^{2+}(aq)}\) to form \(\mathrm{X^{2+}(aq)}\) and \(\mathrm{Y(s)}\). \(\mathrm{Y(s)}\) reacts with \(\mathrm{Z^{2+}(aq)}\) to form \(\mathrm{Y^{2+}(aq)}\) and \(\mathrm{Z(s)}\). Which additional reaction is predicted by the activity-series pattern?
 
+<!-- choices -->
 **A.** \(\mathrm{Y(s)+X^{2+}(aq)\rightarrow Y^{2+}(aq)+X(s)}\)
 **B.** \(\mathrm{X(s)+Z^{2+}(aq)\rightarrow X^{2+}(aq)+Z(s)}\)
 **C.** \(\mathrm{Z(s)+Y^{2+}(aq)\rightarrow Z^{2+}(aq)+Y(s)}\)
@@ -77,6 +81,7 @@ From the activity order \(X>Y>Z\), infer that \(X\) can reduce \(Z^{2+}\) to \(Z
 ### MCQ 5: Empirical formulas · 1 point
 Two different compounds have the same empirical formula, \(\mathrm{C_2H_4O}\). Which property must they have in common?
 
+<!-- choices -->
 **A.** Molar mass
 **B.** Percent composition by mass
 **C.** Boiling point
@@ -90,6 +95,7 @@ The same empirical formula gives the ==same mass percentages== of the elements.
 ### MCQ 6: Equivalence point · 1 point
 A weak monoprotic acid, \(\mathrm{HA}\), is titrated with standardized \(\mathrm{NaOH}\). At the equivalence point, which statement must be true?
 
+<!-- choices -->
 **A.** The pH is exactly 7.00.
 **B.** The volume of \(\mathrm{NaOH}\) added equals the original volume of the acid solution.
 **C.** The solution contains no dissolved ions.
@@ -103,6 +109,7 @@ At the equivalence point for a monoprotic acid, \(n(\mathrm{OH^-\ added})=n_{\ma
 ### MCQ 7: Combined gas law · 1 point
 A fixed amount of ideal gas initially occupies \(2.00\ \mathrm{L}\) at \(27.0\ ^\circ\mathrm{C}\) and \(0.900\ \mathrm{atm}\). The gas is changed to \(127.0\ ^\circ\mathrm{C}\) and a volume of \(1.00\ \mathrm{L}\). What is the final pressure?
 
+<!-- choices -->
 **A.** \(1.20\ \mathrm{atm}\)
 **B.** \(1.80\ \mathrm{atm}\)
 **C.** \(8.47\ \mathrm{atm}\)
@@ -111,11 +118,14 @@ A fixed amount of ideal gas initially occupies \(2.00\ \mathrm{L}\) at \(27.0\ ^
 <!-- answer -->
 **Answer: D**
 
-Use ==Kelvin==: \(P_2=0.900\left(\frac{2.00}{1.00}\right)\left(\frac{400.15}{300.15}\right)=2.40\ \mathrm{atm}\).
+Use ==Kelvin== so that the temperature units cancel correctly.
+
+\[P_2=0.900\ \mathrm{atm}\times\frac{2.00\ \mathrm{L}}{1.00\ \mathrm{L}}\times\frac{400.15\ \mathrm{K}}{300.15\ \mathrm{K}}=2.40\ \mathrm{atm}\]
 
 ### MCQ 8: Partial pressure · 1 point
 A rigid container holds \(2.00\ \mathrm{mol}\) \(\mathrm{He}\) and \(1.00\ \mathrm{mol}\) \(\mathrm{Ne}\) at a total pressure of \(3.00\ \mathrm{atm}\). An additional \(3.00\ \mathrm{mol}\) \(\mathrm{Ar}\) is added without changing the temperature or container volume. All gases behave ideally. Which statement about the final partial pressure of \(\mathrm{He}\) is correct?
 
+<!-- choices -->
 **A.** It is \(1.00\ \mathrm{atm}\) because the mole fraction of \(\mathrm{He}\) is halved.
 **B.** It is \(2.00\ \mathrm{atm}\) because the amount of \(\mathrm{He}\), temperature, and volume are unchanged.
 **C.** It is \(3.00\ \mathrm{atm}\) because the total number of gas species increases to three.
@@ -129,6 +139,7 @@ The partial pressure of \(\mathrm{He}\) remains \(2.00\ \mathrm{atm}\) because \
 ### MCQ 9: Elastic collisions · 1 point
 Two ideal-gas particles collide elastically. Which statement must be true?
 
+<!-- choices -->
 **A.** Each particle has the same speed after the collision as before it.
 **B.** Both particles leave the collision with equal kinetic energies.
 **C.** The total kinetic energy of the two particles is conserved, although energy may be transferred between them.
@@ -142,6 +153,7 @@ In an elastic collision, the ==total kinetic energy of the two particles is cons
 ### MCQ 10: Mean free path · 1 point
 The amount of \(\mathrm{Ne}\) in a rigid container is doubled while temperature is kept constant. Treat the effective molecular collision size as unchanged. How do the mean free path and average translational kinetic energy per particle change?
 
+<!-- choices -->
 **A.** Mean free path decreases to approximately one-half; average kinetic energy is unchanged.
 **B.** Mean free path is unchanged; average kinetic energy doubles.
 **C.** Mean free path decreases to approximately one-half; average kinetic energy doubles.
@@ -155,6 +167,7 @@ Doubling number density approximately halves the mean free path. With \(T\) unch
 ### MCQ 11: Catalysts and energy · 1 point
 A catalyst is added to a reacting gas mixture whose temperature is held constant. Which statement correctly connects the kinetic-energy distribution with the catalyst's effect?
 
+<!-- choices -->
 **A.** The catalyst increases the average kinetic energy of the gas particles.
 **B.** The catalyst shifts the entire kinetic-energy distribution toward higher energies.
 **C.** The catalyst increases the activation-energy barrier, making collisions more energetic.
@@ -166,12 +179,15 @@ A catalyst is added to a reacting gas mixture whose temperature is held constant
 At fixed \(T\), the kinetic-energy distribution is unchanged. A catalyst ==lowers the activation energy==, so a larger fraction of collisions have enough energy.
 
 ### MCQ 12: Speed curves and effusion · 1 point {priority}
-The original graph below compares gas-speed distributions at \(273\ \mathrm{K}\). \(\mathrm{CH_4}\) has a molar mass of \(16.0\ \mathrm{g\,mol^{-1}}\), and \(\mathrm{O_2}\) has a molar mass of \(32.0\ \mathrm{g\,mol^{-1}}\). Equal volumes effuse through identical small openings under the same temperature and pressure conditions. \(\mathrm{CH_4}\) takes \(36.0\ \mathrm{s}\). Which statement correctly explains the relative curve positions and predicts the time for \(\mathrm{O_2}\)?
+The original graph compares gas-speed distributions at \(273\ \mathrm{K}\). \(\mathrm{CH_4}\) has a molar mass of \(16.0\ \mathrm{g\,mol^{-1}}\), and \(\mathrm{O_2}\) has a molar mass of \(32.0\ \mathrm{g\,mol^{-1}}\). Equal volumes effuse through identical small openings under the same temperature and pressure conditions. \(\mathrm{CH_4}\) takes \(36.0\ \mathrm{s}\). Which statement correctly explains the relative curve positions and predicts the time for \(\mathrm{O_2}\)?
 
+<!-- figure -->
 ![Original mock-exam graph: oxygen, methane, and hydrogen speed distributions at 273 K.](./diagrams/chem2-test-mcq12-original.jpg)
 
 *Class lecture, slide 58; original figure excerpt, Pearson Prentice Hall (2005).*
+<!-- /figure -->
 
+<!-- choices -->
 **A.** \(\mathrm{CH_4}\) has a greater average translational kinetic energy; \(\mathrm{O_2}\) requires \(50.9\ \mathrm{s}\).
 **B.** The gases have equal average translational kinetic energies; \(\mathrm{O_2}\) requires \(50.9\ \mathrm{s}\).
 **C.** The gases have equal average translational kinetic energies; \(\mathrm{O_2}\) requires \(25.5\ \mathrm{s}\).
@@ -180,7 +196,9 @@ The original graph below compares gas-speed distributions at \(273\ \mathrm{K}\)
 <!-- answer -->
 **Answer: B**
 
-At the same temperature, average translational kinetic energies are equal. \(t(\mathrm{O_2})=36.0\sqrt{\frac{32.0}{16.0}}=50.9\ \mathrm{s}\).
+At the same temperature, average translational kinetic energies are equal. The molar-mass units cancel inside the square root.
+
+\[t(\mathrm{O_2})=36.0\ \mathrm{s}\times\sqrt{\frac{32.0\ \mathrm{g\,mol^{-1}}}{16.0\ \mathrm{g\,mol^{-1}}}}=50.9\ \mathrm{s}\]
 
 ### General FRQ scoring rules
 - Each numbered scoring point is worth **1 point**, added within its part. Each FRQ is worth **8 points**.

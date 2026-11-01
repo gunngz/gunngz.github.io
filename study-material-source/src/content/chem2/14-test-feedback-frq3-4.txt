@@ -14,9 +14,16 @@ Calculate the standardized \(\mathrm{NaOH}\) concentration in \(\mathrm{mol\,L^{
 <!-- answer -->
 **Scoring points**
 
-1. Use the ==1 : 1 mole ratio== of KHP to \(\mathrm{NaOH}\) and include the concentration unit.
+1. Use the ==1 : 1 mole ratio== of KHP to \(\mathrm{NaOH}\), arranging the conversion factors so the final units are ==moles per liter==.
 
-\[c(\mathrm{NaOH})=\frac{0.6382/204.22}{0.02500}=0.1250\ \mathrm{mol\,L^{-1}}\]
+\[\begin{aligned}
+c(\mathrm{NaOH})
+&=\frac{0.6382\ \mathrm{g\ KHP}}{25.00\ \mathrm{mL}}
+\times\frac{1\ \mathrm{mol\ KHP}}{204.22\ \mathrm{g\ KHP}}\\
+&\quad\times\frac{1\ \mathrm{mol\ NaOH}}{1\ \mathrm{mol\ KHP}}
+\times\frac{1000\ \mathrm{mL}}{1\ \mathrm{L}}\\
+&=0.1250\ \mathrm{mol\,L^{-1}}
+\end{aligned}\]
 
 ### FRQ 3(b): molar mass of the acid · 3 points
 **Given**
@@ -28,17 +35,22 @@ Calculate the molar mass of the acid. Show the mole relationships and include un
 <!-- answer -->
 **Scoring points**
 
-1. Calculate the moles of \(\mathrm{NaOH}\).
+1. Convert the titrant volume from ==mL to L==, then use its concentration to obtain ==moles of NaOH==.
 
-   \[n(\mathrm{NaOH})=0.1250\times0.04000=0.005000\ \mathrm{mol}\]
+   \[\begin{aligned}
+   n(\mathrm{NaOH})&=40.00\ \mathrm{mL}\times\frac{1\ \mathrm{L}}{1000\ \mathrm{mL}}\times\frac{0.1250\ \mathrm{mol\ NaOH}}{1\ \mathrm{L}}\\
+   &=0.005000\ \mathrm{mol\ NaOH}
+   \end{aligned}\]
 
-2. Use the ==2 : 1 mole ratio== of \(\mathrm{NaOH}\) to \(\mathrm{H_2A}\).
+2. Use the ==2 : 1 mole ratio==, with moles of NaOH in the denominator of the conversion factor.
 
-   \[n(\mathrm{H_2A})=0.002500\ \mathrm{mol}\]
+   \[n(\mathrm{H_2A})=0.005000\ \mathrm{mol\ NaOH}\times\frac{1\ \mathrm{mol\ H_2A}}{2\ \mathrm{mol\ NaOH}}=0.002500\ \mathrm{mol\ H_2A}\]
 
-3. Calculate the molar mass and include its unit.
+3. Divide the acid mass by its amount to leave ==grams per mole==.
 
-   \[M=\frac{0.3303}{0.002500}=132.1\ \mathrm{g\,mol^{-1}}\]
+   \[M=0.3303\ \mathrm{g}\times\frac{1}{0.002500\ \mathrm{mol}}=132.1\ \mathrm{g\,mol^{-1}}\]
+
+Key idea: Each conversion factor cancels the preceding unit. Keep unrounded intermediate values until the final answer.
 
 ### FRQ 3(c): adding water before titration · 2 points {priority}
 **Given**
@@ -76,17 +88,26 @@ Determine the empirical formula. Show how you obtain the amount of each element,
 <!-- answer -->
 **Scoring points**
 
-1. Use \(\mathrm{CO_2}\) to find the carbon amount and \(\mathrm{H_2O}\) to find the hydrogen amount, counting ==2 hydrogen atoms per water molecule==.
+1. Convert the collected product masses to moles of their elements. Count ==2 hydrogen atoms per water molecule==.
 
-   \[n(\mathrm{C})\approx0.02999\ \mathrm{mol}\]
-   \[n(\mathrm{H})\approx0.05999\ \mathrm{mol}\]
+   \[\begin{aligned}
+   n(\mathrm{C})&=1.320\ \mathrm{g\ CO_2}\times\frac{1\ \mathrm{mol\ CO_2}}{44.01\ \mathrm{g\ CO_2}}\times\frac{1\ \mathrm{mol\ C}}{1\ \mathrm{mol\ CO_2}}\\
+   &\approx0.02999\ \mathrm{mol\ C}
+   \end{aligned}\]
 
-2. Subtract the carbon and hydrogen masses from the original sample mass to find its oxygen content.
+   \[\begin{aligned}
+   n(\mathrm{H})&=0.5405\ \mathrm{g\ H_2O}\times\frac{1\ \mathrm{mol\ H_2O}}{18.02\ \mathrm{g\ H_2O}}\times\frac{2\ \mathrm{mol\ H}}{1\ \mathrm{mol\ H_2O}}\\
+   &\approx0.05999\ \mathrm{mol\ H}
+   \end{aligned}\]
 
-   \[m(\mathrm{O})\approx0.2401\ \mathrm{g}\]
-   \[n(\mathrm{O})\approx0.01501\ \mathrm{mol}\]
+2. Convert the carbon and hydrogen amounts to masses. Subtract them from the original sample mass, then convert the remaining oxygen mass to moles. Use unrounded intermediate values.
 
-3. Obtain the ==simplest whole-number mole ratio==, \(\mathrm{C:H:O}=2:4:1\), giving the empirical formula \(\mathrm{C_2H_4O}\).
+   \[m(\mathrm{C})=n(\mathrm{C})\times\frac{12.01\ \mathrm{g\ C}}{1\ \mathrm{mol\ C}}\]
+   \[m(\mathrm{H})=n(\mathrm{H})\times\frac{1.008\ \mathrm{g\ H}}{1\ \mathrm{mol\ H}}\]
+   \[m(\mathrm{O})=0.6608\ \mathrm{g}-m(\mathrm{C})-m(\mathrm{H})\approx0.2401\ \mathrm{g}\]
+   \[n(\mathrm{O})=m(\mathrm{O})\times\frac{1\ \mathrm{mol\ O}}{16.00\ \mathrm{g\ O}}\approx0.01501\ \mathrm{mol\ O}\]
+
+3. Divide by the smallest amount to obtain the ==simplest whole-number mole ratio==, \(\mathrm{C:H:O}=2:4:1\), giving \(\mathrm{C_2H_4O}\).
 
 ### FRQ 4(b): molecular formula · 1 point
 **Given**
@@ -98,9 +119,9 @@ Determine the molecular formula using the measured molar mass.
 <!-- answer -->
 **Scoring points**
 
-1. Divide the molar mass by the empirical-formula mass, then multiply every subscript by **2** to obtain \(\mathrm{C_4H_8O_2}\).
+1. Find the dimensionless multiplier, then multiply every empirical-formula subscript by **2** to obtain \(\mathrm{C_4H_8O_2}\).
 
-\[\frac{88.1}{44.052}\approx2\]
+\[88.1\ \frac{\mathrm{g}}{\mathrm{mol}}\times\frac{1\ \mathrm{mol}}{44.052\ \mathrm{g}}\approx2\]
 
 ### FRQ 4(c): finding the sample's oxygen · 2 points
 **Given**

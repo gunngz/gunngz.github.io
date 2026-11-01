@@ -89,7 +89,13 @@ function parseTextFile(path, source) {
     const days = dayMatch ? dayMatch[1].split(",").map((day) => day.trim()) : [];
     const cardBody = newline < 0 ? "" : chunk.slice(newline + 1).trim();
     const answerSeparator = cardBody.indexOf("<!-- answer -->");
-    const question = answerSeparator < 0 ? "" : cardBody.slice(0, answerSeparator).trim();
+    const fullQuestion = answerSeparator < 0 ? "" : cardBody.slice(0, answerSeparator).trim();
+    const choicesSeparator = fullQuestion.indexOf("<!-- choices -->");
+    const questionBody = choicesSeparator < 0 ? fullQuestion : fullQuestion.slice(0, choicesSeparator).trim();
+    const choices = choicesSeparator < 0 ? "" : fullQuestion.slice(choicesSeparator + "<!-- choices -->".length).trim();
+    const figureBlock = /<!-- figure -->([\s\S]*?)<!-- \/figure -->/;
+    const figure = questionBody.match(figureBlock)?.[1].trim() || "";
+    const question = questionBody.replace(figureBlock, "").trim();
     const answer = answerSeparator < 0 ? cardBody : cardBody.slice(answerSeparator + "<!-- answer -->".length).trim();
     const templateConfig = templateConfigs[answer];
     const searchableAnswer = templateConfig ? templateSearchText(templateConfig) : answer;
@@ -106,8 +112,10 @@ function parseTextFile(path, source) {
       priority: Boolean(priorityMatch),
       priorityProvisional: priorityMatch?.[1] === "provisional",
       question,
+      figure,
+      choices,
       answer,
-      searchText: (title + " " + question + " " + searchableAnswer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
+      searchText: (title + " " + fullQuestion + " " + searchableAnswer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
     return card;
   });

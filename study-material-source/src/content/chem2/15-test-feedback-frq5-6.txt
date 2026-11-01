@@ -18,9 +18,21 @@ Write the balanced net ionic equation. Identify the limiting reactant using a qu
 
    \[\mathrm{Mg+2H^+\rightarrow Mg^{2+}+H_2}\]
 
-2. Show quantitatively that ==magnesium is limiting==. The required amount of \(\mathrm{HCl}\) is less than the available amount. An equivalent comparison of volumes or moles divided by coefficients is also accepted.
+2. Show quantitatively that ==magnesium is limiting== by comparing the required and available amounts of hydrochloric acid.
+
+   \[\begin{aligned}
+   n_{\mathrm{HCl,required}}&=0.0400\ \mathrm{g\ Mg}\times\frac{1\ \mathrm{mol\ Mg}}{24.31\ \mathrm{g\ Mg}}\times\frac{2\ \mathrm{mol\ HCl}}{1\ \mathrm{mol\ Mg}}\\
+   &=0.003291\ \mathrm{mol\ HCl}
+   \end{aligned}\]
+
+   \[\begin{aligned}
+   n_{\mathrm{HCl,available}}&=10.0\ \mathrm{mL}\times\frac{1\ \mathrm{L}}{1000\ \mathrm{mL}}\times\frac{0.500\ \mathrm{mol\ HCl}}{1\ \mathrm{L}}\\
+   &=0.00500\ \mathrm{mol\ HCl}
+   \end{aligned}\]
 
    \[0.003291\ \mathrm{mol}<0.00500\ \mathrm{mol}\]
+
+   An equivalent comparison of volumes or moles divided by coefficients is also accepted.
 
 ### FRQ 5(b): gas collected over water · 2 points {priority}
 **Given**
@@ -32,14 +44,18 @@ Calculate the partial pressure of \(\mathrm{H_2}\) and the experimental amount, 
 <!-- answer -->
 **Scoring points**
 
-1. ==Subtract the water-vapor pressure== to obtain the hydrogen partial pressure.
+1. ==Subtract the water-vapor pressure==, then convert the hydrogen partial pressure from mmHg to atm.
 
-   \[P(\mathrm{H_2})=748.0-23.8=724.2\ \mathrm{mmHg}\]
-   \[P(\mathrm{H_2})=0.9529\ \mathrm{atm}\]
+   \[P(\mathrm{H_2})=(748.0-23.8)\ \mathrm{mmHg}=724.2\ \mathrm{mmHg}\]
+   \[724.2\ \mathrm{mmHg}\times\frac{1\ \mathrm{atm}}{760\ \mathrm{mmHg}}=0.9529\ \mathrm{atm}\]
 
-2. Substitute the hydrogen partial pressure, \(0.0412\ \mathrm{L}\), and \(298.15\ \mathrm{K}\) into the ideal gas law.
+2. Use \(n=PV/(RT)\), showing the volume conversion and the units of \(R\).
 
-   \[n(\mathrm{H_2})=\frac{P(\mathrm{H_2})V}{RT}=1.60\times10^{-3}\ \mathrm{mol}\]
+   \[\begin{aligned}
+   n(\mathrm{H_2})&=41.2\ \mathrm{mL}\times\frac{1\ \mathrm{L}}{1000\ \mathrm{mL}}\\
+   &\quad\times\frac{0.9529\ \mathrm{atm}}{298.15\ \mathrm{K}}\times\frac{1\ \mathrm{mol\,K}}{0.08206\ \mathrm{L\,atm}}\\
+   &=1.60\times10^{-3}\ \mathrm{mol\ H_2}
+   \end{aligned}\]
 
 ### FRQ 5(c): ignoring water vapor · 2 points {priority}
 **Given**
@@ -64,8 +80,19 @@ A redesigned trial must collect \(40.0\ \mathrm{mL}\) of wet gas at the same tem
 <!-- answer -->
 **Scoring points**
 
-1. For \(40.0\ \mathrm{mL}\), use the corrected hydrogen partial pressure and the ==1 : 1 mole ratio== of \(\mathrm{Mg}\) to \(\mathrm{H_2}\) to obtain a required magnesium mass of \(0.0379\ \mathrm{g}\).
-2. State that this corrected mass is ==smaller than the mass calculated without the water-vapor correction==. Water vapor supplies part of the total pressure, so less hydrogen and therefore less magnesium are needed.
+1. Use the corrected hydrogen partial pressure to find the amount of hydrogen for \(40.0\ \mathrm{mL}\), then apply the ==1 : 1 mole ratio== and the molar mass of magnesium.
+
+   \[\begin{aligned}
+   n(\mathrm{H_2})&=40.0\ \mathrm{mL}\times\frac{1\ \mathrm{L}}{1000\ \mathrm{mL}}\\
+   &\quad\times\frac{0.9529\ \mathrm{atm}}{298.15\ \mathrm{K}}\times\frac{1\ \mathrm{mol\,K}}{0.08206\ \mathrm{L\,atm}}
+   \end{aligned}\]
+
+   \[\begin{aligned}
+   m(\mathrm{Mg})&=n(\mathrm{H_2})\times\frac{1\ \mathrm{mol\ Mg}}{1\ \mathrm{mol\ H_2}}\times\frac{24.31\ \mathrm{g\ Mg}}{1\ \mathrm{mol\ Mg}}\\
+   &=0.0379\ \mathrm{g\ Mg}
+   \end{aligned}\]
+
+2. This corrected mass is ==smaller than the mass calculated without the water-vapor correction==. Water vapor supplies part of the total pressure, so less hydrogen and therefore less magnesium are needed.
 
 ### FRQ 6(a): temperature and pressure · 2 points {priority}
 **Given**
@@ -82,11 +109,13 @@ A sealed, rigid flask containing \(\mathrm{Ne}\) is heated from \(300\ \mathrm{K
 
 ### FRQ 6(b): Maxwell–Boltzmann curves · 2 points
 **Given**
-Use particle-level reasoning in each explanation. The original graph below shows \(\mathrm{O_2}\) speed distributions at three temperatures; compare samples containing equal numbers of molecules.
+Use particle-level reasoning in each explanation. The original graph shows \(\mathrm{O_2}\) speed distributions at three temperatures; compare samples containing equal numbers of molecules.
 
+<!-- figure -->
 ![Original mock-exam graph: oxygen speed distributions at 273, 1000, and 2000 K.](./diagrams/chem2-test-frq6-original.jpg)
 
 *Class lecture, slide 58; original figure excerpt, Pearson Prentice Hall (2005).*
+<!-- /figure -->
 
 **Question**
 Use the graph to compare the \(273\ \mathrm{K}\) and \(2000\ \mathrm{K}\) distributions. Explain their different peak positions, widths, and heights, and state how their total areas compare.

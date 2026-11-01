@@ -26,7 +26,9 @@ Adding distilled water lowers the acid concentration but does not change the num
 
 \[
 \mathrm{H_2X + OH^- \rightarrow HX^- + H_2O}
-\qquad
+\]
+
+\[
 \mathrm{HX^- + OH^- \rightarrow X^{2-} + H_2O}
 \]
 
@@ -36,33 +38,24 @@ Adding distilled water lowers the acid concentration but does not change the num
 
 
 ### Calculate the acid molar mass
-Use the balanced equation \(\mathrm{H_2X + 2NaOH \rightarrow Na_2X + 2H_2O}\).
-
-\[
-n_{\mathrm{NaOH}}=M_{\mathrm{NaOH}}V_{\mathrm{NaOH}}
-\qquad
-n_{\mathrm{acid}}=\frac{n_{\mathrm{NaOH}}}{2}
-\qquad
-MM_{\mathrm{acid}}=\frac{m_{\mathrm{acid}}}{n_{\mathrm{acid}}}
-\]
+Use the balanced equation \(\mathrm{H_2X+2NaOH\rightarrow Na_2X+2H_2O}\).
 
 Example values:
 
-\[
-m_{\mathrm{acid}}=0.0850\ \mathrm{g}
-\qquad
-V_{\mathrm{NaOH}}=16.70\ \mathrm{mL}
-\qquad
-M_{\mathrm{NaOH}}=0.0820\ \mathrm{M}
-\]
+\[m_{\mathrm{acid}}=0.0850\ \mathrm{g}\]
+\[V_{\mathrm{NaOH}}=16.70\ \mathrm{mL}\]
+\[c_{\mathrm{NaOH}}=0.0820\ \mathrm{mol\,L^{-1}}\]
 
-\[
-MM_{\mathrm{acid}}
-=
-\frac{0.0850\ \mathrm{g}}{0.01670\ \mathrm{L}\times0.0820\ \mathrm{mol/L}\div2}
-\approx124\ \mathrm{g/mol}
-\]
+Convert ==volume → moles of NaOH → moles of acid== using conversion factors.
+
+\[\begin{aligned}
+n(\mathrm{H_2X})&=16.70\ \mathrm{mL}\times\frac{1\ \mathrm{L}}{1000\ \mathrm{mL}}\\
+&\quad\times\frac{0.0820\ \mathrm{mol\ NaOH}}{1\ \mathrm{L}}\times\frac{1\ \mathrm{mol\ H_2X}}{2\ \mathrm{mol\ NaOH}}\\
+&=6.847\times10^{-4}\ \mathrm{mol\ H_2X}
+\end{aligned}\]
+
+\[MM_{\mathrm{acid}}=0.0850\ \mathrm{g}\times\frac{1}{6.847\times10^{-4}\ \mathrm{mol}}\approx124\ \mathrm{g\,mol^{-1}}\]
 
 **Answer template**
 
-> We used ==\(n=MV\)== to calculate the moles of \(\mathrm{NaOH}\) from its molarity and ==volume in liters==. Because the unknown acid is ==diprotic==, we ==divided the moles of \(\mathrm{NaOH}\) by two== to determine the moles of acid. Finally, we calculated molar mass as ==acid mass divided by acid moles==.
+> Convert the titrant volume from ==mL to L==, then use the ==NaOH concentration== and the ==1 mol acid : 2 mol NaOH== conversion factor to find the acid amount. Calculate molar mass as ==acid mass divided by acid moles==. Keep unrounded intermediate values until the final answer.

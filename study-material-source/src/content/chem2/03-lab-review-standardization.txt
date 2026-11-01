@@ -22,27 +22,19 @@ The exact molarity of the \(\mathrm{NaOH}\) solution is not known at first. \(\m
 
 
 ### \(\mathrm{NaOH}\) standardization calculation
-Example values only; these are not the class’s reported \(\mathrm{NaOH}\) concentration:
+Example values only; these are not the class's reported concentration.
 
-\[
-m_{\mathrm{KHP}}=0.347\ \mathrm{g}
-\qquad
-V_{\mathrm{NaOH}}=20.80\ \mathrm{mL}
-\]
+\[m_{\mathrm{KHP}}=0.347\ \mathrm{g}\]
+\[V_{\mathrm{NaOH}}=20.80\ \mathrm{mL}\]
 
-\[
-M_{\mathrm{NaOH}}
-=
-\frac{0.347\ \mathrm{g\ KHP}}{204.22\ \mathrm{g/mol\ KHP}}
-\times
-\frac{1\ \mathrm{mol\ NaOH}}{1\ \mathrm{mol\ KHP}}
-\times
-\frac{1\ \mathrm{L}}{0.02080\ \mathrm{L\ NaOH}}
-=0.0817\ \mathrm{M}
-\]
+Arrange the conversion factors to cancel ==grams of KHP==, ==moles of KHP==, and ==milliliters==, leaving ==moles of NaOH per liter==.
 
-Use the measured \(\mathrm{KHP}\) mass, its molar mass, the 1:1 mole ratio, and the delivered \(\mathrm{NaOH}\) volume in liters.
+\[\begin{aligned}
+c(\mathrm{NaOH})&=\frac{0.347\ \mathrm{g\ KHP}}{20.80\ \mathrm{mL}}\times\frac{1\ \mathrm{mol\ KHP}}{204.22\ \mathrm{g\ KHP}}\\
+&\quad\times\frac{1\ \mathrm{mol\ NaOH}}{1\ \mathrm{mol\ KHP}}\times\frac{1000\ \mathrm{mL}}{1\ \mathrm{L}}\\
+&=0.0817\ \mathrm{mol\,L^{-1}}
+\end{aligned}\]
 
 **Answer template**
 
-> First, ==convert the measured \(\mathrm{KHP}\) mass to moles==. Then apply the ==1:1 mole ratio==, convert the delivered \(\mathrm{NaOH}\) volume to ==liters==, and calculate molarity as ==moles per liter==.
+> First, ==convert the measured KHP mass to moles==. Apply the ==1 : 1 mole ratio==, convert the delivered volume to ==liters==, and calculate molarity as ==moles per liter==. Write each conversion factor so unwanted units cancel.

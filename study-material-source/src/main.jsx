@@ -81,8 +81,12 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
     <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} /> : null}<RichText value={card.title} inline query={query} /></h3>
-        {card.question ? <RichText value={card.question} query={query} className="answer-content question-content" /> : null}
+        {card.question ? <div className={"question-layout" + (card.figure ? " question-layout--figure" : "")}>
+          <RichText value={card.question} query={query} className="answer-content question-content" />
+          {card.figure ? <figure className="question-figure"><RichText value={card.figure} query={query} className="question-figure-content" /></figure> : null}
+        </div> : null}
       </div>
+      {card.choices ? <div className="choices-side" role="group" aria-label="Answer choices"><RichText value={card.choices} query={query} className="answer-content" /></div> : null}
       <div className="answer-side">
         <button
           className="icon-button card-blur-button"
