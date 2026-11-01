@@ -20,6 +20,8 @@ Use `unit: u1p1`, `unit: u1p2`, or `unit: u2p1` for Statistics; `unit: chem1` or
 
 Use `==important wording==` to highlight an idea, `**[placeholders]**` for fill-in fields, and `\( ... \)` / `\[ ... \]` for LaTeX math. MathJax renders formulas. Use a Markdown table for compact comparisons.
 
+Chemistry Unit 2 separates the two experiments: **Titration** uses `kind: lab-review`, and **Gas Lab Analysis** uses `kind: gas-lab`. General answer templates remain under `kind: template`.
+
 Statistics, Chemistry, U.S. History, and USACO have separate routes and content. Chemistry opens directly to its answer templates; USACO opens to its patterns; Statistics and U.S. History have separate content modes. The pages use warm light colors and keep each category as its own horizontal-navigation page. The centered content width preserves the side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Individual and section-wide eye icons blur answers without removing them.
 
 ## Run locally

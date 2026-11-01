@@ -43,6 +43,7 @@ const categoryOrder = {
       "Evidence & Identity",
       "Errors & Improvements",
     ],
+    "gas-lab": ["Analysis"],
   },
   ushist3: {
     vocabulary: ["Industrialization"],

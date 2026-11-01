@@ -1,0 +1,55 @@
+---
+unit: chem2
+kind: gas-lab
+category: Analysis
+---
+
+### Q1 — Limiting reactant
+> The amount of \(\mathrm{HCl}\) available exceeds the amount required to react with all the \(\mathrm{Mg}\). Therefore, ==\(\mathrm{Mg}\) is the limiting reactant== and ==\(\mathrm{HCl}\) is in excess==. The complete disappearance of the magnesium ribbon would support this conclusion.
+
+\[
+n_{\mathrm{HCl,required}}=2n_{\mathrm{Mg}}
+\]
+
+Compare the required amount with the available \(0.060\ \mathrm{mol}\) of \(\mathrm{HCl}\).
+
+Key idea: After the experiment, describe the ==actual observation== rather than assuming that the magnesium disappeared.
+
+### Q2 — Was the collected gas pure hydrogen?
+> No. The gas collected over water would contain both ==hydrogen and water vapor==. Some liquid water ==evaporates into the gas phase== and mixes with the hydrogen produced by the reaction.
+
+### Q3 — Why use the 2 L graduated cylinder?
+> The \(2\ \mathrm{L}\) graduated cylinder allows the eudiometer to be raised or lowered until the ==water levels inside and outside the tube are equal==. At equal water levels, the ==total pressure of the collected gas equals atmospheric pressure==, so atmospheric pressure can be used in the gas-law calculation.
+
+### Q4 — Experimental moles
+> Assuming that all the collected gas is \(\mathrm{H_2}\), the experimental moles are calculated using the ==measured gas volume, atmospheric pressure, and gas temperature== in the ideal gas law.
+
+\[
+n_{\mathrm{experimental}}=\frac{P_{\mathrm{atm}}V}{RT}
+\]
+
+Key idea: This calculation gives the ==total moles of collected gas==. Calling all of it \(\mathrm{H_2}\) also counts the water vapor as hydrogen.
+
+### Q5 — Theoretical moles
+> \(\mathrm{Mg}\) and \(\mathrm{H_2}\) have a ==1:1 mole ratio== in the balanced equation. Therefore, if all the magnesium reacts, the theoretical moles of \(\mathrm{H_2}\) equal the ==initial moles of \(\mathrm{Mg}\)==.
+
+\[
+n_{\mathrm{theoretical}}=\frac{m_{\mathrm{Mg}}}{M_{\mathrm{Mg}}}
+\]
+
+### Q6 — Percent error
+\[
+\%\text{ error}=\frac{\left|n_{\mathrm{experimental}}-n_{\mathrm{theoretical}}\right|}{n_{\mathrm{theoretical}}}\times100\%
+\]
+
+### Q7 — Effect of water vapor
+Use the water-vapor pressure at the ==experimental temperature==.
+
+> Water vapor contributes to the ==total pressure== of the collected gas. If its partial pressure is not subtracted, the pressure attributed to \(\mathrm{H_2}\) is ==too high==. Therefore, the moles of \(\mathrm{H_2}\) calculated using \(PV=nRT\) are ==overestimated==.
+
+### Q8 — Recalculate the required magnesium
+\[
+m_{\mathrm{Mg}}=\frac{\left(P_{\mathrm{atm}}-P_{\mathrm{H_2O}}\right)\left(0.0400\ \mathrm{L}\right)}{RT}\times M_{\mathrm{Mg}}
+\]
+
+> ==Less \(\mathrm{Mg}\) is needed== because water vapor contributes to the collected gas. At the same temperature and total pressure, ==fewer moles of \(\mathrm{H_2}\)== are required to reach a total gas volume of \(40.0\ \mathrm{mL}\).
