@@ -4,34 +4,183 @@ kind: test-feedback
 category: Multiple Choice
 ---
 
-### Unit 2 test: scoring and review marks
+### Unit 2 mock exam: scoring and review marks
 | Section | Questions | Points |
 | --- | --- | --- |
 | Multiple choice | 12 | 12 |
 | Free response | 6 questions, 25 parts | 48 |
 | Total | | 60 |
 
-==Review priority== marks a question or part with lost points in the supplied review. The mark for **FRQ 5(a) is provisional** because the scanned symbol still needs confirmation.
+A **star before a title** marks a question or part with lost points in the supplied review. The mark for **FRQ 5(a) is provisional** because the scanned symbol still needs confirmation.
 
 This guide lists scoring requirements; it does not reproduce personal responses.
 
-### Multiple-choice answers
-Each question is worth **1 point** for the correct choice. There are no separate points for work or explanation.
+**Reference data**
+\[R=0.08206\ \mathrm{L\,atm\,mol^{-1}\,K^{-1}}\]
+\[1\ \mathrm{atm}=760\ \mathrm{mmHg}\]
+\[T(\mathrm{K})=T(^\circ\mathrm{C})+273.15\]
 
-| Question | Answer | Correct reasoning |
-| --- | --- | --- |
-| 1 | C | Ammonia is produced: \(\mathrm{NH_4^+ + OH^- \rightarrow NH_3 + H_2O}\). |
-| 2 · ==Review priority== | D | \(\mathrm{HF}\) remains mainly as ==molecules and ionizes only partially==; \(\mathrm{HCl}\) ionizes extensively. |
-| 3 | A | \(\mathrm{CaO + H_2O \rightarrow Ca(OH)_2}\). The oxidation numbers of \(\mathrm{Ca}\), \(\mathrm{O}\), and \(\mathrm{H}\) do not change. |
-| 4 | B | From the activity order \(X>Y>Z\), infer that \(X\) can reduce \(Z^{2+}\) to \(Z\). |
-| 5 | B | The same empirical formula gives the ==same mass percentages== of the elements. |
-| 6 | D | At the equivalence point for a monoprotic acid, \(n(\mathrm{OH^-\ added})=n_{\mathrm{initial}}(\mathrm{HA})\). |
-| 7 | D | Use ==Kelvin==: \(P_2=0.900\left(\frac{2.00}{1.00}\right)\left(\frac{400.15}{300.15}\right)=2.40\ \mathrm{atm}\). |
-| 8 | B | The partial pressure of \(\mathrm{He}\) remains \(2.00\ \mathrm{atm}\) because \(n(\mathrm{He})\), \(T\), and \(V\) are unchanged. |
-| 9 | C | In an elastic collision, the ==total kinetic energy of the two particles is conserved==, although energy can transfer between them. |
-| 10 | A | Doubling number density approximately halves the mean free path. With \(T\) unchanged, the average translational kinetic energy is unchanged. |
-| 11 | D | At fixed \(T\), the kinetic-energy distribution is unchanged. A catalyst ==lowers the activation energy==, so a larger fraction of collisions have enough energy. |
-| 12 · ==Review priority== | B | At the same temperature, average translational kinetic energies are equal. \(t(\mathrm{O_2})=36.0\sqrt{\frac{32.0}{16.0}}=50.9\ \mathrm{s}\). |
+Each multiple-choice question is worth **1 point** for the correct choice, with no separate points for work or explanation.
+
+### MCQ 1: Gas formation · 1 point
+Aqueous \(\mathrm{NH_4Br}\) is warmed with excess aqueous \(\mathrm{NaOH}\). Which gas is expected to form?
+
+**A.** \(\mathrm{N_2}\)
+**B.** \(\mathrm{H_2}\)
+**C.** \(\mathrm{NH_3}\)
+**D.** \(\mathrm{NO_2}\)
+
+<!-- answer -->
+**Answer: C**
+
+Ammonia is produced: \(\mathrm{NH_4^+ + OH^- \rightarrow NH_3 + H_2O}\).
+
+### MCQ 2: Acid particles · 1 point {priority}
+Considering only solute-derived species (ignore water molecules), which description best represents separate \(0.10\ \mathrm{M}\) solutions of \(\mathrm{HF}\) and \(\mathrm{HCl}\) at the same temperature?
+
+**A.** Both solutions contain almost entirely neutral acid molecules.
+**B.** \(\mathrm{HF}\) contains almost entirely ions, whereas \(\mathrm{HCl}\) contains mostly neutral molecules.
+**C.** Both solutions contain almost entirely separated ions.
+**D.** \(\mathrm{HF}\) contains mostly \(\mathrm{HF}\) molecules and a small proportion of ions, whereas \(\mathrm{HCl}\) is extensively ionized.
+
+<!-- answer -->
+**Answer: D**
+
+\(\mathrm{HF}\) remains mainly as ==molecules and ionizes only partially==; \(\mathrm{HCl}\) ionizes extensively.
+
+### MCQ 3: Synthesis and redox · 1 point
+Which equation represents a synthesis reaction that is **not** a redox reaction?
+
+**A.** \(\mathrm{CaO(s)+H_2O(l)\rightarrow Ca(OH)_2(s)}\)
+**B.** \(\mathrm{2Mg(s)+O_2(g)\rightarrow 2MgO(s)}\)
+**C.** \(\mathrm{2Na(s)+Cl_2(g)\rightarrow 2NaCl(s)}\)
+**D.** \(\mathrm{2H_2(g)+O_2(g)\rightarrow 2H_2O(l)}\)
+
+<!-- answer -->
+**Answer: A**
+
+\(\mathrm{CaO + H_2O \rightarrow Ca(OH)_2}\). The oxidation numbers of \(\mathrm{Ca}\), \(\mathrm{O}\), and \(\mathrm{H}\) do not change.
+
+### MCQ 4: Activity series · 1 point
+Under comparable conditions, \(\mathrm{X(s)}\) reacts with \(\mathrm{Y^{2+}(aq)}\) to form \(\mathrm{X^{2+}(aq)}\) and \(\mathrm{Y(s)}\). \(\mathrm{Y(s)}\) reacts with \(\mathrm{Z^{2+}(aq)}\) to form \(\mathrm{Y^{2+}(aq)}\) and \(\mathrm{Z(s)}\). Which additional reaction is predicted by the activity-series pattern?
+
+**A.** \(\mathrm{Y(s)+X^{2+}(aq)\rightarrow Y^{2+}(aq)+X(s)}\)
+**B.** \(\mathrm{X(s)+Z^{2+}(aq)\rightarrow X^{2+}(aq)+Z(s)}\)
+**C.** \(\mathrm{Z(s)+Y^{2+}(aq)\rightarrow Z^{2+}(aq)+Y(s)}\)
+**D.** \(\mathrm{Z(s)+X^{2+}(aq)\rightarrow Z^{2+}(aq)+X(s)}\)
+
+<!-- answer -->
+**Answer: B**
+
+From the activity order \(X>Y>Z\), infer that \(X\) can reduce \(Z^{2+}\) to \(Z\).
+
+### MCQ 5: Empirical formulas · 1 point
+Two different compounds have the same empirical formula, \(\mathrm{C_2H_4O}\). Which property must they have in common?
+
+**A.** Molar mass
+**B.** Percent composition by mass
+**C.** Boiling point
+**D.** Arrangement of atoms within each molecule
+
+<!-- answer -->
+**Answer: B**
+
+The same empirical formula gives the ==same mass percentages== of the elements.
+
+### MCQ 6: Equivalence point · 1 point
+A weak monoprotic acid, \(\mathrm{HA}\), is titrated with standardized \(\mathrm{NaOH}\). At the equivalence point, which statement must be true?
+
+**A.** The pH is exactly 7.00.
+**B.** The volume of \(\mathrm{NaOH}\) added equals the original volume of the acid solution.
+**C.** The solution contains no dissolved ions.
+**D.** The moles of \(\mathrm{OH^-}\) added equal the initial moles of \(\mathrm{HA}\).
+
+<!-- answer -->
+**Answer: D**
+
+At the equivalence point for a monoprotic acid, \(n(\mathrm{OH^-\ added})=n_{\mathrm{initial}}(\mathrm{HA})\).
+
+### MCQ 7: Combined gas law · 1 point
+A fixed amount of ideal gas initially occupies \(2.00\ \mathrm{L}\) at \(27.0\ ^\circ\mathrm{C}\) and \(0.900\ \mathrm{atm}\). The gas is changed to \(127.0\ ^\circ\mathrm{C}\) and a volume of \(1.00\ \mathrm{L}\). What is the final pressure?
+
+**A.** \(1.20\ \mathrm{atm}\)
+**B.** \(1.80\ \mathrm{atm}\)
+**C.** \(8.47\ \mathrm{atm}\)
+**D.** \(2.40\ \mathrm{atm}\)
+
+<!-- answer -->
+**Answer: D**
+
+Use ==Kelvin==: \(P_2=0.900\left(\frac{2.00}{1.00}\right)\left(\frac{400.15}{300.15}\right)=2.40\ \mathrm{atm}\).
+
+### MCQ 8: Partial pressure · 1 point
+A rigid container holds \(2.00\ \mathrm{mol}\) \(\mathrm{He}\) and \(1.00\ \mathrm{mol}\) \(\mathrm{Ne}\) at a total pressure of \(3.00\ \mathrm{atm}\). An additional \(3.00\ \mathrm{mol}\) \(\mathrm{Ar}\) is added without changing the temperature or container volume. All gases behave ideally. Which statement about the final partial pressure of \(\mathrm{He}\) is correct?
+
+**A.** It is \(1.00\ \mathrm{atm}\) because the mole fraction of \(\mathrm{He}\) is halved.
+**B.** It is \(2.00\ \mathrm{atm}\) because the amount of \(\mathrm{He}\), temperature, and volume are unchanged.
+**C.** It is \(3.00\ \mathrm{atm}\) because the total number of gas species increases to three.
+**D.** It is \(4.00\ \mathrm{atm}\) because the total pressure doubles.
+
+<!-- answer -->
+**Answer: B**
+
+The partial pressure of \(\mathrm{He}\) remains \(2.00\ \mathrm{atm}\) because \(n(\mathrm{He})\), \(T\), and \(V\) are unchanged.
+
+### MCQ 9: Elastic collisions · 1 point
+Two ideal-gas particles collide elastically. Which statement must be true?
+
+**A.** Each particle has the same speed after the collision as before it.
+**B.** Both particles leave the collision with equal kinetic energies.
+**C.** The total kinetic energy of the two particles is conserved, although energy may be transferred between them.
+**D.** The total kinetic energy increases because collisions generate heat.
+
+<!-- answer -->
+**Answer: C**
+
+In an elastic collision, the ==total kinetic energy of the two particles is conserved==, although energy can transfer between them.
+
+### MCQ 10: Mean free path · 1 point
+The amount of \(\mathrm{Ne}\) in a rigid container is doubled while temperature is kept constant. Treat the effective molecular collision size as unchanged. How do the mean free path and average translational kinetic energy per particle change?
+
+**A.** Mean free path decreases to approximately one-half; average kinetic energy is unchanged.
+**B.** Mean free path is unchanged; average kinetic energy doubles.
+**C.** Mean free path decreases to approximately one-half; average kinetic energy doubles.
+**D.** Mean free path approximately doubles; average kinetic energy is unchanged.
+
+<!-- answer -->
+**Answer: A**
+
+Doubling number density approximately halves the mean free path. With \(T\) unchanged, the average translational kinetic energy is unchanged.
+
+### MCQ 11: Catalysts and energy · 1 point
+A catalyst is added to a reacting gas mixture whose temperature is held constant. Which statement correctly connects the kinetic-energy distribution with the catalyst's effect?
+
+**A.** The catalyst increases the average kinetic energy of the gas particles.
+**B.** The catalyst shifts the entire kinetic-energy distribution toward higher energies.
+**C.** The catalyst increases the activation-energy barrier, making collisions more energetic.
+**D.** The kinetic-energy distribution remains unchanged, but a larger fraction of collisions can overcome the lower activation-energy barrier.
+
+<!-- answer -->
+**Answer: D**
+
+At fixed \(T\), the kinetic-energy distribution is unchanged. A catalyst ==lowers the activation energy==, so a larger fraction of collisions have enough energy.
+
+### MCQ 12: Speed curves and effusion · 1 point {priority}
+The original graph below compares gas-speed distributions at \(273\ \mathrm{K}\). \(\mathrm{CH_4}\) has a molar mass of \(16.0\ \mathrm{g\,mol^{-1}}\), and \(\mathrm{O_2}\) has a molar mass of \(32.0\ \mathrm{g\,mol^{-1}}\). Equal volumes effuse through identical small openings under the same temperature and pressure conditions. \(\mathrm{CH_4}\) takes \(36.0\ \mathrm{s}\). Which statement correctly explains the relative curve positions and predicts the time for \(\mathrm{O_2}\)?
+
+![Original mock-exam graph: oxygen, methane, and hydrogen speed distributions at 273 K.](./diagrams/chem2-test-mcq12-original.jpg)
+
+*Class lecture, slide 58; original figure excerpt, Pearson Prentice Hall (2005).*
+
+**A.** \(\mathrm{CH_4}\) has a greater average translational kinetic energy; \(\mathrm{O_2}\) requires \(50.9\ \mathrm{s}\).
+**B.** The gases have equal average translational kinetic energies; \(\mathrm{O_2}\) requires \(50.9\ \mathrm{s}\).
+**C.** The gases have equal average translational kinetic energies; \(\mathrm{O_2}\) requires \(25.5\ \mathrm{s}\).
+**D.** \(\mathrm{CH_4}\) has a greater average translational kinetic energy; \(\mathrm{O_2}\) requires \(72.0\ \mathrm{s}\).
+
+<!-- answer -->
+**Answer: B**
+
+At the same temperature, average translational kinetic energies are equal. \(t(\mathrm{O_2})=36.0\sqrt{\frac{32.0}{16.0}}=50.9\ \mathrm{s}\).
 
 ### General FRQ scoring rules
 - Each numbered scoring point is worth **1 point**, added within its part. Each FRQ is worth **8 points**.

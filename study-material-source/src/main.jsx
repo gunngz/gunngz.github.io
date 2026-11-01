@@ -33,6 +33,11 @@ function EyeIcon({ crossed = false }) {
   );
 }
 
+function PriorityStar({ provisional }) {
+  const label = provisional ? "Review priority (provisional mark)" : "Review priority";
+  return <span className="priority-star" role="img" aria-label={label} title={label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.52l-5.88 3.09 1.12-6.55-4.76-4.64 6.58-.96Z" /></svg></span>;
+}
+
 function SearchIcon() {
   return (
     <svg className="icon search-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -73,9 +78,10 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
   const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
   const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
   return (
-    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
-        <h3><RichText value={card.title} inline query={query} /></h3>
+        <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} /> : null}<RichText value={card.title} inline query={query} /></h3>
+        {card.question ? <RichText value={card.question} query={query} className="answer-content question-content" /> : null}
       </div>
       <div className="answer-side">
         <button

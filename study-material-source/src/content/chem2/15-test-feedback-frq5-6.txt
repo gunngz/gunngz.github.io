@@ -4,8 +4,15 @@ kind: test-feedback
 category: FRQ 5–6
 ---
 
-### FRQ 5(a): reaction and limiting reactant · 2 points
-==Review priority · provisional mark==
+### FRQ 5(a): reaction and limiting reactant · 2 points {priority=provisional}
+**Given**
+A student combines \(0.0400\ \mathrm{g}\) \(\mathrm{Mg}\) with \(10.0\ \mathrm{mL}\) of \(0.500\ \mathrm{M}\) \(\mathrm{HCl}\). Hydrogen is collected over water at \(25.0\ ^\circ\mathrm{C}\). The water levels inside and outside the collecting tube are equal when a gas volume of \(41.2\ \mathrm{mL}\) is recorded. Atmospheric pressure is \(748.0\ \mathrm{mmHg}\); the water-vapor pressure at \(25.0\ ^\circ\mathrm{C}\) is \(23.8\ \mathrm{mmHg}\). Use \(M(\mathrm{Mg})=24.31\ \mathrm{g\,mol^{-1}}\) and assume ideal-gas behavior. The collected gas contains only \(\mathrm{H_2}\) and water vapor.
+
+**Question**
+Write the balanced net ionic equation. Identify the limiting reactant using a quantitative comparison.
+
+<!-- answer -->
+**Scoring points**
 
 1. Write the correct net ionic equation with ==balanced coefficients and charge==.
 
@@ -15,8 +22,15 @@ category: FRQ 5–6
 
    \[0.003291\ \mathrm{mol}<0.00500\ \mathrm{mol}\]
 
-### FRQ 5(b): gas collected over water · 2 points
-==Review priority==
+### FRQ 5(b): gas collected over water · 2 points {priority}
+**Given**
+A student combines \(0.0400\ \mathrm{g}\) \(\mathrm{Mg}\) with \(10.0\ \mathrm{mL}\) of \(0.500\ \mathrm{M}\) \(\mathrm{HCl}\). Hydrogen is collected over water at \(25.0\ ^\circ\mathrm{C}\). The water levels inside and outside the collecting tube are equal when a gas volume of \(41.2\ \mathrm{mL}\) is recorded. Atmospheric pressure is \(748.0\ \mathrm{mmHg}\); the water-vapor pressure at \(25.0\ ^\circ\mathrm{C}\) is \(23.8\ \mathrm{mmHg}\). Use \(M(\mathrm{Mg})=24.31\ \mathrm{g\,mol^{-1}}\) and assume ideal-gas behavior. The collected gas contains only \(\mathrm{H_2}\) and water vapor.
+
+**Question**
+Calculate the partial pressure of \(\mathrm{H_2}\) and the experimental amount, in moles, of \(\mathrm{H_2}\) collected.
+
+<!-- answer -->
+**Scoring points**
 
 1. ==Subtract the water-vapor pressure== to obtain the hydrogen partial pressure.
 
@@ -27,29 +41,72 @@ category: FRQ 5–6
 
    \[n(\mathrm{H_2})=\frac{P(\mathrm{H_2})V}{RT}=1.60\times10^{-3}\ \mathrm{mol}\]
 
-### FRQ 5(c): ignoring water vapor · 2 points
-==Review priority==
+### FRQ 5(c): ignoring water vapor · 2 points {priority}
+**Given**
+A student combines \(0.0400\ \mathrm{g}\) \(\mathrm{Mg}\) with \(10.0\ \mathrm{mL}\) of \(0.500\ \mathrm{M}\) \(\mathrm{HCl}\). Hydrogen is collected over water at \(25.0\ ^\circ\mathrm{C}\). The water levels inside and outside the collecting tube are equal when a gas volume of \(41.2\ \mathrm{mL}\) is recorded. Atmospheric pressure is \(748.0\ \mathrm{mmHg}\); the water-vapor pressure at \(25.0\ ^\circ\mathrm{C}\) is \(23.8\ \mathrm{mmHg}\). Use \(M(\mathrm{Mg})=24.31\ \mathrm{g\,mol^{-1}}\) and assume ideal-gas behavior. The collected gas contains only \(\mathrm{H_2}\) and water vapor.
+
+**Question**
+Another student uses \(748.0\ \mathrm{mmHg}\) as the pressure of \(\mathrm{H_2}\) in \(PV=nRT\), with all other data unchanged. Would the calculated amount of \(\mathrm{H_2}\) be too high, too low, or unchanged? Justify your answer.
+
+<!-- answer -->
+**Scoring points**
 
 1. State that the calculated moles of \(\mathrm{H_2}\) are ==too high==.
 2. Explain that water vapor contributes to total pressure. Assigning all of that pressure to hydrogen overestimates its partial pressure; at fixed \(V\) and \(T\), \(n=PV/(RT)\) then gives ==too many moles==.
 
-### FRQ 5(d): magnesium needed for 40.0 mL · 2 points
-==Review priority==
+### FRQ 5(d): magnesium needed for 40.0 mL · 2 points {priority}
+**Given**
+A student combines \(0.0400\ \mathrm{g}\) \(\mathrm{Mg}\) with \(10.0\ \mathrm{mL}\) of \(0.500\ \mathrm{M}\) \(\mathrm{HCl}\). Hydrogen is collected over water at \(25.0\ ^\circ\mathrm{C}\). The water levels inside and outside the collecting tube are equal when a gas volume of \(41.2\ \mathrm{mL}\) is recorded. Atmospheric pressure is \(748.0\ \mathrm{mmHg}\); the water-vapor pressure at \(25.0\ ^\circ\mathrm{C}\) is \(23.8\ \mathrm{mmHg}\). Use \(M(\mathrm{Mg})=24.31\ \mathrm{g\,mol^{-1}}\) and assume ideal-gas behavior. The collected gas contains only \(\mathrm{H_2}\) and water vapor.
+
+**Question**
+A redesigned trial must collect \(40.0\ \mathrm{mL}\) of wet gas at the same temperature and pressure, with excess \(\mathrm{HCl}\), complete \(\mathrm{Mg}\) reaction, and no gas loss. Calculate the required \(\mathrm{Mg}\) mass. Explain whether this mass is greater or less than the value calculated when water vapor is ignored.
+
+<!-- answer -->
+**Scoring points**
 
 1. For \(40.0\ \mathrm{mL}\), use the corrected hydrogen partial pressure and the ==1 : 1 mole ratio== of \(\mathrm{Mg}\) to \(\mathrm{H_2}\) to obtain a required magnesium mass of \(0.0379\ \mathrm{g}\).
 2. State that this corrected mass is ==smaller than the mass calculated without the water-vapor correction==. Water vapor supplies part of the total pressure, so less hydrogen and therefore less magnesium are needed.
 
-### FRQ 6(a): temperature and pressure · 2 points
-==Review priority==
+### FRQ 6(a): temperature and pressure · 2 points {priority}
+**Given**
+Use particle-level reasoning in each explanation. For real gases, the compressibility factor is \(Z=PV/(nRT)\).
+
+**Question**
+A sealed, rigid flask containing \(\mathrm{Ne}\) is heated from \(300\ \mathrm{K}\) to \(450\ \mathrm{K}\). Explain at the particle level why its pressure increases.
+
+<!-- answer -->
+**Scoring points**
 
 1. Connect higher temperature to greater average translational kinetic energy and speed, then to ==more frequent collisions with the container walls==.
 2. Explain that each wall collision transfers ==more momentum on average==, or describe more forceful collisions, and connect this to ==higher pressure==.
 
 ### FRQ 6(b): Maxwell–Boltzmann curves · 2 points
+**Given**
+Use particle-level reasoning in each explanation. The original graph below shows \(\mathrm{O_2}\) speed distributions at three temperatures; compare samples containing equal numbers of molecules.
+
+![Original mock-exam graph: oxygen speed distributions at 273, 1000, and 2000 K.](./diagrams/chem2-test-frq6-original.jpg)
+
+*Class lecture, slide 58; original figure excerpt, Pearson Prentice Hall (2005).*
+
+**Question**
+Use the graph to compare the \(273\ \mathrm{K}\) and \(2000\ \mathrm{K}\) distributions. Explain their different peak positions, widths, and heights, and state how their total areas compare.
+
+<!-- answer -->
+**Scoring points**
+
 1. State that the \(2000\ \mathrm{K}\) curve peaks farther to the right and is broader. Connect this to ==higher average kinetic energy and higher characteristic speeds==.
 2. Equal particle counts give ==equal total areas==. Connect the broader distribution to a ==lower peak==.
 
 ### FRQ 6(c): real-gas deviations · 2 points
+**Given**
+Use particle-level reasoning in each explanation. For real gases, the compressibility factor is \(Z=PV/(nRT)\).
+
+**Question**
+A real gas has \(Z<1\) at an intermediate pressure and \(Z>1\) at a very high pressure. Explain both deviations by comparing it with an ideal gas at the same \(n\), \(T\), and \(V\).
+
+<!-- answer -->
+**Scoring points**
+
 1. At the same \(n\), \(T\), and \(V\), intermolecular attractions make the real pressure lower than the ideal prediction.
 
    \[Z<1\]
@@ -59,5 +116,14 @@ category: FRQ 5–6
    \[Z>1\]
 
 ### FRQ 6(d): low-pressure behavior · 2 points
+**Given**
+Use particle-level reasoning in each explanation. For real gases, the compressibility factor is \(Z=PV/(nRT)\).
+
+**Question**
+At constant temperature, a student lowers a gas sample's pressure by increasing its volume and claims, "The gas behaves more ideally because the molecules shrink." Evaluate the claim in terms of particle volume and intermolecular attractions.
+
+<!-- answer -->
+**Scoring points**
+
 1. Reject the claim that the ==particles become smaller==. Their own volume does not change; it becomes negligible relative to the larger gas or container volume.
 2. Explain that greater particle separation weakens the effect of intermolecular attractions, so the gas behaves ==more nearly ideally==.

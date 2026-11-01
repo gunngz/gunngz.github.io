@@ -82,10 +82,15 @@ function parseTextFile(path, source) {
   return chunks.map((chunk, index) => {
     const newline = chunk.indexOf("\n");
     const heading = (newline < 0 ? chunk : chunk.slice(0, newline)).trim();
-    const dayMatch = heading.match(/\s+\{days=([0-9,]+)\}$/);
-    const title = dayMatch ? heading.slice(0, dayMatch.index).trim() : heading;
+    const priorityMatch = heading.match(/\s+\{priority(?:=(provisional))?\}$/);
+    const cleanHeading = priorityMatch ? heading.slice(0, priorityMatch.index).trim() : heading;
+    const dayMatch = cleanHeading.match(/\s+\{days=([0-9,]+)\}$/);
+    const title = dayMatch ? cleanHeading.slice(0, dayMatch.index).trim() : cleanHeading;
     const days = dayMatch ? dayMatch[1].split(",").map((day) => day.trim()) : [];
-    const answer = newline < 0 ? "" : chunk.slice(newline + 1).trim();
+    const cardBody = newline < 0 ? "" : chunk.slice(newline + 1).trim();
+    const answerSeparator = cardBody.indexOf("<!-- answer -->");
+    const question = answerSeparator < 0 ? "" : cardBody.slice(0, answerSeparator).trim();
+    const answer = answerSeparator < 0 ? cardBody : cardBody.slice(answerSeparator + "<!-- answer -->".length).trim();
     const templateConfig = templateConfigs[answer];
     const searchableAnswer = templateConfig ? templateSearchText(templateConfig) : answer;
     const unit = metadata.unit || "u1p1";
@@ -98,8 +103,11 @@ function parseTextFile(path, source) {
       category,
       title,
       days,
+      priority: Boolean(priorityMatch),
+      priorityProvisional: priorityMatch?.[1] === "provisional",
+      question,
       answer,
-      searchText: (title + " " + searchableAnswer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
+      searchText: (title + " " + question + " " + searchableAnswer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
     return card;
   });
