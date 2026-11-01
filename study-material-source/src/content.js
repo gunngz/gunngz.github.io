@@ -1,5 +1,6 @@
 import DOMPurify from "dompurify";
 import { marked } from "marked";
+import { choices as zTemplateChoices, placeholders as zTemplatePlaceholders } from "./content-data/z-template-examples.js";
 
 const rawContent = import.meta.glob("./content/**/*.txt", {
   query: "?raw",
@@ -83,6 +84,9 @@ function parseTextFile(path, source) {
     const title = dayMatch ? heading.slice(0, dayMatch.index).trim() : heading;
     const days = dayMatch ? dayMatch[1].split(",").map((day) => day.trim()) : [];
     const answer = newline < 0 ? "" : chunk.slice(newline + 1).trim();
+    const searchableAnswer = answer === "{{z-sentence-template}}"
+      ? [answer, ...zTemplatePlaceholders, ...zTemplateChoices.flatMap(item => [item.label, ...item.sentences, item.note || ""])].join(" ")
+      : answer;
     const unit = metadata.unit || "u1p1";
     const kind = metadata.kind || "vocabulary";
     const category = metadata.category || "Study Basics";
@@ -94,7 +98,7 @@ function parseTextFile(path, source) {
       title,
       days,
       answer,
-      searchText: (title + " " + answer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
+      searchText: (title + " " + searchableAnswer).replace(/==/g, "").replace(/[*_#|]/g, "").toLowerCase(),
     };
     return card;
   });

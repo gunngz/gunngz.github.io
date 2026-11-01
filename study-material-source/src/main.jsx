@@ -1,6 +1,8 @@
 import React, { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { cards, getPages, matchesSearch, renderMarkdown, unitInfo } from "./content.js";
+import ZTemplateCard from "./ZTemplateCard.jsx";
+import { typesetMath } from "./mathJax.js";
 import "./style.css";
 
 const ZCurveDiagram = lazy(() => import("./ZCurveDiagram.jsx"));
@@ -63,6 +65,8 @@ function blurIdsForCard(card) {
 
 function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = false }) {
   const blurred = blurredIds.has(card.id);
+  const blurControl = <button className="icon-button card-blur-button" type="button" aria-pressed={blurred} aria-label={blurred ? "Reveal answer" : "Blur answer"} title={blurred ? "Reveal answer" : "Blur answer"} onClick={() => onToggleBlur(card.id)}><EyeIcon crossed={blurred} /></button>;
+  if (card.answer.trim() === "{{z-sentence-template}}") return <ZTemplateCard title={card.title} blurControl={blurControl} blurred={blurred} query={query} />;
   const hasZCurveDiagram = card.answer.trim() === "{{z-curve-diagram}}";
   const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
   const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
@@ -134,18 +138,7 @@ function App() {
     const root = contentRef.current;
     if (!root) return undefined;
     let active = true;
-    let queued = Promise.resolve();
-
-    const typeset = () => {
-      queued = queued.then(async () => {
-        const mathJax = window.MathJax;
-        if (!active || !mathJax?.typesetPromise) return;
-        await mathJax.startup?.promise;
-        if (!active) return;
-        mathJax.typesetClear?.([root]);
-        await mathJax.typesetPromise([root]);
-      }).catch(() => {});
-    };
+    const typeset = () => typesetMath(root, () => active);
 
     window.addEventListener("mathjax-ready", typeset);
     if (window.MathJax?.typesetPromise) typeset();

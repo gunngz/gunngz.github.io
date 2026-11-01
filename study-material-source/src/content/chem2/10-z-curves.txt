@@ -4,39 +4,31 @@ kind: z-curves
 category: Z Curves
 ---
 
-### Z curve
+### Z curves: \(\mathrm{CH_4}\), \(\mathrm{CO_2}\), and \(\mathrm{H_2}\)
 {{z-curve-diagram}}
 
 ### Three-sentence template
-**Particle situation → Important factor → Pressure and Z**
+{{z-sentence-template}}
 
-| Step | Answer template |
+### Why does \(\mathrm{H_2}\) look like a rising line?
+| Step | Filled explanation |
 | --- | --- |
-| 1. Particle situation | At **[condition]**, gas particles **[describe their separation or motion]**. |
-| 2. Important factor | Therefore, **[explain whether intermolecular attractions or particle volume are significant]**. |
-| 3. Pressure and Z | At the ==same temperature, volume, and number of moles==, the pressure is **[lower than / higher than / approximately equal to]** the ideal prediction, so \(Z\) is **[less than / greater than / approximately equal to]** 1. |
+| 1. Particle situation | At the plotted temperature, \(\mathrm{H_2}\) particles have the ==same average kinetic energy as the other gases==, while their ==intermolecular attractions are very weak==. |
+| 2. Important factor | Therefore, attractions produce little downward deviation; ==particle-volume and short-range repulsive effects== become more important as pressure increases. |
+| 3. Pressure and Z | At the ==same temperature, volume, and number of moles==, the pressure is ==higher than the ideal prediction== over the plotted range, so \(Z>1\) and rises ==approximately linearly==. |
 
-### What to fill in for each situation
-| Situation | Three-step reasoning |
+Key idea: Here, “line” means an ==approximately straight, rising real-gas curve== over this range. The ideal-gas reference is the ==horizontal line \(Z=1\)==. The shape can change at other temperatures or pressures.
+
+### Why does \(\mathrm{CO_2}\) dip more than \(\mathrm{CH_4}\)?
+| Step | Filled explanation |
 | --- | --- |
-| Low pressure | **1.** Particles are ==far apart==.<br>**2.** Attractions have little effect; particle volume is ==negligible compared with the container volume==.<br>**3.** \(P_{\mathrm{real}}\approx P_{\mathrm{ideal}}\)<br>\(Z\approx1\) |
-| Attractions dominate | **1.** Particles are close enough for attractions to be significant.<br>**2.** Attractions ==reduce the pressure exerted on the walls==.<br>**3.** \(P_{\mathrm{real}}<P_{\mathrm{ideal}}\)<br>\(Z<1\) |
-| Very high pressure: volume and repulsion effects dominate | **1.** Particles are ==very close together==.<br>**2.** ==Finite particle volume and short-range repulsions== are significant.<br>**3.** \(P_{\mathrm{real}}>P_{\mathrm{ideal}}\)<br>\(Z>1\) |
+| 1. Particle situation | As the gases are compressed at the same plotted temperature, their particles become ==close enough for attractions to matter==. |
+| 2. Important factor | Attractive interactions are ==more significant for \(\mathrm{CO_2}\) than for \(\mathrm{CH_4}\)== in this comparison, producing a larger attraction-caused reduction in wall pressure. |
+| 3. Pressure and Z | In comparisons with the ideal prediction at the ==same temperature, volume, and number of moles==, the attraction-driven pressure deficit is greater for \(\mathrm{CO_2}\) in the dip region, so its ==\(Z<1\) dip is deeper==. |
 
-### Low-pressure example
-> At low pressure, gas particles are ==far apart==.
-> Intermolecular attractions have little effect, and the particles' own volume is ==negligible compared with the container volume==.
-> At the ==same temperature, volume, and number of moles==, the pressure is approximately equal to the ideal prediction, so \(Z\) approaches 1.
-
-**Volume wording:**
-
-> The particles' own volume is negligible compared with the container volume.
-
-Key idea: The total volume occupied by the particles themselves is very small compared with the entire container and can be ignored. The ==particles themselves have not become smaller==.
-
-### Higher temperature: the same reasoning order
-**Greater average kinetic energy → Attractions are relatively less significant → Smaller deviation caused by attractions**
-
-> At higher temperatures, particles have ==greater average kinetic energy==.
-> Intermolecular attractions are ==less significant relative to their motion==.
-> Therefore, the ==deviation from ideal behavior caused by attractions becomes smaller==.
+### Why do their high-pressure rises differ?
+| Step | Filled explanation |
+| --- | --- |
+| 1. Particle situation | At very high pressure, particles are ==crowded close together==. |
+| 2. Important factor | The gases differ in ==effective particle volume, repulsive interactions, and attractive interactions==. |
+| 3. Pressure and Z | These effects change the pressure relative to the ideal prediction at the same temperature, volume, and number of moles by different amounts. Therefore, their ==\(Z\) curves rise differently==; where volume and repulsive effects dominate, \(Z>1\). |

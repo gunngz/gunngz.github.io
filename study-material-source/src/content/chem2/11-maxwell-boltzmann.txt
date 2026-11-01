@@ -4,7 +4,7 @@ kind: maxwell-boltzmann
 category: Speed Distributions
 ---
 
-### Speed-distribution curves
+### Speed and kinetic-energy distributions
 {{maxwell-boltzmann-diagram}}
 
 ### Maxwell–Boltzmann: three-step template
@@ -39,6 +39,27 @@ Use this template when the horizontal axis is ==speed==. Peak-height comparisons
 | Same gas, lower temperature | Lower speeds | Narrower | Higher |
 | Same temperature, smaller molar mass | Higher speeds | Broader | Lower |
 | Same temperature, larger molar mass | Lower speeds | Narrower | Higher |
+
+![Four speed-distribution comparisons. Each panel compares a reference curve with the result of heating, cooling, decreasing molar mass, or increasing molar mass.](./diagrams/chem2-mb-shape-comparisons.svg)
+
+### When the horizontal axis is \(E_k\)
+Here, \(E_k\) is ==translational kinetic energy==.
+
+| Comparison | Energy-distribution shape |
+| --- | --- |
+| Higher temperature | Shifts toward ==higher energies==; ==broader==, with a ==lower peak==. |
+| Lower temperature | Shifts toward ==lower energies==; ==narrower==, with a ==higher peak==. |
+| Same temperature, different molar masses | The normalized curves ==overlap==: same distribution, width, and peak. |
+
+**Temperature template:**
+
+> At a **[higher / lower] temperature**, particles have **[greater / lower] average translational kinetic energy**. Therefore, the energy distribution shifts toward **[higher / lower] energies** and becomes **[broader / narrower]**, with a **[lower / higher] peak**.
+
+**Different gases at the same temperature:**
+
+> At the same temperature, both gases have the ==same normalized translational kinetic-energy distribution==, so their \(E_k\) curves ==overlap==. Changing molar mass does not shift the energy distribution.
+
+Key idea: ==Different speed distributions can have the same kinetic-energy distribution==. Read the horizontal axis before comparing curves.
 
 ### If asked about area
 **Same number of particles:**

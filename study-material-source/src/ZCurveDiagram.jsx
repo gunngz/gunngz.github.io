@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import curveSvg from "./diagrams/chem2-z-curves.svg?raw";
+import MathContent from "./MathContent.jsx";
 
 const regions = [
   ["all", "All regions"],
@@ -20,6 +21,7 @@ export default function ZCurveDiagram() {
           </button>
         ))}
       </div>
+      <MathContent value={"\\[Z=\\frac{PV}{nRT}\\]"} className="z-curve-formula" />
       <div className="z-curves-svg" dangerouslySetInnerHTML={{ __html: curveSvg }} />
     </div>
   );

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="959.9976pt" height="699.9984pt" viewBox="0 0 959.9976 699.9984" version="1.1" id="z-curve-svg" role="img" aria-labelledby="z-curve-title z-curve-description">
- <title id="z-curve-title">Z curve with explanations at low pressure, where attractions dominate, and at very high pressure</title><desc id="z-curve-description">The dashed ideal-gas line is Z equals 1. A schematic real-gas curve approaches 1 at low pressure, dips below 1 where attractions dominate, and rises above 1 where finite particle volume and short-range repulsions dominate. Each region has an attached three-step explanation and compares pressures at the same temperature, volume, and number of moles.</desc><metadata>
+ <desc id="z-curve-description">All curves approach Z equals 1 at low pressure. CO2 has a deeper attraction-driven dip than CH4. H2 rises approximately linearly above 1 over this model range. At high pressure, volume and repulsive effects raise Z. The dashed horizontal ideal-gas line is Z equals 1.</desc><title id="z-curve-title">CH4, CO2 and H2 compressibility-factor curves at the same temperature</title><metadata>
   <rdf:RDF>
    <ns2:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
@@ -21,214 +21,212 @@
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 86.399784 580.998672  L 662.398344 580.998672  L 662.398344 90.999792  L 86.399784 90.999792  z " style="fill: #fffaf1" />
+    <path d="M 86.399784 573.998688  L 643.198392 573.998688  L 643.198392 90.999792  L 86.399784 90.999792  z " style="fill: #fffaf1" />
    </g>
    <g id="patch_3">
-    <path d="M 86.399784 329.717195  L 662.398344 329.717195  L 662.398344 90.999792  L 86.399784 90.999792  z " clip-path="url(#p2bc801906d)" style="fill: #e9efe6; opacity: 0.6; stroke: #e9efe6; stroke-linejoin: miter" />
+    <path d="M 86.399784 343.999214  L 643.198392 343.999214  L 643.198392 90.999792  L 86.399784 90.999792  z " clip-path="url(#pf6cb5049b4)" style="fill: #e9efe6; opacity: 0.6; stroke: #e9efe6; stroke-linejoin: miter" />
    </g>
    <g id="patch_4">
-    <path d="M 86.399784 580.998672  L 662.398344 580.998672  L 662.398344 329.717195  L 86.399784 329.717195  z " clip-path="url(#p2bc801906d)" style="fill: #f7eed8; opacity: 0.45; stroke: #f7eed8; stroke-linejoin: miter" />
+    <path d="M 86.399784 573.998688  L 643.198392 573.998688  L 643.198392 343.999214  L 86.399784 343.999214  z " clip-path="url(#pf6cb5049b4)" style="fill: #f7eed8; opacity: 0.45; stroke: #f7eed8; stroke-linejoin: miter" />
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1" />
      <g id="text_1">
-      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="86.399784" y="598.876641" transform="rotate(-0 86.399784 598.876641)">Low</text>
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="86.399784" y="591.876657" transform="rotate(-0 86.399784 591.876657)">0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2" />
      <g id="text_2">
-      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="640.244553" y="598.876641" transform="rotate(-0 640.244553 598.876641)">High</text>
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="241.066064" y="591.876657" transform="rotate(-0 241.066064 591.876657)">200</text>
      </g>
     </g>
-    <g id="text_3">
-     <text style="fill: #302f2a; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="374.399064" y="625.977891" transform="rotate(-0 374.399064 625.977891)">Pressure (schematic scale)</text>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+     <g id="text_3">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="395.732344" y="591.876657" transform="rotate(-0 395.732344 591.876657)">400</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4" />
+     <g id="text_4">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="550.398624" y="591.876657" transform="rotate(-0 550.398624 591.876657)">600</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="fill: #302f2a; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="364.799088" y="618.977907" transform="rotate(-0 364.799088 618.977907)">Pressure (bar)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_3" />
-     <g id="text_4">
-      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="460.296918" transform="rotate(-0 78.399784 460.296918)">0.5</text>
+     <g id="line2d_5" />
+     <g id="text_6">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="463.937935" transform="rotate(-0 78.399784 463.937935)">0.5</text>
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_4" />
-     <g id="text_5">
-      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="334.656179" transform="rotate(-0 78.399784 334.656179)">1</text>
+     <g id="line2d_6" />
+     <g id="text_7">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="348.938198" transform="rotate(-0 78.399784 348.938198)">1</text>
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_5" />
-     <g id="text_6">
-      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="209.015441" transform="rotate(-0 78.399784 209.015441)">1.5</text>
+     <g id="line2d_7" />
+     <g id="text_8">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="233.938461" transform="rotate(-0 78.399784 233.938461)">1.5</text>
      </g>
     </g>
-    <g id="text_7">
-     <text style="fill: #302f2a; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="41.60619" y="335.999232" transform="rotate(-90 41.60619 335.999232)">Compressibility factor, Z</text>
+    <g id="ytick_4">
+     <g id="line2d_8" />
+     <g id="text_9">
+      <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: end" x="78.399784" y="118.938724" transform="rotate(-0 78.399784 118.938724)">2</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill: #302f2a; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="41.60619" y="332.49924" transform="rotate(-90 41.60619 332.49924)">Compressibility factor, Z</text>
     </g>
    </g>
-   <g id="line2d_6">
-    <path d="M 86.399784 329.717195  L 662.398344 329.717195  " clip-path="url(#p2bc801906d)" style="fill: none; stroke-dasharray: 10.2,8.5; stroke-dashoffset: 0; stroke: #777368; stroke-width: 1.7" />
+   <g id="line2d_9">
+    <path d="M 86.399784 343.999214  L 643.198392 343.999214  " clip-path="url(#pf6cb5049b4)" style="fill: none; stroke-dasharray: 10.2,8.5; stroke-dashoffset: 0; stroke: #777368; stroke-width: 1.7" />
    </g>
-   <g id="line2d_7">
-    <path d="M 86.422819 329.737694  L 94.980859 337.502456  L 103.236819 345.292618  L 111.158313 353.067869  L 119.01249 361.088649  L 126.766693 369.324669  L 134.925311 378.324847  L 144.41568 389.149731  L 158.521419 405.26364  L 163.417469 410.477981  L 167.303951 414.292032  L 170.731145 417.329355  L 173.634232 419.613697  L 176.324228 421.465812  L 178.767578 422.913676  L 181.365844 424.202233  L 183.67285 425.130136  L 186.133007 425.901536  L 188.773569 426.490747  L 191.626936 426.868419  L 194.088505 426.995822  L 196.733827 426.94696  L 199.589393 426.70006  L 202.685697 426.230722  L 206.057869 425.511548  L 209.746427 424.511703  L 213.798171 423.196406  L 218.267239 421.526324  L 223.21637 419.456851  L 228.718418 416.937256  L 234.858175 413.909657  L 241.734577 410.307778  L 251.54421 404.880728  L 262.958612 398.261374  L 276.311271 390.238777  L 292.014562 380.556896  L 314.693324 366.302041  L 353.389013 341.654823  L 447.023198 281.925506  L 498.092919 249.642374  L 547.497981 218.661001  L 606.458463 182.00053  L 640.244553 161.137403  L 640.244553 161.137403  " clip-path="url(#p2bc801906d)" style="fill: none; stroke: #587565; stroke-width: 3.6; stroke-linecap: round" />
+   <g id="line2d_10">
+    <path d="M 86.399784 343.999214  L 93.117679 349.779126  L 100.954322 356.813469  L 107.671444 363.126658  L 114.388566 369.739722  L 121.105688 376.697174  L 126.70329 382.797558  L 132.300892 389.214171  L 137.898493 395.993603  L 143.496095 403.190271  L 147.974177 409.287871  L 152.452258 415.718164  L 156.930339 422.493827  L 162.527941 431.392266  L 170.364584 443.940591  L 173.723145 448.787162  L 175.962185 451.629654  L 178.201226 454.08238  L 180.440267 456.114145  L 182.679307 457.728365  L 184.918348 458.954418  L 187.157389 459.835693  L 189.396429 460.419603  L 191.63547 460.751393  L 193.874511 460.871222  L 196.113552 460.813325  L 199.472113 460.454326  L 202.830674 459.83469  L 206.189235 459.011197  L 210.667316 457.667995  L 216.264918 455.693444  L 221.86252 453.479168  L 228.579642 450.595179  L 237.535804 446.481413  L 248.731008 441.055126  L 262.165252 434.286659  L 281.197098 424.430538  L 311.424147 408.490171  L 415.53954 353.428239  L 463.678915 328.294544  L 511.81829 303.4092  L 562.196706 277.618484  L 589.065194 263.961668  L 589.065194 263.961668  " clip-path="url(#pf6cb5049b4)" style="fill: none; stroke: #587565; stroke-width: 3.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_11">
+    <path d="M 86.399784 343.999214  L 104.312883 350.487023  L 118.866647 355.529055  L 130.061851 359.190229  L 140.137534 362.264134  L 149.093697 364.774032  L 156.930339 366.763488  L 164.766982 368.528968  L 172.603624 370.041258  L 179.320746 371.115324  L 186.037868 371.968459  L 192.75499 372.588601  L 199.472113 372.967181  L 206.189235 373.099534  L 212.906357 372.985041  L 219.623479 372.626975  L 226.340601 372.0321  L 233.057723 371.210089  L 239.774845 370.172836  L 246.491967 368.933761  L 254.32861 367.252185  L 262.165252 365.33854  L 271.121415 362.89656  L 280.077578 360.213553  L 290.153261 356.94404  L 300.228944 353.445074  L 311.424147 349.328441  L 323.738871 344.566505  L 337.173115 339.14142  L 352.8464 332.567119  L 370.758726 324.799578  L 390.910092 315.814028  L 414.42002 305.087156  L 443.527549 291.551066  L 480.47172 274.106771  L 530.850136 250.05081  L 589.065194 222.079896  L 589.065194 222.079896  " clip-path="url(#pf6cb5049b4)" style="fill: none; stroke: #628b9c; stroke-width: 3.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_12">
+    <path d="M 86.399784 343.999214  L 112.149525 339.143214  L 139.018014 333.851468  L 167.006022 328.114887  L 197.233072 321.68585  L 228.579642 314.788773  L 262.165252 307.168814  L 297.989903 298.811042  L 337.173115 289.435399  L 379.714889 279.020689  L 426.734743 267.27176  L 478.232679 254.169084  L 536.447738 239.120476  L 589.065194 225.346778  L 589.065194 225.346778  " clip-path="url(#pf6cb5049b4)" style="fill: none; stroke: #b18a35; stroke-width: 3.2; stroke-linecap: square" />
    </g>
    <g id="patch_5">
-    <path d="M 86.399784 580.998672  L 86.399784 90.999792  " style="fill: none; stroke: #e7dcc8; stroke-width: 1.7; stroke-linejoin: miter; stroke-linecap: square" />
+    <path d="M 86.399784 573.998688  L 86.399784 90.999792  " style="fill: none; stroke: #e7dcc8; stroke-width: 1.7; stroke-linejoin: miter; stroke-linecap: square" />
    </g>
    <g id="patch_6">
-    <path d="M 86.399784 580.998672  L 662.398344 580.998672  " style="fill: none; stroke: #e7dcc8; stroke-width: 1.7; stroke-linejoin: miter; stroke-linecap: square" />
+    <path d="M 86.399784 573.998688  L 643.198392 573.998688  " style="fill: none; stroke: #e7dcc8; stroke-width: 1.7; stroke-linejoin: miter; stroke-linecap: square" />
    </g>
-   <g id="text_8">
-    <text style="fill: #777368; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(684.552135 323.74825)">Z = 1</text>
-    <text style="fill: #777368; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(684.552135 343.964265)">Ideal gas</text>
+   <g id="patch_7">
+    <path d="M 604.569622 215.223626  Q 597.731548 218.247516 590.893475 221.271405  " style="fill: none; stroke: #628b9c; stroke-width: 1.2; stroke-linecap: round" />
    </g>
-   <g id="text_9">
-    <text style="fill: #587565; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: middle" x="590.398524" y="133.717643" transform="rotate(-0 590.398524 133.717643)">Real gas</text>
+   <g id="text_11">
+    <text style="fill: #628b9c; font: 700 17px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="608.398479" y="210.67087" transform="rotate(-0 608.398479 210.67087)">CH₄</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 604.669158 234.363347  Q 597.733851 230.355861 590.798544 226.348374  " style="fill: none; stroke: #b18a35; stroke-width: 1.2; stroke-linecap: round" />
+   </g>
+   <g id="text_12">
+    <text style="fill: #b18a35; font: 700 17px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="608.398479" y="247.470786" transform="rotate(-0 608.398479 247.470786)">H₂</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 604.56139 270.588651  Q 597.734514 267.669122 590.907637 264.749593  " style="fill: none; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
+   </g>
+   <g id="text_13">
+    <text style="fill: #587565; font: 700 17px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="608.398479" y="284.270702" transform="rotate(-0 608.398479 284.270702)">CO₂</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #777368; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(689.598276 338.030268)">Z = 1</text>
+    <text style="fill: #777368; font: 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(689.598276 358.246284)">Ideal gas</text>
    </g>
    <g id="z-low-pressure-focus">
     <defs>
-     <path id="m5709e837b3" d="M 0 17.67767  C 4.688173 17.67767 9.184961 15.815039 12.5 12.5  C 15.815039 9.184961 17.67767 4.688173 17.67767 0  C 17.67767 -4.688173 15.815039 -9.184961 12.5 -12.5  C 9.184961 -15.815039 4.688173 -17.67767 0 -17.67767  C -4.688173 -17.67767 -9.184961 -15.815039 -12.5 -12.5  C -15.815039 -9.184961 -17.67767 -4.688173 -17.67767 0  C -17.67767 4.688173 -15.815039 9.184961 -12.5 12.5  C -9.184961 15.815039 -4.688173 17.67767 0 17.67767  z " style="stroke: #c09c43; stroke-width: 2" />
+     <path id="ma0fc572147" d="M 0 16.583124  C 4.397896 16.583124 8.616257 14.835821 11.726039 11.726039  C 14.835821 8.616257 16.583124 4.397896 16.583124 0  C 16.583124 -4.397896 14.835821 -8.616257 11.726039 -11.726039  C 8.616257 -14.835821 4.397896 -16.583124 0 -16.583124  C -4.397896 -16.583124 -8.616257 -14.835821 -11.726039 -11.726039  C -14.835821 -8.616257 -16.583124 -4.397896 -16.583124 0  C -16.583124 4.397896 -14.835821 8.616257 -11.726039 11.726039  C -8.616257 14.835821 -4.397896 16.583124 0 16.583124  z " style="stroke: #b18a35; stroke-width: 2" />
     </defs>
     <g>
-     <use xlink:href="#m5709e837b3" x="91.426968" y="334.241219" style="fill: #efdda1; stroke: #c09c43; stroke-width: 2" />
+     <use xlink:href="#ma0fc572147" x="92.586435" y="349.314045" style="fill: #efdda1; stroke: #b18a35; stroke-width: 2" />
     </g>
    </g>
    <g id="z-attractions-focus">
     <g>
-     <use xlink:href="#m5709e837b3" x="195.002672" y="426.999751" style="fill: #efdda1; stroke: #c09c43; stroke-width: 2" />
+     <use xlink:href="#ma0fc572147" x="193.874511" y="460.871222" style="fill: #efdda1; stroke: #b18a35; stroke-width: 2" />
     </g>
    </g>
    <g id="z-high-pressure-focus">
     <g>
-     <use xlink:href="#m5709e837b3" x="548.818677" y="217.836155" style="fill: #efdda1; stroke: #c09c43; stroke-width: 2" />
+     <use xlink:href="#ma0fc572147" x="542.66531" y="244.383293" style="fill: #efdda1; stroke: #b18a35; stroke-width: 2" />
     </g>
    </g>
-   <g id="z-low-pressure-point">
+   <g id="PathCollection_1">
     <defs>
-     <path id="mba662abc5b" d="M 0 3.708099  C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022  C 3.317391 1.926654 3.708099 0.983399 3.708099 0  C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022  C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099  C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022  C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0  C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022  C -1.926654 3.317391 -0.983399 3.708099 0 3.708099  z " style="stroke: #fffaf1; stroke-width: 1.5" />
+     <path id="mbb15622455" d="M 0 3.354102  C 0.889518 3.354102 1.742724 3.000693 2.371708 2.371708  C 3.000693 1.742724 3.354102 0.889518 3.354102 0  C 3.354102 -0.889518 3.000693 -1.742724 2.371708 -2.371708  C 1.742724 -3.000693 0.889518 -3.354102 0 -3.354102  C -0.889518 -3.354102 -1.742724 -3.000693 -2.371708 -2.371708  C -3.000693 -1.742724 -3.354102 -0.889518 -3.354102 0  C -3.354102 0.889518 -3.000693 1.742724 -2.371708 2.371708  C -1.742724 3.000693 -0.889518 3.354102 0 3.354102  z " style="stroke: #fffaf1; stroke-width: 1.3" />
     </defs>
-    <g clip-path="url(#p2bc801906d)">
-     <use xlink:href="#mba662abc5b" x="91.426968" y="334.241219" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.5" />
+    <g clip-path="url(#pf6cb5049b4)">
+     <use xlink:href="#mbb15622455" x="92.586435" y="349.314045" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.3" />
     </g>
    </g>
-   <g id="z-attractions-point">
-    <g clip-path="url(#p2bc801906d)">
-     <use xlink:href="#mba662abc5b" x="195.002672" y="426.999751" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.5" />
+   <g id="PathCollection_2">
+    <g clip-path="url(#pf6cb5049b4)">
+     <use xlink:href="#mbb15622455" x="193.874511" y="460.871222" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.3" />
     </g>
    </g>
-   <g id="z-high-pressure-point">
-    <g clip-path="url(#p2bc801906d)">
-     <use xlink:href="#mba662abc5b" x="548.818677" y="217.836155" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.5" />
+   <g id="PathCollection_3">
+    <g clip-path="url(#pf6cb5049b4)">
+     <use xlink:href="#mbb15622455" x="542.66531" y="244.383293" style="fill: #587565; stroke: #fffaf1; stroke-width: 1.3" />
     </g>
    </g>
    <g id="z-low-pressure-label">
-    <g id="patch_7">
-     <path d="M 178.597629 258.777007  Q 137.657905 294.218795 97.817055 328.70928  " style="fill: none; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
-     <path d="M 103.883569 327.160926  L 97.817055 328.70928  L 100.21828 322.927056  z " style="fill: #587565; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
+    <g id="patch_10">
+     <path d="M 198.843185 249.146135  Q 148.26195 296.828909 98.656957 343.591383  " style="fill: none; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
+     <path d="M 104.652446 341.78747  L 98.656957 343.591383  L 100.81112 337.712643  z " style="fill: #587565; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
     </g>
-    <g id="patch_8">
-     <path d="M 147.296696 256.114287  L 371.102008 256.114287  Q 380.902008 256.114287 380.902008 246.314287  L 380.902008 131.684849  Q 380.902008 121.884849 371.102008 121.884849  L 147.296696 121.884849  Q 137.496696 121.884849 137.496696 131.684849  L 137.496696 246.314287  Q 137.496696 256.114287 147.296696 256.114287  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
+    <g id="patch_11">
+     <path d="M 160.935165 247.071755  L 357.07954 247.071755  Q 366.87954 247.071755 366.87954 237.271755  L 366.87954 147.587365  Q 366.87954 137.787365 357.07954 137.787365  L 160.935165 137.787365  Q 151.135165 137.787365 151.135165 147.587365  L 151.135165 237.271755  Q 151.135165 247.071755 160.935165 247.071755  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
     </g>
-    <g id="text_10">
-     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="150.096696" y="145.882505" transform="rotate(-0 150.096696 145.882505)">Low pressure: Z ≈ 1</text>
+    <g id="text_15">
+     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="162.335165" y="160.385021" transform="rotate(-0 162.335165 160.385021)">Low pressure: Z ≈ 1</text>
     </g>
-    <g id="text_11">
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(150.096696 166.639849)">1  Particles are far apart.</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(150.096696 184.444349)">2  Attractions have little effect;</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(150.096696 202.248849)">    particle volume is negligible</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(150.096696 220.053349)">    relative to the container.</text>
-    </g>
-    <g id="text_12">
-
-     <g style="fill: #302f2a" transform="translate(150.096696 240.602724)">
-      <text>
-       <tspan style="font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="0 8.907227 13.357422 48.146875" y="-0.609375">3  ≈</tspan>
-       <tspan style="font: oblique 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="17.807617 62.604883" y="-0.609375">PP</tspan>
-       <tspan style="font: 9.8px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="26.25 30.279102 36.308398 42.31377 71.047266 73.77002 79.990723 86.02002 92.025391" y="1.6875">realideal</tspan>
-      </text>
-     </g>
+    <g id="text_16">
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.335165 181.142365)">1  Particles are far apart.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.335165 198.414974)">2  Attractions and particle</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.335165 215.687584)">    volume have little effect.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.335165 232.960193)">3  Pressure is near ideal.</text>
     </g>
    </g>
    <g id="z-attractions-label">
-    <g id="patch_9">
-     <path d="M 223.237407 456.225666  Q 211.551632 444.129662 200.875719 433.078971  " style="fill: none; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
-     <path d="M 202.75288 439.051932  L 200.875719 433.078971  L 206.780385 435.161018  z " style="fill: #587565; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
+    <g id="patch_12">
+     <path d="M 210.585067 468.501887  Q 205.414015 466.140591 201.463384 464.336585  " style="fill: none; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
+     <path d="M 205.394352 469.209725  L 201.463384 464.336585  L 207.720476 464.115695  z " style="fill: #587565; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
     </g>
-    <g id="patch_10">
-     <path d="M 160.142888 575.511286  L 404.335701 575.511286  Q 414.135701 575.511286 414.135701 565.711286  L 414.135701 468.886349  Q 414.135701 459.086349 404.335701 459.086349  L 160.142888 459.086349  Q 150.342888 459.086349 150.342888 468.886349  L 150.342888 565.711286  Q 150.342888 575.511286 160.142888 575.511286  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
+    <g id="patch_13">
+     <path d="M 193.990807 562.044711  L 435.38362 562.044711  Q 445.18362 562.044711 445.18362 552.244711  L 445.18362 479.83293  Q 445.18362 470.03293 435.38362 470.03293  L 193.990807 470.03293  Q 184.190807 470.03293 184.190807 479.83293  L 184.190807 552.244711  Q 184.190807 562.044711 193.990807 562.044711  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
     </g>
-    <g id="text_13">
-     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="162.942888" y="483.084005" transform="rotate(-0 162.942888 483.084005)">Z &lt; 1: attractions dominate</text>
+    <g id="text_17">
+     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="195.390807" y="492.630586" transform="rotate(-0 195.390807 492.630586)">Attractions dominate: Z &lt; 1</text>
     </g>
-    <g id="text_14">
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.942888 503.841349)">1  Particles are close enough</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.942888 521.645849)">    for attractions to matter.</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(162.942888 539.450349)">2  Attractions lower wall pressure.</text>
-    </g>
-    <g id="text_15">
-
-     <g style="fill: #302f2a" transform="translate(162.942888 559.999724)">
-      <text>
-       <tspan style="font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="0 8.907227 13.357422 48.146875" y="-0.609375">3  &lt;</tspan>
-       <tspan style="font: oblique 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="17.807617 62.604883" y="-0.609375">PP</tspan>
-       <tspan style="font: 9.8px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="26.25 30.279102 36.308398 42.31377 71.047266 73.77002 79.990723 86.02002 92.025391" y="1.6875">realideal</tspan>
-      </text>
-     </g>
+    <g id="text_18">
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(195.390807 513.38793)">1  Particles are close enough.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(195.390807 530.660539)">2  Attractions lower wall pressure.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(195.390807 547.933149)">3  Pressure is below ideal.</text>
     </g>
    </g>
    <g id="z-high-pressure-label">
-    <g id="patch_11">
-     <path d="M 657.615895 222.685995  Q 606.715146 220.416998 557.266399 218.212728  " style="fill: none; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
-     <path d="M 562.736152 221.259333  L 557.266399 218.212728  L 562.985535 215.664888  z " style="fill: #587565; stroke: #587565; stroke-width: 1.3; stroke-linecap: round" />
+    <g id="patch_14">
+     <path d="M 673.847736 234.974181  Q 611.749463 239.428204 550.989394 243.786245  " style="fill: none; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
+     <path d="M 556.775361 246.178437  L 550.989394 243.786245  L 556.374728 240.592786  z " style="fill: #587565; stroke: #587565; stroke-width: 1.2; stroke-linecap: round" />
     </g>
-    <g id="patch_12">
-     <path d="M 671.118315 295.372791  L 891.483159 295.372791  Q 901.283159 295.372791 901.283159 285.572791  L 901.283159 170.826166  Q 901.283159 161.026166 891.483159 161.026166  L 671.118315 161.026166  Q 661.318315 161.026166 661.318315 170.826166  L 661.318315 285.572791  Q 661.318315 295.372791 671.118315 295.372791  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
+    <g id="patch_15">
+     <path d="M 686.342281 280.940272  L 904.912593 280.940272  Q 914.712593 280.940272 914.712593 271.140272  L 914.712593 181.338694  Q 914.712593 171.538694 904.912593 171.538694  L 686.342281 171.538694  Q 676.542281 171.538694 676.542281 181.338694  L 676.542281 271.140272  Q 676.542281 280.940272 686.342281 280.940272  z " style="fill: #fffaf1; stroke: #e7dcc8; stroke-width: 1.4; stroke-linejoin: miter" />
     </g>
-    <g id="text_16">
-     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="673.918315" y="185.023822" transform="rotate(-0 673.918315 185.023822)">Z &gt; 1: very high pressure</text>
+    <g id="text_19">
+     <text style="fill: #587565; font: 700 15px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="687.742281" y="194.13635" transform="rotate(-0 687.742281 194.13635)">Very high pressure: Z &gt; 1</text>
     </g>
-    <g id="text_17">
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(673.918315 205.898353)">1  Particles are very close.</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(673.918315 223.702853)">2  Finite particle volume</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(673.918315 241.507353)">    and short-range repulsions</text>
-     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(673.918315 259.311853)">    are significant.</text>
-    </g>
-    <g id="text_18">
-
-     <g style="fill: #302f2a" transform="translate(673.918315 279.861228)">
-      <text>
-       <tspan style="font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="0 8.907227 13.357422 48.146875" y="-0.609375">3  &gt;</tspan>
-       <tspan style="font: oblique 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="17.807617 62.604883" y="-0.609375">PP</tspan>
-       <tspan style="font: 9.8px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="26.25 30.279102 36.308398 42.31377 71.047266 73.77002 79.990723 86.02002 92.025391" y="1.6875">realideal</tspan>
-      </text>
-     </g>
+    <g id="text_20">
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(687.742281 215.010881)">1  Particles are very close.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(687.742281 232.283491)">2  Finite volume and</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(687.742281 249.5561)">    repulsions are important.</text>
+     <text style="fill: #302f2a; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" transform="translate(687.742281 266.828709)">3  Pressure is above ideal.</text>
     </g>
    </g>
-  </g>
-  <g id="text_19">
-
-   <g style="fill: #302f2a" transform="translate(86.399784 38.499912)">
-    <text>
-     <tspan style="font: oblique 21px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="0" y="-0.0859375">Z</tspan>
-     <tspan style="font: 21px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="18.477539" y="-0.0859375">=</tspan>
-     <tspan style="font: oblique 14.7px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" x="40.164551 45.164551 49.48125 54.029053 59.695166" y="8.0 -9.28125 8.0 -9.28125 8.0">nPRVT</tspan>
-    </text>
-    <rect x="40.164551" y="-5.03125" width="28.509961" height="1.3125" />
-   </g>
-  </g>
-  <g id="text_20">
-   <text style="fill: #777368; font: 13px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="86.399784" y="66.499848" transform="rotate(-0 86.399784 66.499848)">Compare pressures at the same temperature, volume, and number of moles.</text>
   </g>
   <g id="text_21">
-   <text style="fill: #777368; font: 12px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="86.399784" y="668.498472" transform="rotate(-0 86.399784 668.498472)">Schematic curve at one temperature. Shape depends on the gas and temperature.</text>
+   <text style="fill: #777368; font: 14px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="86.399784" y="45.499896" transform="rotate(-0 86.399784 45.499896)">Same temperature: 350 K · compare each gas with its ideal prediction</text>
+  </g>
+  <g id="text_22">
+   <text style="fill: #777368; font: 12px 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; text-anchor: start" x="86.399784" y="668.498472" transform="rotate(-0 86.399784 668.498472)">Illustrative van der Waals model curves, not measured data. Shape depends on temperature.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p2bc801906d">
-   <rect x="86.399784" y="90.999792" width="575.99856" height="489.99888" />
+  <clipPath id="pf6cb5049b4">
+   <rect x="86.399784" y="90.999792" width="556.798608" height="482.998896" />
   </clipPath>
  </defs>
 </svg>

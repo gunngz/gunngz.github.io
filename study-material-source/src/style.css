@@ -296,6 +296,12 @@ button { color: inherit; }
   padding: 16px 51px 18px 18px;
 }
 .z-curve-controls { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 8px; }
+.z-curve-formula { margin: 8px 0; }
+.template-heading-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; }
+.template-heading-row h3 { flex: 0 0 auto; }
+.template-example-buttons { display: flex; flex-wrap: wrap; gap: 3px; margin-left: auto; }
+.template-example-buttons .nav-button { font-size: .82rem; padding: 5px 8px; min-height: 34px; }
+.study-card--template-picker .question-side { padding-bottom: 10px; }
 .z-curves-svg svg { display: block; width: 100%; height: auto; }
 .z-curves-svg [id$="-focus"] { opacity: 0; transition: opacity .15s ease; }
 .z-curve-diagram[data-focus="low-pressure"] #z-low-pressure-focus,
