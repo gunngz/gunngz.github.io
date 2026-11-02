@@ -20,6 +20,9 @@ Use `unit: u1p1`, `unit: u1p2`, or `unit: u2p1` for Statistics; `unit: chem1` or
 
 Use `==important wording==` to highlight an idea, `**[placeholders]**` for fill-in fields, and `\( ... \)` / `\[ ... \]` for LaTeX math. MathJax renders formulas. Use a Markdown table for compact comparisons.
 
+Statistics Unit 2 has a separate **Proportion & Percentage** tab (`kind: number-format`). It reminds students to write proportions as decimals and percentages with `%`, and to draw a labeled, shaded diagram for every Normal-model problem. This tab is independent of the day filter.
+Every card in Unit 1's **Normal Models** vocabulary and answer-template pages includes its corresponding sketch. `scripts/draw_normal_models.py` generates the eight reusable SVGs from the Normal density; probabilities and percentiles use Python's `statistics.NormalDist`. Keep curves normalized, distinguish shaded area from height, and match each sketch to its card.
+
 Chemistry Unit 2 separates the two experiments: **Titration** uses `kind: lab-review`, and **Gas Lab Analysis** uses `kind: gas-lab`. General answer templates remain under `kind: template`.
 
 The separate **Z Curves** view uses `kind: z-curves` for real-gas explanations.

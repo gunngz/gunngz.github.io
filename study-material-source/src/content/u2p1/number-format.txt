@@ -1,0 +1,18 @@
+---
+unit: u2p1
+kind: number-format
+category: Proportion & Percentage
+---
+
+### Proportion vs. percentage
+| Quantity | Write as | Example |
+| --- | --- | --- |
+| Proportion | ==A decimal== | 0.25 |
+| Percentage | ==A number followed by %== | 25% |
+
+### Normal distribution: always draw a diagram
+- For ==every Normal distribution problem==, ==draw a diagram==.
+- Label the mean, standard deviation, and relevant values.
+- ==Shade the requested probability== or the area corresponding to the percentile.
+
+![A labeled Normal curve with the mean, standard-deviation marks, and a shaded probability region.](./diagrams/u1p1-normal-sketch.svg)

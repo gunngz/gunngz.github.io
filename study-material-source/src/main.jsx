@@ -190,6 +190,7 @@ function App() {
   function selectUnit(nextUnit) {
     setUnit(nextUnit);
     if (isChemistry) setKind("template");
+    else if (nextUnit !== "u2p1" && ["calculations", "number-format"].includes(kind)) setKind("vocabulary");
     setDay("all");
     setCategory("");
     setQuery("");
@@ -219,7 +220,7 @@ function App() {
 
       <div className="sticky-navigation">
         <div className="sticky-navigation-inner">
-          <nav className={"primary-nav" + (isChemistry ? " primary-nav--chemistry" : "")} aria-label="Study controls">
+          <nav className={"primary-nav" + (isChemistry ? " primary-nav--chemistry" : !isHistory && !isUsaco ? " primary-nav--statistics" : "")} aria-label="Study controls">
             <div className="mode-nav" role="group" aria-label="Content type">
               {availableUnits.length > 1 ? (
                 <button
@@ -257,10 +258,11 @@ function App() {
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
+                  {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "number-format"} onClick={() => selectKind("number-format")}>Proportion & Percentage</button> : null}
                 </>
               )}
             </div>
-            {unit === "u1p2" || unit === "u2p1" ? (
+            {unit === "u1p2" || (unit === "u2p1" && kind !== "number-format") ? (
               <div className="day-nav-scroll" aria-label="Study day">
                 <div className="day-nav">
                   {dayButtons.map((value) => {

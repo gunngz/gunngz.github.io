@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="576pt" height="302.4pt" viewBox="0 0 576 302.4" version="1.1" role="img" aria-labelledby="normal-spread-title normal-spread-desc">
+ <desc id="normal-spread-desc">Two Normal curves with the same mean and equal total area. The curve with smaller standard deviation is taller and narrower; the one with larger standard deviation is shorter and wider.</desc><title id="normal-spread-title">Normal model: spread</title><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 302.4  L 576 302.4  L 576 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.08 235.872  L 558.72 235.872  L 558.72 81.648  L 46.08 81.648  z " style="fill: #fffaf1" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mc42cb661cb" d="M 0 0  L 0 4  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#mc42cb661cb" x="302.4" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="302.4" y="256.990125" transform="rotate(-0 302.4 256.990125)">Shared mean</text>
+     </g>
+    </g>
+    <g id="text_2">
+     <text style="fill: #282720; font: 14px 'DejaVu Sans'; text-anchor: middle" x="302.4" y="282.123563" transform="rotate(-0 302.4 282.123563)">Value</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="patch_3">
+    <path d="M 46.08 235.872  L 558.72 235.872  " style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="line2d_2">
+    <path d="M 46.08 235.872  L 153.0936 235.763426  L 165.9096 235.528423  L 174.8808 235.14834  L 181.2888 234.677593  L 187.056 234.037922  L 192.1824 233.233487  L 196.668 232.293766  L 200.5128 231.272589  L 204.3576 230.014702  L 207.5616 228.758089  L 210.7656 227.287495  L 213.9696 225.579576  L 217.1736 223.611287  L 220.3776 221.360595  L 223.5816 218.807294  L 226.7856 215.933898  L 229.9896 212.726612  L 233.1936 209.176335  L 236.3976 205.279661  L 239.6016 201.039852  L 242.8056 196.467713  L 246.6504 190.569979  L 250.4952 184.271559  L 254.9808 176.510077  L 261.3888 164.929219  L 270.36 148.690712  L 274.8456 141.044127  L 278.0496 135.952259  L 281.2536 131.264642  L 283.8168 127.86004  L 286.38 124.804584  L 288.9432 122.133708  L 290.8656 120.402072  L 292.788 118.916265  L 294.7104 117.686396  L 296.6328 116.720896  L 298.5552 116.026428  L 300.4776 115.607806  L 302.4 115.467941  L 304.3224 115.607806  L 306.2448 116.026428  L 308.1672 116.720896  L 310.0896 117.686396  L 312.012 118.916265  L 313.9344 120.402072  L 315.8568 122.133708  L 318.42 124.804584  L 320.9832 127.86004  L 323.5464 131.264642  L 326.7504 135.952259  L 329.9544 141.044127  L 333.7992 147.568908  L 338.9256 156.728725  L 351.7416 179.883287  L 356.2272 187.466994  L 360.072 193.572493  L 363.9168 199.25  L 367.1208 203.624487  L 370.3248 207.659209  L 373.5288 211.347989  L 376.7328 214.691676  L 379.9368 217.697213  L 383.1408 220.376638  L 386.3448 222.74608  L 389.5488 224.824769  L 392.7528 226.634111  L 395.9568 228.196836  L 399.1608 229.536246  L 403.0056 230.88144  L 406.8504 231.977408  L 410.6952 232.860822  L 415.1808 233.667623  L 420.3072 234.35231  L 426.0744 234.891492  L 433.1232 235.314148  L 442.0944 235.611891  L 454.9104 235.791898  L 479.2608 235.865571  L 558.72 235.872  L 558.72 235.872  " clip-path="url(#pba2d1a5ea1)" style="fill: none; stroke: #526f5c; stroke-width: 2.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_3">
+    <path d="M 46.08 235.528343  L 64.6632 235.164643  L 79.4016 234.665529  L 91.5768 234.044408  L 102.4704 233.273788  L 112.0824 232.382497  L 121.0536 231.336549  L 129.384 230.151644  L 137.7144 228.735483  L 145.404 227.203309  L 153.0936 225.439642  L 160.7832 223.433353  L 168.4728 221.17849  L 176.1624 218.675515  L 183.852 215.932441  L 192.1824 212.709221  L 201.1536 208.983207  L 211.4064 204.475888  L 247.2912 188.458063  L 254.9808 185.425872  L 261.3888 183.127412  L 267.156 181.271674  L 272.9232 179.645502  L 278.0496 178.412257  L 283.176 177.394133  L 288.3024 176.603411  L 293.4288 176.049734  L 298.5552 175.739903  L 303.6816 175.677745  L 308.808 175.864027  L 313.9344 176.296448  L 319.0608 176.969679  L 324.1872 177.875478  L 329.3136 179.002854  L 335.0808 180.519088  L 340.848 182.275959  L 347.256 184.47895  L 354.3048 187.16244  L 361.9944 190.337904  L 371.6064 194.561444  L 407.4912 210.609216  L 416.4624 214.227632  L 424.7928 217.333166  L 432.4824 219.957705  L 440.172 222.337128  L 447.8616 224.467333  L 455.5512 226.351215  L 463.2408 227.997469  L 470.9304 229.419347  L 479.2608 230.725788  L 487.5912 231.812265  L 496.5624 232.765402  L 506.8152 233.619108  L 517.7088 234.299438  L 530.5248 234.86612  L 545.2632 235.289216  L 558.72 235.528343  L 558.72 235.528343  " clip-path="url(#pba2d1a5ea1)" style="fill: none; stroke: #628b9c; stroke-width: 2.8; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 207.847892 105.47963  Q 254.129891 110.368775 299.300042 115.140467  " style="fill: none; stroke: #526f5c; stroke-linecap: round" />
+    <path d="M 294.02518 111.76766  L 299.300042 115.140467  L 293.436879 117.336673  " style="fill: none; stroke: #526f5c; stroke-linecap: round" />
+   </g>
+   <g id="text_3">
+    <text style="fill: #526f5c; font: 14px 'DejaVu Sans'" transform="translate(68.864 92.356924)">Smaller SD</text>
+    <text style="fill: #526f5c; font: 14px 'DejaVu Sans'" transform="translate(68.864 111.225205)">Taller and narrower</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 419.785073 134.674998  Q 398.689198 164.894163 378.2333 194.19658  " style="fill: none; stroke: #628b9c; stroke-linecap: round" />
+    <path d="M 383.73472 191.207536  L 378.2333 194.19658  L 379.142918 188.002018  " style="fill: none; stroke: #628b9c; stroke-linecap: round" />
+   </g>
+   <g id="text_4">
+    <text style="fill: #628b9c; font: 14px 'DejaVu Sans'" transform="translate(370.752 109.258185)">Larger SD</text>
+    <text style="fill: #628b9c; font: 14px 'DejaVu Sans'" transform="translate(370.752 128.126466)">Shorter and wider</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="46.08" y="24.192" transform="rotate(-0 46.08 24.192)">Same mean, different standard deviations</text>
+  </g>
+  <g id="text_6">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="46.08" y="51.408" transform="rotate(-0 46.08 51.408)">Both Normal curves have the same total area: 1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pba2d1a5ea1">
+   <rect x="46.08" y="81.648" width="512.64" height="154.224" />
+  </clipPath>
+ </defs>
+</svg>

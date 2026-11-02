@@ -7,19 +7,31 @@ category: Normal Models
 ### Normal distribution
 - A ==symmetric, bell-shaped distribution== described by a mean and standard deviation.
 
+![Normal distribution centered at the mean, with standard-deviation marks.](./diagrams/u1p1-normal-density.svg)
+
 ### Standard Normal distribution
 - The Normal distribution with mean 0 and standard deviation 1.
+
+![Standard Normal curve with mean 0 and standard deviation 1.](./diagrams/u1p1-normal-standard.svg)
 
 ### Normal probability plot (NPP)
 - A plot that compares ordered data with values expected from a Normal distribution.
 - ✓ A roughly straight pattern supports an approximately Normal model; clear curvature or strong departures from a line do not.
 
+![Normal probability plots comparing a roughly linear pattern with a curved pattern.](./diagrams/u1p1-normal-npp.svg)
+
 ### normalcdf
 - A calculator function that finds the ==area (probability)== between specified lower and upper bounds under a Normal curve.
 - ✓ For a continuous Normal variable, probability is area; do not use `normalpdf` to find probability.
 
+![A Normal curve with the area between two bounds shaded for normalcdf.](./diagrams/u1p1-normal-probability.svg)
+
 ### inverseNorm
 - A calculator function that converts a ==cumulative area or percentile== into the corresponding z-score or data value.
 
+![The left-tail area is shaded and the corresponding percentile value is marked.](./diagrams/u1p1-normal-percentile.svg)
+
 ### Empirical rule
 - For an approximately Normal distribution, about ==68%, 95%, and 99.7%== of values lie within 1, 2, and 3 standard deviations of the mean, respectively.
+
+![Normal curves showing 68%, 95%, and 99.7% within one, two, and three standard deviations.](./diagrams/u1p1-normal-empirical-rule.svg)

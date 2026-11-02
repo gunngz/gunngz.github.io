@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="576pt" height="302.4pt" viewBox="0 0 576 302.4" version="1.1" role="img" aria-labelledby="normal-standard-title normal-standard-desc">
+ <desc id="normal-standard-desc">A standard Normal bell curve with mean 0 and standard deviation 1. The horizontal axis is the z-score.</desc><title id="normal-standard-title">Normal model: standard</title><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 302.4  L 576 302.4  L 576 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.08 235.872  L 558.72 235.872  L 558.72 81.648  L 46.08 81.648  z " style="fill: #fffaf1" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mc42cb661cb" d="M 0 0  L 0 4  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#mc42cb661cb" x="82.697143" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="82.697143" y="256.990125" transform="rotate(-0 82.697143 256.990125)">−3</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="155.931429" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="155.931429" y="256.990125" transform="rotate(-0 155.931429 256.990125)">−2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="229.165714" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="229.165714" y="256.990125" transform="rotate(-0 229.165714 256.990125)">−1</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="302.4" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="302.4" y="256.990125" transform="rotate(-0 302.4 256.990125)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="375.634286" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="375.634286" y="256.990125" transform="rotate(-0 375.634286 256.990125)">1</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="448.868571" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="448.868571" y="256.990125" transform="rotate(-0 448.868571 256.990125)">2</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use ns4:href="#mc42cb661cb" x="522.102857" y="235.872" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: middle" x="522.102857" y="256.990125" transform="rotate(-0 522.102857 256.990125)">3</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="fill: #282720; font: 14px 'DejaVu Sans'; text-anchor: middle" x="302.4" y="282.123563" transform="rotate(-0 302.4 282.123563)">z-score</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2" />
+   <g id="line2d_8">
+    <path d="M 302.4 235.872  L 302.4 112.4928  " clip-path="url(#pba2d1a5ea1)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #716d62" />
+   </g>
+   <g id="patch_3">
+    <path d="M 46.08 235.872  L 558.72 235.872  " style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="line2d_9">
+    <path d="M -1 235.848922  L 37.932686 235.690763  L 57.705943 235.408691  L 72.535886 234.979082  L 84.070286 234.426162  L 93.956914 233.729346  L 102.195771 232.93931  L 109.610743 232.023873  L 117.025714 230.874182  L 123.6168 229.620859  L 129.384 228.319251  L 135.1512 226.803039  L 140.9184 225.049771  L 146.6856 223.037393  L 151.628914 221.090314  L 156.572229 218.925244  L 161.515543 216.531377  L 166.458857 213.899697  L 171.402171 211.023399  L 176.345486 207.898323  L 181.2888 204.523381  L 186.232114 200.900963  L 191.999314 196.37058  L 197.766514 191.529151  L 203.533714 186.402083  L 210.1248 180.236875  L 217.539771 172.989748  L 228.250286 162.169508  L 242.256343 148.043245  L 248.847429 141.687893  L 254.614629 136.413884  L 259.557943 132.171987  L 264.501257 128.240688  L 268.620686 125.236728  L 272.740114 122.508186  L 276.859543 120.079308  L 280.155086 118.366786  L 283.450629 116.87016  L 286.746171 115.598273  L 290.041714 114.5587  L 293.337257 113.757674  L 296.6328 113.200021  L 299.928343 112.889114  L 303.223886 112.826838  L 306.519429 113.013571  L 309.814971 113.44818  L 313.110514 114.128033  L 316.406057 115.049025  L 319.7016 116.20562  L 322.997143 117.590904  L 326.292686 119.19666  L 329.588229 121.01344  L 333.707657 123.564953  L 337.827086 126.406689  L 341.946514 129.513577  L 346.889829 133.553897  L 351.833143 137.888192  L 357.600343 143.248285  L 365.015314 150.492823  L 375.725829 161.329908  L 388.908 174.623525  L 396.322971 181.805671  L 402.914057 187.894286  L 408.681257 192.942834  L 414.448457 197.697615  L 420.215657 202.135631  L 425.158971 205.676053  L 430.102286 208.967792  L 435.0456 212.009661  L 439.988914 214.803818  L 444.932229 217.355352  L 449.875543 219.671855  L 454.818857 221.762985  L 459.762171 223.640049  L 465.529371 225.576194  L 471.296571 227.259452  L 477.063771 228.712055  L 483.654857 230.118535  L 490.245943 231.286027  L 497.660914 232.353023  L 505.075886 233.199307  L 513.314743 233.926703  L 523.201371 234.565303  L 534.735771 235.069291  L 548.741829 235.442353  L 566.867314 235.690763  L 577 235.763065  L 577 235.763065  " clip-path="url(#pba2d1a5ea1)" style="fill: none; stroke: #526f5c; stroke-width: 2.8; stroke-linecap: square" />
+   </g>
+   <g id="text_9">
+    <text style="fill: #282720; font: 14px 'DejaVu Sans'; text-anchor: middle" x="302.4" y="186.52032" transform="rotate(-0 302.4 186.52032)">Center: z = 0</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="46.08" y="24.192" transform="rotate(-0 46.08 24.192)">Standard Normal distribution</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="46.08" y="51.408" transform="rotate(-0 46.08 51.408)">Mean = 0 · standard deviation = 1 · total area = 1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pba2d1a5ea1">
+   <rect x="46.08" y="81.648" width="512.64" height="154.224" />
+  </clipPath>
+ </defs>
+</svg>

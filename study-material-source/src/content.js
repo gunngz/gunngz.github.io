@@ -32,6 +32,7 @@ const categoryOrder = {
     vocabulary: ["Two Categorical Variables", "Simulation", "Probability Basics", "Conditional Probability", "Diagnostic Testing"],
     template: ["Two Categorical Variables", "Simulation", "Probability Basics", "Conditional Probability", "Diagnostic Testing"],
     calculations: ["Calculations"],
+    "number-format": ["Proportion & Percentage"],
   },
   chem1: {
     template: ["Templates"],
