@@ -292,12 +292,12 @@ button { color: inherit; }
 .study-card--chemistry .question-side, .study-card--patterns .question-side { padding: 15px 18px 2px; }
 .study-card--chemistry .answer-side, .study-card--patterns .answer-side { border-left: 0; padding: 5px 51px 15px 18px; }
 .study-card--chemistry .card-blur-button, .study-card--patterns .card-blur-button { top: 10px; }
-.study-card--diagram { display: block; }
-.study-card--diagram .question-side {
+.study-card--diagram, .study-card--feedback { display: block; }
+.study-card--diagram .question-side, .study-card--feedback .question-side {
   padding: 13px 18px;
   border-bottom: 1px solid var(--line);
 }
-.study-card--diagram .answer-side {
+.study-card--diagram .answer-side, .study-card--feedback .answer-side {
   border-left: 0;
   padding: 16px 51px 18px 18px;
 }

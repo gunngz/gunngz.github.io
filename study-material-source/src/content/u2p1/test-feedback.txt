@@ -1,0 +1,102 @@
+---
+unit: u2p1
+kind: test-feedback
+category: MCQ Review
+---
+
+### Part A Q1 — Conditional relative frequency {priority}
+**Your answer: B**
+
+**Review context:** Relaxation was selected by 50 people in each of two age groups. The group totals were 200 and 160.
+
+<!-- answer -->
+**Correct answer: C — the statement that is not supported.**
+
+- ==Equal counts do not imply equal proportions.== Divide each count by its own age-group total.
+
+\[\frac{50}{200}=0.25=25\%\]
+
+\[\frac{50}{160}=0.3125=31.25\%\]
+
+- The conditional relative frequencies differ, even though both counts are 50.
+- **Key idea:** For a conditional relative frequency, the denominator is the ==total for the given group==.
+
+### Part A Q2 — Choose the correct denominator {priority}
+**Your answer: A**
+
+**Review context:** Both fairs had 100 goats. Fair Y had 590 animals in total; Fair X had 645.
+
+<!-- answer -->
+**Correct answer: B — Fair Y has the higher proportion of goats.**
+
+- The numerators are the same, but the ==denominators are different==.
+
+\[P(\text{goat}\mid\text{Fair Y})=\frac{100}{590}\approx0.1695=16.95\%\]
+
+\[P(\text{goat}\mid\text{Fair X})=\frac{100}{645}\approx0.1550=15.50\%\]
+
+- With the same number of goats, the fair with the smaller total has the larger proportion.
+- **Key idea:** Compare ==proportions within each fair==, not just the number of goats.
+
+### Part A Q9 — Assign simulation digits correctly {priority}
+**Your answer: D**
+
+**Review context:** A bird has a 40% chance of having a wingspan greater than 10 inches. A simulation uses the ten equally likely digits 0 through 9.
+
+<!-- answer -->
+**Correct answer: C — use digits 0, 1, 2, and 3 for a wingspan greater than 10 inches.**
+
+- The simulation needs ==four of the ten digits== to represent this outcome.
+
+\[\frac{4}{10}=0.40=40\%\]
+
+- Digits 0 through 4 include ==five digits==, which would represent the wrong probability.
+
+\[\frac{5}{10}=0.50=50\%\]
+
+- **Key idea:** Count every assigned digit, including 0 and both endpoints.
+
+### Part C Q1 — Check the binomial conditions {priority}
+**Your answer: A**
+
+**Review context:** The trials involve selecting a random day from different months and recording whether it falls on a weekend.
+
+<!-- answer -->
+**Correct answer: D — the success probability is not necessarily the same for every trial.**
+
+| Condition | Requirement |
+| --- | --- |
+| Binary | Each trial is a success or a failure. |
+| Independent | The trials are independent. |
+| Number | The number of trials is fixed. |
+| Same probability | ==The success probability is the same on every trial.== |
+
+- Months can have different numbers of days and weekend days, so the probability of selecting a weekend day can vary.
+
+\[p_{\text{month}}=\frac{\text{number of weekend days in the month}}{\text{number of days in the month}}\]
+
+- The situation cannot be modeled as binomial as described because the ==same-probability condition== is not guaranteed.
+- **Key idea:** Check all four **BINS** conditions before using a binomial model.
+
+### Part C Q9 — Standard Normal: population vs. sample {priority}
+**Your answer: D — \(\bar{x}=0\) and \(s=1\).**
+
+**Review context:** Identify the mean and standard deviation that define the standard Normal distribution.
+
+<!-- answer -->
+**Correct answer: B — the population mean is 0 and the population standard deviation is 1.**
+
+\[\mu=0\]
+
+\[\sigma=1\]
+
+| Symbols | What they describe |
+| --- | --- |
+| \(\mu,\sigma\) | ==Population parameters==: the distribution's mean and standard deviation. |
+| \(\bar{x},s\) | ==Sample statistics==: the mean and standard deviation calculated from a sample. |
+
+- A standard Normal model describes a distribution; its definition uses ==\(\mu\) and \(\sigma\)==.
+- A sample from that distribution does not have to have a mean of exactly 0 or a standard deviation of exactly 1.
+- **Key idea:** Use population parameters when defining the model, and sample statistics when describing a sample.
+
+![The standard Normal distribution has population mean zero and population standard deviation one.](./diagrams/u1p1-normal-standard.svg)

@@ -33,6 +33,7 @@ const categoryOrder = {
     template: ["Two Categorical Variables", "Simulation", "Probability Basics", "Conditional Probability", "Diagnostic Testing"],
     calculations: ["Calculations"],
     "number-format": ["Proportion & Percentage"],
+    "test-feedback": ["MCQ Review"],
   },
   chem1: {
     template: ["Templates"],

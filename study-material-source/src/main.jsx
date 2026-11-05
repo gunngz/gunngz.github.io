@@ -78,7 +78,7 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
   const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
   const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
   return (
-    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (!isChemistry && card.kind === "test-feedback" ? " study-card--feedback" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} /> : null}<RichText value={card.title} inline query={query} /></h3>
         {card.question ? <div className={"question-layout" + (card.figure ? " question-layout--figure" : "")}>
@@ -190,7 +190,7 @@ function App() {
   function selectUnit(nextUnit) {
     setUnit(nextUnit);
     if (isChemistry) setKind("template");
-    else if (nextUnit !== "u2p1" && ["calculations", "number-format"].includes(kind)) setKind("vocabulary");
+    else if (nextUnit !== "u2p1" && ["calculations", "number-format", "test-feedback"].includes(kind)) setKind("vocabulary");
     setDay("all");
     setCategory("");
     setQuery("");
@@ -259,10 +259,11 @@ function App() {
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "number-format"} onClick={() => selectKind("number-format")}>Proportion & Percentage</button> : null}
+                  {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "test-feedback"} onClick={() => selectKind("test-feedback")}>Test Feedback</button> : null}
                 </>
               )}
             </div>
-            {unit === "u1p2" || (unit === "u2p1" && kind !== "number-format") ? (
+            {unit === "u1p2" || (unit === "u2p1" && !["number-format", "test-feedback"].includes(kind)) ? (
               <div className="day-nav-scroll" aria-label="Study day">
                 <div className="day-nav">
                   {dayButtons.map((value) => {
