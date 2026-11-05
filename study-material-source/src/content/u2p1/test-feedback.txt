@@ -68,7 +68,7 @@ category: MCQ Review
 | --- | --- |
 | Binary | Each trial is a success or a failure. |
 | Independent | The trials are independent. |
-| Number | The number of trials is fixed. |
+| Trials | The number of trials is fixed. |
 | Same probability | ==The success probability is the same on every trial.== |
 
 - Months can have different numbers of days and weekend days, so the probability of selecting a weekend day can vary.
@@ -76,7 +76,7 @@ category: MCQ Review
 \[p_{\text{month}}=\frac{\text{number of weekend days in the month}}{\text{number of days in the month}}\]
 
 - The situation cannot be modeled as binomial as described because the ==same-probability condition== is not guaranteed.
-- **Key idea:** Check all four **BINS** conditions before using a binomial model.
+- **Key idea:** Check all four **BITS** conditions before using a binomial model.
 
 ### Part C Q9 — Standard Normal: population vs. sample {priority}
 **Your answer: D — \(\bar{x}=0\) and \(s=1\).**
