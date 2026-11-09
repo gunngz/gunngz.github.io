@@ -1,0 +1,66 @@
+---
+unit: u2p2
+kind: calculations
+category: Random Variables
+---
+
+### Build a discrete probability distribution {days=1}
+- Let \(X\) count heads in three independent fair coin tosses. The eight equally likely sequences give the following distribution.
+
+| \(x\) | 0 | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| \(P(X=x)\) | \(1/8\) | \(3/8\) | \(3/8\) | \(1/8\) |
+
+\[P(X>2)=P(X=3)=\frac18\]
+
+\[P(X\ge 2)=P(X=2)+P(X=3)=\frac48=\frac12\]
+
+- The two events differ because \(X=2\) has positive probability.
+- **PPT source** · Day 1, slide 7.
+
+![Probability histogram for the number of heads in three fair coin tosses.](./diagrams/u2p2-discrete-heads.svg)
+
+### Calculate mean, variance, and standard deviation {days=1}
+\[E(X)=\mu_X=\sum_i x_i P(X=x_i)\]
+
+\[\operatorname{Var}(X)=\sigma_X^2=\sum_i (x_i-\mu_X)^2P(X=x_i)\]
+
+\[\operatorname{SD}(X)=\sigma_X=\sqrt{\operatorname{Var}(X)}\]
+
+**Worked example.** \(X\) is investment profit in millions of dollars.
+
+| Profit \(x\) | 1 | 1.5 | 2 | 4 | 10 |
+| --- | --- | --- | --- | --- | --- |
+| \(P(X=x)\) | 0.1 | 0.2 | 0.4 | 0.2 | 0.1 |
+
+\[\mu_X=1(0.1)+1.5(0.2)+2(0.4)+4(0.2)+10(0.1)=3.00\]
+
+\[\sigma_X^2=4(0.1)+2.25(0.2)+1(0.4)+1(0.2)+49(0.1)=6.35\]
+
+\[\sigma_X=\sqrt{6.35}\approx2.52\]
+
+- Over many comparable investments, the average profit is about **$3.00 million**. The profit typically differs from that mean by about **$2.52 million**.
+- **PPT source** · Day 1, slides 10–13. **Review sheet source** · Question 12(a).
+
+### Find a missing probability constant {days=1}
+- A discrete distribution on \(0,1,2,3\) has probabilities \(2m,3m,13m,2m\). Set their sum equal to 1.
+
+\[2m+3m+13m+2m=20m=1\]
+
+\[m=\frac1{20}\]
+
+\[P(X<2)=P(X=0)+P(X=1)=5m=0.25\]
+
+- **Review sheet source** · Question 13.
+
+### Find the probability within one standard deviation {days=1}
+- The quiz-score distribution on Day 1 has \(\mu_X=5.12\) and \(\sigma_X\approx1.5638\). Find the interval before selecting the discrete outcomes.
+
+\[\mu_X-\sigma_X\approx3.556\]
+
+\[\mu_X+\sigma_X\approx6.684\]
+
+\[P(\mu_X-\sigma_X\le X\le\mu_X+\sigma_X)=P(X=4)+P(X=5)+P(X=6)=0.59\]
+
+- The probabilities of scores 4, 5, and 6 are \(0.15\), \(0.19\), and \(0.25\).
+- **PPT source** · Day 1, slide 15.

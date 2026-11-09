@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="576pt" height="252pt" viewBox="0 0 576 252" version="1.1" role="img" aria-labelledby="chart-title chart-desc">
+ <title id="chart-title">Three binomial probability histograms</title><desc id="chart-desc">With ten trials, p equals 0.2 gives right skew, 0.5 gives symmetry, and 0.8 gives left skew.</desc><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252  L 576 252  L 576 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.84 194.04  L 195.84 194.04  L 195.84 90.72  L 51.84 90.72  z " style="fill: #fffaf1" />
+   </g>
+   <g id="patch_3">
+    <path d="M 53.018182 194.04  L 63.752727 194.04  L 63.752727 162.343141  L 53.018182 162.343141  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_4">
+    <path d="M 66.109091 194.04  L 76.843636 194.04  L 76.843636 114.797853  L 66.109091 114.797853  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_5">
+    <path d="M 79.2 194.04  L 89.934545 194.04  L 89.934545 104.892585  L 79.2 104.892585  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_6">
+    <path d="M 92.290909 194.04  L 103.025455 194.04  L 103.025455 134.60839  L 92.290909 134.60839  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_7">
+    <path d="M 105.381818 194.04  L 116.116364 194.04  L 116.116364 168.038671  L 105.381818 168.038671  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_8">
+    <path d="M 118.472727 194.04  L 129.207273 194.04  L 129.207273 186.239601  L 118.472727 186.239601  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_9">
+    <path d="M 131.563636 194.04  L 142.298182 194.04  L 142.298182 192.414917  L 131.563636 192.414917  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_10">
+    <path d="M 144.654545 194.04  L 155.389091 194.04  L 155.389091 193.807845  L 144.654545 193.807845  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_11">
+    <path d="M 157.745455 194.04  L 168.48 194.04  L 168.48 194.018235  L 157.745455 194.018235  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_12">
+    <path d="M 170.836364 194.04  L 181.570909 194.04  L 181.570909 194.038791  L 170.836364 194.038791  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_13">
+    <path d="M 183.927273 194.04  L 194.661818 194.04  L 194.661818 194.03997  L 183.927273 194.03997  z " clip-path="url(#p7fe918270a)" style="fill: #628b9c" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m83402ea97c" d="M 0 0  L 0 4  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m83402ea97c" x="58.385455" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="58.385455" y="211.398281" transform="rotate(-0 58.385455 211.398281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#m83402ea97c" x="123.84" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="123.84" y="211.398281" transform="rotate(-0 123.84 211.398281)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#m83402ea97c" x="189.294545" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="189.294545" y="211.398281" transform="rotate(-0 189.294545 211.398281)">10</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="123.84" y="227.563906" transform="rotate(-0 123.84 227.563906)">Success count</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m3ee6e55809" d="M 0 0  L -4 0  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m3ee6e55809" x="51.84" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.84" y="198.219141" transform="rotate(-0 42.84 198.219141)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="51.84" y="164.52" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.84" y="168.699141" transform="rotate(-0 42.84 168.699141)">0.1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="51.84" y="135" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.84" y="139.179141" transform="rotate(-0 42.84 139.179141)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="51.84" y="105.48" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.84" y="109.659141" transform="rotate(-0 42.84 109.659141)">0.3</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="18.642969" y="142.38" transform="rotate(-90 18.642969 142.38)">Probability</text>
+    </g>
+   </g>
+   <g id="patch_14">
+    <path d="M 51.84 194.04  L 51.84 90.72  " style="fill: none; stroke: #e5dac9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_15">
+    <path d="M 51.84 194.04  L 195.84 194.04  " style="fill: none; stroke: #e5dac9; stroke-width: 1.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_10">
+    <text style="fill: #282720; font: 700 12px 'DejaVu Sans'; text-anchor: middle" x="123.84" y="81.72" transform="rotate(-0 123.84 81.72)">p = 0.2 · Right skew</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_16">
+    <path d="M 227.52 194.04  L 371.52 194.04  L 371.52 90.72  L 227.52 90.72  z " style="fill: #fffaf1" />
+   </g>
+   <g id="patch_17">
+    <path d="M 228.698182 194.04  L 239.432727 194.04  L 239.432727 193.751719  L 228.698182 193.751719  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_18">
+    <path d="M 241.789091 194.04  L 252.523636 194.04  L 252.523636 191.157187  L 241.789091 191.157187  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_19">
+    <path d="M 254.88 194.04  L 265.614545 194.04  L 265.614545 181.067344  L 254.88 181.067344  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_20">
+    <path d="M 267.970909 194.04  L 278.705455 194.04  L 278.705455 159.44625  L 267.970909 159.44625  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_21">
+    <path d="M 281.061818 194.04  L 291.796364 194.04  L 291.796364 133.500937  L 281.061818 133.500937  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_22">
+    <path d="M 294.152727 194.04  L 304.887273 194.04  L 304.887273 121.393125  L 294.152727 121.393125  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_23">
+    <path d="M 307.243636 194.04  L 317.978182 194.04  L 317.978182 133.500937  L 307.243636 133.500937  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_24">
+    <path d="M 320.334545 194.04  L 331.069091 194.04  L 331.069091 159.44625  L 320.334545 159.44625  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_25">
+    <path d="M 333.425455 194.04  L 344.16 194.04  L 344.16 181.067344  L 333.425455 181.067344  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_26">
+    <path d="M 346.516364 194.04  L 357.250909 194.04  L 357.250909 191.157187  L 346.516364 191.157187  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_27">
+    <path d="M 359.607273 194.04  L 370.341818 194.04  L 370.341818 193.751719  L 359.607273 193.751719  z " clip-path="url(#p2dbfc368fe)" style="fill: #526f5c" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#m83402ea97c" x="234.065455" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="234.065455" y="211.398281" transform="rotate(-0 234.065455 211.398281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <g>
+       <use ns4:href="#m83402ea97c" x="299.52" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="299.52" y="211.398281" transform="rotate(-0 299.52 211.398281)">5</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#m83402ea97c" x="364.974545" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="364.974545" y="211.398281" transform="rotate(-0 364.974545 211.398281)">10</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="299.52" y="227.563906" transform="rotate(-0 299.52 227.563906)">Success count</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4" />
+   <g id="patch_28">
+    <path d="M 227.52 194.04  L 371.52 194.04  " style="fill: none; stroke: #e5dac9; stroke-width: 1.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_15">
+    <text style="fill: #282720; font: 700 12px 'DejaVu Sans'; text-anchor: middle" x="299.52" y="81.72" transform="rotate(-0 299.52 81.72)">p = 0.5 · Symmetric</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_29">
+    <path d="M 403.2 194.04  L 547.2 194.04  L 547.2 90.72  L 403.2 90.72  z " style="fill: #fffaf1" />
+   </g>
+   <g id="patch_30">
+    <path d="M 404.378182 194.04  L 415.112727 194.04  L 415.112727 194.03997  L 404.378182 194.03997  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_31">
+    <path d="M 417.469091 194.04  L 428.203636 194.04  L 428.203636 194.038791  L 417.469091 194.038791  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_32">
+    <path d="M 430.56 194.04  L 441.294545 194.04  L 441.294545 194.018235  L 430.56 194.018235  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_33">
+    <path d="M 443.650909 194.04  L 454.385455 194.04  L 454.385455 193.807845  L 443.650909 193.807845  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_34">
+    <path d="M 456.741818 194.04  L 467.476364 194.04  L 467.476364 192.414917  L 456.741818 192.414917  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_35">
+    <path d="M 469.832727 194.04  L 480.567273 194.04  L 480.567273 186.239601  L 469.832727 186.239601  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_36">
+    <path d="M 482.923636 194.04  L 493.658182 194.04  L 493.658182 168.038671  L 482.923636 168.038671  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_37">
+    <path d="M 496.014545 194.04  L 506.749091 194.04  L 506.749091 134.60839  L 496.014545 134.60839  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_38">
+    <path d="M 509.105455 194.04  L 519.84 194.04  L 519.84 104.892585  L 509.105455 104.892585  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_39">
+    <path d="M 522.196364 194.04  L 532.930909 194.04  L 532.930909 114.797853  L 522.196364 114.797853  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="patch_40">
+    <path d="M 535.287273 194.04  L 546.021818 194.04  L 546.021818 162.343141  L 535.287273 162.343141  z " clip-path="url(#p6a6010b342)" style="fill: #628b9c" />
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_7">
+     <g id="line2d_11">
+      <g>
+       <use ns4:href="#m83402ea97c" x="409.745455" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="409.745455" y="211.398281" transform="rotate(-0 409.745455 211.398281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_12">
+      <g>
+       <use ns4:href="#m83402ea97c" x="475.2" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="475.2" y="211.398281" transform="rotate(-0 475.2 211.398281)">5</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_13">
+      <g>
+       <use ns4:href="#m83402ea97c" x="540.654545" y="194.04" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="540.654545" y="211.398281" transform="rotate(-0 540.654545 211.398281)">10</text>
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="475.2" y="227.563906" transform="rotate(-0 475.2 227.563906)">Success count</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6" />
+   <g id="patch_41">
+    <path d="M 403.2 194.04  L 547.2 194.04  " style="fill: none; stroke: #e5dac9; stroke-width: 1.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_20">
+    <text style="fill: #282720; font: 700 12px 'DejaVu Sans'; text-anchor: middle" x="475.2" y="81.72" transform="rotate(-0 475.2 81.72)">p = 0.8 · Left skew</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="40.32" y="22.68" transform="rotate(-0 40.32 22.68)">How success probability changes binomial shape</text>
+  </g>
+  <g id="text_22">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="40.32" y="45.36" transform="rotate(-0 40.32 45.36)">Each histogram uses ten trials and the same axis scales.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7fe918270a">
+   <rect x="51.84" y="90.72" width="144" height="103.32" />
+  </clipPath>
+  <clipPath id="p2dbfc368fe">
+   <rect x="227.52" y="90.72" width="144" height="103.32" />
+  </clipPath>
+  <clipPath id="p6a6010b342">
+   <rect x="403.2" y="90.72" width="144" height="103.32" />
+  </clipPath>
+ </defs>
+</svg>

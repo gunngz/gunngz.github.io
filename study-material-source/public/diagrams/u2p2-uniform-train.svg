@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="576pt" height="237.6pt" viewBox="0 0 576 237.6" version="1.1" role="img" aria-labelledby="chart-title chart-desc">
+ <title id="chart-title">Uniform train journey time</title><desc id="chart-desc">A density of one third over the interval from 2 to 5 minutes. The shaded interval from 2 to 4 has area two thirds.</desc><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 237.6  L 576 237.6  L 576 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.12 185.328  L 552.96 185.328  L 552.96 68.904  L 69.12 68.904  z " style="fill: #fffaf1" />
+   </g>
+   <g id="PolyCollection_1">
+    <defs>
+     <path id="m7e7a47e473" d="M 120.050526 -52.272  L 120.050526 -142.523163  L 374.703158 -142.523163  L 374.703158 -52.272  L 374.703158 -52.272  L 120.050526 -52.272  z " style="stroke: #f1dfaa" />
+    </defs>
+    <g clip-path="url(#p14b637175c)">
+     <use ns4:href="#m7e7a47e473" x="0" y="237.6" style="fill: #f1dfaa; stroke: #f1dfaa" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m83402ea97c" d="M 0 0  L 0 4  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m83402ea97c" x="120.050526" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="120.050526" y="202.686281" transform="rotate(-0 120.050526 202.686281)">2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#m83402ea97c" x="247.376842" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="247.376842" y="202.686281" transform="rotate(-0 247.376842 202.686281)">3</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#m83402ea97c" x="374.703158" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="374.703158" y="202.686281" transform="rotate(-0 374.703158 202.686281)">4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#m83402ea97c" x="502.029474" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="502.029474" y="202.686281" transform="rotate(-0 502.029474 202.686281)">5</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="311.04" y="218.851906" transform="rotate(-0 311.04 218.851906)">Journey time (minutes)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m3ee6e55809" d="M 0 0  L -4 0  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="189.507141" transform="rotate(-0 60.12 189.507141)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="95.076837" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="99.255978" transform="rotate(-0 60.12 99.255978)">1/3</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="35.713281" y="127.116" transform="rotate(-90 35.713281 127.116)">Density</text>
+    </g>
+   </g>
+   <g id="line2d_7">
+    <path d="M 69.12 185.328  L 120.050526 185.328  L 120.050526 95.076837  L 502.029474 95.076837  L 502.029474 185.328  L 552.96 185.328  " clip-path="url(#p14b637175c)" style="fill: none; stroke: #526f5c; stroke-width: 2.5; stroke-linecap: square" />
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 374.703158 185.328  L 374.703158 95.076837  " clip-path="url(#p14b637175c)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #526f5c; stroke-width: 1.3" />
+   </g>
+   <g id="patch_3">
+    <path d="M 69.12 185.328  L 69.12 68.904  " style="fill: none; stroke: #e5dac9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 69.12 185.328  L 552.96 185.328  " style="fill: none; stroke: #e5dac9; stroke-width: 1.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_9">
+    <text style="fill: #282720; font: 700 13px 'DejaVu Sans'; text-anchor: middle" x="247.376842" y="142.007442" transform="rotate(-0 247.376842 142.007442)">Shaded area = 2/3</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="40.32" y="21.384" transform="rotate(-0 40.32 21.384)">Uniform train journey time</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="40.32" y="42.768" transform="rotate(-0 40.32 42.768)">The rectangle from 2 to 5 minutes has total area 1.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p14b637175c">
+   <rect x="69.12" y="68.904" width="483.84" height="116.424" />
+  </clipPath>
+ </defs>
+</svg>

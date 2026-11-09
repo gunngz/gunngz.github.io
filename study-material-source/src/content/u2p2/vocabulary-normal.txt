@@ -1,0 +1,41 @@
+---
+unit: u2p2
+kind: vocabulary
+category: Continuous and Normal Models
+---
+
+### Density curve and uniform distribution {days=3}
+- A density curve is nonnegative and has ==total area 1==.
+- The probability for a continuous variable to fall in an interval is the ==area over that interval==.
+- A uniform density curve has constant height on its interval. A single point has area and probability zero.
+- **PPT source** · Day 3, slides 2–7.
+
+![A uniform density from 2 to 5 minutes with the area below 4 minutes shaded.](./diagrams/u2p2-uniform-train.svg)
+
+### Normal distribution {days=3}
+- A Normal model has a ==symmetric, single-peaked, bell-shaped== density curve. The mean and median are both at \(\mu\).
+- The curve changes concavity at \(\mu-\sigma\) and \(\mu+\sigma\). Larger \(\sigma\) produces a wider, shorter curve when the mean is held fixed.
+- **PPT source** · Day 3, slides 8–12.
+
+![A Normal curve centered at the mean with ticks one standard deviation apart.](./diagrams/u1p1-normal-density.svg)
+
+### Empirical rule {days=3}
+- For an approximately Normal distribution, about **68%**, **95%**, and **99.7%** of values are within one, two, and three standard deviations of the mean, respectively.
+- Use symmetry to split a central interval or its two remaining tails.
+- **PPT source** · Day 3, slides 14–16.
+
+![Three shaded Normal curves showing the central 68, 95, and 99.7 percent regions.](./diagrams/u1p1-normal-empirical-rule.svg)
+
+### Standard Normal distribution and z-score {days=3}
+- A z-score tells how many standard deviations a value is above or below the mean.
+- Standardizing a Normal random variable gives a Normal distribution with ==population mean 0 and population standard deviation 1==.
+- **PPT source** · Day 3, slides 17–19.
+
+![Standard Normal curve with mean zero, standard deviation one, and a z-score axis.](./diagrams/u1p1-normal-standard.svg)
+
+### Percentile and inverse Normal {days=3}
+- The \(k\)th percentile is the cutoff with cumulative area \(k/100\) on its ==left==.
+- A cutoff for the top \(r\%\) has left area \(1-r/100\).
+- **PPT source** · Day 3, slides 26–28.
+
+![A lifetime cutoff with 90 percent to its left and the requested top 10 percent shaded.](./diagrams/u2p2-normal-lamp-top.svg)

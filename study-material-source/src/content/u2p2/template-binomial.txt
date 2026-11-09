@@ -1,0 +1,39 @@
+---
+unit: u2p2
+kind: template
+category: Binomial Distributions
+---
+
+### Verify a binomial setting with BITS {days=2}
+- **Binary** · “A success is **[specific outcome]** and a failure is **[its complement]**.”
+- **Independent** · “The outcome of one **[trial]** does not change the probabilities for the others because **[reason or stated assumption]**.”
+- **Trials** · “There are exactly **[n] [trials]**.”
+- **Same probability** · “On each **[trial]**, the probability of **[success]** is **[p]**.”
+- “Let \(X\) count **[successes]** in **[n] [trials]**. Then \(X\sim\operatorname{Bin}(n,p)\).”
+- If a condition fails, ==name it and explain the failure in context==.
+- **PPT source** · Day 2, slides 4–8 and 10.
+
+### Show work for a binomial probability {days=2}
+1. Define \(X\) and identify the number of trials \(n\) and the probability \(p\) of success on one trial.
+2. Write a probability statement that matches the wording. Use \(P(X=k)\) for “exactly \(k\).”
+3. Show the binomial expression, a sum of relevant terms, or a complement before giving the numerical result.
+4. If you include a calculator call, label its inputs. ==Calculator syntax alone does not earn work credit==.
+- **PPT source** · Day 2, slides 7–10.
+
+### Translate a binomial event before calculating {days=2}
+| Wording | Probability statement | Calculator approach |
+| --- | --- | --- |
+| Exactly \(k\) | \(P(X=k)\) | Point probability with binomialpdf |
+| At most \(k\) | \(P(X\le k)\) | Cumulative probability through \(k\) |
+| Fewer than \(k\) | \(P(X\le k-1)\) | Cumulative probability through \(k-1\) |
+| At least \(k\) | \(P(X\ge k)\) | \(1-P(X\le k-1)\) |
+| More than \(k\) | \(P(X>k)\) | \(1-P(X\le k)\) |
+| From \(a\) through \(b\) | \(P(a\le X\le b)\) | \(P(X\le b)-P(X\le a-1)\) |
+
+- **PPT source** · Day 2, slides 9–10. **Review sheet source** · Question 14.
+
+### Interpret a binomial mean and standard deviation {days=2}
+- “In ==many repetitions== of **[process with \(n\) trials]**, the average **[success count]** will be about **[mean] [units]**.”
+- “In ==many repetitions== of **[process with \(n\) trials]**, the **[success count]** typically differs from its mean of **[mean] [units]** by about **[SD] [units]**.”
+- Keep the unit as a count of successes **per set of \(n\) trials**.
+- **PPT source** · Day 2, slide 15.

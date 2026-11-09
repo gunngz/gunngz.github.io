@@ -1,0 +1,12 @@
+---
+unit: u2p2
+kind: template
+category: Linear Transformations
+---
+
+### Find the mean and spread after a linear transformation
+1. Write \(Y=a+bX\) in context. Identify the fixed adjustment \(a\) and multiplier \(b\).
+2. “The mean of **[new quantity]** is \(a+b\mu_X\), or **[value and units]**.”
+3. “The standard deviation of **[new quantity]** is \(|b|\sigma_X\), or **[value and units]**.”
+- The fixed adjustment changes the mean. Only the scale factor changes the standard deviation. If the question asks for variance, scale it by \(b^2\).
+- **Review sheet source** · Unit 2 Review, question 12.

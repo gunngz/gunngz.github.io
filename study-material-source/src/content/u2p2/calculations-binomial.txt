@@ -1,0 +1,45 @@
+---
+unit: u2p2
+kind: calculations
+category: Binomial Distributions
+---
+
+### Exactly a given number of successes {days=2}
+\[P(X=x)=\binom{n}{x}p^x(1-p)^{n-x}\]
+
+\[\binom nx=\frac{n!}{x!(n-x)!}\]
+
+- Guess independently on ten questions with five equally likely choices each. Let \(X\) count correct answers. Here \(n=10\) and \(p=0.2\).
+
+\[P(X=3)=\binom{10}{3}(0.2)^3(0.8)^7\approx0.2013\]
+
+- **PPT source** · Day 2, slides 4–9.
+
+### At least a given number of successes {days=2}
+- In the review example, let \(X\) count side effects among four independent patients when the probability per patient is \(1/7\).
+
+\[P(X\ge2)=1-P(X=0)-P(X=1)\]
+
+\[P(X\ge2)=1-\left(\frac67\right)^4-4\left(\frac17\right)\left(\frac67\right)^3\approx0.1004\]
+
+- For “at least \(k\),” subtract the cumulative probability through ==\(k-1\)==.
+- **PPT source** · Day 2, slides 9–10. **Review sheet source** · Question 14.
+
+### Binomial mean, variance, and standard deviation {days=2}
+\[\mu_X=np\]
+
+\[\sigma_X^2=np(1-p)\]
+
+\[\sigma_X=\sqrt{np(1-p)}\]
+
+- In sets of 30 purchases with independent prize chances \(p=1/6\), the mean number of prizes is \(30(1/6)=5\).
+- The variance is \(30(1/6)(5/6)=25/6\). The SD is approximately **2.041 prizes**.
+- In many sets of 30 purchases, the prize count typically differs from its mean of 5 by about 2.041 prizes.
+- **PPT source** · Day 2, slides 11 and 14–15.
+
+### Check the 10% condition {days=2}
+\[n\le0.10N\quad\Longleftrightarrow\quad10n\le N\]
+
+- For 40 draws without replacement, the condition holds if there are at least 400 individuals in the population.
+- Use it to justify an ==approximation== when the draws would otherwise be dependent.
+- **PPT source** · Day 2, slide 16.

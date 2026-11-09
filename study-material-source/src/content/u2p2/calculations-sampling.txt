@@ -1,0 +1,48 @@
+---
+unit: u2p2
+kind: calculations
+category: Sampling Distributions
+---
+
+### Compute a point estimate {days=6}
+- In a random sample of 515 adults, 160 answered yes to the survey question. The parameter \(p\) is the proportion of all adults in the target population who would answer yes.
+- Use \(\hat p\) as the point estimator. The point estimate from this sample is
+
+\[\hat p=\frac{160}{515}\approx0.3107\]
+
+- **PPT source** · Day 6, slides 2–4.
+
+### Enumerate a sampling distribution {days=6}
+- Start with the four heights 63, 65, 66, and 69 inches. Take an SRS of size 2 without replacement. Each unordered pair has probability \(1/6\).
+
+| Sample heights (in.) | Sample mean (in.) | Sample range (in.) |
+| --- | --- | --- |
+| 63, 65 | 64.0 | 2 |
+| 63, 66 | 64.5 | 3 |
+| 63, 69 | 66.0 | 6 |
+| 65, 66 | 65.5 | 1 |
+| 65, 69 | 67.0 | 4 |
+| 66, 69 | 67.5 | 3 |
+
+- For the sampling distribution of \(\bar x\), plot one dot at each pair's mean. A repeated statistic would give stacked dots.
+- **PPT source** · Day 6, slides 7–9.
+
+![Three dotplots contrast individual heights with the six sample means.](./diagrams/u2p2-sampling-levels.svg)
+
+### Compare the sampling center with the target {days=6}
+- In the four-height example, the population range is \(69-63=6\) inches.
+- The mean of the sample ranges over the six equally likely pairs is
+
+\[\frac{2+3+6+1+4+3}{6}=\frac{19}{6}\approx3.167\text{ in.}\]
+
+- The sample range is ==biased downward== for the population range in this setting because its sampling center is below 6 inches.
+- **PPT source** · Day 6, slides 7–8 and 17–19. Uses the four heights in Practice #2.
+
+### Estimate a tail probability from a simulation {days=6}
+- The claim is that the mean mass of the bars is 17 g. A random sample of 40 gives \(\bar x=17.28\) g.
+- Under a model with \(\mu=17\) g and \(\sigma=0.75\) g, one of 100 simulated samples of size 40 had a mean at least as large as 17.28 g.
+
+\[\widehat{P}(\bar X\ge17.28\mid\mu=17)=\frac{1}{100}=0.01\]
+
+- A result at least this large is unusual under the claim. This gives convincing evidence that the population mean mass exceeds 17 g.
+- **PPT source** · Day 6, slides 10–12.

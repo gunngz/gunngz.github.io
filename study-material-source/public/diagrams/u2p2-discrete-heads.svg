@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="576pt" height="237.6pt" viewBox="0 0 576 237.6" version="1.1" role="img" aria-labelledby="chart-title chart-desc">
+ <title id="chart-title">Heads in three fair coin tosses</title><desc id="chart-desc">Counts 0, 1, 2, and 3 have probabilities one eighth, three eighths, three eighths, and one eighth.</desc><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 237.6  L 576 237.6  L 576 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 69.12 185.328  L 552.96 185.328  L 552.96 68.904  L 69.12 68.904  z " style="fill: #fffaf1" />
+   </g>
+   <g id="patch_3">
+    <path d="M 91.112727 185.328  L 169.442989 185.328  L 169.442989 155.628  L 91.112727 155.628  z " clip-path="url(#p14b637175c)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_4">
+    <path d="M 211.620822 185.328  L 289.951083 185.328  L 289.951083 96.228  L 211.620822 96.228  z " clip-path="url(#p14b637175c)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_5">
+    <path d="M 332.128917 185.328  L 410.459178 185.328  L 410.459178 96.228  L 332.128917 96.228  z " clip-path="url(#p14b637175c)" style="fill: #526f5c" />
+   </g>
+   <g id="patch_6">
+    <path d="M 452.637011 185.328  L 530.967273 185.328  L 530.967273 155.628  L 452.637011 155.628  z " clip-path="url(#p14b637175c)" style="fill: #526f5c" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m83402ea97c" d="M 0 0  L 0 4  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m83402ea97c" x="130.277858" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="130.277858" y="202.686281" transform="rotate(-0 130.277858 202.686281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#m83402ea97c" x="250.785953" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="250.785953" y="202.686281" transform="rotate(-0 250.785953 202.686281)">1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#m83402ea97c" x="371.294047" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="371.294047" y="202.686281" transform="rotate(-0 371.294047 202.686281)">2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#m83402ea97c" x="491.802142" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: middle" x="491.802142" y="202.686281" transform="rotate(-0 491.802142 202.686281)">3</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="311.04" y="218.851906" transform="rotate(-0 311.04 218.851906)">Number of heads</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="m3ee6e55809" d="M 0 0  L -4 0  " style="stroke: #e5dac9; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="185.328" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="189.507141" transform="rotate(-0 60.12 189.507141)">0.000</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="155.628" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="159.807141" transform="rotate(-0 60.12 159.807141)">0.125</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="125.928" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="130.107141" transform="rotate(-0 60.12 130.107141)">0.250</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#m3ee6e55809" x="69.12" y="96.228" style="fill: #e5dac9; stroke: #e5dac9; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #716d62; font: 11px 'DejaVu Sans'; text-anchor: end" x="60.12" y="100.407141" transform="rotate(-0 60.12 100.407141)">0.375</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill: #282720; font: 13px 'DejaVu Sans'; text-anchor: middle" x="21.925469" y="127.116" transform="rotate(-90 21.925469 127.116)">Probability</text>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 69.12 185.328  L 69.12 68.904  " style="fill: none; stroke: #e5dac9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_8">
+    <path d="M 69.12 185.328  L 552.96 185.328  " style="fill: none; stroke: #e5dac9; stroke-width: 1.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_11">
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="130.277858" y="149.688" transform="rotate(-0 130.277858 149.688)">1/8</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="250.785953" y="90.288" transform="rotate(-0 250.785953 90.288)">3/8</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="371.294047" y="90.288" transform="rotate(-0 371.294047 90.288)">3/8</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="491.802142" y="149.688" transform="rotate(-0 491.802142 149.688)">1/8</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="40.32" y="21.384" transform="rotate(-0 40.32 21.384)">Heads in three fair coin tosses</text>
+  </g>
+  <g id="text_16">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="40.32" y="42.768" transform="rotate(-0 40.32 42.768)">Each bar is a probability. All four probabilities sum to 1.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p14b637175c">
+   <rect x="69.12" y="68.904" width="483.84" height="116.424" />
+  </clipPath>
+ </defs>
+</svg>

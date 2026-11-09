@@ -1,0 +1,11 @@
+---
+unit: u2p2
+kind: vocabulary
+category: Linear Transformations
+---
+
+### Linear transformation of a random variable
+- \(Y=a+bX\) adds a fixed amount \(a\) and scales each value by \(b\).
+- Adding a constant shifts the center. Scaling by \(b\) multiplies distances by \(|b|\).
+- Each original outcome carries its probability to the corresponding transformed value. If \(b=0\), all probability is at \(a\).
+- **Review sheet source** · Unit 2 Review, question 12.

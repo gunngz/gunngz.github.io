@@ -1,0 +1,23 @@
+---
+unit: u2p2
+kind: calculations
+category: Linear Transformations
+---
+
+### Transform the mean, variance, and standard deviation
+\[Y=a+bX\]
+
+\[\mu_Y=a+b\mu_X\]
+
+\[\sigma_Y^2=b^2\sigma_X^2\]
+
+\[\sigma_Y=|b|\sigma_X\]
+
+- In the investment example, \(X\) is profit in millions of dollars with \(\mu_X=3.00\) and \(\sigma_X=\sqrt{6.35}\). A fixed fee of $0.20 million and a 10% fee on profits leave \(Y=0.9X-0.2\).
+
+\[\mu_Y=0.9(3.00)-0.2=2.50\text{ million dollars}\]
+
+\[\sigma_Y=0.9\sqrt{6.35}\approx2.27\text{ million dollars}\]
+
+- The fixed fee shifts every result by the same amount. The 0.9 multiplier scales the spread.
+- **Review sheet source** · Question 12.

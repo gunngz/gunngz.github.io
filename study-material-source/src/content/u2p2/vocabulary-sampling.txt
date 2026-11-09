@@ -1,0 +1,39 @@
+---
+unit: u2p2
+kind: vocabulary
+category: Sampling Distributions
+---
+
+### Point estimator and point estimate {days=6}
+- A **point estimator** is a statistic chosen to estimate a population parameter, such as \(\hat p\) to estimate \(p\).
+- A **point estimate** is the ==numerical value== of that statistic in a particular sample.
+- **PPT source** · Day 6, slides 2–4.
+
+### Population, sample, and sampling distributions {days=6}
+| Distribution | What is plotted |
+| --- | --- |
+| Population | Individual values for the entire population |
+| Sample | Individual values in one sample |
+| Sampling | Values of a statistic across all possible samples of the same size, with their probabilities |
+
+- One dot in a simulated sampling distribution represents ==one statistic from one simulated sample==.
+- **PPT source** · Day 6, slides 5–11.
+
+![Dotplots of four population heights, two heights from one sample, and the six possible sample means.](./diagrams/u2p2-sampling-levels.svg)
+
+### Sampling variability {days=6}
+- Random samples of the same size from the same population can give ==different values of the same statistic==.
+- The spread of the sampling distribution describes how much the estimator varies across samples.
+- **PPT source** · Day 6, slides 5–6 and 20–23.
+
+### Bias and unbiased estimators {days=6}
+- An estimator is ==unbiased== if the mean of its sampling distribution equals the population parameter it estimates.
+- Bias describes the difference between that mean and the target parameter. Variability describes spread around the sampling distribution's own center.
+- **PPT source** · Day 6, slides 17–19 and 23–26.
+
+![Four schematic dotplots comparing centered or shifted estimates with narrow or wide spread.](./diagrams/u2p2-bias-variability.svg)
+
+### Sample size and precision {days=6}
+- For the estimators studied here, such as \(\bar{x}\) and \(\hat p\), a larger random sample generally gives ==less sampling variability==.
+- A tighter sampling distribution gives more precise estimates. Increasing sample size does not by itself correct a biased sampling method.
+- **PPT source** · Day 6, slides 20–25.

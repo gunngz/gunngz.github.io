@@ -1,0 +1,37 @@
+---
+unit: u2p2
+kind: vocabulary
+category: Binomial Distributions
+---
+
+### Binomial random variable {days=2}
+- \(X\) counts successes in a fixed number \(n\) of trials that meet **BITS**.
+- Write \(X\sim\operatorname{Bin}(n,p)\), where \(p\) is the success probability on ==one trial==.
+- Possible values are \(0,1,\ldots,n\).
+- **PPT source** · Day 2, slides 4–7.
+
+### BITS conditions {days=2}
+| Letter | Condition |
+| --- | --- |
+| B · Binary | Each trial is classified as a success or a failure. |
+| I · Independent | The outcome of a trial does not affect the probabilities on other trials. |
+| T · Trials | The number of trials is fixed in advance. |
+| S · Same probability | Each trial has the same probability of success. |
+
+- **PPT source** · Day 2, slides 4–5.
+
+### Binomial coefficient {days=2}
+- \(\binom{n}{x}\), read “\(n\) choose \(x\),” counts the ways to place \(x\) successes among \(n\) trials.
+- This factor combines all success-and-failure orders that give the requested count.
+- **PPT source** · Day 2, slides 6–7.
+
+### 10% condition {days=2}
+- When sampling ==without replacement==, check whether \(n\le 0.10N\), where \(N\) is the population size.
+- If it holds, treating the draws as approximately independent is reasonable for these calculations. The corresponding binomial model is an approximation.
+- **PPT source** · Day 2, slide 16.
+
+### Shape of a binomial distribution {days=2}
+- For the same \(n\), small \(p\) tends to give right skew, \(p=0.5\) gives symmetry, and large \(p\) tends to give left skew.
+- **PPT source** · Day 2, slides 13–15.
+
+![Three probability histograms for ten trials with success probabilities 0.2, 0.5, and 0.8.](./diagrams/u2p2-binomial-shapes.svg)

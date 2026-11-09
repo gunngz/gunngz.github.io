@@ -1,0 +1,39 @@
+---
+unit: u2p2
+kind: template
+category: Sampling Distributions
+---
+
+### Identify the parameter, estimator, and estimate {days=6}
+1. “The parameter is the population **[mean or proportion]** of **[quantity and group]**.”
+2. “Use the sample **[mean \(\bar x\) or proportion \(\hat p\)]** as the point estimator.”
+3. “For this sample, the point estimate is **[calculation and result in context]**.”
+- **PPT source** · Day 6, slides 2–4.
+
+### Explain a dot in a sampling distribution {days=6}
+- “In ==one simulated sample of size **[n]**==, the **[statistic and context]** was **[value and units]**.”
+- To construct an exact sampling distribution from a small population, list every possible sample of the same size, compute its statistic, and plot the statistics with their frequencies or probabilities.
+- **PPT source** · Day 6, slides 5–12.
+
+![A population dotplot, a sample dotplot, and a sampling distribution of sample means.](./diagrams/u2p2-sampling-levels.svg)
+
+### Evaluate a claim using a simulated sampling distribution {days=6}
+1. “Assuming **[the claimed parameter]** is true, **[count]** of **[total]** simulated samples gave **[statistic]** at least as **[large or small]** as **[observed value]**.”
+2. “The estimated probability is **[count divided by total]**. A result this extreme is **[surprising or plausible]** under the claim.”
+3. “This gives **[convincing or insufficient]** evidence that **[alternative stated in context]**.”
+- Follow the direction in the question. A plausible result can arise from ==sampling variability== even when the claim is true.
+- **PPT source** · Day 6, slides 10–12.
+
+### Decide whether an estimator is unbiased {days=6}
+- “The mean of the sampling distribution of **[statistic]** is **[center]**. The population **[parameter]** is **[target]**.”
+- “Because these values **[are equal or differ]**, **[statistic]** is **[unbiased or biased]** for **[parameter]**.”
+- For a biased estimator, explain whether it tends to overestimate or underestimate the target.
+- **PPT source** · Day 6, slides 17–19 and 24–26.
+
+### Compare sampling variability for two sample sizes {days=6}
+- “With a larger random sample, the sampling distribution of **[statistic]** will have ==less spread==, so estimates tend to be more precise.”
+- “If **[statistic]** is unbiased for **[parameter]**, the sampling distributions for both sample sizes are centered at **[parameter]**.”
+- To compare plotted estimators, assess ==center versus target== for bias and ==spread around each center== for variability.
+- **PPT source** · Day 6, slides 20–26.
+
+![Four dotplots show how bias and variability can change separately.](./diagrams/u2p2-bias-variability.svg)

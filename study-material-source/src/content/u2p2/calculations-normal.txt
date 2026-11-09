@@ -1,0 +1,85 @@
+---
+unit: u2p2
+kind: calculations
+category: Continuous and Normal Models
+---
+
+### Calculate a uniform probability as area {days=3}
+- Let \(X\) be the train journey time in minutes. Its density is uniform from 2 to 5 minutes.
+
+\[\text{height}=\frac{1}{5-2}=\frac13\]
+
+\[P(X<4)=(4-2)\frac13=\frac23\approx0.667\]
+
+\[P(X=4)=0\]
+
+- **PPT source** · Day 3, slides 3–7.
+
+![Uniform train time density from 2 to 5 minutes with the region below 4 minutes shaded.](./diagrams/u2p2-uniform-train.svg)
+
+### Use symmetry and the empirical rule to estimate spread {days=3}
+- Normal exam scores have mean 100 and 16th percentile 80.
+- The 84th percentile is **120** by symmetry. The middle 68% lies between the 16th and 84th percentiles.
+- One standard deviation is approximately \(100-80=20\) points. The sketch uses this approximate SD.
+- **PPT source** · Day 3, slides 14–17. **Review sheet source** · Question 1.
+
+![The approximate central 68 percent of exam scores is shaded from 80 to 120.](./diagrams/u2p2-normal-exam-central.svg)
+
+### Find a left-tail percentage {days=3}
+- Let \(X\) be tire life in miles, modeled as Normal with \(\mu=60{,}000\) miles and \(\sigma=8{,}300\) miles. Find the percentage below the 45,000-mile warranty limit.
+
+\[P(X<45{,}000)=P\left(Z<\frac{45{,}000-60{,}000}{8{,}300}\right)\approx0.03536\]
+
+- About **3.54%** of tires would be replaced under this model.
+- **Review sheet source** · Question 2.
+
+![Normal tire life curve with the area below 45,000 miles shaded.](./diagrams/u2p2-normal-tire-left.svg)
+
+### Find a right-tail proportion {days=3}
+- Let \(X\) be lamp lifetime in days, modeled as Normal with \(\mu=350.7\) days and \(\sigma=30.1\) days.
+
+\[P(X>400)=P\left(Z>\frac{400-350.7}{30.1}\right)\approx0.0507\]
+
+- The requested proportion is **0.0507**.
+- **Review sheet source** · Question 3(a).
+
+![Normal lamp life curve with the area above 400 days shaded.](./diagrams/u2p2-normal-lamp-right.svg)
+
+### Find a probability between two values {days=3}
+- Use the Normal lamp model with mean 350.7 days and SD 30.1 days. Find the proportion between 300 and 365 days.
+
+\[P(300<X<365)=P\left(\frac{300-350.7}{30.1}<Z<\frac{365-350.7}{30.1}\right)\approx0.6366\]
+
+- With normalcdf, the lower bound is 300, the upper bound is 365, the mean is 350.7, and the SD is 30.1.
+- **Review sheet source** · Question 3(c).
+
+![Normal lamp life curve with the region between 300 and 365 days shaded.](./diagrams/u2p2-normal-lamp-between.svg)
+
+### Find a cutoff for the top 10% {days=3}
+- For Normal lamp lifetimes with mean 350.7 days and SD 30.1 days, find the lower boundary \(c\) of the top 10%.
+
+\[P(X>c)=0.10\]
+
+\[P(X<c)=0.90\]
+
+- With invNorm, use ==left area 0.90==, mean 350.7, and SD 30.1.
+
+\[c=350.7+30.1(1.28155\ldots)\approx389.27\text{ days}\]
+
+- **Review sheet source** · Question 3(e).
+
+![The Normal lamp lifetime curve marks the cutoff at about 389.27 days and shades the top 10 percent.](./diagrams/u2p2-normal-lamp-top.svg)
+
+### Find the quartiles and IQR of a Normal model {days=3}
+- In the same lamp model, the left areas for \(Q_1\) and \(Q_3\) are 0.25 and 0.75. The quartiles enclose the middle 50%.
+
+\[Q_1\approx330.398\text{ days}\]
+
+\[Q_3\approx371.002\text{ days}\]
+
+\[\mathrm{IQR}=Q_3-Q_1\approx40.60\text{ days}\]
+
+- Keep extra digits until the last subtraction.
+- **Review sheet source** · Question 3(f).
+
+![The central 50 percent of Normal lamp lifetimes lies between approximately 330.40 and 371.00 days.](./diagrams/u2p2-normal-lamp-iqr.svg)

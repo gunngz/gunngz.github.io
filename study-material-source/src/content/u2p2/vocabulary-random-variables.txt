@@ -1,0 +1,40 @@
+---
+unit: u2p2
+kind: vocabulary
+category: Random Variables
+---
+
+### Random variable and probability distribution {days=1}
+- A **random variable** assigns a numerical value to each outcome of a random process.
+- Its **probability distribution** lists the possible values and how likely they are.
+- A discrete model is valid when every probability is between 0 and 1 and ==the probabilities sum to 1==.
+- **PPT source** · Day 1, slides 6–7.
+
+### Discrete and continuous random variables {days=1,3}
+| Type | Possible values | Example |
+| --- | --- | --- |
+| Discrete | A ==countable== set of values | Number of heads in three tosses |
+| Continuous | Any value in an ==interval== | Time until a train arrives |
+
+- Discrete probabilities are sums of probability masses. Continuous probabilities are areas under a density curve.
+- **PPT source** · Day 1, slides 6–8, and Day 3, slide 2.
+
+### Expected value {days=1}
+- The expected value \(\mu_X=E(X)\) is the ==long-run average== value of \(X\) over many repetitions.
+- It is a probability-weighted mean. It can fall between possible outcomes.
+- **PPT source** · Day 1, slide 10.
+
+### Variance and standard deviation {days=1}
+- **Variance** \(\sigma_X^2\) is the probability-weighted average squared distance from the mean.
+- **Standard deviation** \(\sigma_X\) is its square root. It measures a ==typical distance from the mean== in the original units of \(X\).
+- **PPT source** · Day 1, slides 12–13.
+
+### Parameters and statistics {days=1,6}
+| Quantity | Population parameter | Sample statistic |
+| --- | --- | --- |
+| Mean | \(\mu\) | \(\bar{x}\) |
+| Standard deviation | \(\sigma\) | \(s\) |
+| Proportion | \(p\) | \(\hat p\) |
+
+- A parameter describes the ==population==. A statistic is calculated from a ==sample==.
+- **PPT source** · Day 1, slide 18, and Day 6, slides 2–4.

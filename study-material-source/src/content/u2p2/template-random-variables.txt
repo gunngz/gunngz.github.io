@@ -1,0 +1,27 @@
+---
+unit: u2p2
+kind: template
+category: Random Variables
+---
+
+### Define a random variable and build its distribution {days=1}
+1. “Let \(X\) be **[the count or measurement]** for **[one repetition or unit]**.”
+2. List every possible value of \(X\) and its probability. Combine outcomes that give the same value of \(X\).
+3. Check that all probabilities are nonnegative and ==sum to 1==.
+- **PPT source** · Day 1, slides 6–7 and 16–17.
+
+### Find a probability from a discrete table {days=1}
+1. Write the event using \(X\), such as \(P(X\ge k)\).
+2. Identify the possible values that satisfy the inequality. Include the boundary for \(\le\) or \(\ge\).
+3. Add the probabilities of those values and report the result in context.
+- **PPT source** · Day 1, slides 7, 15–16.
+
+### Interpret expected value {days=1}
+- “In ==many repetitions== of **[process]**, the average **[quantity measured by \(X\)]** will be about **[mean] [units]**.”
+- Compute the mean by multiplying each value by its probability and adding the products.
+- **PPT source** · Day 1, slides 10–11, and Day 2, slide 15.
+
+### Interpret standard deviation {days=1}
+- “In ==many repetitions== of **[process]**, the **[quantity measured by \(X\)]** typically differs from its mean of **[mean] [units]** by about **[SD] [units]**.”
+- Use the units of \(X\) for standard deviation and squared units for variance.
+- **PPT source** · Day 1, slides 12–13, and Day 2, slide 15.

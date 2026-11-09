@@ -394,7 +394,7 @@ button { color: inherit; }
 }
 .answer-content img[src$=".svg"] { width: 100%; max-width: 900px; }
 .answer-content img[src$="u2p1-venn.svg"] { max-width: 640px; }
-.answer-content img[src*="/u1p1-normal-"] { max-width: 720px; max-height: 400px; }
+.answer-content img[src*="/u1p1-normal-"], .answer-content img[src*="/u2p2-"] { max-width: 720px; max-height: 400px; }
 .question-content img { width: auto; max-width: 100%; max-height: 320px; }
 .answer-content > p:has(> img) {
   width: 100%;

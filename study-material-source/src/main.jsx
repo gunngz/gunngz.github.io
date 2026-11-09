@@ -14,13 +14,21 @@ const isHistory = /^\/us-history(?:\/|$)/.test(window.location.pathname);
 const isUsaco = /^\/usaco(?:\/|$)/.test(window.location.pathname);
 const availableUnits = isChemistry
   ? ["chem1", "chem2"]
-  : isHistory ? ["ushist3"] : isUsaco ? ["usaco"] : ["u1p1", "u1p2", "u2p1"];
-const u2p1PrimaryCategoryByDay = {
-  1: "Two Categorical Variables",
-  2: "Simulation",
-  3: "Probability Basics",
-  4: "Conditional Probability",
-  5: "Diagnostic Testing",
+  : isHistory ? ["ushist3"] : isUsaco ? ["usaco"] : ["u1p1", "u1p2", "u2p1", "u2p2"];
+const primaryCategoryByDay = {
+  u2p1: {
+    1: "Two Categorical Variables",
+    2: "Simulation",
+    3: "Probability Basics",
+    4: "Conditional Probability",
+    5: "Diagnostic Testing",
+  },
+  u2p2: {
+    1: "Random Variables",
+    2: "Binomial Distributions",
+    3: "Continuous and Normal Models",
+    6: "Sampling Distributions",
+  },
 };
 
 function EyeIcon({ crossed = false }) {
@@ -119,13 +127,14 @@ function App() {
   const [blurredIds, setBlurredIds] = useState(() => new Set());
   const [sidebarDismissed, setSidebarDismissed] = useState(false);
   const contentRef = useRef(null);
+  const lessonCategories = primaryCategoryByDay[unit];
 
   const pages = useMemo(() => {
     const unitPages = getPages(unit, kind);
-    return unit === "u2p1" && day !== "all"
+    return lessonCategories && day !== "all"
       ? unitPages.filter((page) => page.cards.some((card) => card.days.includes(day)))
       : unitPages;
-  }, [unit, kind, day]);
+  }, [unit, kind, day, lessonCategories]);
   const activeCategory = pages.some((page) => page.category === category)
     ? category
     : pages[0]?.category || "";
@@ -190,7 +199,7 @@ function App() {
   function selectUnit(nextUnit) {
     setUnit(nextUnit);
     if (isChemistry) setKind("template");
-    else if (nextUnit !== "u2p1" && ["calculations", "number-format", "test-feedback"].includes(kind)) setKind("vocabulary");
+    else if (getPages(nextUnit, kind).length === 0) setKind("vocabulary");
     setDay("all");
     setCategory("");
     setQuery("");
@@ -205,8 +214,9 @@ function App() {
   }
 
   const isSearching = Boolean(query.trim());
-  const dayCount = unit === "u2p1" ? 5 : 6;
-  const dayButtons = ["all", ...Array.from({ length: dayCount }, (_, index) => String(index + 1))];
+  const lessonDays = lessonCategories ? Object.keys(lessonCategories) : ["1", "2", "3", "4", "5", "6"];
+  const dayButtons = ["all", ...lessonDays];
+  const showDayFilter = unit === "u1p2" || (lessonCategories && !["number-format", "test-feedback"].includes(kind));
 
   return (
     <div className="app-shell">
@@ -257,20 +267,20 @@ function App() {
                 <>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>
-                  {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
+                  {lessonCategories ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "number-format"} onClick={() => selectKind("number-format")}>Proportion & Percentage</button> : null}
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "test-feedback"} onClick={() => selectKind("test-feedback")}>Test Feedback</button> : null}
                 </>
               )}
             </div>
-            {unit === "u1p2" || (unit === "u2p1" && !["number-format", "test-feedback"].includes(kind)) ? (
+            {showDayFilter ? (
               <div className="day-nav-scroll" aria-label="Study day">
                 <div className="day-nav">
                   {dayButtons.map((value) => {
                     const label = value === "all" ? "All days" : "Day " + value;
                     return <button key={value} className="nav-button day-button" type="button" aria-pressed={day === value} onClick={() => {
                       setDay(value);
-                      if (unit === "u2p1" && value !== "all") setCategory(kind === "calculations" ? "Calculations" : (u2p1PrimaryCategoryByDay[value] || ""));
+                      if (lessonCategories && value !== "all") setCategory(lessonCategories[value]);
                     }}>{label}</button>;
                   })}
                 </div>
@@ -366,7 +376,7 @@ function App() {
                 </div>
               ) : null}
               <div className="card-list">
-                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} distributionAxis={distributionAxis} onDistributionAxisChange={setDistributionAxis} />) : unit === "u2p1" && day !== "all" ? <p className="empty-state">No content for this day.</p> : null}
+                {visibleCards.length ? visibleCards.map((card) => <StudyCard key={card.id} card={card} blurredIds={blurredIds} onToggleBlur={toggleCard} isChemistry={isChemistry} distributionAxis={distributionAxis} onDistributionAxisChange={setDistributionAxis} />) : lessonCategories && day !== "all" ? <p className="empty-state">No content for this day.</p> : null}
               </div>
             </section>
           )}

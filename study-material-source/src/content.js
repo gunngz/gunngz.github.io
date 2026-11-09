@@ -13,11 +13,14 @@ export const unitInfo = {
   u1p1: { title: "Unit 1 Part 1", heading: "AP Statistics — Unit 1", order: 1 },
   u1p2: { title: "Unit 1 Part 2", heading: "AP Statistics — Unit 1", order: 2 },
   u2p1: { title: "Unit 2 Part 1", heading: "AP Statistics — Unit 2", order: 3 },
+  u2p2: { title: "Unit 2 Part 2", heading: "AP Statistics — Unit 2 Part 2", order: 4 },
   chem1: { title: "Unit 1", heading: "AP Chemistry — Unit 1", order: 1 },
   chem2: { title: "Unit 2", heading: "AP Chemistry — Unit 2", order: 2 },
   ushist3: { title: "Unit 3 · Industrialization", heading: "U.S. History — Unit 3", order: 1 },
   usaco: { title: "Patterns", heading: "USACO", order: 1 },
 };
+
+const u2p2Categories = ["Random Variables", "Binomial Distributions", "Continuous and Normal Models", "Linear Transformations", "Sampling Distributions"];
 
 const categoryOrder = {
   u1p1: {
@@ -34,6 +37,11 @@ const categoryOrder = {
     calculations: ["Calculations"],
     "number-format": ["Proportion & Percentage"],
     "test-feedback": ["MCQ Review"],
+  },
+  u2p2: {
+    vocabulary: u2p2Categories,
+    template: u2p2Categories,
+    calculations: u2p2Categories,
   },
   chem1: {
     template: ["Templates"],

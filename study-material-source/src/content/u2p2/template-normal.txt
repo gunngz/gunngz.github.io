@@ -1,0 +1,46 @@
+---
+unit: u2p2
+kind: template
+category: Continuous and Normal Models
+---
+
+### Find probability from a continuous density curve {days=3}
+1. Define \(X\) in context and write the requested probability statement.
+2. Shade the requested interval and calculate its area. For a uniform curve, multiply the interval width by the constant height.
+3. Report the result as a probability or in the format the question requests.
+- For continuous \(X\), including an endpoint does not change the area because \(P(X=c)=0\).
+- **PPT source** · Day 3, slides 3–7.
+
+![The uniform train time model shows the shaded area for P(X < 4).](./diagrams/u2p2-uniform-train.svg)
+
+### Find a Normal probability from one or two bounds {days=3}
+1. **Draw and label the graph.** Name the random variable on the horizontal axis, include its units, and mark the mean and the values from \(\mu-3\sigma\) through \(\mu+3\sigma\). Label the cutoff or cutoffs and ==shade the requested region==.
+2. **Write the probability statement.** Use \(P(X<c)\), \(P(X>c)\), or \(P(a<X<b)\) as requested.
+3. **Calculate and report.** If you use normalcdf, label the lower bound, upper bound, mean, and SD. Give the probability as a decimal or the percentage with a percent sign, according to the prompt.
+- Calculator syntax alone does not count as work. Include the ==sketch, probability statement, and result==.
+- **PPT source** · Day 3, slides 19–23.
+
+![The Normal tire-life curve shows the shaded lower tail below 45,000 miles and ticks through three SDs on both sides of the mean.](./diagrams/u2p2-normal-tire-left.svg)
+
+### Find a Normal cutoff from an area {days=3}
+1. **Draw and label the graph.** Mark the mean and three standard deviations on each side, label the axis with the variable and units, and shade the requested region.
+2. **Define the cutoff.** For an upper-tail probability \(r\), write \(P(X>c)=r\) and convert it to the left area \(P(X<c)=1-r\).
+3. **Find \(c\) and report its units.** If you use invNorm, label the left area, mean, and SD.
+- **PPT source** · Day 3, slides 26–30.
+
+![The Normal lamp-life curve shows the top 10 percent and a boundary with 90 percent on its left.](./diagrams/u2p2-normal-lamp-top.svg)
+
+### Use the empirical rule and symmetry {days=3}
+1. Check that the distribution is approximately Normal. Draw the curve with mean, units, and one-, two-, and three-SD marks on both sides.
+2. Mark the bounds and use the matching central area of ==about 68%, 95%, or 99.7%==. Split a symmetric region into equal halves when needed.
+3. Write the requested probability or cutoff and indicate that the result is approximate.
+- **PPT source** · Day 3, slides 14–16. **Review sheet source** · Question 1.
+
+![Exam scores centered at 100 with an approximate central 68 percent interval from 80 to 120.](./diagrams/u2p2-normal-exam-central.svg)
+
+### Interpret a z-score in context {days=3}
+- “A **[value and units]** is **[absolute value of \(z\)]** standard deviations **[above or below]** the mean **[quantity]**.”
+- For a Normal model, sketch the curve and mark the value relative to the mean. If finding a probability too, shade the corresponding area.
+- **PPT source** · Day 3, slides 17 and 21–22.
+
+![The standard Normal curve shows the mean at zero and marks one, two, and three standard deviations on both sides.](./diagrams/u1p1-normal-standard.svg)
