@@ -194,3 +194,68 @@ for row, (offsets, spread) in enumerate([(narrow, "Low variability"), (wide, "Hi
         ax.set_title(f"{bias} · {spread}", fontsize=12, weight="bold", pad=7)
 save(fig, "bias-variability", "Bias and variability in four sampling distributions",
      "Bias shifts the center away from the target parameter. Greater variability spreads statistics farther from their own center.")
+
+fig, ax = plt.subplots(figsize=(8, 4.2), facecolor=PAPER)
+fig.subplots_adjust(left=.10, right=.96, bottom=.23, top=.61)
+heading(fig, "A fully labeled Normal curve", "Illustrative orange-mass model · mean 100 g · SD 10 g")
+style(ax)
+orange_model = NormalDist(100, 10)
+mass = np.linspace(65, 135, 600)
+ax.plot(mass, [orange_model.pdf(value) for value in mass], color=GREEN, lw=2.8)
+tail = np.linspace(120, 135, 150)
+ax.fill_between(tail, [orange_model.pdf(value) for value in tail], color=GOLD)
+ax.set(xlim=(65, 135), ylim=(0, .05), xticks=range(70, 131, 10), xlabel="Orange mass X (g)")
+ax.axvline(100, color=QUIET, linestyle="--", lw=1)
+ax.vlines(120, 0, orange_model.pdf(120), color=GREEN, linestyles="--", lw=1.2)
+z_axis = ax.secondary_xaxis("top", functions=(lambda value: (value-100)/10, lambda z: 100+10*z))
+z_axis.set_xticks(range(-3, 4))
+z_axis.set_xlabel("z-score", fontsize=13, labelpad=7)
+z_axis.spines["top"].set(color=LINE, linewidth=1.2)
+z_axis.tick_params(length=4, color=LINE, labelsize=11, pad=5)
+ax.annotate("Mean = 100 g", (100, orange_model.pdf(100)), (74, .041),
+            fontsize=12, color=GREEN, arrowprops={"arrowstyle": "->", "color": GREEN})
+ax.annotate("120 g · z = 2", (120, orange_model.pdf(120)), (113, .025),
+            fontsize=12, color=GREEN, arrowprops={"arrowstyle": "->", "color": GREEN})
+fig.text(.10, .07, "Shaded region represents masses greater than 120 g.", fontsize=12, color=QUIET)
+save(fig, "normal-label-checklist", "A fully labeled Normal orange-mass curve",
+     "The illustrative distribution has mean 100 grams and standard deviation 10 grams. "
+     "Mass ticks from 70 through 130 grams align with z-scores from minus 3 through plus 3. "
+     "The shaded upper tail begins at 120 grams, corresponding to z equals 2.")
+
+fig = plt.figure(figsize=(10, 5.4), facecolor=PAPER)
+heading(fig, "Disease → Test result → Path probability", "p = prevalence · α = false positive rate · β = false negative rate")
+ax = fig.add_axes([.03, .04, .94, .73])
+ax.set(xlim=(0, 1), ylim=(0, 1))
+ax.set_axis_off()
+root = (.04, .50)
+disease = (.30, .75)
+no_disease = (.30, .25)
+end_x = .61
+for start, end in [(root, disease), (root, no_disease),
+                   (disease, (end_x, .92)), (disease, (end_x, .60)),
+                   (no_disease, (end_x, .40)), (no_disease, (end_x, .08))]:
+    ax.plot([start[0], end[0]], [start[1], end[1]], color=QUIET, lw=1.8, zorder=1)
+for point in [root, disease, no_disease]:
+    ax.plot(*point, "o", color=GREEN, markersize=6)
+ax.text(.23, .78, "Disease (D)", ha="right", fontsize=12, weight="bold")
+ax.text(.23, .20, "No disease (Dᶜ)", ha="right", fontsize=12, weight="bold")
+label_box = {"facecolor": PAPER, "edgecolor": "none", "pad": 3}
+for x, y, label in [(.13, .68, "p"), (.13, .31, "1 − p"),
+                     (.455, .87, "P(+ | D) = 1 − β"), (.455, .63, "P(− | D) = β"),
+                     (.455, .37, "P(+ | Dᶜ) = α"), (.455, .13, "P(− | Dᶜ) = 1 − α")]:
+    ax.text(x, y, label, ha="center", va="center", fontsize=12, bbox=label_box, zorder=2)
+for y, product, outcome, color in [
+    (.92, "p(1 − β)", "True positive", GREEN),
+    (.60, "pβ", "False negative", BLUE),
+    (.40, "(1 − p)α", "False positive", BLUE),
+    (.08, "(1 − p)(1 − α)", "True negative", GREEN),
+]:
+    ax.plot(end_x, y, "o", color=color, markersize=5)
+    ax.text(.65, y+.015, product, fontsize=15, weight="bold", color=color, va="center")
+    ax.text(.65, y-.05, outcome, fontsize=12, color=QUIET, va="center")
+save(fig, "testing-error-tree", "Complete disease-testing probability tree",
+     "The disease branch has probability p and the no-disease branch has probability 1 minus p. "
+     "Given disease, positive and negative probabilities are 1 minus beta and beta. "
+     "Given no disease, positive and negative probabilities are alpha and 1 minus alpha. "
+     "The four endpoint products are p times 1 minus beta, p times beta, "
+     "1 minus p times alpha, and 1 minus p times 1 minus alpha.")

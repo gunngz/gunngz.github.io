@@ -216,7 +216,7 @@ function App() {
   const isSearching = Boolean(query.trim());
   const lessonDays = lessonCategories ? Object.keys(lessonCategories) : ["1", "2", "3", "4", "5", "6"];
   const dayButtons = ["all", ...lessonDays];
-  const showDayFilter = unit === "u1p2" || (lessonCategories && !["number-format", "test-feedback"].includes(kind));
+  const showDayFilter = unit === "u1p2" || (lessonCategories && !["number-format", "test-feedback", "common-mistakes"].includes(kind));
 
   return (
     <div className="app-shell">
@@ -270,6 +270,7 @@ function App() {
                   {lessonCategories ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "calculations"} onClick={() => selectKind("calculations")}>Calculations</button> : null}
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "number-format"} onClick={() => selectKind("number-format")}>Proportion & Percentage</button> : null}
                   {unit === "u2p1" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "test-feedback"} onClick={() => selectKind("test-feedback")}>Test Feedback</button> : null}
+                  {unit === "u2p2" ? <button className="nav-button mode-button" type="button" aria-pressed={kind === "common-mistakes"} onClick={() => selectKind("common-mistakes")}>Common Mistakes</button> : null}
                 </>
               )}
             </div>

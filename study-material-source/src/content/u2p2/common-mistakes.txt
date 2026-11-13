@@ -1,0 +1,63 @@
+---
+unit: u2p2
+kind: common-mistakes
+category: Common Mistakes
+---
+
+### Trials in BITS
+- **Trials** means the ==number of trials==, \(n\), fixed in advance.
+- **Population size**, \(N\), counts the individuals in the population.
+- State how many times the trial is repeated. For example, testing 30 oranges involves 30 trials, even if the factory produces thousands of oranges.
+
+### Label every tree branch and complete path
+- Write the ==corresponding probability on every branch==.
+- For a later branch, use the probability conditional on the earlier outcome.
+- At the end of each complete path, write the ==product of all branch probabilities along that path==.
+
+\[P(A\cap B)=P(A)P(B\mid A)\]
+
+### Write the probability statement
+- Explicitly write ==\(P(\ldots)\)== to identify the event before showing the calculation and result.
+- Match the symbols to the wording, including the boundary in “at least” or “at most.”
+
+\[P(X\ge2)=P(X=2)+P(X=3)+\cdots\]
+
+### Use the full context
+- Describe the ==complete population and the characteristic being studied==.
+- For an orange-mass question, use wording such as “the mean mass of ==all oranges produced by the factory==.” Include any production period or other scope given in the question.
+- Connect every explanation and conclusion to the specific population, variable, and units in the problem.
+
+### Draw and label every Normal curve
+- Draw a Normal curve for ==every related question== and shade the requested region.
+- Label the variable and its ==units==, the ==mean==, and the values ==one, two, and three standard deviations on each side of the mean==.
+- Mark the relevant value or values and their corresponding ==z-scores==.
+
+\[z=\frac{x-\mu}{\sigma}\]
+
+- In the illustrative orange-mass model below, the mean is 100 g and the SD is 10 g. A mass of 120 g has \(z=2\). The shaded region represents \(P(X>120)\).
+
+![Illustrative Normal orange-mass curve with grams on the lower axis, z-scores from minus three to three on the upper axis, the mean, and the region above 120 grams shaded.](./diagrams/u2p2-normal-label-checklist.svg)
+
+### Define bias using the sampling distribution
+- A statistic is ==biased== for a population parameter when the ==mean of its sampling distribution differs from that parameter==.
+
+\[\text{Biased}\iff\mu_{\hat{\theta}}\ne\theta\]
+
+- Here, \(\theta\) is the population parameter and \(\mu_{\hat{\theta}}\) is the mean of the estimator's sampling distribution.
+- State which statistic estimates which parameter, then compare the sampling-distribution mean with the parameter's value.
+
+### False positives and false negatives in a tree diagram
+- Start with the given ==disease prevalence==, ==false positive rate==, and ==false negative rate==.
+- Let \(D\) mean “has the disease,” \(+\) mean a positive result, and \(-\) mean a negative result.
+
+| Given quantity | Probability |
+| --- | --- |
+| Disease prevalence | \(p=P(D)\) |
+| False positive rate | \(\alpha=P(+\mid D^c)\) |
+| False negative rate | \(\beta=P(-\mid D)\) |
+
+- Split first into disease and no disease, with probabilities \(p\) and \(1-p\).
+- From each group, split into positive and negative test results. Use the given rate and its complement for each pair of branches.
+- Complete ==all four paths==. Label every branch probability and write its product at the end of the path.
+
+![A complete disease-testing tree labels prevalence, all four conditional test-result probabilities, and the product at each path endpoint.](./diagrams/u2p2-testing-error-tree.svg)

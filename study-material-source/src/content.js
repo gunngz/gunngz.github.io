@@ -42,6 +42,7 @@ const categoryOrder = {
     vocabulary: u2p2Categories,
     template: u2p2Categories,
     calculations: u2p2Categories,
+    "common-mistakes": ["Common Mistakes"],
   },
   chem1: {
     template: ["Templates"],

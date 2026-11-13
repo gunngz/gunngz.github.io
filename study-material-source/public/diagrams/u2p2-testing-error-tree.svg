@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="720pt" height="388.8pt" viewBox="0 0 720 388.8" version="1.1" role="img" aria-labelledby="chart-title chart-desc">
+ <title id="chart-title">Complete disease-testing probability tree</title><desc id="chart-desc">The disease branch has probability p and the no-disease branch has probability 1 minus p. Given disease, positive and negative probabilities are 1 minus beta and beta. Given no disease, positive and negative probabilities are alpha and 1 minus alpha. The four endpoint products are p times 1 minus beta, p times beta, 1 minus p times alpha, and 1 minus p times 1 minus alpha.</desc><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8  L 720 388.8  L 720 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 48.672 231.336  L 224.64 160.38  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_2">
+    <path d="M 48.672 231.336  L 224.64 302.292  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_3">
+    <path d="M 224.64 160.38  L 434.448 112.12992  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_4">
+    <path d="M 224.64 160.38  L 434.448 202.9536  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_5">
+    <path d="M 224.64 302.292  L 434.448 259.7184  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_6">
+    <path d="M 224.64 302.292  L 434.448 350.54208  " clip-path="url(#p7b7dc48268)" style="fill: none; stroke: #716d62; stroke-width: 1.8; stroke-linecap: square" />
+   </g>
+   <g id="line2d_7">
+    <defs>
+     <path id="m92d8f00752" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #526f5c" />
+    </defs>
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#m92d8f00752" x="48.672" y="231.336" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+   <g id="line2d_8">
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#m92d8f00752" x="224.64" y="160.38" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+   <g id="line2d_9">
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#m92d8f00752" x="224.64" y="302.292" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 102.774937 189.054555  L 116.393062 189.054555  L 116.393062 171.440805  L 102.774937 171.440805  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="109.584" y="183.55893" transform="rotate(-0 109.584 183.55893)">p</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_3">
+     <path d="M 90.115875 294.069435  L 129.052125 294.069435  L 129.052125 276.455685  L 90.115875 276.455685  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="109.584" y="288.57381" transform="rotate(-0 109.584 288.57381)">1 − p</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 277.432125 135.33237  L 381.655875 135.33237  L 381.655875 117.30987  L 277.432125 117.30987  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="329.544" y="129.502995" transform="rotate(-0 329.544 129.502995)">P(+ | D) = 1 − β</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 290.091188 203.45013  L 368.996813 203.45013  L 368.996813 185.42763  L 290.091188 185.42763  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="329.544" y="197.620755" transform="rotate(-0 329.544 197.620755)">P(− | D) = β</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_6">
+     <path d="M 287.743688 277.23312  L 371.344313 277.23312  L 371.344313 259.23312  L 287.743688 259.23312  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="329.544" y="271.403745" transform="rotate(-0 329.544 271.403745)">P(+ | Dᶜ) = α</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 275.084625 345.35088  L 384.003375 345.35088  L 384.003375 327.35088  L 275.084625 327.35088  z " style="fill: #fffaf1" />
+    </g>
+    <text style="fill: #282720; font: 12px 'DejaVu Sans'; text-anchor: middle" x="329.544" y="339.521505" transform="rotate(-0 329.544 339.521505)">P(− | Dᶜ) = 1 − α</text>
+   </g>
+   <g id="line2d_10">
+    <defs>
+     <path id="me73664716c" d="M 0 2.5  C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767  C 2.236584 1.29895 2.5 0.663008 2.5 0  C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767  C 1.29895 -2.236584 0.663008 -2.5 0 -2.5  C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767  C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0  C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767  C -1.29895 2.236584 -0.663008 2.5 0 2.5  z " style="stroke: #526f5c" />
+    </defs>
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#me73664716c" x="434.448" y="112.12992" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+   <g id="line2d_11">
+    <defs>
+     <path id="m2d4fec732f" d="M 0 2.5  C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767  C 2.236584 1.29895 2.5 0.663008 2.5 0  C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767  C 1.29895 -2.236584 0.663008 -2.5 0 -2.5  C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767  C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0  C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767  C -1.29895 2.236584 -0.663008 2.5 0 2.5  z " style="stroke: #628b9c" />
+    </defs>
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#m2d4fec732f" x="434.448" y="202.9536" style="fill: #628b9c; stroke: #628b9c" />
+    </g>
+   </g>
+   <g id="line2d_12">
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#m2d4fec732f" x="434.448" y="259.7184" style="fill: #628b9c; stroke: #628b9c" />
+    </g>
+   </g>
+   <g id="line2d_13">
+    <g clip-path="url(#p7b7dc48268)">
+     <use ns4:href="#me73664716c" x="434.448" y="350.54208" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="fill: #282720; font: 700 12px 'DejaVu Sans'; text-anchor: end" x="177.264" y="151.86528" transform="rotate(-0 177.264 151.86528)">Disease (D)</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #282720; font: 700 12px 'DejaVu Sans'; text-anchor: end" x="177.264" y="316.4832" transform="rotate(-0 177.264 316.4832)">No disease (Dᶜ)</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #526f5c; font: 700 15px 'DejaVu Sans'; text-anchor: start" x="461.52" y="112.113576" transform="rotate(-0 461.52 112.113576)">p(1 − β)</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="461.52" y="129.63237" transform="rotate(-0 461.52 129.63237)">True positive</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #628b9c; font: 700 15px 'DejaVu Sans'; text-anchor: start" x="461.52" y="202.937256" transform="rotate(-0 461.52 202.937256)">pβ</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="461.52" y="220.45605" transform="rotate(-0 461.52 220.45605)">False negative</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #628b9c; font: 700 15px 'DejaVu Sans'; text-anchor: start" x="461.52" y="259.600102" transform="rotate(-0 461.52 259.600102)">(1 − p)α</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="461.52" y="277.22085" transform="rotate(-0 461.52 277.22085)">False positive</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #526f5c; font: 700 15px 'DejaVu Sans'; text-anchor: start" x="461.52" y="350.423783" transform="rotate(-0 461.52 350.423783)">(1 − p)(1 − α)</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="461.52" y="368.04453" transform="rotate(-0 461.52 368.04453)">True negative</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="fill: #282720; font: 700 16px 'DejaVu Sans'; text-anchor: start" x="50.4" y="34.992" transform="rotate(-0 50.4 34.992)">Disease → Test result → Path probability</text>
+  </g>
+  <g id="text_18">
+   <text style="fill: #716d62; font: 12px 'DejaVu Sans'; text-anchor: start" x="50.4" y="69.984" transform="rotate(-0 50.4 69.984)">p = prevalence · α = false positive rate · β = false negative rate</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7b7dc48268">
+   <rect x="21.6" y="89.424" width="676.8" height="283.824" />
+  </clipPath>
+ </defs>
+</svg>
