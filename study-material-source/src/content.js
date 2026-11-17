@@ -93,7 +93,7 @@ function parseTextFile(path, source) {
   return chunks.map((chunk, index) => {
     const newline = chunk.indexOf("\n");
     const heading = (newline < 0 ? chunk : chunk.slice(0, newline)).trim();
-    const priorityMatch = heading.match(/\s+\{priority(?:=(provisional))?\}$/);
+    const priorityMatch = heading.match(/\s+\{priority(?:=(provisional|high))?\}$/);
     const cleanHeading = priorityMatch ? heading.slice(0, priorityMatch.index).trim() : heading;
     const dayMatch = cleanHeading.match(/\s+\{days=([0-9,]+)\}$/);
     const title = dayMatch ? cleanHeading.slice(0, dayMatch.index).trim() : cleanHeading;
@@ -121,6 +121,7 @@ function parseTextFile(path, source) {
       title,
       days,
       priority: Boolean(priorityMatch),
+      priorityHigh: priorityMatch?.[1] === "high",
       priorityProvisional: priorityMatch?.[1] === "provisional",
       question,
       figure,

@@ -41,9 +41,18 @@ function EyeIcon({ crossed = false }) {
   );
 }
 
-function PriorityStar({ provisional }) {
-  const label = provisional ? "Review priority (provisional mark)" : "Review priority";
-  return <span className="priority-star" role="img" aria-label={label} title={label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.52l-5.88 3.09 1.12-6.55-4.76-4.64 6.58-.96Z" /></svg></span>;
+function PriorityStar({ provisional, high = false }) {
+  const label = high ? "High review priority (two stars)" : provisional ? "Review priority (provisional mark)" : "Review priority";
+  const stars = high ? [0, 1] : [0];
+  return (
+    <span className={"priority-star" + (high ? " priority-star--high" : "")} role="img" aria-label={label} title={label}>
+      {stars.map((star) => (
+        <svg key={star} viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m12 2.5 2.94 5.96 6.58.96-4.76 4.64 1.12 6.55L12 17.52l-5.88 3.09 1.12-6.55-4.76-4.64 6.58-.96Z" />
+        </svg>
+      ))}
+    </span>
+  );
 }
 
 function SearchIcon() {
@@ -88,7 +97,7 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
   return (
     <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (!isChemistry && card.kind === "test-feedback" ? " study-card--feedback" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
-        <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} /> : null}<RichText value={card.title} inline query={query} /></h3>
+        <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} high={card.priorityHigh} /> : null}<RichText value={card.title} inline query={query} /></h3>
         {card.question ? <div className={"question-layout" + (card.figure ? " question-layout--figure" : "")}>
           <RichText value={card.question} query={query} className="answer-content question-content" />
           {card.figure ? <figure className="question-figure"><RichText value={card.figure} query={query} className="question-figure-content" /></figure> : null}
