@@ -4,23 +4,30 @@ kind: concepts
 category: Continuity & Differentiability
 ---
 
+### Limit exists at a point
+The left-hand and right-hand limits must be ==equal and finite==.
+
+\[\lim_{x\to c^-}f(x)=\lim_{x\to c^+}f(x)=L\in\mathbb{R}\]
+
+- The function value \(f(c)\) does ==not need to be defined==.
+
 ### Continuity at a point
-All three conditions must hold at \(x=c\):
+The one-sided limits must ==equal the function value==.
 
-1. \(f(c)\) is ==defined==.
-2. The ==two-sided limit exists==: the left-hand and right-hand limits are equal.
-3. The limit ==equals the function value==.
+\[\lim_{x\to c^-}f(x)=\lim_{x\to c^+}f(x)=f(c)\in\mathbb{R}\]
 
-\[\lim_{x\to c}f(x)=f(c)\]
-
-- ! **Key idea:** A limit can exist even when the function is not continuous. Always check \(f(c)\).
+- This requires \(f(c)\) to be ==defined==, the two-sided limit to ==exist==, and the two to ==match==.
 
 ### Differentiability at a point
-\[f'(c)=\lim_{h\to 0}\frac{f(c+h)-f(c)}{h}\]
+The left-hand and right-hand derivatives must be ==equal and finite==.
 
-- The two-sided limit must ==exist and be finite==.
-- The left-hand derivative and right-hand derivative must ==equal the same finite value==.
-- Differentiability implies continuity. Continuity alone does **not** imply differentiability.
+\[f'_-(c)=\lim_{h\to0^-}\frac{f(c+h)-f(c)}{h}\]
+
+\[f'_+(c)=\lim_{h\to0^+}\frac{f(c+h)-f(c)}{h}\]
+
+\[f'_-(c)=f'_+(c)=f'(c)\in\mathbb{R}\]
+
+- ! **Key idea:** Differentiability implies continuity; continuity implies a finite limit exists. The reverse implications do **not** always hold.
 
 ### A corner can be continuous
 \[f(x)=|x|\]
