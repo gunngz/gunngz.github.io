@@ -294,12 +294,12 @@ button { color: inherit; }
 .study-card--chemistry .question-side, .study-card--patterns .question-side { padding: 15px 18px 2px; }
 .study-card--chemistry .answer-side, .study-card--patterns .answer-side { border-left: 0; padding: 5px 51px 15px 18px; }
 .study-card--chemistry .card-blur-button, .study-card--patterns .card-blur-button { top: 10px; }
-.study-card--diagram, .study-card--feedback { display: block; }
-.study-card--diagram .question-side, .study-card--feedback .question-side {
+.study-card--diagram, .study-card--feedback, .study-card--worked-example { display: block; }
+.study-card--diagram .question-side, .study-card--feedback .question-side, .study-card--worked-example .question-side {
   padding: 13px 18px;
   border-bottom: 1px solid var(--line);
 }
-.study-card--diagram .answer-side, .study-card--feedback .answer-side {
+.study-card--diagram .answer-side, .study-card--feedback .answer-side, .study-card--worked-example .answer-side {
   border-left: 0;
   padding: 16px 51px 18px 18px;
 }
@@ -397,6 +397,9 @@ button { color: inherit; }
 .answer-content img[src$=".svg"] { width: 100%; max-width: 900px; }
 .answer-content img[src$="u2p1-venn.svg"] { max-width: 640px; }
 .answer-content img[src*="/u1p1-normal-"], .answer-content img[src*="/u2p2-"] { max-width: 720px; max-height: 400px; }
+.answer-content img[src*="/calculus-"] { max-width: 720px; max-height: 360px; }
+.diagram-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.diagram-comparison img { margin-top: 0; }
 .question-content img { width: auto; max-width: 100%; max-height: 320px; }
 .answer-content > p:has(> img) {
   width: 100%;
@@ -495,6 +498,7 @@ mark.search-hit {
   .question-figure { width: min(100%, 340px); margin-inline: auto; }
 }
 @media (max-width: 600px) {
+  .diagram-comparison { grid-template-columns: minmax(0, 1fr); }
   html { scroll-padding-top: 190px; }
   .site-header-inner, .sticky-navigation-inner, .page-layout { width: min(100% - 24px, 1050px); }
   .site-header-inner { padding-top: 7px; }

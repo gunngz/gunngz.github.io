@@ -1,0 +1,37 @@
+---
+unit: calc-review
+kind: concepts
+category: Derivative Signs
+---
+
+### Check the graph label first
+| Graph shown | What a crossing of the horizontal axis tells you |
+| --- | --- |
+| \(f\) | The function value is \(0\). This alone does not show a local extremum or inflection point. |
+| \(f'\) | A ==sign change== identifies a local maximum or minimum of \(f\), provided \(f\) is continuous there. |
+| \(f''\) | A ==sign change== identifies a change in concavity of \(f\). Check continuity of \(f\) for an inflection point. |
+
+### Derivative signs and function behavior
+| Condition on an interval | Behavior of \(f\) |
+| --- | --- |
+| \(f'(x)>0\) | ==Increasing== |
+| \(f'(x)<0\) | ==Decreasing== |
+| \(f''(x)>0\) | ==Concave up== |
+| \(f''(x)<0\) | ==Concave down== |
+
+### Sign changes identify turning points
+| Test near \(x=c\) | Conclusion about \(f\) |
+| --- | --- |
+| \(f'\) changes from \(+\) to \(-\) | ==Local maximum== at \(c\), if \(f\) is continuous at \(c\). |
+| \(f'\) changes from \(-\) to \(+\) | ==Local minimum== at \(c\), if \(f\) is continuous at \(c\). |
+| \(f''\) changes sign | ==Inflection point== at \(c\), if \(f\) is continuous at \(c\). |
+
+### Zero alone is not enough
+- \(f'(c)=0\) alone does **not** prove a local maximum or minimum. Check the ==sign of \(f'\) on both sides==.
+- \(f''(c)=0\) alone does **not** prove an inflection point. Check for a ==change in concavity==.
+- In the review's **2003 AB #21** description, \(f''\) crosses the horizontal axis at \(a\) and \(0\), but only touches it at \(b\). The sign changes at \(a\) and \(0\); it does not change at \(b\).
+
+<div class="diagram-comparison">
+  <img src="./diagrams/calculus-sign-crossing.svg" alt="Schematic second derivative crossing zero: the sign changes from negative to positive, so concavity changes.">
+  <img src="./diagrams/calculus-sign-touching.svg" alt="Schematic second derivative touching zero: it remains positive on both sides, so concavity does not change.">
+</div>

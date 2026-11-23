@@ -12,9 +12,10 @@ const MaxwellBoltzmannDiagram = lazy(() => import("./MaxwellBoltzmannDiagram.jsx
 const isChemistry = /^\/ap-chemistry(?:\/|$)/.test(window.location.pathname);
 const isHistory = /^\/us-history(?:\/|$)/.test(window.location.pathname);
 const isUsaco = /^\/usaco(?:\/|$)/.test(window.location.pathname);
+const isCalculus = /^\/calculus-bc(?:\/|$)/.test(window.location.pathname);
 const availableUnits = isChemistry
   ? ["chem1", "chem2"]
-  : isHistory ? ["ushist3"] : isUsaco ? ["usaco"] : ["u1p1", "u1p2", "u2p1", "u2p2"];
+  : isHistory ? ["ushist3"] : isUsaco ? ["usaco"] : isCalculus ? ["calc-review"] : ["u1p1", "u1p2", "u2p1", "u2p2"];
 const primaryCategoryByDay = {
   u2p1: {
     1: "Two Categorical Variables",
@@ -93,9 +94,9 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
   if (templateConfig) return <TemplateCard title={card.title} config={templateConfig} blurControl={blurControl} blurred={blurred} query={query} axis={distributionAxis} onAxisChange={onDistributionAxisChange} />;
   const hasZCurveDiagram = card.answer.trim() === "{{z-curve-diagram}}";
   const hasSpeedDiagram = card.answer.trim() === "{{maxwell-boltzmann-diagram}}";
-  const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/");
+  const hasDiagram = hasZCurveDiagram || hasSpeedDiagram || card.answer.includes("](./diagrams/") || card.answer.includes('src="./diagrams/');
   return (
-    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (!isChemistry && card.kind === "test-feedback" ? " study-card--feedback" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
+    <article className={"study-card" + (isChemistry ? " study-card--chemistry" : "") + (!isChemistry && card.kind === "test-feedback" ? " study-card--feedback" : "") + (card.question ? " study-card--question-answer" : "") + (card.unit === "calc-review" && card.question ? " study-card--worked-example" : "") + (card.unit === "usaco" ? " study-card--patterns" : "") + (card.unit === "ushist3" ? " study-card--history" : "") + (hasDiagram ? " study-card--diagram" : "") + (blurred ? " is-blurred" : "")}>
       <div className="question-side">
         <h3>{card.priority ? <PriorityStar provisional={card.priorityProvisional} high={card.priorityHigh} /> : null}<RichText value={card.title} inline query={query} /></h3>
         {card.question ? <div className={"question-layout" + (card.figure ? " question-layout--figure" : "")}>
@@ -127,7 +128,7 @@ function StudyCard({ card, blurredIds, onToggleBlur, query = "", isChemistry = f
 
 function App() {
   const [unit, setUnit] = useState(availableUnits[0]);
-  const [kind, setKind] = useState(isChemistry ? "template" : isUsaco ? "patterns" : "vocabulary");
+  const [kind, setKind] = useState(isChemistry ? "template" : isUsaco ? "patterns" : isCalculus ? "concepts" : "vocabulary");
   const [day, setDay] = useState("all");
   const [category, setCategory] = useState("");
   const [query, setQuery] = useState("");
@@ -272,7 +273,12 @@ function App() {
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "questions"} onClick={() => selectKind("questions")}>Check for understanding</button>
                 </>
-              ) : isUsaco ? <span className="nav-section-label">Patterns</span> : (
+              ) : isUsaco ? <span className="nav-section-label">Patterns</span> : isCalculus ? (
+                <>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "concepts"} onClick={() => selectKind("concepts")}>Concepts</button>
+                  <button className="nav-button mode-button" type="button" aria-pressed={kind === "formulas"} onClick={() => selectKind("formulas")}>Formulas</button>
+                </>
+              ) : (
                 <>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "vocabulary"} onClick={() => selectKind("vocabulary")}>Vocabulary</button>
                   <button className="nav-button mode-button" type="button" aria-pressed={kind === "template"} onClick={() => selectKind("template")}>Answer templates</button>

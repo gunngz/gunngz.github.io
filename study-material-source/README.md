@@ -1,4 +1,4 @@
-# Study Pages: AP Statistics, AP Chemistry, U.S. History, and USACO
+# Study Pages: AP Statistics, AP Chemistry, Calculus BC, U.S. History, and USACO
 
 This is a React/Vite study guide. The app owns the layout and interactions; study material lives in plain-text `.txt` files under `src/content/`. Vite discovers and groups those files automatically.
 
@@ -39,11 +39,14 @@ Wrap a question image and its caption in `<!-- figure -->` / `<!-- /figure -->` 
 Worked chemistry calculations carry units and species through dimensional-analysis conversion factors, including volume conversions and stoichiometric ratios. Keep intermediate values unrounded and preserve the original scoring-point structure.
 Append `{priority}` to a card heading to show a star before its title; use `{priority=provisional}` for an unconfirmed mark. Chemistry's primary tabs stay on a horizontally scrolling rail, with search outside the rail.
 
-Statistics, Chemistry, U.S. History, and USACO have separate routes and content. Chemistry opens directly to its answer templates; USACO opens to its patterns; Statistics and U.S. History have separate content modes. The pages use warm light colors and keep each category as its own horizontal-navigation page. The centered content width preserves the side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Individual and section-wide eye icons blur answers without removing them.
+Statistics, Chemistry, Calculus BC, U.S. History, and USACO have separate routes and content. Chemistry opens directly to its answer templates; USACO opens to its patterns; Calculus BC opens to its concepts; Statistics and U.S. History have separate content modes. The pages use warm light colors and keep each category as its own horizontal-navigation page. The centered content width preserves the side margins; on wide screens, the collapsible unit sidebar uses the left margin without shifting the cards. Individual and section-wide eye icons blur answers without removing them.
 
 ## Run locally
+
+**Calculus BC** lives at `/calculus-bc/`. Its initial material comes from the supplied two-page `AP_Calculus_AB_2003_Must_Memorize.pdf`: AB review content is kept under the BC subject without implying complete BC coverage. Use `unit: calc-review` and `kind: concepts` or `kind: formulas`. The Concepts pages cover continuity/differentiability and derivative signs; the Formulas pages cover FTC with the chain rule and inverse derivatives. Keep all content in English and render formulas with MathJax. Worked examples retain the question before `<!-- answer -->` so masking leaves the prompt visible. `scripts/draw_calculus_review.py` generates the compact illustrative graphs; they are sketches, not reproductions of an original exam figure.
+Related graph images can use a `<div class="diagram-comparison">` container, with local `<img src="./diagrams/...">` elements. These render side by side on wide screens and stack on phones.
 
     npm install
     npm run dev
 
-Create a production build with `npm run build`. The personal site publishes Statistics at `/ap-statistics/`, Chemistry at `/ap-chemistry/`, U.S. History at `/us-history/`, and USACO at `/usaco/`. To add material, add a `.txt` file here, sync the source into `study-material-source/`, and push; the Pages workflow rebuilds the guides without React-component edits for text-only additions.
+Create a production build with `npm run build`. The personal site publishes Statistics at `/ap-statistics/`, Chemistry at `/ap-chemistry/`, Calculus BC at `/calculus-bc/`, U.S. History at `/us-history/`, and USACO at `/usaco/`. To add material, add a `.txt` file here, sync the source into `study-material-source/`, and push; the Pages workflow rebuilds the guides without React-component edits for text-only additions.

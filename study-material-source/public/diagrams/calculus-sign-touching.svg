@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="316.8pt" height="252pt" viewBox="0 0 316.8 252" version="1.1" role="img" aria-labelledby="calculus-sign-touching-title calculus-sign-touching-desc">
+ <desc id="calculus-sign-touching-desc">The second derivative is positive on both sides of its zero, so concavity does not change.</desc><title id="calculus-sign-touching-title">Second derivative: sign-touching</title><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252  L 316.8 252  L 316.8 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.344 178.92  L 304.128 178.92  L 304.128 57.96  L 25.344 57.96  z " style="fill: #fffaf1" />
+   </g>
+   <g id="line2d_1">
+    <path d="M 25.344 118.44  L 304.128 118.44  " clip-path="url(#p7030ef502a)" style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linecap: square" />
+   </g>
+   <g id="line2d_2">
+    <path d="M 164.736 178.92  L 164.736 57.96  " clip-path="url(#p7030ef502a)" style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linecap: square" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="line2d_3">
+    <path d="M 66 68.5008  L 71.26592 73.685599  L 76.53184 78.586299  L 81.79776 83.2029  L 87.06368 87.535404  L 92.3296 91.583808  L 97.59552 95.348114  L 102.86144 98.828321  L 108.12736 102.02443  L 113.39328 104.93644  L 118.6592 107.564352  L 123.26688 109.630725  L 127.87456 111.479585  L 132.48224 113.110932  L 137.08992 114.524767  L 141.6976 115.721088  L 146.30528 116.699896  L 150.91296 117.461192  L 155.52064 118.004974  L 160.12832 118.331244  L 164.736 118.44  L 169.34368 118.331244  L 173.95136 118.004974  L 178.55904 117.461192  L 183.16672 116.699896  L 187.7744 115.721088  L 192.38208 114.524767  L 196.98976 113.110932  L 201.59744 111.479585  L 206.20512 109.630725  L 210.8128 107.564352  L 215.42048 105.280466  L 220.6864 102.403968  L 225.95232 99.243372  L 231.21824 95.798676  L 236.48416 92.069883  L 241.75008 88.056991  L 247.016 83.76  L 252.28192 79.178911  L 257.54784 74.313723  L 262.81376 69.164436  L 263.472 68.5008  L 263.472 68.5008  " clip-path="url(#p7030ef502a)" style="fill: none; stroke: #628b9c; stroke-width: 3; stroke-linecap: square" />
+   </g>
+   <g id="text_1">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #716d62" x="302.9664" y="131.013187" transform="rotate(-0 302.9664 131.013187)">x</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #282720" x="156.024" y="133.893188" transform="rotate(-0 156.024 133.893188)">c</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #628b9c" x="71.808" y="109.8" transform="rotate(-0 71.808 109.8)">+</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #628b9c" x="237.336" y="109.8" transform="rotate(-0 237.336 109.8)">+</text>
+   </g>
+   <g id="line2d_4">
+    <defs>
+     <path id="mab206f0b86" d="M 0 2  C 0.530406 2 1.03916 1.789267 1.414214 1.414214  C 1.789267 1.03916 2 0.530406 2 0  C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214  C 1.03916 -1.789267 0.530406 -2 0 -2  C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214  C -1.789267 -1.03916 -2 -0.530406 -2 0  C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214  C -1.03916 1.789267 -0.530406 2 0 2  z " style="stroke: #282720" />
+    </defs>
+    <g clip-path="url(#p7030ef502a)">
+     <use ns4:href="#mab206f0b86" x="164.736" y="118.44" style="fill: #282720; stroke: #282720" />
+    </g>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #282720" x="25.344" y="17.64" transform="rotate(-0 25.344 17.64)">Touches zero</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #716d62" x="25.344" y="42.84" transform="rotate(-0 25.344 42.84)">Second derivative (schematic)</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #628b9c" x="25.344" y="211.68" transform="rotate(-0 25.344 211.68)">Concave up on both sides</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #716d62" x="25.344" y="234.36" transform="rotate(-0 25.344 234.36)">No change; no inflection point.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7030ef502a">
+   <rect x="25.344" y="57.96" width="278.784" height="120.96" />
+  </clipPath>
+ </defs>
+</svg>

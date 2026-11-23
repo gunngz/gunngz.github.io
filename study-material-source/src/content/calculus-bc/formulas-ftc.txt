@@ -1,0 +1,50 @@
+---
+unit: calc-review
+kind: formulas
+category: FTC & Chain Rule
+---
+
+### FTC Part 1 with the chain rule
+For continuous \(f\), a constant lower limit \(a\), and a differentiable upper limit \(g(x)\):
+
+\[\frac{d}{dx}\int_a^{g(x)}f(t)\,dt=f(g(x))\,g'(x)\]
+
+1. ==Substitute the upper limit== into the integrand.
+2. ==Multiply by the derivative of the upper limit==.
+
+When the upper limit is simply \(x\):
+
+\[\frac{d}{dx}\int_a^x f(t)\,dt=f(x)\]
+
+- ! **Key idea:** You do not need to evaluate the integral. Do not differentiate the integrand again.
+
+### Both limits depend on x
+For continuous \(f\) and differentiable limits \(u(x)\) and \(v(x)\):
+
+\[\begin{aligned}\frac{d}{dx}\int_{u(x)}^{v(x)}f(t)\,dt
+&=f(v(x))\,v'(x)\\
+&\quad-f(u(x))\,u'(x)\end{aligned}\]
+
+- ==Upper-limit contribution minus lower-limit contribution==.
+- Apply the chain rule to **each** limit.
+
+### Variable upper limit · 2003 AB #23
+Find the derivative:
+
+\[\frac{d}{dx}\left(\int_0^{x^2}\sin(t^3)\,dt\right)\]
+
+<!-- answer -->
+1. **Substitute the upper limit.**
+
+   \[\sin\bigl((x^2)^3\bigr)=\sin(x^6)\]
+
+2. **Multiply by its derivative.**
+
+   \[\frac{d}{dx}(x^2)=2x\]
+
+3. **Combine the factors.**
+
+   \[\boxed{2x\sin(x^6)}\]
+
+- **Answer: E** in the supplied review.
+- ! **Key idea:** Keep the factor \(2x\), and simplify \((x^2)^3\) to \(x^6\).

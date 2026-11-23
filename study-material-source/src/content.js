@@ -18,6 +18,7 @@ export const unitInfo = {
   chem2: { title: "Unit 2", heading: "AP Chemistry — Unit 2", order: 2 },
   ushist3: { title: "Unit 3 · Industrialization", heading: "U.S. History — Unit 3", order: 1 },
   usaco: { title: "Patterns", heading: "USACO", order: 1 },
+  "calc-review": { title: "Must Memorize", heading: "AP Calculus BC", order: 1 },
 };
 
 const u2p2Categories = ["Random Variables", "Binomial Distributions", "Continuous and Normal Models", "Linear Transformations", "Sampling Distributions"];
@@ -67,6 +68,10 @@ const categoryOrder = {
   },
   usaco: {
     patterns: ["Patterns"],
+  },
+  "calc-review": {
+    concepts: ["Continuity & Differentiability", "Derivative Signs"],
+    formulas: ["FTC & Chain Rule", "Inverse Derivatives"],
   },
 };
 

@@ -1,0 +1,53 @@
+---
+unit: calc-review
+kind: concepts
+category: Continuity & Differentiability
+---
+
+### Continuity at a point
+All three conditions must hold at \(x=c\):
+
+1. \(f(c)\) is ==defined==.
+2. The ==two-sided limit exists==: the left-hand and right-hand limits are equal.
+3. The limit ==equals the function value==.
+
+\[\lim_{x\to c}f(x)=f(c)\]
+
+- ! **Key idea:** A limit can exist even when the function is not continuous. Always check \(f(c)\).
+
+### Differentiability at a point
+\[f'(c)=\lim_{h\to 0}\frac{f(c+h)-f(c)}{h}\]
+
+- The two-sided limit must ==exist and be finite==.
+- The left-hand derivative and right-hand derivative must ==equal the same finite value==.
+- Differentiability implies continuity. Continuity alone does **not** imply differentiability.
+
+### A corner can be continuous
+\[f(x)=|x|\]
+
+- At \(x=0\), both one-sided limits equal \(f(0)=0\), so the function is ==continuous==.
+- The left-hand derivative is \(-1\); the right-hand derivative is \(1\). They are unequal, so the function is ==not differentiable== at \(0\).
+
+![The graph of absolute value meets at the origin with left slope negative one and right slope positive one.](./diagrams/calculus-absolute-value.svg)
+
+### Continuous but not differentiable · 2003 AB #20
+Consider the function:
+
+\[f(x)=\begin{cases}x+2,&x\le 3,\\4x-7,&x>3.\end{cases}\]
+
+Is \(f\) continuous and differentiable at \(x=3\)?
+
+<!-- answer -->
+1. **Check continuity.**
+
+   \[\lim_{x\to3^-}f(x)=\lim_{x\to3^+}f(x)=f(3)=5\]
+
+   The function is ==continuous== at \(x=3\).
+
+2. **Compare the one-sided derivatives.**
+
+   \[f'_-(3)=1,\qquad f'_+(3)=4\]
+
+   The slopes are unequal, so the function is ==not differentiable== at \(x=3\).
+
+- **Answer: D** in the supplied review.

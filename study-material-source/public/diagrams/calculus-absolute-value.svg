@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="518.4pt" height="237.6pt" viewBox="0 0 518.4 237.6" version="1.1" role="img" aria-labelledby="calculus-absolute-value-title calculus-absolute-value-desc">
+ <desc id="calculus-absolute-value-desc">The absolute-value graph meets at the origin. Its left slope is negative one and its right slope is positive one, so it is continuous but not differentiable at zero.</desc><title id="calculus-absolute-value-title">A continuous corner</title><style>text { font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important; }</style><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 237.6  L 518.4 237.6  L 518.4 0  L 0 0  z " style="fill: #fffaf1" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.104 192.456  L 497.664 192.456  L 497.664 16.632  L 31.104 16.632  z " style="fill: #fffaf1" />
+   </g>
+   <g id="line2d_1">
+    <path d="M 31.104 163.589373  L 497.664 163.589373  " clip-path="url(#p719eb74d06)" style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linecap: square" />
+   </g>
+   <g id="line2d_2">
+    <path d="M 264.384 192.456  L 264.384 16.632  " clip-path="url(#p719eb74d06)" style="fill: none; stroke: #e5dac9; stroke-width: 1.5; stroke-linecap: square" />
+   </g>
+   <g id="matplotlib.axis_1" />
+   <g id="matplotlib.axis_2" />
+   <g id="text_1">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #716d62" x="495.72" y="179.004734" transform="rotate(-0 495.72 179.004734)">x</text>
+   </g>
+   <g id="line2d_3">
+    <path d="M 60.264 53.371343  L 264.384 163.589373  L 468.504 53.371343  L 468.504 53.371343  " clip-path="url(#p719eb74d06)" style="fill: none; stroke: #526f5c; stroke-width: 3; stroke-linecap: square" />
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #282720" x="264.384" y="183.203516" transform="rotate(-0 264.384 183.203516)">0</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 109.016309 39.189547  Q 127.847129 69.053271 146.081616 97.971274  " style="fill: none; stroke: #716d62; stroke-linecap: round" />
+    <path d="M 145.507347 92.185929  L 146.081616 97.971274  L 141.108779 94.959483  " style="fill: none; stroke: #716d62; stroke-linecap: round" />
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #282720" x="60.264" y="32.377433" transform="rotate(-0 60.264 32.377433)">Left slope: -1</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 378.340218 39.499813  Q 379.638291 69.056025 380.887309 97.495281  " style="fill: none; stroke: #716d62; stroke-linecap: round" />
+    <path d="M 383.256647 92.18621  L 380.887309 97.495281  L 378.061655 92.414368  " style="fill: none; stroke: #716d62; stroke-linecap: round" />
+   </g>
+   <g id="text_4">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #282720" x="327.564" y="32.377433" transform="rotate(-0 327.564 32.377433)">Right slope: +1</text>
+   </g>
+   <g id="line2d_4">
+    <defs>
+     <path id="m283636a0b7" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #526f5c" />
+    </defs>
+    <g clip-path="url(#p719eb74d06)">
+     <use ns4:href="#m283636a0b7" x="264.384" y="163.589373" style="fill: #526f5c; stroke: #526f5c" />
+    </g>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #716d62" x="259.2" y="228.096" transform="rotate(-0 259.2 228.096)">Continuous at 0; unequal one-sided slopes create a corner.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p719eb74d06">
+   <rect x="31.104" y="16.632" width="466.56" height="175.824" />
+  </clipPath>
+ </defs>
+</svg>
